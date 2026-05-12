@@ -7,7 +7,7 @@ const SCORES = "scores";
 
 const fromDoc = (doc) => ({ id: doc.id, ...doc.data() });
 
-export const createUser = async ({ name, email, password }) => {
+export const createUser = async ({ name, email, password, authProvider = "local", firebaseUid = null }) => {
   const db = getDb();
   const ref = db.collection(USERS).doc();
   const now = new Date().toISOString();
@@ -23,7 +23,8 @@ export const createUser = async ({ name, email, password }) => {
     accuracy: emptyScores(),
     totalGamesPlayed: 0,
     recentActivity: [],
-    authProvider: "local",
+    authProvider,
+    firebaseUid,
     createdAt: now,
     updatedAt: now
   };
@@ -34,6 +35,12 @@ export const createUser = async ({ name, email, password }) => {
 
 export const findUserByEmail = async (email) => {
   const snapshot = await getDb().collection(USERS).where("email", "==", email).limit(1).get();
+  if (snapshot.empty) return null;
+  return fromDoc(snapshot.docs[0]);
+};
+
+export const findUserByFirebaseUid = async (firebaseUid) => {
+  const snapshot = await getDb().collection(USERS).where("firebaseUid", "==", firebaseUid).limit(1).get();
   if (snapshot.empty) return null;
   return fromDoc(snapshot.docs[0]);
 };

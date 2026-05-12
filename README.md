@@ -75,4 +75,8 @@ Frontend static site environment variables:
 
 ```bash
 VITE_API_URL=https://your-backend.onrender.com/api
+VITE_FIREBASE_API_KEY=your-firebase-web-api-key
+VITE_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your-project-id
+VITE_FIREBASE_APP_ID=your-firebase-web-app-id
 ```

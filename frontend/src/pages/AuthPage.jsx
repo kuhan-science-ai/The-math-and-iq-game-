@@ -4,9 +4,11 @@ import { useState } from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 
 export const AuthPage = () => {
-  const { login, register } = useAuth();
+  const { login, register, loginWithGoogle, completeGoogleProfile } = useAuth();
   const [isRegister, setIsRegister] = useState(true);
   const [form, setForm] = useState({ name: "", email: "", password: "" });
+  const [googleProfile, setGoogleProfile] = useState(null);
+  const [googleName, setGoogleName] = useState("");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
@@ -23,6 +25,63 @@ export const AuthPage = () => {
       setBusy(false);
     }
   };
+
+  const googleSignIn = async () => {
+    setError("");
+    setBusy(true);
+    try {
+      const result = await loginWithGoogle();
+      if (result.needsUsername) {
+        setGoogleProfile(result);
+        setGoogleName(result.suggestedName || "");
+      }
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const completeGoogleUsername = async (event) => {
+    event.preventDefault();
+    setError("");
+    setBusy(true);
+    try {
+      await completeGoogleProfile({ firebaseToken: googleProfile.firebaseToken, name: googleName });
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  if (googleProfile) {
+    return (
+      <main className="auth-layout">
+        <section className="auth-hero">
+          <div className="brand massive">
+            <span className="brand-mark"><Brain size={34} /></span>
+            <div>
+              <strong>Brain Boost</strong>
+              <small>One last setup step</small>
+            </div>
+          </div>
+          <h1>Create your player username.</h1>
+          <p>Your Google account is verified. Pick the name that will appear on your dashboard and leaderboard.</p>
+        </section>
+
+        <form className="auth-card" onSubmit={completeGoogleUsername}>
+          <p className="connected-email">{googleProfile.email}</p>
+          <label>
+            <span><User size={16} /> Username</span>
+            <input value={googleName} onChange={(e) => setGoogleName(e.target.value)} minLength={2} required autoFocus />
+          </label>
+          {error && <p className="error">{error}</p>}
+          <button className="primary" disabled={busy}>{busy ? "Creating profile..." : "Finish profile"}</button>
+        </form>
+      </main>
+    );
+  }
 
   return (
     <main className="auth-layout">
@@ -68,6 +127,10 @@ export const AuthPage = () => {
 
         {error && <p className="error">{error}</p>}
         <button className="primary" disabled={busy}>{busy ? "Syncing..." : isRegister ? "Create profile" : "Enter arena"}</button>
+        <div className="divider"><span>or</span></div>
+        <button className="google-button" type="button" onClick={googleSignIn} disabled={busy}>
+          <span>G</span> Continue with Google
+        </button>
       </form>
     </main>
   );

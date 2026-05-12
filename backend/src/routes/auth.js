@@ -1,6 +1,12 @@
 import express from "express";
 import bcrypt from "bcryptjs";
-import { createUser, findUserByEmail } from "../services/firestoreStore.js";
+import { getAuth } from "firebase-admin/auth";
+import {
+  createUser,
+  findUserByEmail,
+  findUserByFirebaseUid,
+  updateUser
+} from "../services/firestoreStore.js";
 import { normalizeUser } from "../services/progress.js";
 import { signToken } from "../middleware/auth.js";
 
@@ -40,6 +46,57 @@ router.post("/login", async (req, res) => {
   }
 
   return res.json({ token: signToken(user.id), user: normalizeUser(user) });
+});
+
+router.post("/google", async (req, res) => {
+  const firebaseToken = String(req.body.firebaseToken || "");
+  const name = String(req.body.name || req.body.username || "").trim();
+
+  if (!firebaseToken) {
+    return res.status(400).json({ message: "Firebase token required." });
+  }
+
+  const decoded = await getAuth().verifyIdToken(firebaseToken);
+  const email = String(decoded.email || "").toLowerCase();
+
+  if (!decoded.uid || !validEmail(email)) {
+    return res.status(400).json({ message: "Google account must include a verified email." });
+  }
+
+  const existingByUid = await findUserByFirebaseUid(decoded.uid);
+  if (existingByUid) {
+    return res.json({ token: signToken(existingByUid.id), user: normalizeUser(existingByUid) });
+  }
+
+  const existingByEmail = await findUserByEmail(email);
+  if (existingByEmail) {
+    const linkedUser = await updateUser({
+      ...existingByEmail,
+      authProvider: existingByEmail.authProvider === "local" ? "local+google" : "google",
+      firebaseUid: decoded.uid
+    });
+
+    return res.json({ token: signToken(linkedUser.id), user: normalizeUser(linkedUser) });
+  }
+
+  if (name.length < 2) {
+    return res.status(202).json({
+      needsUsername: true,
+      email,
+      suggestedName: decoded.name || email.split("@")[0]
+    });
+  }
+
+  const passwordHash = await bcrypt.hash(`google:${decoded.uid}:${process.env.JWT_SECRET || "dev"}`, 12);
+  const user = await createUser({
+    name,
+    email,
+    password: passwordHash,
+    authProvider: "google",
+    firebaseUid: decoded.uid
+  });
+
+  return res.status(201).json({ token: signToken(user.id), user: normalizeUser(user) });
 });
 
 export default router;
