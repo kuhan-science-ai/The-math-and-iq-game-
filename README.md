@@ -7,7 +7,7 @@ A full-stack gamified brain training app with JWT authentication, speed math, ap
 - Frontend: React + Vite
 - Backend: Node.js + Express
 - Auth: JWT + bcrypt password hashing
-- Database: MongoDB with Mongoose when `MONGO_URI` is set, plus a local JSON development store fallback
+- Database: Firebase Cloud Firestore through the Firebase Admin SDK
 
 ## Run Locally
 
@@ -23,8 +23,15 @@ npm.cmd run install:all
 copy backend\.env.example backend\.env
 ```
 
-3. Optional: add your MongoDB connection string in `backend/.env`.
-   If you leave `MONGO_URI` empty, the backend uses `backend/data/dev-db.json`.
+3. Add Firebase Admin credentials in `backend/.env`.
+
+   Recommended for local and Render:
+
+```bash
+FIREBASE_SERVICE_ACCOUNT_BASE64=base64-encoded-service-account-json
+```
+
+   You can also use `FIREBASE_PROJECT_ID`, `FIREBASE_CLIENT_EMAIL`, and `FIREBASE_PRIVATE_KEY`.
 
 4. Start frontend and backend:
 
@@ -52,3 +59,20 @@ npm.cmd run dev
 - Aptitude: logical reasoning and number-series MCQs
 - Reaction: color-change reaction timing
 - Challenge: mixed questions with increasing difficulty
+
+## Render Environment
+
+Backend service environment variables:
+
+```bash
+PORT=10000
+CLIENT_ORIGIN=https://your-frontend.onrender.com
+JWT_SECRET=make-a-long-random-secret
+FIREBASE_SERVICE_ACCOUNT_BASE64=base64-encoded-service-account-json
+```
+
+Frontend static site environment variables:
+
+```bash
+VITE_API_URL=https://your-backend.onrender.com/api
+```

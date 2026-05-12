@@ -4,7 +4,7 @@ import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
 import rateLimit from "express-rate-limit";
-import { connectDb } from "./config/db.js";
+import { initializeFirebase } from "./config/firebase.js";
 import authRoutes from "./routes/auth.js";
 import userRoutes from "./routes/user.js";
 import gameRoutes from "./routes/game.js";
@@ -40,8 +40,8 @@ app.use((err, _req, res, _next) => {
   res.status(500).json({ message: "Something went wrong." });
 });
 
-await connectDb();
+initializeFirebase();
 
 app.listen(port, () => {
-  console.log(`Brain Boost API running on http://localhost:${port}`);
+  console.log(`Brain Boost API running on http://localhost:${port} with Firebase Firestore`);
 });
