@@ -442,36 +442,36 @@ button:disabled {
 
 .question {
   display: grid;
-  min-height: 160px;
-  gap: 0.55rem;
+  min-height: 138px;
+  gap: 0.45rem;
   place-items: center;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #080d16;
   text-align: center;
-  padding: clamp(1rem, 2.6vw, 1.45rem);
+  padding: clamp(0.85rem, 2.2vw, 1.2rem);
 }
 
 .question-prompt {
-  max-width: min(860px, 100%);
+  max-width: min(920px, 100%);
   margin: 0;
-  color: #e9f2fb;
-  font-size: clamp(1rem, 2.2vw, 1.45rem);
-  font-weight: 760;
-  line-height: 1.35;
+  color: var(--green);
+  font-size: clamp(0.9rem, 1.7vw, 1.12rem);
+  font-weight: 500;
+  line-height: 1.4;
   overflow-wrap: anywhere;
 }
 
 .question-main {
   display: inline-flex;
   flex-wrap: wrap;
-  max-width: min(860px, 100%);
-  gap: 0.28em;
+  max-width: min(920px, 100%);
+  gap: 0.24em;
   align-items: center;
   justify-content: center;
-  font-size: clamp(1.15rem, 4vw, 2.7rem);
-  font-weight: 900;
-  line-height: 1.12;
+  font-size: clamp(0.95rem, 2.4vw, 1.55rem);
+  font-weight: 500;
+  line-height: 1.22;
   overflow-wrap: anywhere;
   color: var(--green);
 }
@@ -488,7 +488,7 @@ button:disabled {
 
 .question small {
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: 0.78rem;
 }
 
 .latex-fraction {
@@ -496,6 +496,7 @@ button:disabled {
   min-width: 1.2em;
   vertical-align: middle;
   line-height: 1;
+  font-size: 0.92em;
 }
 
 .latex-fraction span:first-child {
@@ -575,7 +576,7 @@ button:disabled {
 }
 
 .options button {
-  min-height: 76px;
+  min-height: 68px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #121a2a;
@@ -585,6 +586,62 @@ button:disabled {
   line-height: 1.25;
   padding: 0.85rem;
   overflow-wrap: anywhere;
+}
+
+.celebration {
+  position: relative;
+  display: grid;
+  min-height: 160px;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid rgba(48, 232, 144, 0.38);
+  border-radius: 8px;
+  background: radial-gradient(circle at center, rgba(48, 232, 144, 0.2), rgba(8, 13, 22, 0.95) 60%);
+  color: var(--green);
+  text-align: center;
+}
+
+.celebration strong {
+  font-size: clamp(1.4rem, 4vw, 2.5rem);
+}
+
+.celebration span {
+  color: #d9f7e8;
+}
+
+.party-poppers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.party-poppers i {
+  position: absolute;
+  left: 50%;
+  top: 58%;
+  width: 8px;
+  height: 14px;
+  border-radius: 2px;
+  background: hsl(calc(var(--i) * 31deg), 88%, 62%);
+  animation: popper 1.6s ease-out forwards;
+  transform: rotate(calc(var(--i) * 23deg));
+}
+
+@keyframes popper {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 0) scale(0.6) rotate(0deg);
+  }
+  18% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform:
+      translate(calc((var(--i) - 9) * 24px), calc(-90px - (var(--i) % 5) * 18px))
+      scale(1)
+      rotate(calc(var(--i) * 70deg));
+  }
 }
 
 .reaction-pad {

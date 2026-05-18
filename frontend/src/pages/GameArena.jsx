@@ -14,7 +14,13 @@ const aptitudeLevels = {
       { category: "Classification", q: "Choose the item that does not belong with the others.", latex: "\\text{apple},\\ \\text{mango},\\ \\text{carrot},\\ \\text{banana}", options: ["Apple", "Mango", "Carrot", "Banana"], answer: "Carrot" },
       { category: "Direction", q: "You face north and turn right. Which direction are you facing now?", latex: "\\text{north} + \\text{right turn} = ?", options: ["North", "South", "East", "West"], answer: "East" },
       { category: "Fraction", q: "Which fraction is larger?", latex: "\\frac{1}{2}\\ \\text{or}\\ \\frac{1}{4}", options: ["1/2", "1/4", "Equal", "Cannot tell"], answer: "1/2" },
-      { category: "Coding", q: "Using A = 1, B = 2, C = 3, find the value of CAB.", latex: "C + A + B = ?", options: ["5", "6", "7", "8"], answer: "6" }
+      { category: "Coding", q: "Using A = 1, B = 2, C = 3, find the value of CAB.", latex: "C + A + B = ?", options: ["5", "6", "7", "8"], answer: "6" },
+      { category: "Simple math", q: "Find the missing value.", latex: "7 + ? = 12", options: ["3", "4", "5", "6"], answer: "5" },
+      { category: "Shape count", q: "A triangle has how many sides?", latex: "\\text{triangle sides} = ?", options: ["2", "3", "4", "5"], answer: "3" },
+      { category: "Calendar", q: "If today is Monday, what day is tomorrow?", latex: "\\text{Monday} + 1 = ?", options: ["Sunday", "Tuesday", "Wednesday", "Friday"], answer: "Tuesday" },
+      { category: "Comparison", q: "Choose the smallest number.", latex: "14,\\ 9,\\ 21,\\ 16", options: ["14", "9", "21", "16"], answer: "9" },
+      { category: "Number series", q: "Complete the counting pattern.", latex: "5,\\ 10,\\ 15,\\ 20,\\ ?", options: ["22", "24", "25", "30"], answer: "25" },
+      { category: "Word logic", q: "Which word means the opposite of hot?", latex: "\\text{opposite of hot}", options: ["Warm", "Cold", "Bright", "Fast"], answer: "Cold" }
     ]
   },
   medium: {
@@ -26,7 +32,13 @@ const aptitudeLevels = {
       { category: "Probability", q: "A fair die is rolled once. What is the probability of rolling an even number?", latex: "\\frac{3}{6}=\\frac{1}{2}", options: ["1/6", "1/3", "1/2", "2/3"], answer: "1/2" },
       { category: "Ratio", q: "If 4 machines make 20 parts in 5 hours, how many parts do 8 machines make in the same time?", latex: "4\\ \\text{machines} \\to 20,\\quad 8\\ \\text{machines} \\to ?", options: ["20", "30", "40", "80"], answer: "40" },
       { category: "Syllogism", q: "All squares are rectangles. Some rectangles are blue. Which statement is definitely true?", latex: "\\text{squares} \\subset \\text{rectangles}", options: ["All squares are blue", "Some blue things are squares", "All squares are rectangles", "No rectangles are squares"], answer: "All squares are rectangles" },
-      { category: "Equation", q: "Solve for x.", latex: "3x + 7 = 22", options: ["3", "4", "5", "6"], answer: "5" }
+      { category: "Equation", q: "Solve for x.", latex: "3x + 7 = 22", options: ["3", "4", "5", "6"], answer: "5" },
+      { category: "Percentage", q: "Find twenty percent of fifty.", latex: "20\\%\\ \\text{of}\\ 50", options: ["5", "10", "15", "20"], answer: "10" },
+      { category: "Average", q: "Find the average of 8, 10, and 12.", latex: "\\frac{8+10+12}{3}", options: ["9", "10", "11", "12"], answer: "10" },
+      { category: "Direction", q: "You face east, turn left, then turn left again. Where do you face?", latex: "\\text{east} + 2\\ \\text{left turns}", options: ["North", "South", "East", "West"], answer: "West" },
+      { category: "Number series", q: "The difference increases by one. Find the next term.", latex: "4,\\ 6,\\ 9,\\ 13,\\ ?", options: ["16", "17", "18", "19"], answer: "18" },
+      { category: "Venn logic", q: "All roses are flowers. Some flowers fade quickly. Which is certain?", latex: "\\text{roses} \\subset \\text{flowers}", options: ["All roses fade quickly", "All roses are flowers", "No flowers fade", "Some roses fade"], answer: "All roses are flowers" },
+      { category: "Time", q: "A movie starts at 2:15 and lasts 90 minutes. When does it end?", latex: "2:15 + 90\\ \\text{minutes}", options: ["3:15", "3:30", "3:45", "4:00"], answer: "3:45" }
     ]
   },
   insane: {
@@ -37,8 +49,14 @@ const aptitudeLevels = {
       { category: "Weighted average", q: "Average of 5 numbers is 18. Four of them average 16. Find the fifth number.", latex: "(5\\times18)-(4\\times16)=?", options: ["22", "24", "26", "28"], answer: "26" },
       { category: "Permutation", q: "How many different arrangements are possible for A, B, and C?", latex: "3! = ?", options: ["3", "6", "9", "12"], answer: "6" },
       { category: "Logic order", q: "Mira is taller than Dev. Dev is taller than Isha. Who is shortest?", latex: "\\text{Mira} > \\text{Dev} > \\text{Isha}", options: ["Mira", "Dev", "Isha", "Cannot tell"], answer: "Isha" },
-      { category: "Clock angle", q: "At 3:30, what is the smaller angle between the hour hand and minute hand?", latex: "\\theta = |90^\\circ - 15^\\circ|", options: ["60°", "75°", "90°", "105°"], answer: "75°" },
-      { category: "Fraction equation", q: "Solve for x.", latex: "\\frac{x}{3} + 4 = 9", options: ["12", "15", "18", "21"], answer: "15" }
+      { category: "Clock angle", q: "At 3:30, what is the smaller angle between the hour hand and minute hand?", latex: "\\theta = |90^\\circ - 15^\\circ|", options: ["60 deg", "75 deg", "90 deg", "105 deg"], answer: "75 deg" },
+      { category: "Fraction equation", q: "Solve for x.", latex: "\\frac{x}{3} + 4 = 9", options: ["12", "15", "18", "21"], answer: "15" },
+      { category: "Work rate", q: "6 workers finish a job in 12 days. At the same rate, how long for 9 workers?", latex: "\\frac{6\\times12}{9}", options: ["6 days", "8 days", "9 days", "10 days"], answer: "8 days" },
+      { category: "Set logic", q: "In a class, 18 study math, 12 study science, and 5 study both. How many study at least one?", latex: "18 + 12 - 5", options: ["20", "23", "25", "30"], answer: "25" },
+      { category: "Sequence", q: "Squares are being added. Find the next term.", latex: "1,\\ 5,\\ 14,\\ 30,\\ ?", options: ["45", "50", "55", "60"], answer: "55" },
+      { category: "Probability", q: "Two coins are tossed. What is the chance of exactly one head?", latex: "\\frac{2}{4}", options: ["1/4", "1/3", "1/2", "3/4"], answer: "1/2" },
+      { category: "Algebra", q: "Solve for y.", latex: "2(y-3)=14", options: ["7", "8", "9", "10"], answer: "10" },
+      { category: "Coding", q: "If CODE becomes DPEF, what does MATH become?", latex: "\\text{each letter} + 1", options: ["NBUG", "NBUI", "LZSG", "OBUG"], answer: "NBUI" }
     ]
   },
   impossible: {
@@ -50,7 +68,13 @@ const aptitudeLevels = {
       { category: "Constraint logic", q: "Exactly one statement is true: A says B is true. B says C is false. C says A is false. Which statement is true?", latex: "\\text{exactly one of } A,B,C \\text{ is true}", options: ["A", "B", "C", "None"], answer: "B" },
       { category: "Modular arithmetic", q: "Find the remainder when 7 to the fourth power is divided by 5.", latex: "7^{4}\\ \\bmod\\ 5", options: ["0", "1", "2", "4"], answer: "1" },
       { category: "Combinatorics", q: "How many ways can 2 captains be chosen from 6 players?", latex: "\\binom{6}{2}=?", options: ["12", "15", "18", "30"], answer: "15" },
-      { category: "Inequality", q: "If x is an integer, what is the largest possible value of x?", latex: "2x+3<12", options: ["3", "4", "5", "6"], answer: "4" }
+      { category: "Inequality", q: "If x is an integer, what is the largest possible value of x?", latex: "2x+3<12", options: ["3", "4", "5", "6"], answer: "4" },
+      { category: "Expected value", q: "A fair die pays its roll value in points. What is the expected value?", latex: "\\frac{1+2+3+4+5+6}{6}", options: ["3", "3.5", "4", "4.5"], answer: "3.5" },
+      { category: "Inclusion-exclusion", q: "Out of 50 people, 28 like tea, 25 like coffee, and 10 like both. How many like neither?", latex: "50-(28+25-10)", options: ["5", "7", "9", "12"], answer: "7" },
+      { category: "Recursive pattern", q: "Each term is previous term times 3 minus 2. Find the next term.", latex: "2,\\ 4,\\ 10,\\ 28,\\ ?", options: ["72", "80", "82", "84"], answer: "82" },
+      { category: "Truth table", q: "If P is true and Q is false, what is P AND Q?", latex: "P \\land Q", options: ["True", "False", "Both", "Cannot tell"], answer: "False" },
+      { category: "Optimization", q: "Which integer x maximizes x(8-x)?", latex: "x(8-x)", options: ["2", "3", "4", "5"], answer: "4" },
+      { category: "Remainder", q: "Find the remainder when 11 squared is divided by 6.", latex: "11^{2}\\ \\bmod\\ 6", options: ["1", "2", "3", "5"], answer: "1" }
     ]
   }
 };
@@ -198,13 +222,13 @@ const renderLatexish = (value) => {
 
 const cleanLatex = (value) =>
   value
-    .replace(/\\times/g, "×")
-    .replace(/\\div/g, "÷")
+    .replace(/\\times/g, "x")
+    .replace(/\\div/g, "/")
     .replace(/\\quad/g, " ")
     .replace(/\\bmod/g, "mod")
-    .replace(/\\circ/g, "°")
-    .replace(/\\subset/g, "⊂")
-    .replace(/\\to/g, "→")
+    .replace(/\\circ/g, " deg")
+    .replace(/\\subset/g, " subset ")
+    .replace(/\\to/g, "->")
     .replace(/\\binom\{([^{}]+)\}\{([^{}]+)\}/g, "C($1,$2)")
     .replace(/\\%/g, "%")
     .replace(/\\text\{([^{}]+)\}/g, "$1")
@@ -347,6 +371,7 @@ const AptitudeMode = () => {
   const [correct, setCorrect] = useState(0);
   const [started, setStarted] = useState(false);
   const [done, setDone] = useState(false);
+  const [celebrate, setCelebrate] = useState(false);
   const [message, setMessage] = useState("");
   const levelConfig = aptitudeLevels[level];
   const current = roundQuestions[index];
@@ -378,7 +403,9 @@ const AptitudeMode = () => {
       });
       setUser(data.user);
       setDone(true);
+      setCelebrate(true);
       setMessage(`${levelConfig.label} round saved. Score ${score}, ${accuracy}% accuracy, +${data.xpGain} XP.`);
+      setTimeout(() => setCelebrate(false), 2600);
     } else {
       setIndex(index + 1);
     }
@@ -390,6 +417,7 @@ const AptitudeMode = () => {
     setIndex(0);
     setCorrect(0);
     setDone(false);
+    setCelebrate(false);
     setMessage("");
   };
 
@@ -402,6 +430,15 @@ const AptitudeMode = () => {
         <span>{levelConfig.multiplier}x XP pace</span>
       </div>
       <h2>Aptitude Logic Set</h2>
+      {celebrate && (
+        <div className="celebration" aria-live="polite">
+          <div className="party-poppers">
+            {Array.from({ length: 18 }, (_, particle) => <i key={particle} style={{ "--i": particle }} />)}
+          </div>
+          <strong>Level complete</strong>
+          <span>{levelConfig.label} cleared with {correct}/{roundQuestions.length}</span>
+        </div>
+      )}
 
       {!started && (
         <div className="aptitude-setup">
