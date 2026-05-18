@@ -29,6 +29,7 @@ copy backend\.env.example backend\.env
 
 ```bash
 FIREBASE_SERVICE_ACCOUNT_BASE64=base64-encoded-service-account-json
+FIRESTORE_DATABASE_ID=default
 ```
 
    You can also use `FIREBASE_PROJECT_ID`, `FIREBASE_CLIENT_EMAIL`, and `FIREBASE_PRIVATE_KEY`.

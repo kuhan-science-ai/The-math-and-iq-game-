@@ -29,5 +29,7 @@ export const initializeFirebase = () => {
 
 export const getDb = () => {
   initializeFirebase();
-  return getFirestore();
+  return process.env.FIRESTORE_DATABASE_ID
+    ? getFirestore(process.env.FIRESTORE_DATABASE_ID)
+    : getFirestore();
 };

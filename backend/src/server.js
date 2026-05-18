@@ -49,6 +49,16 @@ app.use((err, _req, res, _next) => {
   if (err.message?.startsWith("CORS blocked origin")) {
     return res.status(403).json({ message: err.message });
   }
+  if (err.code === 5 || err.reason === "NOT_FOUND") {
+    return res.status(500).json({
+      message: "Firestore database was not found. Check FIRESTORE_DATABASE_ID in Render and make sure the database exists in Firebase."
+    });
+  }
+  if (err.code === 7 || err.reason === "SERVICE_DISABLED") {
+    return res.status(500).json({
+      message: "Cloud Firestore API is disabled or still activating. Enable Firestore and wait a few minutes."
+    });
+  }
   return res.status(500).json({ message: "Something went wrong." });
 });
 
