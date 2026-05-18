@@ -9,12 +9,13 @@ import {
 } from "../services/firestoreStore.js";
 import { normalizeUser } from "../services/progress.js";
 import { signToken } from "../middleware/auth.js";
+import { asyncHandler } from "../middleware/asyncHandler.js";
 
 const router = express.Router();
 
 const validEmail = (email = "") => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
-router.post("/register", async (req, res) => {
+router.post("/register", asyncHandler(async (req, res) => {
   const name = String(req.body.name || req.body.username || "").trim();
   const email = String(req.body.email || "").trim().toLowerCase();
   const password = String(req.body.password || "");
@@ -29,9 +30,9 @@ router.post("/register", async (req, res) => {
 
   const user = await createUser({ name, email, password: passwordHash });
   return res.status(201).json({ token: signToken(user.id), user: normalizeUser(user) });
-});
+}));
 
-router.post("/login", async (req, res) => {
+router.post("/login", asyncHandler(async (req, res) => {
   const email = String(req.body.email || "").trim().toLowerCase();
   const password = String(req.body.password || "");
 
@@ -46,9 +47,9 @@ router.post("/login", async (req, res) => {
   }
 
   return res.json({ token: signToken(user.id), user: normalizeUser(user) });
-});
+}));
 
-router.post("/google", async (req, res) => {
+router.post("/google", asyncHandler(async (req, res) => {
   const firebaseToken = String(req.body.firebaseToken || "");
   const name = String(req.body.name || req.body.username || "").trim();
 
@@ -56,7 +57,15 @@ router.post("/google", async (req, res) => {
     return res.status(400).json({ message: "Firebase token required." });
   }
 
-  const decoded = await getAuth().verifyIdToken(firebaseToken);
+  let decoded;
+  try {
+    decoded = await getAuth().verifyIdToken(firebaseToken);
+  } catch (err) {
+    console.error("Google sign-in token verification failed:", err.code || err.message);
+    return res.status(401).json({
+      message: "Google sign-in token is invalid. Check that frontend Firebase config and backend service account use the same Firebase project."
+    });
+  }
   const email = String(decoded.email || "").toLowerCase();
 
   if (!decoded.uid || !validEmail(email)) {
@@ -97,6 +106,6 @@ router.post("/google", async (req, res) => {
   });
 
   return res.status(201).json({ token: signToken(user.id), user: normalizeUser(user) });
-});
+}));
 
 export default router;
