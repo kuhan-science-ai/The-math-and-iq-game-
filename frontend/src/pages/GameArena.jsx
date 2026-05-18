@@ -4,21 +4,63 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 import { api, modes } from "../lib/api.js";
 
-const aptitudeBank = [
-  { category: "Number series", q: "2, 6, 12, 20, 30, ?", latex: "2,6,12,20,30,\\ ?", options: ["40", "42", "44", "48"], answer: "42" },
-  { category: "Analogy", q: "Book is to Reading as Fork is to ?", options: ["Drawing", "Writing", "Eating", "Cooking"], answer: "Eating" },
-  { category: "Classification", q: "Find the odd one out.", options: ["Triangle", "Square", "Circle", "Cube"], answer: "Cube" },
-  { category: "Syllogism", q: "If all BLOPS are RAZZIES and some RAZZIES are LAZZIES, which is certain?", options: ["Some BLOPS are LAZZIES", "All RAZZIES are BLOPS", "All BLOPS are RAZZIES", "No LAZZIES are BLOPS"], answer: "All BLOPS are RAZZIES" },
-  { category: "Powers", q: "3, 9, 27, 81, ?", latex: "3,9,27,81,\\ ?", options: ["108", "162", "243", "324"], answer: "243" },
-  { category: "Pattern", q: "A1, C3, F6, J10, ?", options: ["L12", "M13", "N14", "O15"], answer: "O15" },
-  { category: "Probability", q: "A die is rolled once. What is the probability of an even number?", latex: "\\frac{3}{6}", options: ["1/6", "1/3", "1/2", "2/3"], answer: "1/2" },
-  { category: "Direction", q: "You face North, turn right, then turn left, then turn left. Which way are you facing?", options: ["North", "South", "East", "West"], answer: "West" },
-  { category: "Coding", q: "If CAT = 24 and DOG = 26 using A=1, B=2... then BAT = ?", options: ["21", "23", "25", "27"], answer: "23" },
-  { category: "Ratio", q: "If 4 machines make 20 parts in 5 hours, how many parts do 8 machines make in 5 hours?", options: ["20", "30", "40", "80"], answer: "40" }
-];
+const aptitudeLevels = {
+  easy: {
+    label: "Easy",
+    multiplier: 1,
+    questions: [
+      { category: "Number series", q: "2, 4, 6, 8, ?", latex: "2,4,6,8,\\ ?", options: ["9", "10", "11", "12"], answer: "10" },
+      { category: "Analogy", q: "Hand is to Glove as Foot is to ?", options: ["Sock", "Ring", "Cap", "Belt"], answer: "Sock" },
+      { category: "Classification", q: "Find the odd one out.", options: ["Apple", "Mango", "Carrot", "Banana"], answer: "Carrot" },
+      { category: "Direction", q: "You face North and turn right. Which direction are you facing?", options: ["North", "South", "East", "West"], answer: "East" },
+      { category: "Fraction", q: "Which is larger?", latex: "\\frac{1}{2}\\ \\text{or}\\ \\frac{1}{4}", options: ["1/2", "1/4", "Equal", "Cannot tell"], answer: "1/2" },
+      { category: "Coding", q: "If A=1 and B=2, then CAB = ?", options: ["5", "6", "7", "8"], answer: "6" }
+    ]
+  },
+  medium: {
+    label: "Medium",
+    multiplier: 1.6,
+    questions: [
+      { category: "Number series", q: "3, 6, 12, 24, ?", latex: "3,6,12,24,\\ ?", options: ["36", "42", "48", "54"], answer: "48" },
+      { category: "Pattern", q: "A1, C3, F6, J10, ?", options: ["L12", "M13", "N14", "O15"], answer: "O15" },
+      { category: "Probability", q: "A die is rolled once. Probability of an even number?", latex: "\\frac{3}{6}", options: ["1/6", "1/3", "1/2", "2/3"], answer: "1/2" },
+      { category: "Ratio", q: "If 4 machines make 20 parts in 5 hours, how many parts do 8 machines make in 5 hours?", options: ["20", "30", "40", "80"], answer: "40" },
+      { category: "Syllogism", q: "All squares are rectangles. Some rectangles are blue. What is certain?", options: ["All squares are blue", "Some blue things are squares", "All squares are rectangles", "No rectangles are squares"], answer: "All squares are rectangles" },
+      { category: "Equation", q: "Solve for x.", latex: "3x + 7 = 22", options: ["3", "4", "5", "6"], answer: "5" }
+    ]
+  },
+  insane: {
+    label: "Insane",
+    multiplier: 2.4,
+    questions: [
+      { category: "Alternating series", q: "4, 9, 7, 14, 10, 19, ?", latex: "4,9,7,14,10,19,\\ ?", options: ["12", "13", "14", "16"], answer: "13" },
+      { category: "Weighted average", q: "Average of 5 numbers is 18. Four numbers average 16. What is the fifth?", latex: "5\\times18 - 4\\times16", options: ["22", "24", "26", "28"], answer: "26" },
+      { category: "Permutation", q: "How many ways can the letters A, B, C be arranged?", latex: "3!", options: ["3", "6", "9", "12"], answer: "6" },
+      { category: "Logic grid", q: "Mira is taller than Dev. Dev is taller than Isha. Who is shortest?", options: ["Mira", "Dev", "Isha", "Cannot tell"], answer: "Isha" },
+      { category: "Clock angle", q: "Angle between hands at 3:30?", options: ["60°", "75°", "90°", "105°"], answer: "75°" },
+      { category: "Fraction equation", q: "Solve for x.", latex: "\\frac{x}{3} + 4 = 9", options: ["12", "15", "18", "21"], answer: "15" }
+    ]
+  },
+  impossible: {
+    label: "Impossible",
+    multiplier: 3.5,
+    questions: [
+      { category: "Nested sequence", q: "2, 5, 11, 23, 47, ?", latex: "a_n = 2a_{n-1}+1", options: ["91", "93", "95", "97"], answer: "95" },
+      { category: "Bayes intuition", q: "1% have X. Test is 99% true-positive and 5% false-positive. Positive test is closest to?", latex: "\\frac{0.99}{0.99+4.95}", options: ["17%", "50%", "83%", "99%"], answer: "17%" },
+      { category: "Constraint logic", q: "Exactly one of A, B, C is true. A says B is true. B says C is false. C says A is false. Who is true?", options: ["A", "B", "C", "None"], answer: "B" },
+      { category: "Modular arithmetic", q: "What is the remainder?", latex: "7^{4}\\div 5", options: ["0", "1", "2", "4"], answer: "1" },
+      { category: "Combinatorics", q: "Choose 2 captains from 6 players.", latex: "\\binom{6}{2}", options: ["12", "15", "18", "30"], answer: "15" },
+      { category: "Inequality", q: "If x is integer and 2x+3 < 12, largest x?", latex: "2x+3<12", options: ["3", "4", "5", "6"], answer: "4" }
+    ]
+  }
+};
+
+const aptitudeCounts = [5, 10, 15, 20];
+const aptitudeBank = Object.values(aptitudeLevels).flatMap((level) => level.questions);
 
 const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const pick = (items) => items[randomInt(0, items.length - 1)];
+const shuffle = (items) => [...items].sort(() => Math.random() - 0.5);
 const normalizeAnswer = (value) => String(value).trim().toLowerCase().replace(/\s+/g, "");
 
 const makeMathQuestion = (difficulty = 1) => {
@@ -158,6 +200,7 @@ const cleanLatex = (value) =>
   value
     .replace(/\\times/g, "×")
     .replace(/\\div/g, "÷")
+    .replace(/\\binom\{([^{}]+)\}\{([^{}]+)\}/g, "C($1,$2)")
     .replace(/\\%/g, "%")
     .replace(/\\text\{([^{}]+)\}/g, "$1")
     .replace(/\^\{([^{}]+)\}/g, "^$1")
@@ -291,30 +334,53 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
 
 const AptitudeMode = () => {
   const { setUser } = useAuth();
+  const [level, setLevel] = useState("easy");
+  const [questionCount, setQuestionCount] = useState(10);
+  const [roundQuestions, setRoundQuestions] = useState([]);
   const [index, setIndex] = useState(0);
   const [correct, setCorrect] = useState(0);
+  const [started, setStarted] = useState(false);
   const [done, setDone] = useState(false);
   const [message, setMessage] = useState("");
-  const current = aptitudeBank[index];
+  const levelConfig = aptitudeLevels[level];
+  const current = roundQuestions[index];
+
+  const buildRound = () => {
+    const pool = levelConfig.questions;
+    const questions = Array.from({ length: questionCount }, (_, questionIndex) => ({
+      ...shuffle(pool)[questionIndex % pool.length],
+      roundId: `${level}-${questionIndex}-${Math.random()}`
+    }));
+
+    setRoundQuestions(questions);
+    setIndex(0);
+    setCorrect(0);
+    setDone(false);
+    setMessage("");
+    setStarted(true);
+  };
 
   const choose = async (option) => {
     const nextCorrect = correct + (option === current.answer ? 1 : 0);
     setCorrect(nextCorrect);
-    if (index === aptitudeBank.length - 1) {
-      const accuracy = Math.round((nextCorrect / aptitudeBank.length) * 100);
+    if (index === roundQuestions.length - 1) {
+      const accuracy = Math.round((nextCorrect / roundQuestions.length) * 100);
+      const score = Math.round(nextCorrect * 10 * levelConfig.multiplier);
       const data = await api("/game/submit-score", {
         method: "POST",
-        body: JSON.stringify({ mode: "aptitude", score: nextCorrect * 10, accuracy })
+        body: JSON.stringify({ mode: "aptitude", score, accuracy })
       });
       setUser(data.user);
       setDone(true);
-      setMessage(`Round saved. ${accuracy}% accuracy and +${data.xpGain} XP.`);
+      setMessage(`${levelConfig.label} round saved. Score ${score}, ${accuracy}% accuracy, +${data.xpGain} XP.`);
     } else {
       setIndex(index + 1);
     }
   };
 
   const reset = () => {
+    setStarted(false);
+    setRoundQuestions([]);
     setIndex(0);
     setCorrect(0);
     setDone(false);
@@ -323,11 +389,44 @@ const AptitudeMode = () => {
 
   return (
     <div className="game-board">
-      <div className="game-meta"><span><BrainCircuit size={18} /> Question {Math.min(index + 1, aptitudeBank.length)}/{aptitudeBank.length}</span></div>
+      <div className="game-meta">
+        <span><BrainCircuit size={18} /> {levelConfig.label}</span>
+        <span>{questionCount} questions</span>
+        {started && <span>Question {Math.min(index + 1, roundQuestions.length)}/{roundQuestions.length}</span>}
+        <span>{levelConfig.multiplier}x XP pace</span>
+      </div>
       <h2>Aptitude Logic Set</h2>
-      {done ? <QuestionDisplay fallback="Complete" /> : <QuestionDisplay question={current} />}
-      {!done && <div className="options">{current.options.map((option) => <button key={option} onClick={() => choose(option)}>{option}</button>)}</div>}
-      {done && <button className="secondary" onClick={reset}>Play again</button>}
+
+      {!started && (
+        <div className="aptitude-setup">
+          <div>
+            <p className="control-label">Level</p>
+            <div className="choice-grid">
+              {Object.entries(aptitudeLevels).map(([key, config]) => (
+                <button key={key} className={level === key ? "active" : ""} onClick={() => setLevel(key)}>
+                  <strong>{config.label}</strong>
+                  <small>{config.multiplier}x score</small>
+                </button>
+              ))}
+            </div>
+          </div>
+          <div>
+            <p className="control-label">Questions</p>
+            <div className="count-grid">
+              {aptitudeCounts.map((count) => (
+                <button key={count} className={questionCount === count ? "active" : ""} onClick={() => setQuestionCount(count)}>
+                  {count}
+                </button>
+              ))}
+            </div>
+          </div>
+          <button className="primary" onClick={buildRound}>Start {levelConfig.label} round</button>
+        </div>
+      )}
+
+      {started && (done ? <QuestionDisplay fallback="Complete" /> : <QuestionDisplay question={current} />)}
+      {started && !done && <div className="options">{current.options.map((option) => <button key={option} onClick={() => choose(option)}>{option}</button>)}</div>}
+      {started && done && <button className="secondary" onClick={reset}>Configure new round</button>}
       {message && <p className="success">{message}</p>}
     </div>
   );
