@@ -9,23 +9,23 @@ const aptitudeLevels = {
     label: "Easy",
     multiplier: 1,
     questions: [
-      { category: "Number series", q: "2, 4, 6, 8, ?", latex: "2,4,6,8,\\ ?", options: ["9", "10", "11", "12"], answer: "10" },
-      { category: "Analogy", q: "Hand is to Glove as Foot is to ?", options: ["Sock", "Ring", "Cap", "Belt"], answer: "Sock" },
-      { category: "Classification", q: "Find the odd one out.", options: ["Apple", "Mango", "Carrot", "Banana"], answer: "Carrot" },
-      { category: "Direction", q: "You face North and turn right. Which direction are you facing?", options: ["North", "South", "East", "West"], answer: "East" },
-      { category: "Fraction", q: "Which is larger?", latex: "\\frac{1}{2}\\ \\text{or}\\ \\frac{1}{4}", options: ["1/2", "1/4", "Equal", "Cannot tell"], answer: "1/2" },
-      { category: "Coding", q: "If A=1 and B=2, then CAB = ?", options: ["5", "6", "7", "8"], answer: "6" }
+      { category: "Number series", q: "Complete the pattern.", latex: "2,\\ 4,\\ 6,\\ 8,\\ ?", options: ["9", "10", "11", "12"], answer: "10" },
+      { category: "Analogy", q: "Complete the relationship: hand is to glove as foot is to...", latex: "\\text{hand} : \\text{glove} = \\text{foot} : ?", options: ["Sock", "Ring", "Cap", "Belt"], answer: "Sock" },
+      { category: "Classification", q: "Choose the item that does not belong with the others.", latex: "\\text{apple},\\ \\text{mango},\\ \\text{carrot},\\ \\text{banana}", options: ["Apple", "Mango", "Carrot", "Banana"], answer: "Carrot" },
+      { category: "Direction", q: "You face north and turn right. Which direction are you facing now?", latex: "\\text{north} + \\text{right turn} = ?", options: ["North", "South", "East", "West"], answer: "East" },
+      { category: "Fraction", q: "Which fraction is larger?", latex: "\\frac{1}{2}\\ \\text{or}\\ \\frac{1}{4}", options: ["1/2", "1/4", "Equal", "Cannot tell"], answer: "1/2" },
+      { category: "Coding", q: "Using A = 1, B = 2, C = 3, find the value of CAB.", latex: "C + A + B = ?", options: ["5", "6", "7", "8"], answer: "6" }
     ]
   },
   medium: {
     label: "Medium",
     multiplier: 1.6,
     questions: [
-      { category: "Number series", q: "3, 6, 12, 24, ?", latex: "3,6,12,24,\\ ?", options: ["36", "42", "48", "54"], answer: "48" },
-      { category: "Pattern", q: "A1, C3, F6, J10, ?", options: ["L12", "M13", "N14", "O15"], answer: "O15" },
-      { category: "Probability", q: "A die is rolled once. Probability of an even number?", latex: "\\frac{3}{6}", options: ["1/6", "1/3", "1/2", "2/3"], answer: "1/2" },
-      { category: "Ratio", q: "If 4 machines make 20 parts in 5 hours, how many parts do 8 machines make in 5 hours?", options: ["20", "30", "40", "80"], answer: "40" },
-      { category: "Syllogism", q: "All squares are rectangles. Some rectangles are blue. What is certain?", options: ["All squares are blue", "Some blue things are squares", "All squares are rectangles", "No rectangles are squares"], answer: "All squares are rectangles" },
+      { category: "Number series", q: "Each term is doubled. Find the missing number.", latex: "3,\\ 6,\\ 12,\\ 24,\\ ?", options: ["36", "42", "48", "54"], answer: "48" },
+      { category: "Pattern", q: "Letters move by +2, +3, +4... and numbers are triangular. What comes next?", latex: "A1,\\ C3,\\ F6,\\ J10,\\ ?", options: ["L12", "M13", "N14", "O15"], answer: "O15" },
+      { category: "Probability", q: "A fair die is rolled once. What is the probability of rolling an even number?", latex: "\\frac{3}{6}=\\frac{1}{2}", options: ["1/6", "1/3", "1/2", "2/3"], answer: "1/2" },
+      { category: "Ratio", q: "If 4 machines make 20 parts in 5 hours, how many parts do 8 machines make in the same time?", latex: "4\\ \\text{machines} \\to 20,\\quad 8\\ \\text{machines} \\to ?", options: ["20", "30", "40", "80"], answer: "40" },
+      { category: "Syllogism", q: "All squares are rectangles. Some rectangles are blue. Which statement is definitely true?", latex: "\\text{squares} \\subset \\text{rectangles}", options: ["All squares are blue", "Some blue things are squares", "All squares are rectangles", "No rectangles are squares"], answer: "All squares are rectangles" },
       { category: "Equation", q: "Solve for x.", latex: "3x + 7 = 22", options: ["3", "4", "5", "6"], answer: "5" }
     ]
   },
@@ -33,11 +33,11 @@ const aptitudeLevels = {
     label: "Insane",
     multiplier: 2.4,
     questions: [
-      { category: "Alternating series", q: "4, 9, 7, 14, 10, 19, ?", latex: "4,9,7,14,10,19,\\ ?", options: ["12", "13", "14", "16"], answer: "13" },
-      { category: "Weighted average", q: "Average of 5 numbers is 18. Four numbers average 16. What is the fifth?", latex: "5\\times18 - 4\\times16", options: ["22", "24", "26", "28"], answer: "26" },
-      { category: "Permutation", q: "How many ways can the letters A, B, C be arranged?", latex: "3!", options: ["3", "6", "9", "12"], answer: "6" },
-      { category: "Logic grid", q: "Mira is taller than Dev. Dev is taller than Isha. Who is shortest?", options: ["Mira", "Dev", "Isha", "Cannot tell"], answer: "Isha" },
-      { category: "Clock angle", q: "Angle between hands at 3:30?", options: ["60°", "75°", "90°", "105°"], answer: "75°" },
+      { category: "Alternating series", q: "Two interleaved patterns are mixed together. Find the next term.", latex: "4,\\ 9,\\ 7,\\ 14,\\ 10,\\ 19,\\ ?", options: ["12", "13", "14", "16"], answer: "13" },
+      { category: "Weighted average", q: "Average of 5 numbers is 18. Four of them average 16. Find the fifth number.", latex: "(5\\times18)-(4\\times16)=?", options: ["22", "24", "26", "28"], answer: "26" },
+      { category: "Permutation", q: "How many different arrangements are possible for A, B, and C?", latex: "3! = ?", options: ["3", "6", "9", "12"], answer: "6" },
+      { category: "Logic order", q: "Mira is taller than Dev. Dev is taller than Isha. Who is shortest?", latex: "\\text{Mira} > \\text{Dev} > \\text{Isha}", options: ["Mira", "Dev", "Isha", "Cannot tell"], answer: "Isha" },
+      { category: "Clock angle", q: "At 3:30, what is the smaller angle between the hour hand and minute hand?", latex: "\\theta = |90^\\circ - 15^\\circ|", options: ["60°", "75°", "90°", "105°"], answer: "75°" },
       { category: "Fraction equation", q: "Solve for x.", latex: "\\frac{x}{3} + 4 = 9", options: ["12", "15", "18", "21"], answer: "15" }
     ]
   },
@@ -45,12 +45,12 @@ const aptitudeLevels = {
     label: "Impossible",
     multiplier: 3.5,
     questions: [
-      { category: "Nested sequence", q: "2, 5, 11, 23, 47, ?", latex: "a_n = 2a_{n-1}+1", options: ["91", "93", "95", "97"], answer: "95" },
-      { category: "Bayes intuition", q: "1% have X. Test is 99% true-positive and 5% false-positive. Positive test is closest to?", latex: "\\frac{0.99}{0.99+4.95}", options: ["17%", "50%", "83%", "99%"], answer: "17%" },
-      { category: "Constraint logic", q: "Exactly one of A, B, C is true. A says B is true. B says C is false. C says A is false. Who is true?", options: ["A", "B", "C", "None"], answer: "B" },
-      { category: "Modular arithmetic", q: "What is the remainder?", latex: "7^{4}\\div 5", options: ["0", "1", "2", "4"], answer: "1" },
-      { category: "Combinatorics", q: "Choose 2 captains from 6 players.", latex: "\\binom{6}{2}", options: ["12", "15", "18", "30"], answer: "15" },
-      { category: "Inequality", q: "If x is integer and 2x+3 < 12, largest x?", latex: "2x+3<12", options: ["3", "4", "5", "6"], answer: "4" }
+      { category: "Nested sequence", q: "Each term is double the previous term plus 1. Find the next term.", latex: "a_n = 2a_{n-1}+1,\\quad 2,\\ 5,\\ 11,\\ 23,\\ 47,\\ ?", options: ["91", "93", "95", "97"], answer: "95" },
+      { category: "Bayes intuition", q: "1% have condition X. A test is 99% true-positive and 5% false-positive. A positive result is closest to which chance?", latex: "\\frac{0.01\\times0.99}{(0.01\\times0.99)+(0.99\\times0.05)}", options: ["17%", "50%", "83%", "99%"], answer: "17%" },
+      { category: "Constraint logic", q: "Exactly one statement is true: A says B is true. B says C is false. C says A is false. Which statement is true?", latex: "\\text{exactly one of } A,B,C \\text{ is true}", options: ["A", "B", "C", "None"], answer: "B" },
+      { category: "Modular arithmetic", q: "Find the remainder when 7 to the fourth power is divided by 5.", latex: "7^{4}\\ \\bmod\\ 5", options: ["0", "1", "2", "4"], answer: "1" },
+      { category: "Combinatorics", q: "How many ways can 2 captains be chosen from 6 players?", latex: "\\binom{6}{2}=?", options: ["12", "15", "18", "30"], answer: "15" },
+      { category: "Inequality", q: "If x is an integer, what is the largest possible value of x?", latex: "2x+3<12", options: ["3", "4", "5", "6"], answer: "4" }
     ]
   }
 };
@@ -200,6 +200,11 @@ const cleanLatex = (value) =>
   value
     .replace(/\\times/g, "×")
     .replace(/\\div/g, "÷")
+    .replace(/\\quad/g, " ")
+    .replace(/\\bmod/g, "mod")
+    .replace(/\\circ/g, "°")
+    .replace(/\\subset/g, "⊂")
+    .replace(/\\to/g, "→")
     .replace(/\\binom\{([^{}]+)\}\{([^{}]+)\}/g, "C($1,$2)")
     .replace(/\\%/g, "%")
     .replace(/\\text\{([^{}]+)\}/g, "$1")
@@ -210,6 +215,7 @@ const cleanLatex = (value) =>
 const QuestionDisplay = ({ question, fallback }) => (
   <div className="question">
     {question?.category && <span className="question-tag">{question.category}</span>}
+    {question?.q && <p className="question-prompt">{question.q}</p>}
     <div className="question-main">{question ? renderLatexish(question.latex || question.q) : fallback}</div>
     {question?.hint && <small>{question.hint}</small>}
   </div>
