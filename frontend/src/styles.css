@@ -443,14 +443,55 @@ button:disabled {
 .question {
   display: grid;
   min-height: 130px;
+  gap: 0.5rem;
   place-items: center;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #080d16;
-  font-size: clamp(2rem, 8vw, 5rem);
-  font-weight: 900;
   text-align: center;
   padding: 1rem;
+}
+
+.question-main {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(2rem, 7vw, 4.8rem);
+  font-weight: 900;
+  line-height: 1.08;
+}
+
+.question-tag {
+  border: 1px solid rgba(63, 216, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(63, 216, 255, 0.08);
+  color: var(--cyan);
+  padding: 0.32rem 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.question small {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.latex-fraction {
+  display: inline-grid;
+  min-width: 1.2em;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.latex-fraction span:first-child {
+  border-bottom: 0.08em solid currentColor;
+  padding: 0 0.15em 0.12em;
+}
+
+.latex-fraction span:last-child {
+  padding: 0.12em 0.15em 0;
 }
 
 .answer-row {
@@ -493,8 +534,23 @@ button:disabled {
   background: #26151b;
 }
 
-.reaction-pad.go {
+.reaction-pad.go,
+.reaction-pad.go-green {
   background: #0f3e29;
+}
+
+.reaction-pad.go-cyan {
+  background: #0f3442;
+}
+
+.reaction-pad.go-orange {
+  background: #473012;
+}
+
+.reaction-pad p {
+  max-width: 520px;
+  margin: 0;
+  color: #d9e6f2;
 }
 
 .rank-row {
