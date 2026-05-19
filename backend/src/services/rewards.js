@@ -14,16 +14,16 @@ const cosmeticRewards = {
 const minorNames = ["XP Spark", "Focus Token", "Accuracy Chip", "Logic Shard", "Speed Core", "Streak Gem"];
 
 const milestoneShards = {
-  5: ["sigma-sapphire-shard", "Sigma Sapphire Shard", "Blue", "Sigma", "Σ"],
-  10: ["plus-ruby-shard", "Plus Ruby Shard", "Red", "Addition", "+"],
-  15: ["radical-emerald-shard", "Radical Emerald Shard", "Green", "Radicals", "√"],
-  20: ["pi-amethyst-shard", "Pi Amethyst Shard", "Purple", "Pi", "π"],
-  25: ["power-topaz-shard", "Power Topaz Shard", "Gold", "Powers", "x²"],
-  30: ["sigma-sapphire-prism", "Sigma Sapphire Prism", "Blue", "Advanced sums", "Σ"],
-  35: ["plus-ruby-prism", "Plus Ruby Prism", "Red", "Rapid arithmetic", "+"],
-  40: ["radical-emerald-prism", "Radical Emerald Prism", "Green", "Root mastery", "√"],
-  45: ["pi-amethyst-prism", "Pi Amethyst Prism", "Purple", "Pattern mastery", "π"],
-  50: ["power-topaz-prism", "Power Topaz Prism", "Gold", "Grandmaster powers", "x²"]
+  5: ["ruby-crystal", "Ruby Crystal", "Ruby", "precision arithmetic"],
+  10: ["amethyst-crystal", "Amethyst Crystal", "Amethyst", "pattern reasoning"],
+  15: ["sapphire-crystal", "Sapphire Crystal", "Sapphire", "speed math control"],
+  20: ["emerald-crystal", "Emerald Crystal", "Emerald", "logic accuracy"],
+  25: ["topaz-crystal", "Topaz Crystal", "Topaz", "power solving"],
+  30: ["royal-ruby-crystal", "Royal Ruby Crystal", "Ruby", "advanced arithmetic"],
+  35: ["royal-amethyst-crystal", "Royal Amethyst Crystal", "Amethyst", "advanced patterns"],
+  40: ["royal-sapphire-crystal", "Royal Sapphire Crystal", "Sapphire", "elite speed"],
+  45: ["royal-emerald-crystal", "Royal Emerald Crystal", "Emerald", "elite logic"],
+  50: ["royal-topaz-crystal", "Royal Topaz Crystal", "Topaz", "grandmaster mastery"]
 };
 
 const rarityConfig = {
@@ -95,7 +95,7 @@ const multiplierReward = (level) => {
 const shardReward = (level) => {
   const shard = milestoneShards[level];
   if (!shard) return null;
-  const [slug, name, color, theme, symbol] = shard;
+  const [slug, name, color, theme] = shard;
   return {
     id: `level-${level}-${slug}`,
     level,
@@ -104,14 +104,16 @@ const shardReward = (level) => {
     category: "collectible",
     rarity: rarityForLevel(level),
     color,
-    symbol,
-    description: `${color} math shard earned at Level ${level} for ${theme}.`
+    gem: color,
+    description: `${name} earned at Level ${level} for ${theme}.`
   };
 };
 
 const rewardsForRoadLevel = (level) => [tokenReward(level), shardReward(level), cosmeticReward(level), multiplierReward(level)].filter(Boolean);
 
 export const rewardPath = Array.from({ length: 49 }, (_, index) => rewardsForRoadLevel(index + 2)).flat();
+
+export const rewardIds = new Set(rewardPath.map((reward) => reward.id));
 
 export const rewardsForLevel = (level = 1) => rewardPath.filter((reward) => reward.level <= Number(level || 1));
 

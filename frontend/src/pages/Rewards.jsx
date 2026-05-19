@@ -83,8 +83,8 @@ export const Rewards = ({ goTrain }) => {
       </div>
 
       <div className="section-title">
-        <h2>Milestone shards</h2>
-        <span>Click a crystal to rotate it</span>
+        <h2>Milestone crystals</h2>
+        <span>Click a gem to rotate it</span>
       </div>
 
       <div className="shard-grid">
@@ -98,7 +98,7 @@ export const Rewards = ({ goTrain }) => {
             </article>
           ))
         ) : (
-          <div className="empty-state">No milestone shards yet. Reach Level 5 to earn the first one.</div>
+          <div className="empty-state">No milestone crystals yet. Reach Level 5 to earn the first one.</div>
         )}
       </div>
 
@@ -129,8 +129,6 @@ export const Rewards = ({ goTrain }) => {
 const ShardCrystal = ({ reward }) => {
   const [rotated, setRotated] = useState(false);
   const color = String(reward.color || "").toLowerCase();
-  const pathReward = rewardPath.find((item) => item.id === reward.id);
-  const symbol = reward.symbol || pathReward?.symbol || "◆";
 
   return (
     <button
@@ -146,7 +144,9 @@ const ShardCrystal = ({ reward }) => {
           <i className="shard-face shard-right" />
           <i className="shard-face shard-top" />
           <i className="shard-face shard-bottom" />
-          <b className="shard-symbol">{symbol}</b>
+        </span>
+        <span className="shard-stand">
+          <b>{reward.gem || reward.color}</b>
         </span>
       </span>
     </button>

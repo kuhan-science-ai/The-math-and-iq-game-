@@ -1,4 +1,4 @@
-import { mergeRewards, rewardsForLevel, sanitizeEquippedRewards } from "./rewards.js";
+import { mergeRewards, rewardIds, rewardsForLevel, sanitizeEquippedRewards } from "./rewards.js";
 
 const MODES = ["speedMath", "aptitude", "reaction", "challenge"];
 
@@ -87,7 +87,7 @@ export const normalizeUser = (user) => {
   const obj = typeof user.toObject === "function" ? user.toObject() : { ...user };
   const xp = obj.xp || 0;
   const progress = levelProgress(xp);
-  const existingRewards = obj.earnedRewards || obj.rewards || [];
+  const existingRewards = (obj.earnedRewards || obj.rewards || []).filter((reward) => reward.type !== "shard" || rewardIds.has(reward.id));
   const collectibleBackfill = rewardsForLevel(progress.level).filter((reward) => reward.category !== "consumable");
   const earnedRewards = mergeRewards(collectibleBackfill, existingRewards);
   const equippedRewards = sanitizeEquippedRewards(obj.equippedRewards || {}, earnedRewards);
