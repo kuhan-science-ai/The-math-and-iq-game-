@@ -152,15 +152,13 @@ const LatexFormula = ({ value }) => {
 };
 
 const QuestionDisplay = ({ question, fallback }) => {
-  const questionOnly = question?.level === "impossible";
-
   return (
     <div className="question">
       {question?.category && <span className="question-tag">{question.category}</span>}
-      <div className={questionOnly ? "question-prompt question-only" : "question-main"}>
-        {question ? (questionOnly ? question.q : <LatexFormula value={question.latex || question.q} />) : fallback}
+      <div className="question-main">
+        {question ? <LatexFormula value={question.latex || question.q} /> : fallback}
       </div>
-      {question?.hint && !questionOnly && <small>{question.hint}</small>}
+      {question?.hint && <small>{question.hint}</small>}
     </div>
   );
 };
@@ -288,7 +286,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
       <RewardUnlock rewards={newRewards} />
       {running ? <QuestionDisplay question={question} /> : <QuestionDisplay fallback="Ready?" />}
       {running && question.options ? (
-        <div className="options">{question.options.map((option) => <button key={option} onClick={() => chooseOption(option)}>{option}</button>)}</div>
+        <div className="options">{question.options.map((option) => <button key={option} onClick={() => chooseOption(option)}><LatexFormula value={option} /></button>)}</div>
       ) : (
         <form className="answer-row" onSubmit={submit}>
           <input value={answer} onChange={(e) => setAnswer(e.target.value)} disabled={!running} inputMode={question.inputMode || "text"} autoFocus />
@@ -318,8 +316,9 @@ const AptitudeMode = () => {
 
   const buildRound = () => {
     const pool = levelConfig.questions;
-    const questions = Array.from({ length: questionCount }, (_, questionIndex) => ({
-      ...shuffle(pool)[questionIndex % pool.length],
+    const selectedQuestions = shuffle(pool).slice(0, questionCount);
+    const questions = selectedQuestions.map((question, questionIndex) => ({
+      ...question,
       level,
       roundId: `${level}-${questionIndex}-${Math.random()}`
     }));
@@ -413,7 +412,7 @@ const AptitudeMode = () => {
       )}
 
       {started && (done ? <QuestionDisplay fallback="Complete" /> : <QuestionDisplay question={current} />)}
-      {started && !done && <div className="options">{current.options.map((option) => <button key={option} onClick={() => choose(option)}>{option}</button>)}</div>}
+      {started && !done && <div className="options">{current.options.map((option) => <button key={option} onClick={() => choose(option)}><LatexFormula value={option} /></button>)}</div>}
       {started && done && <button className="secondary" onClick={reset}>Configure new round</button>}
       {message && <p className="success">{message}</p>}
     </div>
