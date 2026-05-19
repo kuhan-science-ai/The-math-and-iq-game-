@@ -1,5 +1,5 @@
-import { Check, Gem, Gift, Lock, Sparkles, Timer, Trophy, Zap } from "lucide-react";
-import React from "react";
+import { Check, Gift, Lock, Sparkles, Timer, Trophy, Zap } from "lucide-react";
+import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 import { api } from "../lib/api.js";
 import { activeBoostLabel, rewardCountForLevel, rewardPath } from "../lib/rewards.js";
@@ -72,7 +72,7 @@ export const Rewards = ({ goTrain }) => {
               <div>
                 <h3>{reward.name}</h3>
                 <p>{reward.description}</p>
-                <small><Timer size={14} /> {reward.durationMinutes} minutes · {reward.rarity}</small>
+                <small><Timer size={14} /> {reward.durationMinutes} minutes / {reward.rarity}</small>
               </div>
               <button className="primary compact" onClick={() => useReward(reward.id)}>Use</button>
             </article>
@@ -84,14 +84,14 @@ export const Rewards = ({ goTrain }) => {
 
       <div className="section-title">
         <h2>Milestone shards</h2>
-        <span>Crystal rewards for major level milestones</span>
+        <span>Click a crystal to rotate it</span>
       </div>
 
       <div className="shard-grid">
         {shards.length ? (
           shards.map((reward) => (
             <article className={`shard-card shard-${String(reward.color || "").toLowerCase()}`} key={reward.id}>
-              <div className="shard-gem"><Gem size={26} /></div>
+              <ShardCrystal reward={reward} />
               <h3>{reward.name}</h3>
               <p>{reward.description}</p>
               <small>{reward.rarity}</small>
@@ -123,5 +123,32 @@ export const Rewards = ({ goTrain }) => {
         })}
       </div>
     </section>
+  );
+};
+
+const ShardCrystal = ({ reward }) => {
+  const [rotated, setRotated] = useState(false);
+  const color = String(reward.color || "").toLowerCase();
+  const pathReward = rewardPath.find((item) => item.id === reward.id);
+  const symbol = reward.symbol || pathReward?.symbol || "◆";
+
+  return (
+    <button
+      type="button"
+      className={`shard-crystal shard-${color} ${rotated ? "rotated" : ""}`}
+      aria-label={`Rotate ${reward.name}`}
+      onClick={() => setRotated((value) => !value)}
+    >
+      <span className="shard-scene">
+        <span className="shard-body">
+          <i className="shard-face shard-front" />
+          <i className="shard-face shard-left" />
+          <i className="shard-face shard-right" />
+          <i className="shard-face shard-top" />
+          <i className="shard-face shard-bottom" />
+          <b className="shard-symbol">{symbol}</b>
+        </span>
+      </span>
+    </button>
   );
 };

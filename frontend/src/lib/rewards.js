@@ -14,16 +14,16 @@ const cosmeticRewards = {
 const minorNames = ["XP Spark", "Focus Token", "Accuracy Chip", "Logic Shard", "Speed Core", "Streak Gem"];
 
 const milestoneShards = {
-  5: ["sigma-sapphire-shard", "Sigma Sapphire Shard", "Blue", "Sigma"],
-  10: ["plus-ruby-shard", "Plus Ruby Shard", "Red", "Addition"],
-  15: ["radical-emerald-shard", "Radical Emerald Shard", "Green", "Radicals"],
-  20: ["pi-amethyst-shard", "Pi Amethyst Shard", "Purple", "Pi"],
-  25: ["power-topaz-shard", "Power Topaz Shard", "Gold", "Powers"],
-  30: ["sigma-sapphire-prism", "Sigma Sapphire Prism", "Blue", "Advanced sums"],
-  35: ["plus-ruby-prism", "Plus Ruby Prism", "Red", "Rapid arithmetic"],
-  40: ["radical-emerald-prism", "Radical Emerald Prism", "Green", "Root mastery"],
-  45: ["pi-amethyst-prism", "Pi Amethyst Prism", "Purple", "Pattern mastery"],
-  50: ["power-topaz-prism", "Power Topaz Prism", "Gold", "Grandmaster powers"]
+  5: ["sigma-sapphire-shard", "Sigma Sapphire Shard", "Blue", "Sigma", "Σ"],
+  10: ["plus-ruby-shard", "Plus Ruby Shard", "Red", "Addition", "+"],
+  15: ["radical-emerald-shard", "Radical Emerald Shard", "Green", "Radicals", "√"],
+  20: ["pi-amethyst-shard", "Pi Amethyst Shard", "Purple", "Pi", "π"],
+  25: ["power-topaz-shard", "Power Topaz Shard", "Gold", "Powers", "x²"],
+  30: ["sigma-sapphire-prism", "Sigma Sapphire Prism", "Blue", "Advanced sums", "Σ"],
+  35: ["plus-ruby-prism", "Plus Ruby Prism", "Red", "Rapid arithmetic", "+"],
+  40: ["radical-emerald-prism", "Radical Emerald Prism", "Green", "Root mastery", "√"],
+  45: ["pi-amethyst-prism", "Pi Amethyst Prism", "Purple", "Pattern mastery", "π"],
+  50: ["power-topaz-prism", "Power Topaz Prism", "Gold", "Grandmaster powers", "x²"]
 };
 
 const rarityConfig = {
@@ -95,7 +95,7 @@ const multiplierReward = (level) => {
 const shardReward = (level) => {
   const shard = milestoneShards[level];
   if (!shard) return null;
-  const [slug, name, color, theme] = shard;
+  const [slug, name, color, theme, symbol] = shard;
   return {
     id: `level-${level}-${slug}`,
     level,
@@ -104,6 +104,7 @@ const shardReward = (level) => {
     category: "collectible",
     rarity: rarityForLevel(level),
     color,
+    symbol,
     description: `${color} math shard earned at Level ${level} for ${theme}.`
   };
 };

@@ -81,7 +81,7 @@ export const normalizeUser = (user) => {
   const progress = levelProgress(xp);
   const existingRewards = obj.earnedRewards || obj.rewards || [];
   const collectibleBackfill = rewardsForLevel(progress.level).filter((reward) => reward.category !== "consumable");
-  const earnedRewards = mergeRewards(existingRewards, collectibleBackfill);
+  const earnedRewards = mergeRewards(collectibleBackfill, existingRewards);
   const equippedRewards = sanitizeEquippedRewards(obj.equippedRewards || {}, earnedRewards);
   const activeXpBoost = obj.activeXpBoost?.expiresAt && new Date(obj.activeXpBoost.expiresAt).getTime() > Date.now()
     ? obj.activeXpBoost
