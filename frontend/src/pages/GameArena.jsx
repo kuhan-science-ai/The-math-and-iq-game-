@@ -1,6 +1,8 @@
 import { BrainCircuit, Timer, Zap } from "lucide-react";
 import React from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
+import katex from "katex";
+import "katex/dist/katex.min.css";
 import { useAuth } from "../context/AuthContext.jsx";
 import { api, modes } from "../lib/api.js";
 import { aptitudeCounts, aptitudeLevels } from "../lib/aptitudeQuestions.js";
@@ -120,99 +122,38 @@ const reactionPrompts = [
   { target: "orange", label: "Click on orange", className: "go-orange" }
 ];
 
-const readLatexGroup = (value, start) => {
-  let depth = 0;
-  let content = "";
+const normalizeLatex = (value) =>
+  String(value || "")
+    .replace(/\\bmod/g, "\\operatorname{mod}")
+    .replace(/\\det/g, "\\operatorname{det}")
+    .replace(/\\phi/g, "\\varphi");
 
-  for (let index = start; index < value.length; index += 1) {
-    const char = value[index];
-    if (char === "{") {
-      if (depth > 0) content += char;
-      depth += 1;
-    } else if (char === "}") {
-      depth -= 1;
-      if (depth === 0) return { content, end: index + 1 };
-      content += char;
-    } else {
-      content += char;
-    }
-  }
-
-  return null;
-};
-
-const renderLatexish = (value, prefix = "latex") => {
+const LatexFormula = ({ value }) => {
   if (!value) return null;
-  const parts = [];
-  let index = 0;
-
-  while (index < value.length) {
-    const fracIndex = value.indexOf("\\frac", index);
-    if (fracIndex === -1) {
-      parts.push(<span key={`${prefix}-text-${index}`}>{cleanLatex(value.slice(index))}</span>);
-      break;
-    }
-
-    if (fracIndex > index) {
-      parts.push(<span key={`${prefix}-text-${index}`}>{cleanLatex(value.slice(index, fracIndex))}</span>);
-    }
-
-    const numerator = readLatexGroup(value, fracIndex + 5);
-    const denominator = numerator ? readLatexGroup(value, numerator.end) : null;
-
-    if (!numerator || !denominator) {
-      parts.push(<span key={`${prefix}-bad-${fracIndex}`}>{cleanLatex(value.slice(fracIndex))}</span>);
-      break;
-    }
-
-    parts.push(
-      <span className="latex-fraction" key={`${prefix}-frac-${fracIndex}`}>
-        <span>{renderLatexish(numerator.content, `${prefix}-n-${fracIndex}`)}</span>
-        <span>{renderLatexish(denominator.content, `${prefix}-d-${fracIndex}`)}</span>
-      </span>
+  try {
+    return (
+      <span
+        className="latex-rendered"
+        dangerouslySetInnerHTML={{
+          __html: katex.renderToString(normalizeLatex(value), {
+            displayMode: false,
+            throwOnError: false,
+            strict: false,
+            trust: false
+          })
+        }}
+      />
     );
-    index = denominator.end;
+  } catch {
+    return <span>{value}</span>;
   }
-
-  return parts;
 };
-
-const cleanLatex = (value) =>
-  value
-    .replace(/\\times/g, "x")
-    .replace(/\\div/g, "/")
-    .replace(/\\quad/g, " ")
-    .replace(/\\cdots/g, "...")
-    .replace(/\\ldots/g, "...")
-    .replace(/\\bmod/g, "mod")
-    .replace(/\\circ/g, " deg")
-    .replace(/\\subset/g, " subset ")
-    .replace(/\\to/g, "->")
-    .replace(/\\Rightarrow/g, "=>")
-    .replace(/\\sqrt\{([^{}]+)\}/g, "sqrt($1)")
-    .replace(/\\sum_\{([^{}]+)\}\^\{([^{}]+)\}/g, "sum($1 to $2)")
-    .replace(/\\int_\{([^{}]+)\}\^\{([^{}]+)\}/g, "int($1 to $2)")
-    .replace(/\\lfloor/g, "floor(")
-    .replace(/\\rfloor/g, ")")
-    .replace(/\\infty/g, "infinity")
-    .replace(/\\ln/g, "ln")
-    .replace(/\\log/g, "log")
-    .replace(/\\det/g, "det")
-    .replace(/\\phi/g, "phi")
-    .replace(/\\bigg\|/g, "|")
-    .replace(/\\text\{([^{}]+)\}/g, "$1")
-    .replace(/\\binom\{([^{}]+)\}\{([^{}]+)\}/g, "C($1,$2)")
-    .replace(/\\%/g, "%")
-    .replace(/\^\{([^{}]+)\}/g, "^$1")
-    .replace(/_\{([^{}]+)\}/g, "_$1")
-    .replace(/\\/g, "")
-    .replace(/\s+/g, " ");
 
 const QuestionDisplay = ({ question, fallback }) => (
   <div className="question">
     {question?.category && <span className="question-tag">{question.category}</span>}
     {question?.q && <p className="question-prompt">{question.q}</p>}
-    <div className="question-main">{question ? renderLatexish(question.latex || question.q) : fallback}</div>
+    <div className="question-main">{question ? <LatexFormula value={question.latex || question.q} /> : fallback}</div>
     {question?.hint && <small>{question.hint}</small>}
   </div>
 );
