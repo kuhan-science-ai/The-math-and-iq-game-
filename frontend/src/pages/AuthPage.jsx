@@ -1,4 +1,4 @@
-import { Brain, Lock, Mail, User } from "lucide-react";
+import { Brain, Gauge, Lock, Mail, MousePointerClick, Sigma, Trophy, User, Zap } from "lucide-react";
 import React from "react";
 import { useState } from "react";
 import { useAuth } from "../context/AuthContext.jsx";
@@ -95,6 +95,21 @@ export const AuthPage = () => {
         </div>
         <h1>Train faster thinking with competitive daily drills.</h1>
         <p>Sharpen mental math, logic, reaction time, focus, and accuracy with XP, levels, streaks, and global rankings.</p>
+        <div className="visitor-preview" aria-label="Brain Boost training preview">
+          <button type="button" className="preview-chip active"><Sigma size={18} /> Math Rush</button>
+          <button type="button" className="preview-chip"><Gauge size={18} /> Reaction</button>
+          <button type="button" className="preview-chip"><Trophy size={18} /> League</button>
+          <div className="preview-orbit">
+            <span><Zap size={22} /></span>
+            <strong>2.5x</strong>
+            <small>boost ready</small>
+          </div>
+          <div className="preview-card">
+            <MousePointerClick size={18} />
+            <strong>Click. Solve. Climb.</strong>
+            <small>Live drills, XP rewards, rotating shards.</small>
+          </div>
+        </div>
         <div className="hero-stats">
           <span><b>4</b> game modes</span>
           <span><b>50</b> levels</span>
