@@ -1,4 +1,4 @@
-import { rewardsForLevel, sanitizeEquippedRewards } from "./rewards.js";
+import { mergeRewards, rewardsForLevel, sanitizeEquippedRewards } from "./rewards.js";
 
 const MODES = ["speedMath", "aptitude", "reaction", "challenge"];
 
@@ -9,7 +9,44 @@ export const emptyScores = () => ({
   challenge: 0
 });
 
-export const calculateLevel = (xp) => Math.min(50, Math.floor(xp / 250) + 1);
+export const xpRequiredForLevelUp = (level = 1) => 200 + Math.max(1, Number(level || 1)) * 50;
+
+export const xpForLevel = (level = 1) => {
+  const targetLevel = Math.min(50, Math.max(1, Math.floor(Number(level || 1))));
+  let total = 0;
+  for (let currentLevel = 1; currentLevel < targetLevel; currentLevel += 1) {
+    total += xpRequiredForLevelUp(currentLevel);
+  }
+  return total;
+};
+
+export const calculateLevel = (xp) => {
+  const totalXp = Math.max(0, Number(xp || 0));
+  let level = 1;
+
+  while (level < 50 && totalXp >= xpForLevel(level + 1)) {
+    level += 1;
+  }
+
+  return level;
+};
+
+export const levelProgress = (xp) => {
+  const totalXp = Math.max(0, Number(xp || 0));
+  const level = calculateLevel(totalXp);
+  const currentLevelXp = xpForLevel(level);
+  const nextLevelXp = level >= 50 ? currentLevelXp : xpForLevel(level + 1);
+  const required = Math.max(0, nextLevelXp - currentLevelXp);
+  const progress = level >= 50 ? required : totalXp - currentLevelXp;
+
+  return {
+    level,
+    progress,
+    required,
+    remaining: Math.max(0, required - progress),
+    nextLevelXp
+  };
+};
 
 export const calculateXpGain = ({ mode, score, accuracy = 0, reactionTime }) => {
   if (mode === "reaction") {
@@ -40,7 +77,11 @@ export const updateStreak = (user, playedAt = new Date()) => {
 
 export const normalizeUser = (user) => {
   const obj = typeof user.toObject === "function" ? user.toObject() : { ...user };
-  const earnedRewards = obj.earnedRewards || obj.rewards || rewardsForLevel(obj.level || 1);
+  const xp = obj.xp || 0;
+  const progress = levelProgress(xp);
+  const existingRewards = obj.earnedRewards || obj.rewards || [];
+  const collectibleBackfill = rewardsForLevel(progress.level).filter((reward) => reward.category !== "consumable");
+  const earnedRewards = mergeRewards(existingRewards, collectibleBackfill);
   const equippedRewards = sanitizeEquippedRewards(obj.equippedRewards || {}, earnedRewards);
   const activeXpBoost = obj.activeXpBoost?.expiresAt && new Date(obj.activeXpBoost.expiresAt).getTime() > Date.now()
     ? obj.activeXpBoost
@@ -50,8 +91,9 @@ export const normalizeUser = (user) => {
     id: String(obj._id || obj.id),
     name: obj.name,
     email: obj.email,
-    xp: obj.xp || 0,
-    level: obj.level || 1,
+    xp,
+    level: progress.level,
+    xpProgress: progress,
     streak: obj.streak || 0,
     bestScores: { ...emptyScores(), ...(obj.bestScores || {}) },
     accuracy: { ...emptyScores(), ...(obj.accuracy || {}) },

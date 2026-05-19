@@ -13,6 +13,19 @@ const cosmeticRewards = {
 
 const minorNames = ["XP Spark", "Focus Token", "Accuracy Chip", "Logic Shard", "Speed Core", "Streak Gem"];
 
+const milestoneShards = {
+  5: ["sigma-sapphire-shard", "Sigma Sapphire Shard", "Blue", "Sigma"],
+  10: ["plus-ruby-shard", "Plus Ruby Shard", "Red", "Addition"],
+  15: ["radical-emerald-shard", "Radical Emerald Shard", "Green", "Radicals"],
+  20: ["pi-amethyst-shard", "Pi Amethyst Shard", "Purple", "Pi"],
+  25: ["power-topaz-shard", "Power Topaz Shard", "Gold", "Powers"],
+  30: ["sigma-sapphire-prism", "Sigma Sapphire Prism", "Blue", "Advanced sums"],
+  35: ["plus-ruby-prism", "Plus Ruby Prism", "Red", "Rapid arithmetic"],
+  40: ["radical-emerald-prism", "Radical Emerald Prism", "Green", "Root mastery"],
+  45: ["pi-amethyst-prism", "Pi Amethyst Prism", "Purple", "Pattern mastery"],
+  50: ["power-topaz-prism", "Power Topaz Prism", "Gold", "Grandmaster powers"]
+};
+
 const rarityConfig = {
   Common: { multiplier: 1.25, minutes: 10 },
   Rare: { multiplier: 1.5, minutes: 15 },
@@ -79,7 +92,23 @@ const multiplierReward = (level) => {
   };
 };
 
-const rewardsForRoadLevel = (level) => [tokenReward(level), cosmeticReward(level), multiplierReward(level)].filter(Boolean);
+const shardReward = (level) => {
+  const shard = milestoneShards[level];
+  if (!shard) return null;
+  const [slug, name, color, theme] = shard;
+  return {
+    id: `level-${level}-${slug}`,
+    level,
+    name,
+    type: "shard",
+    category: "collectible",
+    rarity: rarityForLevel(level),
+    color,
+    description: `${color} math shard earned at Level ${level} for ${theme}.`
+  };
+};
+
+const rewardsForRoadLevel = (level) => [tokenReward(level), shardReward(level), cosmeticReward(level), multiplierReward(level)].filter(Boolean);
 
 export const rewardPath = Array.from({ length: 49 }, (_, index) => rewardsForRoadLevel(index + 2)).flat();
 

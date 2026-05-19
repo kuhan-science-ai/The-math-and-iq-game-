@@ -2,11 +2,13 @@ import { Activity, Flame, Gift, Play, Star, Target, Trophy } from "lucide-react"
 import React from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 import { modes } from "../lib/api.js";
+import { levelProgress as getLevelProgress } from "../lib/progression.js";
 import { activeBoostLabel, rewardCountForLevel } from "../lib/rewards.js";
 
 export const Dashboard = ({ goTrain, goRewards }) => {
   const { user } = useAuth();
-  const levelProgress = user.xp % 250;
+  const xpProgress = user.xpProgress || getLevelProgress(user.xp);
+  const barWidth = xpProgress.required ? (xpProgress.progress / xpProgress.required) * 100 : 100;
 
   return (
     <section className="screen">
@@ -29,8 +31,8 @@ export const Dashboard = ({ goTrain, goRewards }) => {
             <p>{user.email}</p>
           </div>
           <div className="xp-wrap">
-            <span>{levelProgress}/250 XP to next level</span>
-            <div className="xp-bar"><i style={{ width: `${(levelProgress / 250) * 100}%` }} /></div>
+            <span>{xpProgress.progress}/{xpProgress.required} XP to next level</span>
+            <div className="xp-bar"><i style={{ width: `${barWidth}%` }} /></div>
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 import express from "express";
 import { requireAuth } from "../middleware/auth.js";
-import { calculateLevel, normalizeUser } from "../services/progress.js";
+import { calculateLevel, normalizeUser, xpForLevel, xpRequiredForLevelUp } from "../services/progress.js";
 import { updateUser } from "../services/firestoreStore.js";
 import { findReward, rewardsForLevel } from "../services/rewards.js";
 
@@ -82,8 +82,6 @@ router.post("/rewards/equip", requireAuth, async (req, res) => {
   return res.json({ message: `${reward.name} equipped.`, user: normalizeUser(updatedUser) });
 });
 
-const xpForLevel = (level) => (clamp(level, 1, 50) - 1) * 250;
-
 const syncFromXp = (user) => {
   user.xp = Math.max(0, Number(user.xp || 0));
   user.level = calculateLevel(user.xp);
@@ -143,15 +141,17 @@ const applyCheatCode = (user, code) => {
   }
 
   if (code === "xp-up") {
-    user.xp = Math.max(0, (user.xp || 0) + 250);
+    const amount = xpRequiredForLevelUp(user.level || 1);
+    user.xp = Math.max(0, (user.xp || 0) + amount);
     syncFromXp(user);
-    return { ok: true, message: `Added 250 XP. Level is now ${user.level}.` };
+    return { ok: true, message: `Added ${amount} XP. Level is now ${user.level}.` };
   }
 
   if (code === "xp-down") {
-    user.xp = Math.max(0, (user.xp || 0) - 250);
+    const amount = xpRequiredForLevelUp(Math.max(1, user.level || 1));
+    user.xp = Math.max(0, (user.xp || 0) - amount);
     syncFromXp(user);
-    return { ok: true, message: `Removed 250 XP. Level is now ${user.level}.` };
+    return { ok: true, message: `Removed ${amount} XP. Level is now ${user.level}.` };
   }
 
   if (setLevelCode) {

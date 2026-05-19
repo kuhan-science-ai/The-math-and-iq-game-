@@ -1,4 +1,4 @@
-import { Check, Gift, Lock, Sparkles, Timer, Trophy, Zap } from "lucide-react";
+import { Check, Gem, Gift, Lock, Sparkles, Timer, Trophy, Zap } from "lucide-react";
 import React from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 import { api } from "../lib/api.js";
@@ -10,6 +10,7 @@ export const Rewards = ({ goTrain }) => {
   const unlockedCount = rewardCountForLevel(user.level);
   const earnedRewards = user.earnedRewards || user.rewards || [];
   const consumables = earnedRewards.filter((reward) => reward.category === "consumable");
+  const shards = earnedRewards.filter((reward) => reward.type === "shard");
 
   const useReward = async (rewardId) => {
     const data = await api("/user/rewards/use", {
@@ -78,6 +79,26 @@ export const Rewards = ({ goTrain }) => {
           ))
         ) : (
           <div className="empty-state">No XP multipliers waiting. Reach a multiple of 5 levels to earn one.</div>
+        )}
+      </div>
+
+      <div className="section-title">
+        <h2>Milestone shards</h2>
+        <span>Crystal rewards for major level milestones</span>
+      </div>
+
+      <div className="shard-grid">
+        {shards.length ? (
+          shards.map((reward) => (
+            <article className={`shard-card shard-${String(reward.color || "").toLowerCase()}`} key={reward.id}>
+              <div className="shard-gem"><Gem size={26} /></div>
+              <h3>{reward.name}</h3>
+              <p>{reward.description}</p>
+              <small>{reward.rarity}</small>
+            </article>
+          ))
+        ) : (
+          <div className="empty-state">No milestone shards yet. Reach Level 5 to earn the first one.</div>
         )}
       </div>
 
