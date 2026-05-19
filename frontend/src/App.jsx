@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { useAuth } from "./context/AuthContext.jsx";
 import { AuthPage } from "./pages/AuthPage.jsx";
+import { CheatConsole } from "./components/CheatConsole.jsx";
 import { Dashboard } from "./pages/Dashboard.jsx";
 import { GameArena } from "./pages/GameArena.jsx";
 import { Leaderboard } from "./pages/Leaderboard.jsx";
@@ -50,6 +51,7 @@ export const App = () => {
         {view === "games" && <GameArena />}
         {view === "leaderboard" && <Leaderboard />}
       </main>
+      <CheatConsole />
     </div>
   );
 };
