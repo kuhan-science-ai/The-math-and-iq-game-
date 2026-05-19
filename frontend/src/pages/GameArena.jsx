@@ -120,27 +120,58 @@ const reactionPrompts = [
   { target: "orange", label: "Click on orange", className: "go-orange" }
 ];
 
-const renderLatexish = (value) => {
+const readLatexGroup = (value, start) => {
+  let depth = 0;
+  let content = "";
+
+  for (let index = start; index < value.length; index += 1) {
+    const char = value[index];
+    if (char === "{") {
+      if (depth > 0) content += char;
+      depth += 1;
+    } else if (char === "}") {
+      depth -= 1;
+      if (depth === 0) return { content, end: index + 1 };
+      content += char;
+    } else {
+      content += char;
+    }
+  }
+
+  return null;
+};
+
+const renderLatexish = (value, prefix = "latex") => {
   if (!value) return null;
   const parts = [];
-  let rest = value;
-  let key = 0;
-  const fractionPattern = /\\frac\{([^{}]+)\}\{([^{}]+)\}/;
+  let index = 0;
 
-  while (rest.length) {
-    const match = rest.match(fractionPattern);
-    if (!match || match.index == null) {
-      parts.push(<span key={key++}>{cleanLatex(rest)}</span>);
+  while (index < value.length) {
+    const fracIndex = value.indexOf("\\frac", index);
+    if (fracIndex === -1) {
+      parts.push(<span key={`${prefix}-text-${index}`}>{cleanLatex(value.slice(index))}</span>);
       break;
     }
-    if (match.index > 0) parts.push(<span key={key++}>{cleanLatex(rest.slice(0, match.index))}</span>);
+
+    if (fracIndex > index) {
+      parts.push(<span key={`${prefix}-text-${index}`}>{cleanLatex(value.slice(index, fracIndex))}</span>);
+    }
+
+    const numerator = readLatexGroup(value, fracIndex + 5);
+    const denominator = numerator ? readLatexGroup(value, numerator.end) : null;
+
+    if (!numerator || !denominator) {
+      parts.push(<span key={`${prefix}-bad-${fracIndex}`}>{cleanLatex(value.slice(fracIndex))}</span>);
+      break;
+    }
+
     parts.push(
-      <span className="latex-fraction" key={key++}>
-        <span>{cleanLatex(match[1])}</span>
-        <span>{cleanLatex(match[2])}</span>
+      <span className="latex-fraction" key={`${prefix}-frac-${fracIndex}`}>
+        <span>{renderLatexish(numerator.content, `${prefix}-n-${fracIndex}`)}</span>
+        <span>{renderLatexish(denominator.content, `${prefix}-d-${fracIndex}`)}</span>
       </span>
     );
-    rest = rest.slice(match.index + match[0].length);
+    index = denominator.end;
   }
 
   return parts;
