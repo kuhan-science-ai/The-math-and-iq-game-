@@ -1,4 +1,12 @@
-export const xpRequiredForLevelUp = (level = 1) => 200 + Math.max(1, Number(level || 1)) * 50;
+const BASE_LEVEL_XP = 250;
+const LEVEL_XP_GROWTH = 1.12;
+const LEVEL_XP_ROUNDING = 25;
+
+export const xpRequiredForLevelUp = (level = 1) => {
+  const currentLevel = Math.max(1, Math.floor(Number(level || 1)));
+  const rawRequirement = BASE_LEVEL_XP * LEVEL_XP_GROWTH ** (currentLevel - 1);
+  return Math.round(rawRequirement / LEVEL_XP_ROUNDING) * LEVEL_XP_ROUNDING;
+};
 
 export const xpForLevel = (level = 1) => {
   const targetLevel = Math.min(50, Math.max(1, Math.floor(Number(level || 1))));
