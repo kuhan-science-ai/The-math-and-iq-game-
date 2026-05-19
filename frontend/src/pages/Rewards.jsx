@@ -102,6 +102,11 @@ export const Rewards = ({ goTrain }) => {
         )}
       </div>
 
+      <div className="section-title reward-road-title">
+        <h2>Level road</h2>
+        <span>Swipe sideways to see every milestone reward</span>
+      </div>
+
       <div className="reward-road" aria-label="Level reward path">
         {rewardPath.map((reward) => {
           const unlocked = user.level >= reward.level;

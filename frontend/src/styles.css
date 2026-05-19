@@ -1144,7 +1144,29 @@ button:disabled {
 
 .reward-road {
   display: grid;
-  gap: 0.8rem;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(260px, 320px);
+  gap: 0.9rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.35rem 0.2rem 1rem;
+  scroll-padding-inline: 0.2rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: var(--cyan) rgba(255, 255, 255, 0.08);
+}
+
+.reward-road::-webkit-scrollbar {
+  height: 10px;
+}
+
+.reward-road::-webkit-scrollbar-track {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.reward-road::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--green), var(--cyan), var(--purple));
 }
 
 .earned-grid {
@@ -1389,20 +1411,24 @@ button:disabled {
 .reward-node {
   position: relative;
   display: grid;
-  grid-template-columns: 120px 48px 1fr auto;
-  gap: 0.9rem;
-  align-items: center;
-  padding: 0.9rem;
+  min-height: 230px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 1rem;
+  scroll-snap-align: start;
 }
 
 .reward-node::before {
   content: "";
   position: absolute;
-  left: 152px;
-  top: -0.8rem;
-  width: 2px;
-  height: 0.8rem;
-  background: var(--line);
+  left: -0.9rem;
+  top: 50%;
+  width: 0.9rem;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--line));
+  transform: translateY(-50%);
 }
 
 .reward-node:first-child::before {
@@ -1423,6 +1449,7 @@ button:disabled {
   gap: 0.45rem;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   color: #d9f7e8;
   font-weight: 850;
 }
@@ -1445,6 +1472,15 @@ button:disabled {
 .reward-node h3,
 .reward-node p {
   margin: 0;
+}
+
+.reward-node h3 {
+  line-height: 1.15;
+}
+
+.reward-node p {
+  font-size: 0.88rem;
+  line-height: 1.45;
 }
 
 .profile-showcase {
@@ -1588,10 +1624,6 @@ button:disabled {
     grid-template-columns: repeat(5, 1fr);
   }
 
-  .reward-node::before {
-    left: 1.5rem;
-  }
-
   .logout {
     margin-top: 0;
   }
@@ -1632,5 +1664,9 @@ button:disabled {
 
   .mode-tabs button {
     min-width: max-content;
+  }
+
+  .reward-road {
+    grid-auto-columns: minmax(230px, 82vw);
   }
 }
