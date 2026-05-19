@@ -1,21 +1,72 @@
 import { Activity, Flame, Gift, Play, Star, Target, Trophy } from "lucide-react";
 import React from "react";
+import { useEffect, useRef, useState } from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 import { modes } from "../lib/api.js";
-import { levelProgress as getLevelProgress } from "../lib/progression.js";
+import { levelProgress as getLevelProgress, xpForLevel } from "../lib/progression.js";
 import { activeBoostLabel, rewardCountForLevel } from "../lib/rewards.js";
 
 export const Dashboard = ({ goTrain, goRewards }) => {
   const { user } = useAuth();
   const xpProgress = user.xpProgress || getLevelProgress(user.xp);
-  const barWidth = xpProgress.required ? (xpProgress.progress / xpProgress.required) * 100 : 100;
+  const storedLevel = Number(localStorage.getItem("brainBoostSeenLevel") || user.level);
+  const shouldAnimateFromStoredLevel = storedLevel < user.level;
+  const storedLevelProgress = getLevelProgress(Math.min(user.xp, xpForLevel(storedLevel + 1) - 1));
+  const previousLevelRef = useRef(storedLevel);
+  const previousProgressRef = useRef(storedLevelProgress);
+  const [displayLevel, setDisplayLevel] = useState(shouldAnimateFromStoredLevel ? storedLevel : user.level);
+  const [displayProgress, setDisplayProgress] = useState(shouldAnimateFromStoredLevel ? storedLevelProgress : xpProgress);
+  const [levelingUp, setLevelingUp] = useState(false);
+  const barWidth = displayProgress.required ? (displayProgress.progress / displayProgress.required) * 100 : 100;
+
+  useEffect(() => {
+    const previousLevel = previousLevelRef.current;
+    const previousProgress = previousProgressRef.current;
+    const didLevelUp = user.level > previousLevel;
+    let fillTimer;
+    let resetTimer;
+    let settleTimer;
+
+    if (didLevelUp) {
+      setDisplayLevel(previousLevel);
+      setDisplayProgress({ ...previousProgress, progress: previousProgress.required });
+      setLevelingUp(true);
+
+      fillTimer = setTimeout(() => {
+        setDisplayLevel(user.level);
+        setDisplayProgress({ ...xpProgress, progress: 0 });
+      }, 650);
+
+      resetTimer = setTimeout(() => {
+        setDisplayProgress(xpProgress);
+      }, 920);
+
+      settleTimer = setTimeout(() => {
+        setLevelingUp(false);
+      }, 1500);
+    } else {
+      setDisplayLevel(user.level);
+      setDisplayProgress(xpProgress);
+      setLevelingUp(false);
+    }
+
+    previousLevelRef.current = user.level;
+    previousProgressRef.current = xpProgress;
+    localStorage.setItem("brainBoostSeenLevel", String(user.level));
+
+    return () => {
+      clearTimeout(fillTimer);
+      clearTimeout(resetTimer);
+      clearTimeout(settleTimer);
+    };
+  }, [user.level, user.xp, xpProgress.progress, xpProgress.required, xpProgress.remaining, xpProgress.nextLevelXp]);
 
   return (
     <section className="screen">
       <div className="topline">
         <div>
           <p className="eyebrow">Welcome back, {user.name}</p>
-          <h1>Level {user.level} cognitive athlete</h1>
+          <h1>Level {displayLevel} cognitive athlete</h1>
         </div>
         <div className="topline-actions">
           <button className="secondary compact" onClick={goRewards}><Gift size={18} /> Reward path</button>
@@ -24,15 +75,16 @@ export const Dashboard = ({ goTrain, goRewards }) => {
       </div>
 
       <div className="profile-grid">
-        <div className="profile-panel">
+        <div className={`profile-panel ${levelingUp ? "leveling-up" : ""}`}>
           <div className="avatar">{user.name.slice(0, 1).toUpperCase()}</div>
           <div>
             <h2>{user.name}</h2>
             <p>{user.email}</p>
           </div>
           <div className="xp-wrap">
-            <span>{xpProgress.progress}/{xpProgress.required} XP to next level</span>
-            <div className="xp-bar"><i style={{ width: `${barWidth}%` }} /></div>
+            <span>{levelingUp ? "Level up! XP bar reset for the next level." : `${displayProgress.progress}/${displayProgress.required} XP to next level`}</span>
+            <div className={`xp-bar ${levelingUp ? "level-flash" : ""}`}><i style={{ width: `${barWidth}%` }} /></div>
+            {levelingUp && <strong className="level-up-burst">Level {displayLevel}</strong>}
           </div>
         </div>
 

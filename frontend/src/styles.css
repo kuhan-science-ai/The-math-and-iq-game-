@@ -600,11 +600,27 @@ button:disabled {
 }
 
 .profile-panel {
+  position: relative;
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem;
   align-items: center;
   padding: 1rem;
+  overflow: hidden;
+}
+
+.profile-panel.leveling-up {
+  border-color: rgba(50, 246, 154, 0.58);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28), 0 0 42px rgba(50, 246, 154, 0.18), 0 0 56px rgba(157, 99, 255, 0.16);
+}
+
+.profile-panel.leveling-up::after {
+  position: absolute;
+  inset: -40%;
+  content: "";
+  background: conic-gradient(from 0deg, transparent, rgba(50, 246, 154, 0.2), rgba(67, 215, 255, 0.16), rgba(157, 99, 255, 0.22), transparent);
+  animation: levelGlowSweep 1.35s ease-out;
+  pointer-events: none;
 }
 
 .avatar {
@@ -620,15 +636,28 @@ button:disabled {
 }
 
 .xp-wrap {
+  position: relative;
   grid-column: 1 / -1;
+  display: grid;
+  gap: 0.45rem;
 }
 
 .xp-bar {
+  position: relative;
   height: 12px;
   overflow: hidden;
   border-radius: 999px;
   background: #080b18;
   box-shadow: inset 0 0 0 1px rgba(160, 180, 255, 0.08);
+}
+
+.xp-bar::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.32), transparent);
+  opacity: 0;
+  transform: translateX(-100%);
 }
 
 .xp-bar i {
@@ -637,7 +666,27 @@ button:disabled {
   border-radius: inherit;
   background: linear-gradient(90deg, var(--green), var(--cyan), var(--purple));
   box-shadow: 0 0 18px var(--glow-blue);
-  transition: width 0.45s ease;
+  transition: width 0.62s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.xp-bar.level-flash {
+  box-shadow: inset 0 0 0 1px rgba(50, 246, 154, 0.24), 0 0 28px rgba(50, 246, 154, 0.2);
+  animation: xpPulse 1.25s ease-out;
+}
+
+.xp-bar.level-flash::after {
+  animation: xpSweep 0.95s ease-out;
+}
+
+.level-up-burst {
+  justify-self: start;
+  border: 1px solid rgba(50, 246, 154, 0.42);
+  border-radius: 999px;
+  background: rgba(50, 246, 154, 0.12);
+  color: var(--green);
+  padding: 0.32rem 0.7rem;
+  font-size: 0.82rem;
+  animation: levelBadgePop 1.15s ease-out both;
 }
 
 .stat-card,
@@ -932,6 +981,58 @@ button:disabled {
   }
   100% {
     transform: rotate(360deg) scaleX(1.18);
+  }
+}
+
+@keyframes xpSweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  22% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+@keyframes xpPulse {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  38% {
+    transform: scaleY(1.35);
+  }
+}
+
+@keyframes levelBadgePop {
+  0% {
+    opacity: 0;
+    transform: translateY(8px) scale(0.92);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(0) scale(1.04);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes levelGlowSweep {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.8);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(130deg) scale(1.08);
   }
 }
 
