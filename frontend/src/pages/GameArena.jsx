@@ -7,7 +7,9 @@ import { useAuth } from "../context/AuthContext.jsx";
 import { api, modes } from "../lib/api.js";
 import { aptitudeCounts, aptitudeLevels } from "../lib/aptitudeQuestions.js";
 
-const aptitudeBank = Object.values(aptitudeLevels).flatMap((level) => level.questions);
+const aptitudeBank = Object.entries(aptitudeLevels).flatMap(([level, config]) =>
+  config.questions.map((question) => ({ ...question, level }))
+);
 
 
 const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
@@ -149,14 +151,19 @@ const LatexFormula = ({ value }) => {
   }
 };
 
-const QuestionDisplay = ({ question, fallback }) => (
-  <div className="question">
-    {question?.category && <span className="question-tag">{question.category}</span>}
-    {question?.q && <p className="question-prompt">{question.q}</p>}
-    <div className="question-main">{question ? <LatexFormula value={question.latex || question.q} /> : fallback}</div>
-    {question?.hint && <small>{question.hint}</small>}
-  </div>
-);
+const QuestionDisplay = ({ question, fallback }) => {
+  const questionOnly = question?.level === "impossible";
+
+  return (
+    <div className="question">
+      {question?.category && <span className="question-tag">{question.category}</span>}
+      <div className={questionOnly ? "question-prompt question-only" : "question-main"}>
+        {question ? (questionOnly ? question.q : <LatexFormula value={question.latex || question.q} />) : fallback}
+      </div>
+      {question?.hint && !questionOnly && <small>{question.hint}</small>}
+    </div>
+  );
+};
 
 export const GameArena = () => {
   const [mode, setMode] = useState("speedMath");
@@ -293,6 +300,7 @@ const AptitudeMode = () => {
     const pool = levelConfig.questions;
     const questions = Array.from({ length: questionCount }, (_, questionIndex) => ({
       ...shuffle(pool)[questionIndex % pool.length],
+      level,
       roundId: `${level}-${questionIndex}-${Math.random()}`
     }));
 

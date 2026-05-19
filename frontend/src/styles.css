@@ -565,6 +565,11 @@ button:disabled {
   color: var(--green);
 }
 
+.question-only {
+  font-size: clamp(0.88rem, 1.6vw, 1.06rem);
+  line-height: 1.45;
+}
+
 .latex-rendered {
   display: inline-block;
   max-width: 100%;
