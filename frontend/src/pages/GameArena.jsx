@@ -11,6 +11,7 @@ const aptitudeBank = Object.entries(aptitudeLevels).flatMap(([level, config]) =>
   config.questions.map((question) => ({ ...question, level }))
 );
 
+const defaultAptitudeLevel = Object.keys(aptitudeLevels)[0] || "insane";
 
 const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const pick = (items) => items[randomInt(0, items.length - 1)];
@@ -301,7 +302,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
 
 const AptitudeMode = () => {
   const { setUser } = useAuth();
-  const [level, setLevel] = useState("easy");
+  const [level, setLevel] = useState(defaultAptitudeLevel);
   const [questionCount, setQuestionCount] = useState(10);
   const [roundQuestions, setRoundQuestions] = useState([]);
   const [index, setIndex] = useState(0);
