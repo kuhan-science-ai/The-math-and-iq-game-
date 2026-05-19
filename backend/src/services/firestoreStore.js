@@ -23,6 +23,7 @@ export const createUser = async ({ name, email, password, authProvider = "local"
     accuracy: emptyScores(),
     totalGamesPlayed: 0,
     recentActivity: [],
+    rewards: [],
     authProvider,
     firebaseUid,
     createdAt: now,

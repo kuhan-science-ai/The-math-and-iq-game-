@@ -1,3 +1,5 @@
+import { rewardsForLevel } from "./rewards.js";
+
 const MODES = ["speedMath", "aptitude", "reaction", "challenge"];
 
 export const emptyScores = () => ({
@@ -48,7 +50,8 @@ export const normalizeUser = (user) => {
     bestScores: { ...emptyScores(), ...(obj.bestScores || {}) },
     accuracy: { ...emptyScores(), ...(obj.accuracy || {}) },
     totalGamesPlayed: obj.totalGamesPlayed || 0,
-    recentActivity: obj.recentActivity || []
+    recentActivity: obj.recentActivity || [],
+    rewards: obj.rewards || rewardsForLevel(obj.level || 1)
   };
 };
 

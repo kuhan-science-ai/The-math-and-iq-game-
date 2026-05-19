@@ -1,4 +1,4 @@
-import { BrainCircuit, Timer, Zap } from "lucide-react";
+import { BrainCircuit, Gift, Timer, Zap } from "lucide-react";
 import React from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import katex from "katex";
@@ -165,6 +165,21 @@ const QuestionDisplay = ({ question, fallback }) => {
   );
 };
 
+const RewardUnlock = ({ rewards = [] }) => {
+  if (!rewards.length) return null;
+
+  return (
+    <div className="reward-unlock" aria-live="polite">
+      <div className="party-poppers">
+        {Array.from({ length: 16 }, (_, particle) => <i key={particle} style={{ "--i": particle }} />)}
+      </div>
+      <span><Gift size={20} /> Level reward unlocked</span>
+      <strong>{rewards.map((reward) => reward.name).join(", ")}</strong>
+      <small>Added to your reward path.</small>
+    </div>
+  );
+};
+
 export const GameArena = () => {
   const [mode, setMode] = useState("speedMath");
 
@@ -201,6 +216,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
   const [correct, setCorrect] = useState(0);
   const [attempts, setAttempts] = useState(0);
   const [message, setMessage] = useState("");
+  const [newRewards, setNewRewards] = useState([]);
   const savedRef = useRef(false);
   const difficulty = Math.min(5, Math.floor(correct / 5) + 1);
 
@@ -212,6 +228,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
     setQuestion(generator(1));
     setAnswer("");
     setMessage("");
+    setNewRewards([]);
     setRunning(true);
     const timer = setInterval(() => {
       setTime((value) => {
@@ -235,6 +252,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
         body: JSON.stringify({ mode, score: correct, accuracy })
       });
       setUser(data.user);
+      setNewRewards(data.newRewards || []);
       setMessage(`Saved ${correct} points and earned ${data.xpGain} XP.`);
     };
 
@@ -267,6 +285,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
         {challenge && <span>Difficulty {difficulty}</span>}
       </div>
       <h2>{title}</h2>
+      <RewardUnlock rewards={newRewards} />
       {running ? <QuestionDisplay question={question} /> : <QuestionDisplay fallback="Ready?" />}
       {running && question.options ? (
         <div className="options">{question.options.map((option) => <button key={option} onClick={() => chooseOption(option)}>{option}</button>)}</div>
@@ -293,6 +312,7 @@ const AptitudeMode = () => {
   const [done, setDone] = useState(false);
   const [celebrate, setCelebrate] = useState(false);
   const [message, setMessage] = useState("");
+  const [newRewards, setNewRewards] = useState([]);
   const levelConfig = aptitudeLevels[level];
   const current = roundQuestions[index];
 
@@ -309,6 +329,7 @@ const AptitudeMode = () => {
     setCorrect(0);
     setDone(false);
     setMessage("");
+    setNewRewards([]);
     setStarted(true);
   };
 
@@ -323,6 +344,7 @@ const AptitudeMode = () => {
         body: JSON.stringify({ mode: "aptitude", score, accuracy })
       });
       setUser(data.user);
+      setNewRewards(data.newRewards || []);
       setDone(true);
       setCelebrate(true);
       setMessage(`${levelConfig.label} round saved. Score ${score}, ${accuracy}% accuracy, +${data.xpGain} XP.`);
@@ -340,6 +362,7 @@ const AptitudeMode = () => {
     setDone(false);
     setCelebrate(false);
     setMessage("");
+    setNewRewards([]);
   };
 
   return (
@@ -351,6 +374,7 @@ const AptitudeMode = () => {
         <span>{levelConfig.multiplier}x XP pace</span>
       </div>
       <h2>Aptitude Logic Set</h2>
+      <RewardUnlock rewards={newRewards} />
       {celebrate && (
         <div className="celebration" aria-live="polite">
           <div className="party-poppers">
@@ -403,6 +427,7 @@ const ReactionMode = () => {
   const [startedAt, setStartedAt] = useState(0);
   const [result, setResult] = useState(null);
   const [message, setMessage] = useState("");
+  const [newRewards, setNewRewards] = useState([]);
 
   const arm = () => {
     const nextPrompt = pick(reactionPrompts);
@@ -410,6 +435,7 @@ const ReactionMode = () => {
     setState("waiting");
     setResult(null);
     setMessage("");
+    setNewRewards([]);
     setTimeout(() => {
       setStartedAt(performance.now());
       setState("go");
@@ -431,6 +457,7 @@ const ReactionMode = () => {
       body: JSON.stringify({ mode: "reaction", score, accuracy: 100, reactionTime })
     });
     setUser(data.user);
+    setNewRewards(data.newRewards || []);
     setResult(reactionTime);
     setState("idle");
     setMessage(`Saved ${reactionTime}ms reaction. +${data.xpGain} XP.`);
@@ -443,11 +470,15 @@ const ReactionMode = () => {
   }, [state, result, prompt.label]);
 
   return (
-    <div className={`reaction-pad ${state} ${state === "go" ? prompt.className : ""}`} onClick={click}>
-      <h2>{panelText}</h2>
-      <p>{state === "idle" ? "Color, focus, and impulse-control drills rotate every attempt." : "React only after the panel changes color."}</p>
-      <button className="secondary" onClick={(event) => { event.stopPropagation(); arm(); }}>Arm test</button>
-      {message && <p>{message}</p>}
+    <div className="game-board">
+      <h2>Reaction Mode</h2>
+      <RewardUnlock rewards={newRewards} />
+      <div className={`reaction-pad ${state} ${state === "go" ? prompt.className : ""}`} onClick={click}>
+        <h2>{panelText}</h2>
+        <p>{state === "idle" ? "Color, focus, and impulse-control drills rotate every attempt." : "React only after the panel changes color."}</p>
+        <button className="secondary" onClick={(event) => { event.stopPropagation(); arm(); }}>Arm test</button>
+        {message && <p>{message}</p>}
+      </div>
     </div>
   );
 };

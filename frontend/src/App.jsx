@@ -1,4 +1,4 @@
-import { Brain, ChartNoAxesCombined, LogOut, Medal, UserRound } from "lucide-react";
+import { Brain, ChartNoAxesCombined, Gift, LogOut, Medal, UserRound } from "lucide-react";
 import React from "react";
 import { useState } from "react";
 import { useAuth } from "./context/AuthContext.jsx";
@@ -7,6 +7,7 @@ import { CheatConsole } from "./components/CheatConsole.jsx";
 import { Dashboard } from "./pages/Dashboard.jsx";
 import { GameArena } from "./pages/GameArena.jsx";
 import { Leaderboard } from "./pages/Leaderboard.jsx";
+import { Rewards } from "./pages/Rewards.jsx";
 
 export const App = () => {
   const { user, loading, logout } = useAuth();
@@ -36,6 +37,9 @@ export const App = () => {
           <button className={view === "games" ? "active" : ""} onClick={() => setView("games")}>
             <ChartNoAxesCombined size={18} /> Training
           </button>
+          <button className={view === "rewards" ? "active" : ""} onClick={() => setView("rewards")}>
+            <Gift size={18} /> Rewards
+          </button>
           <button className={view === "leaderboard" ? "active" : ""} onClick={() => setView("leaderboard")}>
             <Medal size={18} /> Leaderboard
           </button>
@@ -47,8 +51,9 @@ export const App = () => {
       </aside>
 
       <main className="main-panel">
-        {view === "dashboard" && <Dashboard goTrain={() => setView("games")} />}
+        {view === "dashboard" && <Dashboard goTrain={() => setView("games")} goRewards={() => setView("rewards")} />}
         {view === "games" && <GameArena />}
+        {view === "rewards" && <Rewards goTrain={() => setView("games")} />}
         {view === "leaderboard" && <Leaderboard />}
       </main>
       <CheatConsole />

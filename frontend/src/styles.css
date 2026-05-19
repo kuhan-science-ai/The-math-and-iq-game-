@@ -138,6 +138,8 @@ input:focus {
 .activity-panel,
 .game-board,
 .leaderboard,
+.reward-hero,
+.reward-node,
 .reaction-pad {
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -431,6 +433,12 @@ button:disabled {
   justify-content: space-between;
 }
 
+.topline-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
 .topline h1,
 .section-title h2 {
   margin: 0;
@@ -446,7 +454,7 @@ button:disabled {
 
 .profile-grid {
   display: grid;
-  grid-template-columns: minmax(280px, 2fr) repeat(3, 1fr);
+  grid-template-columns: minmax(280px, 2fr) repeat(4, 1fr);
   gap: 1rem;
 }
 
@@ -702,6 +710,35 @@ button:disabled {
   color: #d9f7e8;
 }
 
+.reward-unlock {
+  position: relative;
+  display: grid;
+  gap: 0.35rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 184, 77, 0.42);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(48, 232, 144, 0.16), rgba(255, 184, 77, 0.12));
+  padding: 1rem;
+  color: #fff7df;
+}
+
+.reward-unlock span {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  color: var(--orange);
+  font-weight: 850;
+}
+
+.reward-unlock strong {
+  color: var(--green);
+  font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+}
+
+.reward-unlock small {
+  color: #dbe9f8;
+}
+
 .party-poppers {
   position: absolute;
   inset: 0;
@@ -775,6 +812,123 @@ button:disabled {
   color: #d9e6f2;
 }
 
+.reward-hero {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.reward-hero h2 {
+  margin: 0.4rem 0;
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+.reward-hero p,
+.next-reward span,
+.reward-node p {
+  color: var(--muted);
+}
+
+.reward-orb {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  place-items: center;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--orange), var(--green));
+  color: #07120b;
+  box-shadow: 0 18px 48px rgba(48, 232, 144, 0.18);
+}
+
+.next-reward {
+  display: grid;
+  gap: 0.35rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #0b101b;
+  padding: 1rem;
+}
+
+.next-reward small,
+.reward-node small {
+  color: var(--orange);
+  font-size: 0.78rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.next-reward strong {
+  font-size: 1.25rem;
+}
+
+.reward-road {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.reward-node {
+  position: relative;
+  display: grid;
+  grid-template-columns: 120px 48px 1fr auto;
+  gap: 0.9rem;
+  align-items: center;
+  padding: 0.9rem;
+}
+
+.reward-node::before {
+  content: "";
+  position: absolute;
+  left: 152px;
+  top: -0.8rem;
+  width: 2px;
+  height: 0.8rem;
+  background: var(--line);
+}
+
+.reward-node:first-child::before {
+  display: none;
+}
+
+.reward-node.unlocked {
+  border-color: rgba(48, 232, 144, 0.36);
+  background: linear-gradient(180deg, rgba(15, 62, 41, 0.9), rgba(11, 16, 27, 0.95));
+}
+
+.reward-node.locked {
+  opacity: 0.66;
+}
+
+.reward-level {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+  justify-content: space-between;
+  color: #d9f7e8;
+  font-weight: 850;
+}
+
+.reward-icon {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border-radius: 8px;
+  background: rgba(48, 232, 144, 0.12);
+  color: var(--green);
+}
+
+.reward-node.locked .reward-icon {
+  background: #111929;
+  color: var(--muted);
+}
+
+.reward-node h3,
+.reward-node p {
+  margin: 0;
+}
+
 .rank-row {
   display: grid;
   grid-template-columns: 0.8fr 1.6fr 1fr 1fr 1fr;
@@ -806,7 +960,9 @@ button:disabled {
   .auth-layout,
   .app-shell,
   .profile-grid,
-  .mode-grid {
+  .mode-grid,
+  .reward-hero,
+  .reward-node {
     grid-template-columns: 1fr;
   }
 
@@ -816,7 +972,11 @@ button:disabled {
   }
 
   .sidebar nav {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .reward-node::before {
+    left: 1.5rem;
   }
 
   .logout {

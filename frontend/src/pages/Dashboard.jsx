@@ -1,9 +1,9 @@
-import { Activity, Flame, Play, Star, Target, Trophy } from "lucide-react";
+import { Activity, Flame, Gift, Play, Star, Target, Trophy } from "lucide-react";
 import React from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 import { modes } from "../lib/api.js";
 
-export const Dashboard = ({ goTrain }) => {
+export const Dashboard = ({ goTrain, goRewards }) => {
   const { user } = useAuth();
   const levelProgress = user.xp % 250;
 
@@ -14,7 +14,10 @@ export const Dashboard = ({ goTrain }) => {
           <p className="eyebrow">Welcome back, {user.name}</p>
           <h1>Level {user.level} cognitive athlete</h1>
         </div>
-        <button className="primary compact" onClick={goTrain}><Play size={18} /> Start training</button>
+        <div className="topline-actions">
+          <button className="secondary compact" onClick={goRewards}><Gift size={18} /> Reward path</button>
+          <button className="primary compact" onClick={goTrain}><Play size={18} /> Start training</button>
+        </div>
       </div>
 
       <div className="profile-grid">
@@ -33,6 +36,7 @@ export const Dashboard = ({ goTrain }) => {
         <Stat icon={<Star />} label="Total XP" value={user.xp} />
         <Stat icon={<Flame />} label="Daily streak" value={`${user.streak} days`} />
         <Stat icon={<Activity />} label="Games played" value={user.totalGamesPlayed} />
+        <Stat icon={<Gift />} label="Rewards" value={user.rewards?.length || Math.max(0, user.level - 1)} />
       </div>
 
       <div className="section-title">

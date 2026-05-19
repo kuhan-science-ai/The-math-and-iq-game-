@@ -8,6 +8,7 @@ import {
   normalizeUser,
   updateStreak
 } from "../services/progress.js";
+import { mergeRewards, rewardsBetweenLevels } from "../services/rewards.js";
 
 const router = express.Router();
 
@@ -28,19 +29,28 @@ router.post("/submit-score", requireAuth, async (req, res) => {
   const user = req.user;
   await addScore({ userId: user.id, mode, score, accuracy, reactionTime });
 
+  const previousLevel = user.level || 1;
   user.xp += xpGain;
   user.level = calculateLevel(user.xp);
+  const newRewards = rewardsBetweenLevels(previousLevel, user.level);
+  user.rewards = mergeRewards(user.rewards || [], newRewards);
   user.totalGamesPlayed += 1;
   user.bestScores[mode] = Math.max(user.bestScores?.[mode] || 0, score);
   user.accuracy[mode] = Math.round(((user.accuracy?.[mode] || 0) + accuracy) / 2);
   updateStreak(user);
   user.recentActivity = [
+    ...newRewards.map((reward) => `Unlocked ${reward.name} at Level ${reward.level}`),
     `${mode} score ${score}${mode === "reaction" && reactionTime ? ` (${reactionTime}ms)` : ""}`,
     ...(user.recentActivity || [])
   ].slice(0, 8);
 
   const updatedUser = await updateUser(user);
-  return res.status(201).json({ xpGain, user: normalizeUser(updatedUser) });
+  return res.status(201).json({
+    xpGain,
+    leveledUp: user.level > previousLevel,
+    newRewards,
+    user: normalizeUser(updatedUser)
+  });
 });
 
 export default router;

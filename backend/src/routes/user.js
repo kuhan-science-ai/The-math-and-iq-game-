@@ -2,6 +2,7 @@ import express from "express";
 import { requireAuth } from "../middleware/auth.js";
 import { calculateLevel, normalizeUser } from "../services/progress.js";
 import { updateUser } from "../services/firestoreStore.js";
+import { rewardsForLevel } from "../services/rewards.js";
 
 const router = express.Router();
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
@@ -30,11 +31,13 @@ const xpForLevel = (level) => (clamp(level, 1, 50) - 1) * 250;
 const syncFromXp = (user) => {
   user.xp = Math.max(0, Number(user.xp || 0));
   user.level = calculateLevel(user.xp);
+  user.rewards = rewardsForLevel(user.level);
 };
 
 const setLevel = (user, level) => {
   user.level = clamp(Number(level), 1, 50);
   user.xp = Math.max(user.xp || 0, xpForLevel(user.level));
+  user.rewards = rewardsForLevel(user.level);
 };
 
 const applyCheatAction = (user, body) => {
