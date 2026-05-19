@@ -1,4 +1,4 @@
-import { rewardsForLevel } from "./rewards.js";
+import { rewardsForLevel, sanitizeEquippedRewards } from "./rewards.js";
 
 const MODES = ["speedMath", "aptitude", "reaction", "challenge"];
 
@@ -40,6 +40,12 @@ export const updateStreak = (user, playedAt = new Date()) => {
 
 export const normalizeUser = (user) => {
   const obj = typeof user.toObject === "function" ? user.toObject() : { ...user };
+  const earnedRewards = obj.earnedRewards || obj.rewards || rewardsForLevel(obj.level || 1);
+  const equippedRewards = sanitizeEquippedRewards(obj.equippedRewards || {}, earnedRewards);
+  const activeXpBoost = obj.activeXpBoost?.expiresAt && new Date(obj.activeXpBoost.expiresAt).getTime() > Date.now()
+    ? obj.activeXpBoost
+    : null;
+
   return {
     id: String(obj._id || obj.id),
     name: obj.name,
@@ -51,7 +57,10 @@ export const normalizeUser = (user) => {
     accuracy: { ...emptyScores(), ...(obj.accuracy || {}) },
     totalGamesPlayed: obj.totalGamesPlayed || 0,
     recentActivity: obj.recentActivity || [],
-    rewards: obj.rewards || rewardsForLevel(obj.level || 1)
+    earnedRewards,
+    rewards: earnedRewards,
+    equippedRewards,
+    activeXpBoost
   };
 };
 

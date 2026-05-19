@@ -8,7 +8,7 @@ import {
   normalizeUser,
   updateStreak
 } from "../services/progress.js";
-import { mergeRewards, rewardsBetweenLevels } from "../services/rewards.js";
+import { activeBoost, mergeRewards, rewardsBetweenLevels } from "../services/rewards.js";
 
 const router = express.Router();
 
@@ -24,16 +24,20 @@ router.post("/submit-score", requireAuth, async (req, res) => {
     return res.status(400).json({ message: "Accuracy must be between 0 and 100." });
   }
 
-  const xpGain = calculateXpGain({ mode, score, accuracy, reactionTime });
+  const baseXpGain = calculateXpGain({ mode, score, accuracy, reactionTime });
 
   const user = req.user;
   await addScore({ userId: user.id, mode, score, accuracy, reactionTime });
 
   const previousLevel = user.level || 1;
+  const boost = activeBoost(user);
+  const xpGain = Math.round(baseXpGain * (boost?.multiplier || 1));
+  user.activeXpBoost = boost;
   user.xp += xpGain;
   user.level = calculateLevel(user.xp);
   const newRewards = rewardsBetweenLevels(previousLevel, user.level);
-  user.rewards = mergeRewards(user.rewards || [], newRewards);
+  user.earnedRewards = mergeRewards(user.earnedRewards || user.rewards || [], newRewards);
+  user.rewards = user.earnedRewards;
   user.totalGamesPlayed += 1;
   user.bestScores[mode] = Math.max(user.bestScores?.[mode] || 0, score);
   user.accuracy[mode] = Math.round(((user.accuracy?.[mode] || 0) + accuracy) / 2);
@@ -47,6 +51,9 @@ router.post("/submit-score", requireAuth, async (req, res) => {
   const updatedUser = await updateUser(user);
   return res.status(201).json({
     xpGain,
+    baseXpGain,
+    xpMultiplier: boost?.multiplier || 1,
+    activeXpBoost: boost,
     leveledUp: user.level > previousLevel,
     newRewards,
     user: normalizeUser(updatedUser)

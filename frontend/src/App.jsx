@@ -7,6 +7,7 @@ import { CheatConsole } from "./components/CheatConsole.jsx";
 import { Dashboard } from "./pages/Dashboard.jsx";
 import { GameArena } from "./pages/GameArena.jsx";
 import { Leaderboard } from "./pages/Leaderboard.jsx";
+import { Profile } from "./pages/Profile.jsx";
 import { Rewards } from "./pages/Rewards.jsx";
 
 export const App = () => {
@@ -34,6 +35,9 @@ export const App = () => {
           <button className={view === "dashboard" ? "active" : ""} onClick={() => setView("dashboard")}>
             <UserRound size={18} /> Dashboard
           </button>
+          <button className={view === "profile" ? "active" : ""} onClick={() => setView("profile")}>
+            <UserRound size={18} /> Profile
+          </button>
           <button className={view === "games" ? "active" : ""} onClick={() => setView("games")}>
             <ChartNoAxesCombined size={18} /> Training
           </button>
@@ -52,6 +56,7 @@ export const App = () => {
 
       <main className="main-panel">
         {view === "dashboard" && <Dashboard goTrain={() => setView("games")} goRewards={() => setView("rewards")} />}
+        {view === "profile" && <Profile />}
         {view === "games" && <GameArena />}
         {view === "rewards" && <Rewards goTrain={() => setView("games")} />}
         {view === "leaderboard" && <Leaderboard />}

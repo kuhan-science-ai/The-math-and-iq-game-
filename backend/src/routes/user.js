@@ -2,7 +2,7 @@ import express from "express";
 import { requireAuth } from "../middleware/auth.js";
 import { calculateLevel, normalizeUser } from "../services/progress.js";
 import { updateUser } from "../services/firestoreStore.js";
-import { rewardsForLevel } from "../services/rewards.js";
+import { findReward, rewardsForLevel } from "../services/rewards.js";
 
 const router = express.Router();
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
@@ -26,18 +26,76 @@ router.post("/cheat", requireAuth, async (req, res) => {
   return res.json({ message: result.message, user: normalizeUser(updatedUser) });
 });
 
+router.post("/rewards/use", requireAuth, async (req, res) => {
+  const rewardId = String(req.body.rewardId || "");
+  const user = { ...req.user };
+  const earnedRewards = user.earnedRewards || user.rewards || rewardsForLevel(user.level || 1);
+  const reward = findReward(earnedRewards, rewardId);
+
+  if (!reward) return res.status(404).json({ message: "Reward was not found in earned rewards." });
+  if (reward.category !== "consumable" || reward.type !== "xp_multiplier") {
+    return res.status(400).json({ message: "Only XP multiplier rewards can be used." });
+  }
+
+  const expiresAt = new Date(Date.now() + Number(reward.durationMinutes || 10) * 60000).toISOString();
+  user.activeXpBoost = {
+    rewardId: reward.id,
+    name: reward.name,
+    multiplier: reward.multiplier,
+    rarity: reward.rarity,
+    startedAt: new Date().toISOString(),
+    expiresAt
+  };
+  user.earnedRewards = earnedRewards.filter((item) => item.id !== reward.id);
+  user.rewards = user.earnedRewards;
+  user.recentActivity = [`Used ${reward.name}. XP boost active until ${expiresAt}.`, ...(user.recentActivity || [])].slice(0, 8);
+
+  const updatedUser = await updateUser(user);
+  return res.json({ message: `${reward.name} activated.`, activeXpBoost: user.activeXpBoost, user: normalizeUser(updatedUser) });
+});
+
+router.post("/rewards/equip", requireAuth, async (req, res) => {
+  const rewardId = String(req.body.rewardId || "");
+  const slot = String(req.body.slot || "");
+  const user = { ...req.user };
+  const earnedRewards = user.earnedRewards || user.rewards || rewardsForLevel(user.level || 1);
+  const equippedRewards = { ...(user.equippedRewards || {}) };
+
+  if (req.body.clear) {
+    delete equippedRewards[slot];
+    user.equippedRewards = equippedRewards;
+    const updatedUser = await updateUser(user);
+    return res.json({ message: "Reward slot cleared.", user: normalizeUser(updatedUser) });
+  }
+
+  const reward = findReward(earnedRewards, rewardId);
+  if (!reward) return res.status(404).json({ message: "Cosmetic reward was not found in earned rewards." });
+  if (reward.category !== "cosmetic") return res.status(400).json({ message: "Only cosmetic rewards can be equipped." });
+
+  equippedRewards[reward.equipSlot || reward.type] = reward;
+  user.earnedRewards = earnedRewards;
+  user.rewards = earnedRewards;
+  user.equippedRewards = equippedRewards;
+  user.recentActivity = [`Equipped ${reward.name}.`, ...(user.recentActivity || [])].slice(0, 8);
+
+  const updatedUser = await updateUser(user);
+  return res.json({ message: `${reward.name} equipped.`, user: normalizeUser(updatedUser) });
+});
+
 const xpForLevel = (level) => (clamp(level, 1, 50) - 1) * 250;
 
 const syncFromXp = (user) => {
   user.xp = Math.max(0, Number(user.xp || 0));
   user.level = calculateLevel(user.xp);
-  user.rewards = rewardsForLevel(user.level);
+  user.earnedRewards = rewardsForLevel(user.level);
+  user.rewards = user.earnedRewards;
 };
 
 const setLevel = (user, level) => {
   user.level = clamp(Number(level), 1, 50);
   user.xp = Math.max(user.xp || 0, xpForLevel(user.level));
-  user.rewards = rewardsForLevel(user.level);
+  user.earnedRewards = rewardsForLevel(user.level);
+  user.rewards = user.earnedRewards;
 };
 
 const applyCheatAction = (user, body) => {

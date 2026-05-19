@@ -2,6 +2,7 @@ import { Activity, Flame, Gift, Play, Star, Target, Trophy } from "lucide-react"
 import React from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 import { modes } from "../lib/api.js";
+import { activeBoostLabel, rewardCountForLevel } from "../lib/rewards.js";
 
 export const Dashboard = ({ goTrain, goRewards }) => {
   const { user } = useAuth();
@@ -36,7 +37,15 @@ export const Dashboard = ({ goTrain, goRewards }) => {
         <Stat icon={<Star />} label="Total XP" value={user.xp} />
         <Stat icon={<Flame />} label="Daily streak" value={`${user.streak} days`} />
         <Stat icon={<Activity />} label="Games played" value={user.totalGamesPlayed} />
-        <Stat icon={<Gift />} label="Rewards" value={user.rewards?.length || Math.max(0, user.level - 1)} />
+        <Stat icon={<Gift />} label="Road rewards" value={rewardCountForLevel(user.level)} />
+      </div>
+
+      <div className="activity-panel compact-panel">
+        <div className="section-title tight">
+          <h2>Active multiplier</h2>
+          <Star size={20} />
+        </div>
+        <p>{activeBoostLabel(user.activeXpBoost)}</p>
       </div>
 
       <div className="section-title">

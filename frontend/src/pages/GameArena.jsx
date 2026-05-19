@@ -253,7 +253,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
       });
       setUser(data.user);
       setNewRewards(data.newRewards || []);
-      setMessage(`Saved ${correct} points and earned ${data.xpGain} XP.`);
+      setMessage(`Saved ${correct} points and earned ${data.xpGain} XP${data.xpMultiplier > 1 ? ` (${data.xpMultiplier}x boost)` : ""}.`);
     };
 
     saveRound();
@@ -347,7 +347,7 @@ const AptitudeMode = () => {
       setNewRewards(data.newRewards || []);
       setDone(true);
       setCelebrate(true);
-      setMessage(`${levelConfig.label} round saved. Score ${score}, ${accuracy}% accuracy, +${data.xpGain} XP.`);
+      setMessage(`${levelConfig.label} round saved. Score ${score}, ${accuracy}% accuracy, +${data.xpGain} XP${data.xpMultiplier > 1 ? ` (${data.xpMultiplier}x boost)` : ""}.`);
       setTimeout(() => setCelebrate(false), 2600);
     } else {
       setIndex(index + 1);
@@ -460,7 +460,7 @@ const ReactionMode = () => {
     setNewRewards(data.newRewards || []);
     setResult(reactionTime);
     setState("idle");
-    setMessage(`Saved ${reactionTime}ms reaction. +${data.xpGain} XP.`);
+    setMessage(`Saved ${reactionTime}ms reaction. +${data.xpGain} XP${data.xpMultiplier > 1 ? ` (${data.xpMultiplier}x boost)` : ""}.`);
   };
 
   const panelText = useMemo(() => {
