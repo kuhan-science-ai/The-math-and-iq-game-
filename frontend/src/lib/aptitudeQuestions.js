@@ -18,6 +18,12 @@ export const aptitudeLevels = {
           "1975",
           "1968"
         ],
+        "optionLatex": [
+          "1983",
+          "1954",
+          "1975",
+          "1968"
+        ],
         "answer": "1968",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -46,6 +52,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 7 = 10.",
         "latex": "4x+7=10",
         "options": [
+          "22.75",
+          "7.75",
+          "0.75",
+          "2.75"
+        ],
+        "optionLatex": [
           "22.75",
           "7.75",
           "0.75",
@@ -84,6 +96,12 @@ export const aptitudeLevels = {
           "50",
           "56"
         ],
+        "optionLatex": [
+          "35",
+          "52",
+          "50",
+          "56"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -112,6 +130,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 6[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "6\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "6",
+          "-8",
+          "10",
+          "-11"
+        ],
+        "optionLatex": [
           "6",
           "-8",
           "10",
@@ -150,6 +174,12 @@ export const aptitudeLevels = {
           "-1.3846",
           "0.6154"
         ],
+        "optionLatex": [
+          "22.6154",
+          "-16.3846",
+          "-1.3846",
+          "0.6154"
+        ],
         "answer": "0.6154",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -178,6 +208,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=37",
         "options": [
+          "23",
+          "44",
+          "35",
+          "37"
+        ],
+        "optionLatex": [
           "23",
           "44",
           "35",
@@ -216,6 +252,12 @@ export const aptitudeLevels = {
           "162",
           "148"
         ],
+        "optionLatex": [
+          "145",
+          "160",
+          "162",
+          "148"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -244,6 +286,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 48 and adjustment 41. What combined score is reported?",
         "latex": "48+41",
         "options": [
+          "96",
+          "104",
+          "82",
+          "89"
+        ],
+        "optionLatex": [
           "96",
           "104",
           "82",
@@ -282,6 +330,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -310,6 +364,12 @@ export const aptitudeLevels = {
         "q": "In a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "14",
+          "0",
+          "-3",
+          "29"
+        ],
+        "optionLatex": [
           "14",
           "0",
           "-3",
@@ -349,6 +409,12 @@ export const aptitudeLevels = {
           "102",
           "98"
         ],
+        "optionLatex": [
+          "100",
+          "120",
+          "102",
+          "98"
+        ],
         "answer": "98",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -381,6 +447,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -415,6 +487,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -448,6 +526,12 @@ export const aptitudeLevels = {
           "43",
           "41"
         ],
+        "optionLatex": [
+          "65",
+          "26",
+          "43",
+          "41"
+        ],
         "answer": "43",
         "solution": {
           "approach": "Inspect first differences.",
@@ -476,6 +560,12 @@ export const aptitudeLevels = {
         "q": "In a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "22",
+          "20",
+          "16",
+          "24"
+        ],
+        "optionLatex": [
           "22",
           "20",
           "16",
@@ -515,6 +605,12 @@ export const aptitudeLevels = {
           "856.4872",
           "835.4872"
         ],
+        "optionLatex": [
+          "849.4872",
+          "832.4872",
+          "856.4872",
+          "835.4872"
+        ],
         "answer": "849.4872",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -543,6 +639,12 @@ export const aptitudeLevels = {
         "q": "The roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "45",
+          "24",
+          "27",
+          "41"
+        ],
+        "optionLatex": [
           "45",
           "24",
           "27",
@@ -581,6 +683,12 @@ export const aptitudeLevels = {
           "94",
           "92"
         ],
+        "optionLatex": [
+          "75",
+          "85",
+          "94",
+          "92"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -609,6 +717,12 @@ export const aptitudeLevels = {
         "q": "From a point 39 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=39\\tan(45^\\circ)",
         "options": [
+          "32",
+          "22",
+          "54",
+          "39"
+        ],
+        "optionLatex": [
           "32",
           "22",
           "54",
@@ -647,6 +761,12 @@ export const aptitudeLevels = {
           "0.4667",
           "-16.5333"
         ],
+        "optionLatex": [
+          "7.4667",
+          "-3.5333",
+          "0.4667",
+          "-16.5333"
+        ],
         "answer": "0.4667",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -675,6 +795,12 @@ export const aptitudeLevels = {
         "q": "Find the median of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=34",
         "options": [
+          "41",
+          "56",
+          "20",
+          "34"
+        ],
+        "optionLatex": [
           "41",
           "56",
           "20",
@@ -713,6 +839,12 @@ export const aptitudeLevels = {
           "384",
           "388"
         ],
+        "optionLatex": [
+          "386",
+          "370",
+          "384",
+          "388"
+        ],
         "answer": "384",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -741,6 +873,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 63 and adjustment 71. What combined score is reported?",
         "latex": "63+71",
         "options": [
+          "134",
+          "138",
+          "120",
+          "130"
+        ],
+        "optionLatex": [
           "134",
           "138",
           "120",
@@ -779,6 +917,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -807,6 +951,12 @@ export const aptitudeLevels = {
         "q": "In a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "33",
+          "31",
+          "15",
+          "29"
+        ],
+        "optionLatex": [
           "33",
           "31",
           "15",
@@ -846,6 +996,12 @@ export const aptitudeLevels = {
           "95",
           "93"
         ],
+        "optionLatex": [
+          "76",
+          "86",
+          "95",
+          "93"
+        ],
         "answer": "93",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -878,6 +1034,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -912,6 +1074,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -945,6 +1113,12 @@ export const aptitudeLevels = {
           "44",
           "40"
         ],
+        "optionLatex": [
+          "42",
+          "35",
+          "44",
+          "40"
+        ],
         "answer": "42",
         "solution": {
           "approach": "Inspect first differences.",
@@ -973,6 +1147,12 @@ export const aptitudeLevels = {
         "q": "In a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "18",
+          "33",
+          "28",
+          "35"
+        ],
+        "optionLatex": [
           "18",
           "33",
           "28",
@@ -1012,6 +1192,12 @@ export const aptitudeLevels = {
           "130",
           "147"
         ],
+        "optionLatex": [
+          "140",
+          "154",
+          "130",
+          "147"
+        ],
         "answer": "147",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -1040,6 +1226,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 7x + 15 = 15.",
         "latex": "7x+15=15",
         "options": [
+          "4",
+          "22",
+          "-14",
+          "0"
+        ],
+        "optionLatex": [
           "4",
           "22",
           "-14",
@@ -1078,6 +1270,12 @@ export const aptitudeLevels = {
           "154",
           "152"
         ],
+        "optionLatex": [
+          "138",
+          "135",
+          "154",
+          "152"
+        ],
         "answer": "152",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -1106,6 +1304,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 36[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "36\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "32",
+          "36",
+          "40",
+          "34"
+        ],
+        "optionLatex": [
           "32",
           "36",
           "40",
@@ -1144,6 +1348,12 @@ export const aptitudeLevels = {
           "115511743",
           "115511760"
         ],
+        "optionLatex": [
+          "115511756",
+          "115511746",
+          "115511743",
+          "115511760"
+        ],
         "answer": "115511760",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -1172,6 +1382,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "188",
+          "204",
+          "202",
+          "200"
+        ],
+        "optionLatex": [
           "188",
           "204",
           "202",
@@ -1210,6 +1426,12 @@ export const aptitudeLevels = {
           "182",
           "189"
         ],
+        "optionLatex": [
+          "193",
+          "187",
+          "182",
+          "189"
+        ],
         "answer": "189",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -1238,6 +1460,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 78 and adjustment 51. What combined score is reported?",
         "latex": "78+51",
         "options": [
+          "129",
+          "122",
+          "136",
+          "115"
+        ],
+        "optionLatex": [
           "129",
           "122",
           "136",
@@ -1276,6 +1504,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -1304,6 +1538,12 @@ export const aptitudeLevels = {
         "q": "In a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "-10",
+          "4",
+          "-3",
+          "26"
+        ],
+        "optionLatex": [
           "-10",
           "4",
           "-3",
@@ -1343,6 +1583,12 @@ export const aptitudeLevels = {
           "145",
           "121"
         ],
+        "optionLatex": [
+          "142",
+          "138",
+          "145",
+          "121"
+        ],
         "answer": "138",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -1375,6 +1621,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -1409,6 +1661,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -1442,6 +1700,12 @@ export const aptitudeLevels = {
           "63",
           "31"
         ],
+        "optionLatex": [
+          "50",
+          "48",
+          "63",
+          "31"
+        ],
         "answer": "48",
         "solution": {
           "approach": "Inspect first differences.",
@@ -1470,6 +1734,12 @@ export const aptitudeLevels = {
         "q": "In a row of 12 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 11",
         "options": [
+          "14",
+          "-7",
+          "10",
+          "6"
+        ],
+        "optionLatex": [
           "14",
           "-7",
           "10",
@@ -1509,6 +1779,12 @@ export const aptitudeLevels = {
           "1316.809",
           "1320.809"
         ],
+        "optionLatex": [
+          "1318.809",
+          "1313.809",
+          "1316.809",
+          "1320.809"
+        ],
         "answer": "1320.809",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -1537,6 +1813,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=4x+6 and g(x)=6x+9. Find f(g(9)).",
         "latex": "f(x)=4x+6,\\quad g(x)=6x+9,\\quad f(g(9))",
         "options": [
+          "258",
+          "244",
+          "280",
+          "265"
+        ],
+        "optionLatex": [
           "258",
           "244",
           "280",
@@ -1575,6 +1857,12 @@ export const aptitudeLevels = {
           "264",
           "228"
         ],
+        "optionLatex": [
+          "242",
+          "238",
+          "264",
+          "228"
+        ],
         "answer": "242",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -1603,6 +1891,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 51[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "51\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "51",
+          "47",
+          "73",
+          "44"
+        ],
+        "optionLatex": [
           "51",
           "47",
           "73",
@@ -1641,6 +1935,12 @@ export const aptitudeLevels = {
           "424270",
           "424253"
         ],
+        "optionLatex": [
+          "424277",
+          "424256",
+          "424270",
+          "424253"
+        ],
         "answer": "424270",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -1669,6 +1969,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=32",
         "options": [
+          "32",
+          "54",
+          "36",
+          "25"
+        ],
+        "optionLatex": [
           "32",
           "54",
           "36",
@@ -1707,6 +2013,12 @@ export const aptitudeLevels = {
           "8748",
           "8734"
         ],
+        "optionLatex": [
+          "8731",
+          "8744",
+          "8748",
+          "8734"
+        ],
         "answer": "8748",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -1735,6 +2047,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 93 and adjustment 31. What combined score is reported?",
         "latex": "93+31",
         "options": [
+          "131",
+          "128",
+          "124",
+          "126"
+        ],
+        "optionLatex": [
           "131",
           "128",
           "124",
@@ -1773,6 +2091,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -1801,6 +2125,12 @@ export const aptitudeLevels = {
         "q": "In a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "17",
+          "12",
+          "19",
+          "23"
+        ],
+        "optionLatex": [
           "17",
           "12",
           "19",
@@ -1840,6 +2170,12 @@ export const aptitudeLevels = {
           "133",
           "131"
         ],
+        "optionLatex": [
+          "135",
+          "140",
+          "133",
+          "131"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -1872,6 +2208,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -1906,6 +2248,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -1939,6 +2287,12 @@ export const aptitudeLevels = {
           "40",
           "47"
         ],
+        "optionLatex": [
+          "54",
+          "69",
+          "40",
+          "47"
+        ],
         "answer": "47",
         "solution": {
           "approach": "Inspect first differences.",
@@ -1967,6 +2321,12 @@ export const aptitudeLevels = {
         "q": "In a row of 27 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 26",
         "options": [
+          "23",
+          "21",
+          "32",
+          "25"
+        ],
+        "optionLatex": [
           "23",
           "21",
           "32",
@@ -2006,6 +2366,12 @@ export const aptitudeLevels = {
           "651",
           "647"
         ],
+        "optionLatex": [
+          "655",
+          "666",
+          "651",
+          "647"
+        ],
         "answer": "651",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -2034,6 +2400,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 10 < x <= 11?",
         "latex": "10<x\\le 11",
         "options": [
+          "1",
+          "-6",
+          "-16",
+          "8"
+        ],
+        "optionLatex": [
           "1",
           "-6",
           "-16",
@@ -2072,6 +2444,12 @@ export const aptitudeLevels = {
           "19.5",
           "12.5"
         ],
+        "optionLatex": [
+          "48.5",
+          "26.5",
+          "19.5",
+          "12.5"
+        ],
         "answer": "26.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -2100,6 +2478,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 66[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "66\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "66",
+          "68",
+          "49",
+          "88"
+        ],
+        "optionLatex": [
           "66",
           "68",
           "49",
@@ -2138,6 +2522,12 @@ export const aptitudeLevels = {
           "2.3333",
           "22.3333"
         ],
+        "optionLatex": [
+          "-3.6667",
+          "0.3333",
+          "2.3333",
+          "22.3333"
+        ],
         "answer": "0.3333",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -2166,6 +2556,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "178",
+          "184",
+          "182",
+          "175"
+        ],
+        "optionLatex": [
           "178",
           "184",
           "182",
@@ -2204,6 +2600,12 @@ export const aptitudeLevels = {
           "68",
           "79"
         ],
+        "optionLatex": [
+          "64",
+          "86",
+          "68",
+          "79"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -2232,6 +2634,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 48 and adjustment 61. What combined score is reported?",
         "latex": "48+61",
         "options": [
+          "102",
+          "105",
+          "109",
+          "107"
+        ],
+        "optionLatex": [
           "102",
           "105",
           "109",
@@ -2270,6 +2678,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -2298,6 +2712,12 @@ export const aptitudeLevels = {
         "q": "In a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "27",
+          "34",
+          "41",
+          "49"
+        ],
+        "optionLatex": [
           "27",
           "34",
           "41",
@@ -2337,6 +2757,12 @@ export const aptitudeLevels = {
           "114",
           "111"
         ],
+        "optionLatex": [
+          "120",
+          "118",
+          "114",
+          "111"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -2369,6 +2795,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -2403,6 +2835,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -2436,6 +2874,12 @@ export const aptitudeLevels = {
           "29",
           "53"
         ],
+        "optionLatex": [
+          "46",
+          "50",
+          "29",
+          "53"
+        ],
         "answer": "46",
         "solution": {
           "approach": "Inspect first differences.",
@@ -2464,6 +2908,12 @@ export const aptitudeLevels = {
         "q": "In a row of 42 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 41",
         "options": [
+          "40",
+          "62",
+          "47",
+          "26"
+        ],
+        "optionLatex": [
           "40",
           "62",
           "47",
@@ -2503,6 +2953,12 @@ export const aptitudeLevels = {
           "816.88",
           "780.88"
         ],
+        "optionLatex": [
+          "809.88",
+          "794.88",
+          "816.88",
+          "780.88"
+        ],
         "answer": "794.88",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -2531,6 +2987,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 9 and common difference 14.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(9)+(29-1)14\\right)",
         "options": [
+          "5945",
+          "5931",
+          "5943",
+          "5949"
+        ],
+        "optionLatex": [
           "5945",
           "5931",
           "5943",
@@ -2569,6 +3031,12 @@ export const aptitudeLevels = {
           "264.5",
           "266.5"
         ],
+        "optionLatex": [
+          "279.5",
+          "268.5",
+          "264.5",
+          "266.5"
+        ],
         "answer": "264.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -2597,6 +3065,12 @@ export const aptitudeLevels = {
         "q": "From a point 29 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=29\\tan(45^\\circ)",
         "options": [
+          "29",
+          "33",
+          "25",
+          "31"
+        ],
+        "optionLatex": [
           "29",
           "33",
           "25",
@@ -2635,6 +3109,12 @@ export const aptitudeLevels = {
           "22.2143",
           "0.2143"
         ],
+        "optionLatex": [
+          "-1.7857",
+          "2.2143",
+          "22.2143",
+          "0.2143"
+        ],
         "answer": "0.2143",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -2663,6 +3143,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=32",
         "options": [
+          "15",
+          "30",
+          "32",
+          "28"
+        ],
+        "optionLatex": [
           "15",
           "30",
           "32",
@@ -2701,6 +3187,12 @@ export const aptitudeLevels = {
           "2340.5714",
           "2336.5714"
         ],
+        "optionLatex": [
+          "2338.5714",
+          "2342.5714",
+          "2340.5714",
+          "2336.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -2729,6 +3221,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 63 and adjustment 41. What combined score is reported?",
         "latex": "63+41",
         "options": [
+          "104",
+          "97",
+          "126",
+          "102"
+        ],
+        "optionLatex": [
           "104",
           "97",
           "126",
@@ -2767,6 +3265,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -2795,6 +3299,12 @@ export const aptitudeLevels = {
         "q": "In a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "9",
+          "5",
+          "31",
+          "13"
+        ],
+        "optionLatex": [
           "9",
           "5",
           "31",
@@ -2834,6 +3344,12 @@ export const aptitudeLevels = {
           "96",
           "128"
         ],
+        "optionLatex": [
+          "113",
+          "117",
+          "96",
+          "128"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -2866,6 +3382,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -2900,6 +3422,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -2933,6 +3461,12 @@ export const aptitudeLevels = {
           "56",
           "54"
         ],
+        "optionLatex": [
+          "52",
+          "35",
+          "56",
+          "54"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Inspect first differences.",
@@ -2961,6 +3495,12 @@ export const aptitudeLevels = {
         "q": "In a row of 17 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 16",
         "options": [
+          "13",
+          "15",
+          "37",
+          "17"
+        ],
+        "optionLatex": [
           "13",
           "15",
           "37",
@@ -3000,6 +3540,12 @@ export const aptitudeLevels = {
           "6.1176",
           "11.1176"
         ],
+        "optionLatex": [
+          "2.1176",
+          "4.1176",
+          "6.1176",
+          "11.1176"
+        ],
         "answer": "4.1176",
         "solution": {
           "approach": "Add individual rates.",
@@ -3028,6 +3574,12 @@ export const aptitudeLevels = {
         "q": "If log base 10 of (x + 14) equals log base 10 of 28, find x.",
         "latex": "\\log_{10}(x+14)=\\log_{10}(28)",
         "options": [
+          "16",
+          "21",
+          "18",
+          "14"
+        ],
+        "optionLatex": [
           "16",
           "21",
           "18",
@@ -3066,6 +3618,12 @@ export const aptitudeLevels = {
           "898",
           "912"
         ],
+        "optionLatex": [
+          "908",
+          "916",
+          "898",
+          "912"
+        ],
         "answer": "912",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -3094,6 +3652,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 96[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "96\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "82",
+          "103",
+          "96",
+          "79"
+        ],
+        "optionLatex": [
           "82",
           "103",
           "96",
@@ -3132,6 +3696,12 @@ export const aptitudeLevels = {
           "259459200",
           "259459186"
         ],
+        "optionLatex": [
+          "259459204",
+          "259459196",
+          "259459200",
+          "259459186"
+        ],
         "answer": "259459200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -3160,6 +3730,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=57",
         "options": [
+          "57",
+          "64",
+          "55",
+          "53"
+        ],
+        "optionLatex": [
           "57",
           "64",
           "55",
@@ -3198,6 +3774,12 @@ export const aptitudeLevels = {
           "116",
           "97"
         ],
+        "optionLatex": [
+          "100",
+          "114",
+          "116",
+          "97"
+        ],
         "answer": "114",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -3226,6 +3808,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 78 and adjustment 71. What combined score is reported?",
         "latex": "78+71",
         "options": [
+          "135",
+          "145",
+          "164",
+          "149"
+        ],
+        "optionLatex": [
           "135",
           "145",
           "164",
@@ -3264,6 +3852,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -3292,6 +3886,12 @@ export const aptitudeLevels = {
         "q": "In a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "28",
+          "7",
+          "10",
+          "24"
+        ],
+        "optionLatex": [
           "28",
           "7",
           "10",
@@ -3331,6 +3931,12 @@ export const aptitudeLevels = {
           "112",
           "91"
         ],
+        "optionLatex": [
+          "104",
+          "108",
+          "112",
+          "91"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -3363,6 +3969,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -3397,6 +4009,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -3430,6 +4048,12 @@ export const aptitudeLevels = {
           "47",
           "55"
         ],
+        "optionLatex": [
+          "73",
+          "51",
+          "47",
+          "55"
+        ],
         "answer": "51",
         "solution": {
           "approach": "Inspect first differences.",
@@ -3458,6 +4082,12 @@ export const aptitudeLevels = {
         "q": "In a row of 32 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 31",
         "options": [
+          "13",
+          "34",
+          "30",
+          "16"
+        ],
+        "optionLatex": [
           "13",
           "34",
           "30",
@@ -3497,6 +4127,12 @@ export const aptitudeLevels = {
           "10.4762",
           "14.4762"
         ],
+        "optionLatex": [
+          "3.4762",
+          "25.4762",
+          "10.4762",
+          "14.4762"
+        ],
         "answer": "10.4762",
         "solution": {
           "approach": "Add individual rates.",
@@ -3525,6 +4161,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 9 = 19.",
         "latex": "10x+9=19",
         "options": [
+          "1",
+          "-16",
+          "23",
+          "16"
+        ],
+        "optionLatex": [
           "1",
           "-16",
           "23",
@@ -3563,6 +4205,12 @@ export const aptitudeLevels = {
           "132.5",
           "149.5"
         ],
+        "optionLatex": [
+          "145.5",
+          "171.5",
+          "132.5",
+          "149.5"
+        ],
         "answer": "149.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -3591,6 +4239,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 14[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "14\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "14",
+          "21",
+          "29",
+          "36"
+        ],
+        "optionLatex": [
           "14",
           "21",
           "29",
@@ -3629,6 +4283,12 @@ export const aptitudeLevels = {
           "3108107",
           "3108088"
         ],
+        "optionLatex": [
+          "3108109",
+          "3108105",
+          "3108107",
+          "3108088"
+        ],
         "answer": "3108105",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -3657,6 +4317,12 @@ export const aptitudeLevels = {
         "q": "Find the median of the data set [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=30",
         "options": [
+          "30",
+          "16",
+          "13",
+          "45"
+        ],
+        "optionLatex": [
           "30",
           "16",
           "13",
@@ -3695,6 +4361,12 @@ export const aptitudeLevels = {
           "134",
           "136"
         ],
+        "optionLatex": [
+          "143",
+          "151",
+          "134",
+          "136"
+        ],
         "answer": "136",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -3723,6 +4395,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 93 and adjustment 51. What combined score is reported?",
         "latex": "93+51",
         "options": [
+          "148",
+          "142",
+          "146",
+          "144"
+        ],
+        "optionLatex": [
           "148",
           "142",
           "146",
@@ -3761,6 +4439,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -3789,6 +4473,12 @@ export const aptitudeLevels = {
         "q": "In a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "25",
+          "37",
+          "39",
+          "43"
+        ],
+        "optionLatex": [
           "25",
           "37",
           "39",
@@ -3828,6 +4518,12 @@ export const aptitudeLevels = {
           "153",
           "157"
         ],
+        "optionLatex": [
+          "168",
+          "146",
+          "153",
+          "157"
+        ],
         "answer": "153",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -3860,6 +4556,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -3894,6 +4596,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -3927,6 +4635,12 @@ export const aptitudeLevels = {
           "47",
           "43"
         ],
+        "optionLatex": [
+          "50",
+          "26",
+          "47",
+          "43"
+        ],
         "answer": "43",
         "solution": {
           "approach": "Inspect first differences.",
@@ -3955,6 +4669,12 @@ export const aptitudeLevels = {
         "q": "In a row of 7 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 6",
         "options": [
+          "3",
+          "5",
+          "12",
+          "1"
+        ],
+        "optionLatex": [
           "3",
           "5",
           "12",
@@ -3994,6 +4714,12 @@ export const aptitudeLevels = {
           "50.6596",
           "46.6596"
         ],
+        "optionLatex": [
+          "48.6596",
+          "44.6596",
+          "50.6596",
+          "46.6596"
+        ],
         "answer": "46.6596",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -4022,6 +4748,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 7x + 13 = 13.",
         "latex": "7x+13=13",
         "options": [
+          "-2",
+          "0",
+          "2",
+          "-17"
+        ],
+        "optionLatex": [
           "-2",
           "0",
           "2",
@@ -4060,6 +4792,12 @@ export const aptitudeLevels = {
           "18",
           "15"
         ],
+        "optionLatex": [
+          "32",
+          "54",
+          "18",
+          "15"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -4088,6 +4826,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 29[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "29\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "44",
+          "51",
+          "29",
+          "15"
+        ],
+        "optionLatex": [
           "44",
           "51",
           "29",
@@ -4126,6 +4870,12 @@ export const aptitudeLevels = {
           "-6.5789",
           "-13.5789"
         ],
+        "optionLatex": [
+          "-1.5789",
+          "0.4211",
+          "-6.5789",
+          "-13.5789"
+        ],
         "answer": "0.4211",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -4154,6 +4904,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=182",
         "options": [
+          "165",
+          "182",
+          "168",
+          "189"
+        ],
+        "optionLatex": [
           "165",
           "182",
           "168",
@@ -4192,6 +4948,12 @@ export const aptitudeLevels = {
           "250",
           "243"
         ],
+        "optionLatex": [
+          "229",
+          "239",
+          "250",
+          "243"
+        ],
         "answer": "243",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -4220,6 +4982,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 48 and adjustment 31. What combined score is reported?",
         "latex": "48+31",
         "options": [
+          "83",
+          "94",
+          "81",
+          "79"
+        ],
+        "optionLatex": [
           "83",
           "94",
           "81",
@@ -4258,6 +5026,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -4286,6 +5060,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "14",
+          "-3",
+          "0",
+          "18"
+        ],
+        "optionLatex": [
           "14",
           "-3",
           "0",
@@ -4325,6 +5105,12 @@ export const aptitudeLevels = {
           "88",
           "110"
         ],
+        "optionLatex": [
+          "71",
+          "81",
+          "88",
+          "110"
+        ],
         "answer": "88",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -4357,6 +5143,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -4391,6 +5183,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -4424,6 +5222,12 @@ export const aptitudeLevels = {
           "49",
           "45"
         ],
+        "optionLatex": [
+          "47",
+          "53",
+          "49",
+          "45"
+        ],
         "answer": "49",
         "solution": {
           "approach": "Inspect first differences.",
@@ -4452,6 +5256,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, in a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "22",
+          "24",
+          "35",
+          "20"
+        ],
+        "optionLatex": [
           "22",
           "24",
           "35",
@@ -4491,6 +5301,12 @@ export const aptitudeLevels = {
           "55",
           "41"
         ],
+        "optionLatex": [
+          "62",
+          "53",
+          "55",
+          "41"
+        ],
         "answer": "55",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -4519,6 +5335,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, the roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "34",
+          "39",
+          "41",
+          "48"
+        ],
+        "optionLatex": [
           "34",
           "39",
           "41",
@@ -4557,6 +5379,12 @@ export const aptitudeLevels = {
           "444",
           "423"
         ],
+        "optionLatex": [
+          "437",
+          "459",
+          "444",
+          "423"
+        ],
         "answer": "437",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -4585,6 +5413,12 @@ export const aptitudeLevels = {
         "q": "From a point 89 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=89\\tan(45^\\circ)",
         "options": [
+          "75",
+          "89",
+          "72",
+          "93"
+        ],
+        "optionLatex": [
           "75",
           "89",
           "72",
@@ -4623,6 +5457,12 @@ export const aptitudeLevels = {
           "4.5833",
           "-6.4167"
         ],
+        "optionLatex": [
+          "-16.4167",
+          "0.5833",
+          "4.5833",
+          "-6.4167"
+        ],
         "answer": "0.5833",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -4651,6 +5491,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=72",
         "options": [
+          "76",
+          "65",
+          "72",
+          "58"
+        ],
+        "optionLatex": [
           "76",
           "65",
           "72",
@@ -4689,6 +5535,12 @@ export const aptitudeLevels = {
           "11666",
           "11662"
         ],
+        "optionLatex": [
+          "11660",
+          "11664",
+          "11666",
+          "11662"
+        ],
         "answer": "11664",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -4717,6 +5569,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 63 and adjustment 61. What combined score is reported?",
         "latex": "63+61",
         "options": [
+          "122",
+          "124",
+          "126",
+          "107"
+        ],
+        "optionLatex": [
           "122",
           "124",
           "126",
@@ -4755,6 +5613,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -4783,6 +5647,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "51",
+          "29",
+          "31",
+          "22"
+        ],
+        "optionLatex": [
           "51",
           "29",
           "31",
@@ -4822,6 +5692,12 @@ export const aptitudeLevels = {
           "133",
           "137"
         ],
+        "optionLatex": [
+          "155",
+          "116",
+          "133",
+          "137"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -4854,6 +5730,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -4888,6 +5770,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -4921,6 +5809,12 @@ export const aptitudeLevels = {
           "41",
           "63"
         ],
+        "optionLatex": [
+          "48",
+          "34",
+          "41",
+          "63"
+        ],
         "answer": "48",
         "solution": {
           "approach": "Inspect first differences.",
@@ -4949,6 +5843,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, in a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "31",
+          "21",
+          "35",
+          "37"
+        ],
+        "optionLatex": [
           "31",
           "21",
           "35",
@@ -4988,6 +5888,12 @@ export const aptitudeLevels = {
           "3156",
           "3167"
         ],
+        "optionLatex": [
+          "3152",
+          "3159",
+          "3156",
+          "3167"
+        ],
         "answer": "3152",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -5016,6 +5922,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 8 = 18.",
         "latex": "10x+8=18",
         "options": [
+          "5",
+          "16",
+          "1",
+          "3"
+        ],
+        "optionLatex": [
           "5",
           "16",
           "1",
@@ -5054,6 +5966,12 @@ export const aptitudeLevels = {
           "527",
           "512"
         ],
+        "optionLatex": [
+          "514",
+          "495",
+          "527",
+          "512"
+        ],
         "answer": "512",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -5082,6 +6000,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 59[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "59\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "63",
+          "59",
+          "66",
+          "45"
+        ],
+        "optionLatex": [
           "63",
           "59",
           "66",
@@ -5120,6 +6044,12 @@ export const aptitudeLevels = {
           "1802440078",
           "1802440080"
         ],
+        "optionLatex": [
+          "1802440066",
+          "1802440087",
+          "1802440078",
+          "1802440080"
+        ],
         "answer": "1802440080",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -5148,6 +6078,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=162",
         "options": [
+          "177",
+          "162",
+          "145",
+          "166"
+        ],
+        "optionLatex": [
           "177",
           "162",
           "145",
@@ -5186,6 +6122,12 @@ export const aptitudeLevels = {
           "57",
           "64"
         ],
+        "optionLatex": [
+          "47",
+          "50",
+          "57",
+          "64"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -5214,6 +6156,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 78 and adjustment 41. What combined score is reported?",
         "latex": "78+41",
         "options": [
+          "102",
+          "121",
+          "105",
+          "119"
+        ],
+        "optionLatex": [
           "102",
           "121",
           "105",
@@ -5252,6 +6200,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -5280,6 +6234,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "4",
+          "8",
+          "-10",
+          "2"
+        ],
+        "optionLatex": [
           "4",
           "8",
           "-10",
@@ -5319,6 +6279,12 @@ export const aptitudeLevels = {
           "128",
           "150"
         ],
+        "optionLatex": [
+          "111",
+          "143",
+          "128",
+          "150"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -5351,6 +6317,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -5385,6 +6357,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -5418,6 +6396,12 @@ export const aptitudeLevels = {
           "33",
           "54"
         ],
+        "optionLatex": [
+          "45",
+          "47",
+          "33",
+          "54"
+        ],
         "answer": "47",
         "solution": {
           "approach": "Inspect first differences.",
@@ -5446,6 +6430,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, in a row of 12 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 11",
         "options": [
+          "10",
+          "25",
+          "12",
+          "3"
+        ],
+        "optionLatex": [
           "10",
           "25",
           "12",
@@ -5485,6 +6475,12 @@ export const aptitudeLevels = {
           "9667",
           "9661"
         ],
+        "optionLatex": [
+          "9665",
+          "9651",
+          "9667",
+          "9661"
+        ],
         "answer": "9665",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -5513,6 +6509,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=7x+12 and g(x)=12x+12. Find f(g(9)).",
         "latex": "f(x)=7x+12,\\quad g(x)=12x+12,\\quad f(g(9))",
         "options": [
+          "845",
+          "874",
+          "852",
+          "854"
+        ],
+        "optionLatex": [
           "845",
           "874",
           "852",
@@ -5551,6 +6553,12 @@ export const aptitudeLevels = {
           "27.5",
           "46.5"
         ],
+        "optionLatex": [
+          "31.5",
+          "53.5",
+          "27.5",
+          "46.5"
+        ],
         "answer": "31.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -5579,6 +6587,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 74[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "74\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "57",
+          "60",
+          "70",
+          "74"
+        ],
+        "optionLatex": [
           "57",
           "60",
           "70",
@@ -5617,6 +6631,12 @@ export const aptitudeLevels = {
           "2331888",
           "2331912"
         ],
+        "optionLatex": [
+          "2331890",
+          "2331905",
+          "2331888",
+          "2331912"
+        ],
         "answer": "2331890",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -5645,6 +6665,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=42",
         "options": [
+          "57",
+          "49",
+          "42",
+          "35"
+        ],
+        "optionLatex": [
           "57",
           "49",
           "42",
@@ -5683,6 +6709,12 @@ export const aptitudeLevels = {
           "2340.5714",
           "2347.5714"
         ],
+        "optionLatex": [
+          "2333.5714",
+          "2355.5714",
+          "2340.5714",
+          "2347.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -5711,6 +6743,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 93 and adjustment 71. What combined score is reported?",
         "latex": "93+71",
         "options": [
+          "150",
+          "186",
+          "160",
+          "164"
+        ],
+        "optionLatex": [
           "150",
           "186",
           "160",
@@ -5749,6 +6787,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -5777,6 +6821,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "34",
+          "15",
+          "19",
+          "21"
+        ],
+        "optionLatex": [
           "34",
           "15",
           "19",
@@ -5816,6 +6866,12 @@ export const aptitudeLevels = {
           "109",
           "116"
         ],
+        "optionLatex": [
+          "127",
+          "123",
+          "109",
+          "116"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -5848,6 +6904,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -5882,6 +6944,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -5915,6 +6983,12 @@ export const aptitudeLevels = {
           "49",
           "68"
         ],
+        "optionLatex": [
+          "53",
+          "51",
+          "49",
+          "68"
+        ],
         "answer": "53",
         "solution": {
           "approach": "Inspect first differences.",
@@ -5943,6 +7017,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, in a row of 27 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 26",
         "options": [
+          "11",
+          "27",
+          "29",
+          "25"
+        ],
+        "optionLatex": [
           "11",
           "27",
           "29",
@@ -5982,6 +7062,12 @@ export const aptitudeLevels = {
           "28",
           "25"
         ],
+        "optionLatex": [
+          "32",
+          "54",
+          "28",
+          "25"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Work backward from A's future age.",
@@ -6010,6 +7096,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 4 < x <= 4?",
         "latex": "4<x\\le 4",
         "options": [
+          "4",
+          "7",
+          "0",
+          "2"
+        ],
+        "optionLatex": [
           "4",
           "7",
           "0",
@@ -6048,6 +7140,12 @@ export const aptitudeLevels = {
           "90",
           "78"
         ],
+        "optionLatex": [
+          "92",
+          "114",
+          "90",
+          "78"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -6076,6 +7174,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 89[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "89\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "72",
+          "89",
+          "96",
+          "75"
+        ],
+        "optionLatex": [
           "72",
           "89",
           "96",
@@ -6114,6 +7218,12 @@ export const aptitudeLevels = {
           "-3.5556",
           "-6.5556"
         ],
+        "optionLatex": [
+          "0.4444",
+          "22.4444",
+          "-3.5556",
+          "-6.5556"
+        ],
         "answer": "0.4444",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -6142,6 +7252,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=37",
         "options": [
+          "37",
+          "20",
+          "59",
+          "52"
+        ],
+        "optionLatex": [
           "37",
           "20",
           "59",
@@ -6180,6 +7296,12 @@ export const aptitudeLevels = {
           "292",
           "294"
         ],
+        "optionLatex": [
+          "290",
+          "276",
+          "292",
+          "294"
+        ],
         "answer": "290",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -6208,6 +7330,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 48 and adjustment 51. What combined score is reported?",
         "latex": "48+51",
         "options": [
+          "95",
+          "106",
+          "99",
+          "85"
+        ],
+        "optionLatex": [
           "95",
           "106",
           "99",
@@ -6246,6 +7374,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -6274,6 +7408,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "36",
+          "49",
+          "17",
+          "34"
+        ],
+        "optionLatex": [
           "36",
           "49",
           "17",
@@ -6313,6 +7453,12 @@ export const aptitudeLevels = {
           "108",
           "101"
         ],
+        "optionLatex": [
+          "106",
+          "110",
+          "108",
+          "101"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -6345,6 +7491,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -6379,6 +7531,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -6412,6 +7570,12 @@ export const aptitudeLevels = {
           "52",
           "54"
         ],
+        "optionLatex": [
+          "67",
+          "38",
+          "52",
+          "54"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Inspect first differences.",
@@ -6440,6 +7604,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, in a row of 42 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 41",
         "options": [
+          "40",
+          "44",
+          "62",
+          "47"
+        ],
+        "optionLatex": [
           "40",
           "44",
           "62",
@@ -6479,6 +7649,12 @@ export const aptitudeLevels = {
           "12687",
           "12723"
         ],
+        "optionLatex": [
+          "12708",
+          "12701",
+          "12687",
+          "12723"
+        ],
         "answer": "12701",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -6507,6 +7683,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 12 and common difference 7.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(12)+(29-1)7\\right)",
         "options": [
+          "3190",
+          "3173",
+          "3186",
+          "3176"
+        ],
+        "optionLatex": [
           "3190",
           "3173",
           "3186",
@@ -6545,6 +7727,12 @@ export const aptitudeLevels = {
           "584",
           "596"
         ],
+        "optionLatex": [
+          "598",
+          "605",
+          "584",
+          "596"
+        ],
         "answer": "598",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -6573,6 +7761,12 @@ export const aptitudeLevels = {
         "q": "From a point 79 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=79\\tan(45^\\circ)",
         "options": [
+          "65",
+          "75",
+          "94",
+          "79"
+        ],
+        "optionLatex": [
           "65",
           "75",
           "94",
@@ -6611,6 +7805,12 @@ export const aptitudeLevels = {
           "0.2727",
           "-1.7273"
         ],
+        "optionLatex": [
+          "7.2727",
+          "-13.7273",
+          "0.2727",
+          "-1.7273"
+        ],
         "answer": "0.2727",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -6639,6 +7839,12 @@ export const aptitudeLevels = {
         "q": "Find the median of the data set [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=22",
         "options": [
+          "22",
+          "8",
+          "29",
+          "44"
+        ],
+        "optionLatex": [
           "22",
           "8",
           "29",
@@ -6677,6 +7883,12 @@ export const aptitudeLevels = {
           "25",
           "32"
         ],
+        "optionLatex": [
+          "18",
+          "39",
+          "25",
+          "32"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -6705,6 +7917,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 63 and adjustment 31. What combined score is reported?",
         "latex": "63+31",
         "options": [
+          "80",
+          "94",
+          "77",
+          "101"
+        ],
+        "optionLatex": [
           "80",
           "94",
           "77",
@@ -6743,6 +7961,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -6771,6 +7995,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "-5",
+          "24",
+          "31",
+          "9"
+        ],
+        "optionLatex": [
           "-5",
           "24",
           "31",
@@ -6810,6 +8040,12 @@ export const aptitudeLevels = {
           "89",
           "125"
         ],
+        "optionLatex": [
+          "105",
+          "103",
+          "89",
+          "125"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -6842,6 +8078,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -6876,6 +8118,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -6909,6 +8157,12 @@ export const aptitudeLevels = {
           "40",
           "36"
         ],
+        "optionLatex": [
+          "26",
+          "42",
+          "40",
+          "36"
+        ],
         "answer": "40",
         "solution": {
           "approach": "Inspect first differences.",
@@ -6937,6 +8191,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, in a row of 17 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 16",
         "options": [
+          "11",
+          "17",
+          "13",
+          "15"
+        ],
+        "optionLatex": [
           "11",
           "17",
           "13",
@@ -6976,6 +8236,12 @@ export const aptitudeLevels = {
           "24366",
           "24344"
         ],
+        "optionLatex": [
+          "24340",
+          "24348",
+          "24366",
+          "24344"
+        ],
         "answer": "24344",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -7004,6 +8270,12 @@ export const aptitudeLevels = {
         "q": "If log base 11 of (x + 54) equals log base 11 of 108, find x.",
         "latex": "\\log_{11}(x+54)=\\log_{11}(108)",
         "options": [
+          "54",
+          "40",
+          "50",
+          "56"
+        ],
+        "optionLatex": [
           "54",
           "40",
           "50",
@@ -7042,6 +8314,12 @@ export const aptitudeLevels = {
           "52",
           "56"
         ],
+        "optionLatex": [
+          "50",
+          "45",
+          "52",
+          "56"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -7070,6 +8348,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 22[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "22\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "29",
+          "26",
+          "22",
+          "24"
+        ],
+        "optionLatex": [
           "29",
           "26",
           "22",
@@ -7108,6 +8392,12 @@ export const aptitudeLevels = {
           "204636013545600",
           "204636013545596"
         ],
+        "optionLatex": [
+          "204636013545583",
+          "204636013545586",
+          "204636013545600",
+          "204636013545596"
+        ],
         "answer": "204636013545600",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -7136,6 +8426,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "182",
+          "168",
+          "197",
+          "165"
+        ],
+        "optionLatex": [
           "182",
           "168",
           "197",
@@ -7174,6 +8470,12 @@ export const aptitudeLevels = {
           "77",
           "81"
         ],
+        "optionLatex": [
+          "103",
+          "85",
+          "77",
+          "81"
+        ],
         "answer": "81",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -7202,6 +8504,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 78 and adjustment 61. What combined score is reported?",
         "latex": "78+61",
         "options": [
+          "139",
+          "146",
+          "135",
+          "125"
+        ],
+        "optionLatex": [
           "139",
           "146",
           "135",
@@ -7240,6 +8548,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -7268,6 +8582,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "39",
+          "17",
+          "28",
+          "24"
+        ],
+        "optionLatex": [
           "39",
           "17",
           "28",
@@ -7307,6 +8627,12 @@ export const aptitudeLevels = {
           "152",
           "163"
         ],
+        "optionLatex": [
+          "148",
+          "144",
+          "152",
+          "163"
+        ],
         "answer": "148",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -7339,6 +8665,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -7373,6 +8705,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -7406,6 +8744,12 @@ export const aptitudeLevels = {
           "72",
           "50"
         ],
+        "optionLatex": [
+          "52",
+          "33",
+          "72",
+          "50"
+        ],
         "answer": "50",
         "solution": {
           "approach": "Inspect first differences.",
@@ -7434,6 +8778,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, in a row of 32 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 31",
         "options": [
+          "13",
+          "45",
+          "30",
+          "32"
+        ],
+        "optionLatex": [
           "13",
           "45",
           "30",
@@ -7473,6 +8823,12 @@ export const aptitudeLevels = {
           "3369.4432",
           "3367.4432"
         ],
+        "optionLatex": [
+          "3382.4432",
+          "3371.4432",
+          "3369.4432",
+          "3367.4432"
+        ],
         "answer": "3367.4432",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -7501,6 +8857,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 15 = 5.",
         "latex": "4x+15=5",
         "options": [
+          "-9.5",
+          "-0.5",
+          "-2.5",
+          "-16.5"
+        ],
+        "optionLatex": [
           "-9.5",
           "-0.5",
           "-2.5",
@@ -7539,6 +8901,12 @@ export const aptitudeLevels = {
           "75",
           "78"
         ],
+        "optionLatex": [
+          "92",
+          "107",
+          "75",
+          "78"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -7567,6 +8935,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 37[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "37\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "41",
+          "59",
+          "37",
+          "44"
+        ],
+        "optionLatex": [
           "41",
           "59",
           "37",
@@ -7605,6 +8979,12 @@ export const aptitudeLevels = {
           "1916797294",
           "1916797311"
         ],
+        "optionLatex": [
+          "1916797307",
+          "1916797326",
+          "1916797294",
+          "1916797311"
+        ],
         "answer": "1916797311",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -7633,6 +9013,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=152",
         "options": [
+          "145",
+          "167",
+          "156",
+          "152"
+        ],
+        "optionLatex": [
           "145",
           "167",
           "156",
@@ -7671,6 +9057,12 @@ export const aptitudeLevels = {
           "2916",
           "2899"
         ],
+        "optionLatex": [
+          "2931",
+          "2920",
+          "2916",
+          "2899"
+        ],
         "answer": "2916",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -7699,6 +9091,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 93 and adjustment 41. What combined score is reported?",
         "latex": "93+41",
         "options": [
+          "141",
+          "134",
+          "117",
+          "138"
+        ],
+        "optionLatex": [
           "141",
           "134",
           "117",
@@ -7737,6 +9135,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -7765,6 +9169,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "39",
+          "46",
+          "32",
+          "43"
+        ],
+        "optionLatex": [
           "39",
           "46",
           "32",
@@ -7804,6 +9214,12 @@ export const aptitudeLevels = {
           "141",
           "158"
         ],
+        "optionLatex": [
+          "150",
+          "143",
+          "141",
+          "158"
+        ],
         "answer": "143",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -7836,6 +9252,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -7870,6 +9292,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -7903,6 +9331,12 @@ export const aptitudeLevels = {
           "56",
           "35"
         ],
+        "optionLatex": [
+          "49",
+          "53",
+          "56",
+          "35"
+        ],
         "answer": "49",
         "solution": {
           "approach": "Inspect first differences.",
@@ -7931,6 +9365,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, in a row of 7 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 6",
         "options": [
+          "-2",
+          "5",
+          "-9",
+          "20"
+        ],
+        "optionLatex": [
           "-2",
           "5",
           "-9",
@@ -7970,6 +9410,12 @@ export const aptitudeLevels = {
           "210",
           "217"
         ],
+        "optionLatex": [
+          "232",
+          "193",
+          "210",
+          "217"
+        ],
         "answer": "210",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -7998,6 +9444,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 6 = 16.",
         "latex": "10x+6=16",
         "options": [
+          "23",
+          "1",
+          "-13",
+          "-6"
+        ],
+        "optionLatex": [
           "23",
           "1",
           "-13",
@@ -8036,6 +9488,12 @@ export const aptitudeLevels = {
           "154",
           "138"
         ],
+        "optionLatex": [
+          "156",
+          "152",
+          "154",
+          "138"
+        ],
         "answer": "152",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -8064,6 +9522,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 52[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "52\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "59",
+          "52",
+          "74",
+          "54"
+        ],
+        "optionLatex": [
           "59",
           "52",
           "74",
@@ -8102,6 +9566,12 @@ export const aptitudeLevels = {
           "-3.5",
           "-6.5"
         ],
+        "optionLatex": [
+          "0.5",
+          "-1.5",
+          "-3.5",
+          "-6.5"
+        ],
         "answer": "0.5",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -8130,6 +9600,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=2",
         "options": [
+          "-5",
+          "2",
+          "-12",
+          "24"
+        ],
+        "optionLatex": [
           "-5",
           "2",
           "-12",
@@ -8168,6 +9644,12 @@ export const aptitudeLevels = {
           "50",
           "57"
         ],
+        "optionLatex": [
+          "86",
+          "64",
+          "50",
+          "57"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -8196,6 +9678,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 48 and adjustment 71. What combined score is reported?",
         "latex": "48+71",
         "options": [
+          "105",
+          "119",
+          "115",
+          "112"
+        ],
+        "optionLatex": [
           "105",
           "119",
           "115",
@@ -8234,6 +9722,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -8262,6 +9756,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "18",
+          "36",
+          "29",
+          "14"
+        ],
+        "optionLatex": [
           "18",
           "36",
           "29",
@@ -8301,6 +9801,12 @@ export const aptitudeLevels = {
           "71",
           "85"
         ],
+        "optionLatex": [
+          "80",
+          "78",
+          "71",
+          "85"
+        ],
         "answer": "78",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -8333,6 +9839,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -8367,6 +9879,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -8400,6 +9918,12 @@ export const aptitudeLevels = {
           "37",
           "23"
         ],
+        "optionLatex": [
+          "52",
+          "30",
+          "37",
+          "23"
+        ],
         "answer": "37",
         "solution": {
           "approach": "Inspect first differences.",
@@ -8428,6 +9952,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, in a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "20",
+          "6",
+          "13",
+          "27"
+        ],
+        "optionLatex": [
           "20",
           "6",
           "13",
@@ -8467,6 +9997,12 @@ export const aptitudeLevels = {
           "6035.4051",
           "6045.4051"
         ],
+        "optionLatex": [
+          "6048.4051",
+          "6052.4051",
+          "6035.4051",
+          "6045.4051"
+        ],
         "answer": "6052.4051",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -8495,6 +10031,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, the roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "27",
+          "45",
+          "41",
+          "37"
+        ],
+        "optionLatex": [
           "27",
           "45",
           "41",
@@ -8533,6 +10075,12 @@ export const aptitudeLevels = {
           "884",
           "882"
         ],
+        "optionLatex": [
+          "897",
+          "868",
+          "884",
+          "882"
+        ],
         "answer": "882",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -8561,6 +10109,12 @@ export const aptitudeLevels = {
         "q": "From a point 69 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=69\\tan(45^\\circ)",
         "options": [
+          "91",
+          "52",
+          "76",
+          "69"
+        ],
+        "optionLatex": [
           "91",
           "52",
           "76",
@@ -8599,6 +10153,12 @@ export const aptitudeLevels = {
           "0.3889",
           "-13.6111"
         ],
+        "optionLatex": [
+          "2.3889",
+          "-1.6111",
+          "0.3889",
+          "-13.6111"
+        ],
         "answer": "0.3889",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -8627,6 +10187,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=32",
         "options": [
+          "32",
+          "28",
+          "25",
+          "15"
+        ],
+        "optionLatex": [
           "32",
           "28",
           "25",
@@ -8665,6 +10231,12 @@ export const aptitudeLevels = {
           "2326.5714",
           "2344.5714"
         ],
+        "optionLatex": [
+          "2340.5714",
+          "2362.5714",
+          "2326.5714",
+          "2344.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -8693,6 +10265,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 63 and adjustment 51. What combined score is reported?",
         "latex": "63+51",
         "options": [
+          "136",
+          "114",
+          "97",
+          "116"
+        ],
+        "optionLatex": [
           "136",
           "114",
           "97",
@@ -8731,6 +10309,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -8759,6 +10343,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "29",
+          "33",
+          "31",
+          "22"
+        ],
+        "optionLatex": [
           "29",
           "33",
           "31",
@@ -8798,6 +10388,12 @@ export const aptitudeLevels = {
           "109",
           "125"
         ],
+        "optionLatex": [
+          "123",
+          "119",
+          "109",
+          "125"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -8830,6 +10426,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -8864,6 +10466,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -8897,6 +10505,12 @@ export const aptitudeLevels = {
           "61",
           "54"
         ],
+        "optionLatex": [
+          "52",
+          "56",
+          "61",
+          "54"
+        ],
         "answer": "54",
         "solution": {
           "approach": "Inspect first differences.",
@@ -8925,6 +10539,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, in a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "28",
+          "35",
+          "50",
+          "21"
+        ],
+        "optionLatex": [
           "28",
           "35",
           "50",
@@ -8964,6 +10584,12 @@ export const aptitudeLevels = {
           "1644",
           "1640"
         ],
+        "optionLatex": [
+          "1626",
+          "1647",
+          "1644",
+          "1640"
+        ],
         "answer": "1640",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -8992,6 +10618,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 14 = 4.",
         "latex": "4x+14=4",
         "options": [
+          "-2.5",
+          "1.5",
+          "-6.5",
+          "19.5"
+        ],
+        "optionLatex": [
           "-2.5",
           "1.5",
           "-6.5",
@@ -9030,6 +10662,12 @@ export const aptitudeLevels = {
           "2.5",
           "16.5"
         ],
+        "optionLatex": [
+          "23.5",
+          "31.5",
+          "2.5",
+          "16.5"
+        ],
         "answer": "16.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -9058,6 +10696,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 82[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "82\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "78",
+          "86",
+          "97",
+          "82"
+        ],
+        "optionLatex": [
           "78",
           "86",
           "97",
@@ -9096,6 +10740,12 @@ export const aptitudeLevels = {
           "154462",
           "154440"
         ],
+        "optionLatex": [
+          "154438",
+          "154444",
+          "154462",
+          "154440"
+        ],
         "answer": "154440",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -9124,6 +10774,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=37",
         "options": [
+          "39",
+          "23",
+          "41",
+          "37"
+        ],
+        "optionLatex": [
           "39",
           "23",
           "41",
@@ -9162,6 +10818,12 @@ export const aptitudeLevels = {
           "546",
           "568"
         ],
+        "optionLatex": [
+          "532",
+          "550",
+          "546",
+          "568"
+        ],
         "answer": "546",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -9190,6 +10852,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 78 and adjustment 31. What combined score is reported?",
         "latex": "78+31",
         "options": [
+          "111",
+          "109",
+          "131",
+          "124"
+        ],
+        "optionLatex": [
           "111",
           "109",
           "131",
@@ -9228,6 +10896,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -9256,6 +10930,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "26",
+          "2",
+          "-13",
+          "4"
+        ],
+        "optionLatex": [
           "26",
           "2",
           "-13",
@@ -9295,6 +10975,12 @@ export const aptitudeLevels = {
           "114",
           "118"
         ],
+        "optionLatex": [
+          "104",
+          "111",
+          "114",
+          "118"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -9327,6 +11013,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -9361,6 +11053,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -9394,6 +11092,12 @@ export const aptitudeLevels = {
           "53",
           "46"
         ],
+        "optionLatex": [
+          "75",
+          "36",
+          "53",
+          "46"
+        ],
         "answer": "53",
         "solution": {
           "approach": "Inspect first differences.",
@@ -9422,6 +11126,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, in a row of 12 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 11",
         "options": [
+          "10",
+          "-4",
+          "17",
+          "12"
+        ],
+        "optionLatex": [
           "10",
           "-4",
           "17",
@@ -9461,6 +11171,12 @@ export const aptitudeLevels = {
           "607.4175",
           "605.4175"
         ],
+        "optionLatex": [
+          "596.4175",
+          "603.4175",
+          "607.4175",
+          "605.4175"
+        ],
         "answer": "603.4175",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -9489,6 +11205,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=10x+5 and g(x)=5x+15. Find f(g(9)).",
         "latex": "f(x)=10x+5,\\quad g(x)=5x+15,\\quad f(g(9))",
         "options": [
+          "601",
+          "607",
+          "620",
+          "605"
+        ],
+        "optionLatex": [
           "601",
           "607",
           "620",
@@ -9527,6 +11249,12 @@ export const aptitudeLevels = {
           "266.5",
           "257.5"
         ],
+        "optionLatex": [
+          "262.5",
+          "264.5",
+          "266.5",
+          "257.5"
+        ],
         "answer": "264.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -9555,6 +11283,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 97[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "97\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "101",
+          "97",
+          "95",
+          "90"
+        ],
+        "optionLatex": [
           "101",
           "97",
           "95",
@@ -9593,6 +11327,12 @@ export const aptitudeLevels = {
           "20482",
           "20477"
         ],
+        "optionLatex": [
+          "20475",
+          "20471",
+          "20482",
+          "20477"
+        ],
         "answer": "20475",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -9621,6 +11361,12 @@ export const aptitudeLevels = {
         "q": "Find the median of the data set [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=42",
         "options": [
+          "44",
+          "49",
+          "42",
+          "57"
+        ],
+        "optionLatex": [
           "44",
           "49",
           "42",
@@ -9659,6 +11405,12 @@ export const aptitudeLevels = {
           "154",
           "183"
         ],
+        "optionLatex": [
+          "175",
+          "168",
+          "154",
+          "183"
+        ],
         "answer": "168",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -9687,6 +11439,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 93 and adjustment 61. What combined score is reported?",
         "latex": "93+61",
         "options": [
+          "156",
+          "140",
+          "176",
+          "154"
+        ],
+        "optionLatex": [
           "156",
           "140",
           "176",
@@ -9725,6 +11483,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -9753,6 +11517,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "17",
+          "19",
+          "41",
+          "2"
+        ],
+        "optionLatex": [
           "17",
           "19",
           "41",
@@ -9792,6 +11562,12 @@ export const aptitudeLevels = {
           "170",
           "165"
         ],
+        "optionLatex": [
+          "185",
+          "163",
+          "170",
+          "165"
+        ],
         "answer": "163",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -9824,6 +11600,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -9858,6 +11640,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -9891,6 +11679,12 @@ export const aptitudeLevels = {
           "27",
           "34"
         ],
+        "optionLatex": [
+          "39",
+          "41",
+          "27",
+          "34"
+        ],
         "answer": "41",
         "solution": {
           "approach": "Inspect first differences.",
@@ -9919,6 +11713,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, in a row of 27 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 26",
         "options": [
+          "23",
+          "27",
+          "25",
+          "47"
+        ],
+        "optionLatex": [
           "23",
           "27",
           "25",
@@ -9958,6 +11758,12 @@ export const aptitudeLevels = {
           "13.5517",
           "-10.4483"
         ],
+        "optionLatex": [
+          "10.5517",
+          "6.5517",
+          "13.5517",
+          "-10.4483"
+        ],
         "answer": "6.5517",
         "solution": {
           "approach": "Add individual rates.",
@@ -9986,6 +11792,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 7 < x <= 10?",
         "latex": "7<x\\le 10",
         "options": [
+          "25",
+          "3",
+          "5",
+          "7"
+        ],
+        "optionLatex": [
           "25",
           "3",
           "5",
@@ -10024,6 +11836,12 @@ export const aptitudeLevels = {
           "807",
           "792"
         ],
+        "optionLatex": [
+          "778",
+          "775",
+          "807",
+          "792"
+        ],
         "answer": "792",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -10052,6 +11870,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 15[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "15\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "8",
+          "30",
+          "15",
+          "17"
+        ],
+        "optionLatex": [
           "8",
           "30",
           "15",
@@ -10090,6 +11914,12 @@ export const aptitudeLevels = {
           "22.2667",
           "-13.7333"
         ],
+        "optionLatex": [
+          "0.2667",
+          "-3.7333",
+          "22.2667",
+          "-13.7333"
+        ],
         "answer": "0.2667",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -10118,6 +11948,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, find the population variance of [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=162",
         "options": [
+          "184",
+          "162",
+          "155",
+          "177"
+        ],
+        "optionLatex": [
           "184",
           "162",
           "155",
@@ -10156,6 +11992,12 @@ export const aptitudeLevels = {
           "118",
           "135"
         ],
+        "optionLatex": [
+          "139",
+          "128",
+          "118",
+          "135"
+        ],
         "answer": "135",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -10184,6 +12026,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, a caselet score has base 48 and adjustment 41. What combined score is reported?",
         "latex": "48+41",
         "options": [
+          "91",
+          "111",
+          "72",
+          "89"
+        ],
+        "optionLatex": [
           "91",
           "111",
           "72",
@@ -10222,6 +12070,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -10250,6 +12104,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "38",
+          "34",
+          "27",
+          "30"
+        ],
+        "optionLatex": [
           "38",
           "34",
           "27",
@@ -10289,6 +12149,12 @@ export const aptitudeLevels = {
           "105",
           "91"
         ],
+        "optionLatex": [
+          "96",
+          "98",
+          "105",
+          "91"
+        ],
         "answer": "98",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -10321,6 +12187,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -10355,6 +12227,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -10388,6 +12266,12 @@ export const aptitudeLevels = {
           "41",
           "54"
         ],
+        "optionLatex": [
+          "58",
+          "73",
+          "41",
+          "54"
+        ],
         "answer": "58",
         "solution": {
           "approach": "Inspect first differences.",
@@ -10416,6 +12300,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, in a row of 42 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 41",
         "options": [
+          "40",
+          "55",
+          "42",
+          "23"
+        ],
+        "optionLatex": [
           "40",
           "55",
           "42",
@@ -10455,6 +12345,12 @@ export const aptitudeLevels = {
           "10.8889",
           "8.8889"
         ],
+        "optionLatex": [
+          "23.8889",
+          "15.8889",
+          "10.8889",
+          "8.8889"
+        ],
         "answer": "8.8889",
         "solution": {
           "approach": "Add individual rates.",
@@ -10483,6 +12379,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 6 and common difference 13.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(6)+(29-1)13\\right)",
         "options": [
+          "5450",
+          "5467",
+          "5452",
+          "5445"
+        ],
+        "optionLatex": [
           "5450",
           "5467",
           "5452",
@@ -10521,6 +12423,12 @@ export const aptitudeLevels = {
           "151.5",
           "171.5"
         ],
+        "optionLatex": [
+          "149.5",
+          "153.5",
+          "151.5",
+          "171.5"
+        ],
         "answer": "149.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -10549,6 +12457,12 @@ export const aptitudeLevels = {
         "q": "From a point 59 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=59\\tan(45^\\circ)",
         "options": [
+          "63",
+          "59",
+          "42",
+          "57"
+        ],
+        "optionLatex": [
           "63",
           "59",
           "42",
@@ -10587,6 +12501,12 @@ export const aptitudeLevels = {
           "-16.625",
           "-6.625"
         ],
+        "optionLatex": [
+          "7.375",
+          "0.375",
+          "-16.625",
+          "-6.625"
+        ],
         "answer": "0.375",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -10615,6 +12535,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=152",
         "options": [
+          "152",
+          "145",
+          "148",
+          "174"
+        ],
+        "optionLatex": [
           "152",
           "145",
           "148",
@@ -10653,6 +12579,12 @@ export const aptitudeLevels = {
           "5854",
           "5832"
         ],
+        "optionLatex": [
+          "5834",
+          "5825",
+          "5854",
+          "5832"
+        ],
         "answer": "5832",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -10681,6 +12613,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, a caselet score has base 63 and adjustment 71. What combined score is reported?",
         "latex": "63+71",
         "options": [
+          "136",
+          "134",
+          "130",
+          "117"
+        ],
+        "optionLatex": [
           "136",
           "134",
           "130",
@@ -10719,6 +12657,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -10747,6 +12691,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "13",
+          "5",
+          "-8",
+          "9"
+        ],
+        "optionLatex": [
           "13",
           "5",
           "-8",
@@ -10786,6 +12736,12 @@ export const aptitudeLevels = {
           "97",
           "89"
         ],
+        "optionLatex": [
+          "95",
+          "93",
+          "97",
+          "89"
+        ],
         "answer": "93",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -10818,6 +12774,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -10852,6 +12814,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -10885,6 +12853,12 @@ export const aptitudeLevels = {
           "33",
           "52"
         ],
+        "optionLatex": [
+          "50",
+          "54",
+          "33",
+          "52"
+        ],
         "answer": "50",
         "solution": {
           "approach": "Inspect first differences.",
@@ -10913,6 +12887,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, in a row of 17 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 16",
         "options": [
+          "11",
+          "13",
+          "19",
+          "15"
+        ],
+        "optionLatex": [
           "11",
           "13",
           "19",
@@ -10952,6 +12932,12 @@ export const aptitudeLevels = {
           "73.4627",
           "66.4627"
         ],
+        "optionLatex": [
+          "88.4627",
+          "70.4627",
+          "73.4627",
+          "66.4627"
+        ],
         "answer": "66.4627",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -10980,6 +12966,12 @@ export const aptitudeLevels = {
         "q": "If log base 12 of (x + 14) equals log base 12 of 28, find x.",
         "latex": "\\log_{12}(x+14)=\\log_{12}(28)",
         "options": [
+          "36",
+          "-3",
+          "14",
+          "0"
+        ],
+        "optionLatex": [
           "36",
           "-3",
           "14",
@@ -11018,6 +13010,12 @@ export const aptitudeLevels = {
           "25",
           "32"
         ],
+        "optionLatex": [
+          "28",
+          "47",
+          "25",
+          "32"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -11046,6 +13044,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 45[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "45\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "52",
+          "43",
+          "45",
+          "47"
+        ],
+        "optionLatex": [
           "52",
           "43",
           "45",
@@ -11084,6 +13088,12 @@ export const aptitudeLevels = {
           "35229123949219216",
           "35229123949219184"
         ],
+        "optionLatex": [
+          "35229123949219200",
+          "35229123949219204",
+          "35229123949219216",
+          "35229123949219184"
+        ],
         "answer": "35229123949219200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -11112,6 +13122,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "209",
+          "206",
+          "202",
+          "200"
+        ],
+        "optionLatex": [
           "209",
           "206",
           "202",
@@ -11150,6 +13166,12 @@ export const aptitudeLevels = {
           "71",
           "57"
         ],
+        "optionLatex": [
+          "50",
+          "64",
+          "71",
+          "57"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -11178,6 +13200,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, a caselet score has base 78 and adjustment 51. What combined score is reported?",
         "latex": "78+51",
         "options": [
+          "131",
+          "112",
+          "144",
+          "129"
+        ],
+        "optionLatex": [
           "131",
           "112",
           "144",
@@ -11216,6 +13244,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -11244,6 +13278,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "24",
+          "17",
+          "20",
+          "7"
+        ],
+        "optionLatex": [
           "24",
           "17",
           "20",
@@ -11283,6 +13323,12 @@ export const aptitudeLevels = {
           "138",
           "124"
         ],
+        "optionLatex": [
+          "153",
+          "121",
+          "138",
+          "124"
+        ],
         "answer": "138",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -11315,6 +13361,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -11349,6 +13401,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -11382,6 +13440,12 @@ export const aptitudeLevels = {
           "45",
           "53"
         ],
+        "optionLatex": [
+          "21",
+          "38",
+          "45",
+          "53"
+        ],
         "answer": "38",
         "solution": {
           "approach": "Inspect first differences.",
@@ -11410,6 +13474,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, in a row of 32 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 31",
         "options": [
+          "16",
+          "23",
+          "30",
+          "13"
+        ],
+        "optionLatex": [
           "16",
           "23",
           "30",
@@ -11449,6 +13519,12 @@ export const aptitudeLevels = {
           "89",
           "91"
         ],
+        "optionLatex": [
+          "84",
+          "98",
+          "89",
+          "91"
+        ],
         "answer": "91",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -11477,6 +13553,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 7x + 8 = 8.",
         "latex": "7x+8=8",
         "options": [
+          "-14",
+          "7",
+          "0",
+          "-7"
+        ],
+        "optionLatex": [
           "-14",
           "7",
           "0",
@@ -11515,6 +13597,12 @@ export const aptitudeLevels = {
           "437",
           "441"
         ],
+        "optionLatex": [
+          "420",
+          "444",
+          "437",
+          "441"
+        ],
         "answer": "437",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -11543,6 +13631,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 60[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "60\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "60",
+          "58",
+          "56",
+          "62"
+        ],
+        "optionLatex": [
           "60",
           "58",
           "56",
@@ -11581,6 +13675,12 @@ export const aptitudeLevels = {
           "64276915523",
           "64276915534"
         ],
+        "optionLatex": [
+          "64276915527",
+          "64276915513",
+          "64276915523",
+          "64276915534"
+        ],
         "answer": "64276915527",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -11609,6 +13709,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=22",
         "options": [
+          "37",
+          "22",
+          "8",
+          "18"
+        ],
+        "optionLatex": [
           "37",
           "22",
           "8",
@@ -11647,6 +13753,12 @@ export const aptitudeLevels = {
           "2338.5714",
           "2323.5714"
         ],
+        "optionLatex": [
+          "2340.5714",
+          "2362.5714",
+          "2338.5714",
+          "2323.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -11675,6 +13787,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, a caselet score has base 93 and adjustment 31. What combined score is reported?",
         "latex": "93+31",
         "options": [
+          "107",
+          "146",
+          "122",
+          "124"
+        ],
+        "optionLatex": [
           "107",
           "146",
           "122",
@@ -11713,6 +13831,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -11741,6 +13865,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "41",
+          "37",
+          "46",
+          "39"
+        ],
+        "optionLatex": [
           "41",
           "37",
           "46",
@@ -11780,6 +13910,12 @@ export const aptitudeLevels = {
           "131",
           "148"
         ],
+        "optionLatex": [
+          "135",
+          "133",
+          "131",
+          "148"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -11812,6 +13948,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -11846,6 +13988,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -11879,6 +14027,12 @@ export const aptitudeLevels = {
           "41",
           "55"
         ],
+        "optionLatex": [
+          "51",
+          "70",
+          "41",
+          "55"
+        ],
         "answer": "55",
         "solution": {
           "approach": "Inspect first differences.",
@@ -11907,6 +14061,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, in a row of 7 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 6",
         "options": [
+          "12",
+          "3",
+          "5",
+          "7"
+        ],
+        "optionLatex": [
           "12",
           "3",
           "5",
@@ -11946,6 +14106,12 @@ export const aptitudeLevels = {
           "5735",
           "5726"
         ],
+        "optionLatex": [
+          "5721",
+          "5728",
+          "5735",
+          "5726"
+        ],
         "answer": "5728",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -11974,6 +14140,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 12 = 19.",
         "latex": "4x+12=19",
         "options": [
+          "-0.25",
+          "-5.25",
+          "1.75",
+          "23.75"
+        ],
+        "optionLatex": [
           "-0.25",
           "-5.25",
           "1.75",
@@ -12012,6 +14184,12 @@ export const aptitudeLevels = {
           "65",
           "72"
         ],
+        "optionLatex": [
+          "74",
+          "94",
+          "65",
+          "72"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -12040,6 +14218,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 75[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "75\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "58",
+          "90",
+          "61",
+          "75"
+        ],
+        "optionLatex": [
           "58",
           "90",
           "61",
@@ -12078,6 +14262,12 @@ export const aptitudeLevels = {
           "15.6154",
           "0.6154"
         ],
+        "optionLatex": [
+          "-6.3846",
+          "22.6154",
+          "15.6154",
+          "0.6154"
+        ],
         "answer": "0.6154",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -12106,6 +14296,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=37",
         "options": [
+          "23",
+          "59",
+          "35",
+          "37"
+        ],
+        "optionLatex": [
           "23",
           "59",
           "35",
@@ -12144,6 +14340,12 @@ export const aptitudeLevels = {
           "164",
           "160"
         ],
+        "optionLatex": [
+          "169",
+          "162",
+          "164",
+          "160"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -12172,6 +14374,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, a caselet score has base 48 and adjustment 61. What combined score is reported?",
         "latex": "48+61",
         "options": [
+          "92",
+          "107",
+          "109",
+          "124"
+        ],
+        "optionLatex": [
           "92",
           "107",
           "109",
@@ -12210,6 +14418,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -12238,6 +14452,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "14",
+          "21",
+          "7",
+          "36"
+        ],
+        "optionLatex": [
           "14",
           "21",
           "7",
@@ -12277,6 +14497,12 @@ export const aptitudeLevels = {
           "118",
           "101"
         ],
+        "optionLatex": [
+          "120",
+          "140",
+          "118",
+          "101"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -12309,6 +14535,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -12343,6 +14575,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -12376,6 +14614,12 @@ export const aptitudeLevels = {
           "50",
           "43"
         ],
+        "optionLatex": [
+          "58",
+          "39",
+          "50",
+          "43"
+        ],
         "answer": "43",
         "solution": {
           "approach": "Inspect first differences.",
@@ -12404,6 +14648,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, in a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "6",
+          "13",
+          "27",
+          "20"
+        ],
+        "optionLatex": [
           "6",
           "13",
           "27",
@@ -12443,6 +14693,12 @@ export const aptitudeLevels = {
           "17701",
           "17694"
         ],
+        "optionLatex": [
+          "17705",
+          "17697",
+          "17701",
+          "17694"
+        ],
         "answer": "17701",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -12471,6 +14727,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, the roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "39",
+          "24",
+          "41",
+          "48"
+        ],
+        "optionLatex": [
           "39",
           "24",
           "41",
@@ -12509,6 +14771,12 @@ export const aptitudeLevels = {
           "43.5",
           "17.5"
         ],
+        "optionLatex": [
+          "25.5",
+          "21.5",
+          "43.5",
+          "17.5"
+        ],
         "answer": "21.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -12537,6 +14805,12 @@ export const aptitudeLevels = {
         "q": "From a point 49 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=49\\tan(45^\\circ)",
         "options": [
+          "32",
+          "45",
+          "51",
+          "49"
+        ],
+        "optionLatex": [
           "32",
           "45",
           "51",
@@ -12575,6 +14849,12 @@ export const aptitudeLevels = {
           "-3.5333",
           "4.4667"
         ],
+        "optionLatex": [
+          "2.4667",
+          "0.4667",
+          "-3.5333",
+          "4.4667"
+        ],
         "answer": "0.4667",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -12603,6 +14883,12 @@ export const aptitudeLevels = {
         "q": "Find the median of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=30",
         "options": [
+          "23",
+          "45",
+          "30",
+          "26"
+        ],
+        "optionLatex": [
           "23",
           "45",
           "30",
@@ -12641,6 +14927,12 @@ export const aptitudeLevels = {
           "388",
           "367"
         ],
+        "optionLatex": [
+          "384",
+          "399",
+          "388",
+          "367"
+        ],
         "answer": "384",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -12669,6 +14961,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, a caselet score has base 63 and adjustment 41. What combined score is reported?",
         "latex": "63+41",
         "options": [
+          "97",
+          "102",
+          "104",
+          "111"
+        ],
+        "optionLatex": [
           "97",
           "102",
           "104",
@@ -12707,6 +15005,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -12735,6 +15039,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "29",
+          "22",
+          "31",
+          "36"
+        ],
+        "optionLatex": [
           "29",
           "22",
           "31",
@@ -12774,6 +15084,12 @@ export const aptitudeLevels = {
           "109",
           "99"
         ],
+        "optionLatex": [
+          "106",
+          "113",
+          "109",
+          "99"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -12806,6 +15122,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -12840,6 +15162,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -12873,6 +15201,12 @@ export const aptitudeLevels = {
           "35",
           "46"
         ],
+        "optionLatex": [
+          "28",
+          "42",
+          "35",
+          "46"
+        ],
         "answer": "42",
         "solution": {
           "approach": "Inspect first differences.",
@@ -12901,6 +15235,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, in a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "39",
+          "37",
+          "35",
+          "33"
+        ],
+        "optionLatex": [
           "39",
           "37",
           "35",
@@ -12940,6 +15280,12 @@ export const aptitudeLevels = {
           "62",
           "33"
         ],
+        "optionLatex": [
+          "40",
+          "23",
+          "62",
+          "33"
+        ],
         "answer": "40",
         "solution": {
           "approach": "Work backward from A's future age.",
@@ -12968,6 +15314,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 7x + 7 = 7.",
         "latex": "7x+7=7",
         "options": [
+          "2",
+          "-17",
+          "0",
+          "7"
+        ],
+        "optionLatex": [
           "2",
           "-17",
           "0",
@@ -13006,6 +15358,12 @@ export const aptitudeLevels = {
           "90",
           "99"
         ],
+        "optionLatex": [
+          "85",
+          "92",
+          "90",
+          "99"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -13034,6 +15392,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 8[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "8\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "10",
+          "8",
+          "23",
+          "6"
+        ],
+        "optionLatex": [
           "10",
           "8",
           "23",
@@ -13072,6 +15436,12 @@ export const aptitudeLevels = {
           "115511746",
           "115511760"
         ],
+        "optionLatex": [
+          "115511753",
+          "115511782",
+          "115511746",
+          "115511760"
+        ],
         "answer": "115511760",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -13100,6 +15470,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, find the population variance of [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=2",
         "options": [
+          "2",
+          "-15",
+          "0",
+          "9"
+        ],
+        "optionLatex": [
           "2",
           "-15",
           "0",
@@ -13138,6 +15514,12 @@ export const aptitudeLevels = {
           "196",
           "189"
         ],
+        "optionLatex": [
+          "175",
+          "204",
+          "196",
+          "189"
+        ],
         "answer": "189",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -13166,6 +15548,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, a caselet score has base 78 and adjustment 71. What combined score is reported?",
         "latex": "78+71",
         "options": [
+          "151",
+          "147",
+          "149",
+          "132"
+        ],
+        "optionLatex": [
           "151",
           "147",
           "149",
@@ -13204,6 +15592,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -13232,6 +15626,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "-10",
+          "4",
+          "0",
+          "6"
+        ],
+        "optionLatex": [
           "-10",
           "4",
           "0",
@@ -13271,6 +15671,12 @@ export const aptitudeLevels = {
           "110",
           "108"
         ],
+        "optionLatex": [
+          "106",
+          "101",
+          "110",
+          "108"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -13303,6 +15709,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -13337,6 +15749,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -13370,6 +15788,12 @@ export const aptitudeLevels = {
           "59",
           "63"
         ],
+        "optionLatex": [
+          "57",
+          "52",
+          "59",
+          "63"
+        ],
         "answer": "59",
         "solution": {
           "approach": "Inspect first differences.",
@@ -13398,6 +15822,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, in a row of 12 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 11",
         "options": [
+          "8",
+          "-7",
+          "32",
+          "10"
+        ],
+        "optionLatex": [
           "8",
           "-7",
           "32",
@@ -13437,6 +15867,12 @@ export const aptitudeLevels = {
           "1299",
           "1292"
         ],
+        "optionLatex": [
+          "1303",
+          "1297",
+          "1299",
+          "1292"
+        ],
         "answer": "1299",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -13465,6 +15901,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=4x+11 and g(x)=11x+18. Find f(g(9)).",
         "latex": "f(x)=4x+11,\\quad g(x)=11x+18,\\quad f(g(9))",
         "options": [
+          "479",
+          "501",
+          "472",
+          "481"
+        ],
+        "optionLatex": [
           "479",
           "501",
           "472",
@@ -13503,6 +15945,12 @@ export const aptitudeLevels = {
           "444",
           "458"
         ],
+        "optionLatex": [
+          "473",
+          "454",
+          "444",
+          "458"
+        ],
         "answer": "458",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -13531,6 +15979,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 23[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "23\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "30",
+          "23",
+          "25",
+          "38"
+        ],
+        "optionLatex": [
           "30",
           "23",
           "25",
@@ -13569,6 +16023,12 @@ export const aptitudeLevels = {
           "424292",
           "424253"
         ],
+        "optionLatex": [
+          "424263",
+          "424270",
+          "424292",
+          "424253"
+        ],
         "answer": "424270",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -13597,6 +16057,12 @@ export const aptitudeLevels = {
         "q": "Find the population variance of [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=152",
         "options": [
+          "148",
+          "152",
+          "156",
+          "159"
+        ],
+        "optionLatex": [
           "148",
           "152",
           "156",
@@ -13635,6 +16101,12 @@ export const aptitudeLevels = {
           "8748",
           "8755"
         ],
+        "optionLatex": [
+          "8750",
+          "8746",
+          "8748",
+          "8755"
+        ],
         "answer": "8748",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -13663,6 +16135,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, a caselet score has base 93 and adjustment 51. What combined score is reported?",
         "latex": "93+51",
         "options": [
+          "137",
+          "148",
+          "159",
+          "144"
+        ],
+        "optionLatex": [
           "137",
           "148",
           "159",
@@ -13701,6 +16179,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -13729,6 +16213,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "19",
+          "12",
+          "21",
+          "5"
+        ],
+        "optionLatex": [
           "19",
           "12",
           "21",
@@ -13768,6 +16258,12 @@ export const aptitudeLevels = {
           "153",
           "157"
         ],
+        "optionLatex": [
+          "136",
+          "139",
+          "153",
+          "157"
+        ],
         "answer": "153",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -13800,6 +16296,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -13834,6 +16336,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -13867,6 +16375,12 @@ export const aptitudeLevels = {
           "40",
           "69"
         ],
+        "optionLatex": [
+          "33",
+          "47",
+          "40",
+          "69"
+        ],
         "answer": "47",
         "solution": {
           "approach": "Inspect first differences.",
@@ -13895,6 +16409,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, in a row of 27 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 26",
         "options": [
+          "8",
+          "11",
+          "25",
+          "27"
+        ],
+        "optionLatex": [
           "8",
           "11",
           "25",
@@ -13934,6 +16454,12 @@ export const aptitudeLevels = {
           "5869",
           "5855"
         ],
+        "optionLatex": [
+          "5862",
+          "5845",
+          "5869",
+          "5855"
+        ],
         "answer": "5862",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -13962,6 +16488,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 10 < x <= 16?",
         "latex": "10<x\\le 16",
         "options": [
+          "6",
+          "21",
+          "4",
+          "8"
+        ],
+        "optionLatex": [
           "6",
           "21",
           "4",
@@ -14000,6 +16532,12 @@ export const aptitudeLevels = {
           "67",
           "50"
         ],
+        "optionLatex": [
+          "52",
+          "45",
+          "67",
+          "50"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -14028,6 +16566,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 38[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "38\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "38",
+          "53",
+          "42",
+          "36"
+        ],
+        "optionLatex": [
           "38",
           "53",
           "42",
@@ -14066,6 +16610,12 @@ export const aptitudeLevels = {
           "4.3333",
           "22.3333"
         ],
+        "optionLatex": [
+          "-13.6667",
+          "0.3333",
+          "4.3333",
+          "22.3333"
+        ],
         "answer": "0.3333",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -14094,6 +16644,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, find the population variance of [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=182",
         "options": [
+          "182",
+          "178",
+          "197",
+          "168"
+        ],
+        "optionLatex": [
           "182",
           "178",
           "197",
@@ -14132,6 +16688,12 @@ export const aptitudeLevels = {
           "64",
           "57"
         ],
+        "optionLatex": [
+          "79",
+          "47",
+          "64",
+          "57"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -14160,6 +16722,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, a caselet score has base 48 and adjustment 31. What combined score is reported?",
         "latex": "48+31",
         "options": [
+          "81",
+          "86",
+          "101",
+          "79"
+        ],
+        "optionLatex": [
           "81",
           "86",
           "101",
@@ -14198,6 +16766,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -14226,6 +16800,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "34",
+          "30",
+          "20",
+          "49"
+        ],
+        "optionLatex": [
           "34",
           "30",
           "20",
@@ -14265,6 +16845,12 @@ export const aptitudeLevels = {
           "88",
           "84"
         ],
+        "optionLatex": [
+          "86",
+          "103",
+          "88",
+          "84"
+        ],
         "answer": "88",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -14297,6 +16883,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -14331,6 +16923,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -14364,6 +16962,12 @@ export const aptitudeLevels = {
           "61",
           "46"
         ],
+        "optionLatex": [
+          "37",
+          "39",
+          "61",
+          "46"
+        ],
         "answer": "39",
         "solution": {
           "approach": "Inspect first differences.",
@@ -14392,6 +16996,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, in a row of 42 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 41",
         "options": [
+          "40",
+          "47",
+          "26",
+          "23"
+        ],
+        "optionLatex": [
           "40",
           "47",
           "26",
@@ -14431,6 +17041,12 @@ export const aptitudeLevels = {
           "5921.6",
           "5935.6"
         ],
+        "optionLatex": [
+          "5939.6",
+          "5957.6",
+          "5921.6",
+          "5935.6"
+        ],
         "answer": "5935.6",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -14459,6 +17075,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 9 and common difference 6.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(9)+(29-1)6\\right)",
         "options": [
+          "2699",
+          "2697",
+          "2719",
+          "2704"
+        ],
+        "optionLatex": [
           "2699",
           "2697",
           "2719",
@@ -14497,6 +17119,12 @@ export const aptitudeLevels = {
           "88",
           "92"
         ],
+        "optionLatex": [
+          "114",
+          "78",
+          "88",
+          "92"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -14525,6 +17153,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, from a point 39 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=39\\tan(45^\\circ)",
         "options": [
+          "61",
+          "25",
+          "39",
+          "46"
+        ],
+        "optionLatex": [
           "61",
           "25",
           "39",
@@ -14563,6 +17197,12 @@ export const aptitudeLevels = {
           "4.2143",
           "-1.7857"
         ],
+        "optionLatex": [
+          "0.2143",
+          "22.2143",
+          "4.2143",
+          "-1.7857"
+        ],
         "answer": "0.2143",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -14591,6 +17231,12 @@ export const aptitudeLevels = {
         "q": "Find the mean of the data set [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=42",
         "options": [
+          "42",
+          "25",
+          "57",
+          "40"
+        ],
+        "optionLatex": [
           "42",
           "25",
           "57",
@@ -14629,6 +17275,12 @@ export const aptitudeLevels = {
           "2333.5714",
           "2326.5714"
         ],
+        "optionLatex": [
+          "2342.5714",
+          "2340.5714",
+          "2333.5714",
+          "2326.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -14657,6 +17309,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, a caselet score has base 63 and adjustment 61. What combined score is reported?",
         "latex": "63+61",
         "options": [
+          "131",
+          "124",
+          "117",
+          "146"
+        ],
+        "optionLatex": [
           "131",
           "124",
           "117",
@@ -14695,6 +17353,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -14723,6 +17387,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "2",
+          "7",
+          "24",
+          "9"
+        ],
+        "optionLatex": [
           "2",
           "7",
           "24",
@@ -14762,6 +17432,12 @@ export const aptitudeLevels = {
           "119",
           "155"
         ],
+        "optionLatex": [
+          "131",
+          "133",
+          "119",
+          "155"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -14794,6 +17470,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -14828,6 +17510,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -14861,6 +17549,12 @@ export const aptitudeLevels = {
           "56",
           "71"
         ],
+        "optionLatex": [
+          "58",
+          "42",
+          "56",
+          "71"
+        ],
         "answer": "56",
         "solution": {
           "approach": "Inspect first differences.",
@@ -14889,6 +17583,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, in a row of 17 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 16",
         "options": [
+          "8",
+          "15",
+          "11",
+          "19"
+        ],
+        "optionLatex": [
           "8",
           "15",
           "11",
@@ -14928,6 +17628,12 @@ export const aptitudeLevels = {
           "77",
           "82"
         ],
+        "optionLatex": [
+          "84",
+          "88",
+          "77",
+          "82"
+        ],
         "answer": "84",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -14956,6 +17662,12 @@ export const aptitudeLevels = {
         "q": "If log base 13 of (x + 54) equals log base 13 of 108, find x.",
         "latex": "\\log_{13}(x+54)=\\log_{13}(108)",
         "options": [
+          "54",
+          "50",
+          "52",
+          "76"
+        ],
+        "optionLatex": [
           "54",
           "50",
           "52",
@@ -14994,6 +17706,12 @@ export const aptitudeLevels = {
           "152",
           "156"
         ],
+        "optionLatex": [
+          "150",
+          "154",
+          "152",
+          "156"
+        ],
         "answer": "152",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -15022,6 +17740,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 68[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "68\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "90",
+          "68",
+          "64",
+          "54"
+        ],
+        "optionLatex": [
           "90",
           "68",
           "64",
@@ -15060,6 +17784,12 @@ export const aptitudeLevels = {
           "259459202",
           "259459215"
         ],
+        "optionLatex": [
+          "259459200",
+          "259459207",
+          "259459202",
+          "259459215"
+        ],
         "answer": "259459200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -15088,6 +17818,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, find the mean of the data set [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=37",
         "options": [
+          "35",
+          "41",
+          "37",
+          "52"
+        ],
+        "optionLatex": [
           "35",
           "41",
           "37",
@@ -15126,6 +17862,12 @@ export const aptitudeLevels = {
           "110",
           "114"
         ],
+        "optionLatex": [
+          "107",
+          "129",
+          "110",
+          "114"
+        ],
         "answer": "114",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -15154,6 +17896,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, a caselet score has base 78 and adjustment 41. What combined score is reported?",
         "latex": "78+41",
         "options": [
+          "117",
+          "119",
+          "112",
+          "123"
+        ],
+        "optionLatex": [
           "117",
           "119",
           "112",
@@ -15192,6 +17940,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -15220,6 +17974,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "46",
+          "10",
+          "24",
+          "22"
+        ],
+        "optionLatex": [
           "46",
           "10",
           "24",
@@ -15259,6 +18019,12 @@ export const aptitudeLevels = {
           "135",
           "128"
         ],
+        "optionLatex": [
+          "143",
+          "132",
+          "135",
+          "128"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -15291,6 +18057,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -15325,6 +18097,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -15358,6 +18136,12 @@ export const aptitudeLevels = {
           "27",
           "51"
         ],
+        "optionLatex": [
+          "66",
+          "44",
+          "27",
+          "51"
+        ],
         "answer": "44",
         "solution": {
           "approach": "Inspect first differences.",
@@ -15386,6 +18170,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, in a row of 32 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 31",
         "options": [
+          "34",
+          "30",
+          "26",
+          "32"
+        ],
+        "optionLatex": [
           "34",
           "30",
           "26",
@@ -15425,6 +18215,12 @@ export const aptitudeLevels = {
           "9785",
           "9792"
         ],
+        "optionLatex": [
+          "9788",
+          "9796",
+          "9785",
+          "9792"
+        ],
         "answer": "9792",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -15453,6 +18249,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 14 = 11.",
         "latex": "10x+14=11",
         "options": [
+          "-0.3",
+          "-17.3",
+          "-14.3",
+          "-2.3"
+        ],
+        "optionLatex": [
           "-0.3",
           "-17.3",
           "-14.3",
@@ -15491,6 +18293,12 @@ export const aptitudeLevels = {
           "235",
           "242"
         ],
+        "optionLatex": [
+          "225",
+          "240",
+          "235",
+          "242"
+        ],
         "answer": "242",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -15519,6 +18327,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 83[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "83\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "69",
+          "87",
+          "66",
+          "83"
+        ],
+        "optionLatex": [
           "69",
           "87",
           "66",
@@ -15557,6 +18371,12 @@ export const aptitudeLevels = {
           "3108112",
           "3108098"
         ],
+        "optionLatex": [
+          "3108105",
+          "3108107",
+          "3108112",
+          "3108098"
+        ],
         "answer": "3108105",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -15585,6 +18405,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, find the median of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=34",
         "options": [
+          "34",
+          "27",
+          "56",
+          "17"
+        ],
+        "optionLatex": [
           "34",
           "27",
           "56",
@@ -15623,6 +18449,12 @@ export const aptitudeLevels = {
           "138",
           "136"
         ],
+        "optionLatex": [
+          "151",
+          "119",
+          "138",
+          "136"
+        ],
         "answer": "136",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -15651,6 +18483,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, a caselet score has base 93 and adjustment 71. What combined score is reported?",
         "latex": "93+71",
         "options": [
+          "150",
+          "171",
+          "164",
+          "186"
+        ],
+        "optionLatex": [
           "150",
           "171",
           "164",
@@ -15689,6 +18527,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -15717,6 +18561,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "39",
+          "35",
+          "32",
+          "37"
+        ],
+        "optionLatex": [
           "39",
           "35",
           "32",
@@ -15756,6 +18606,12 @@ export const aptitudeLevels = {
           "109",
           "106"
         ],
+        "optionLatex": [
+          "123",
+          "119",
+          "109",
+          "106"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -15788,6 +18644,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -15822,6 +18684,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -15855,6 +18723,12 @@ export const aptitudeLevels = {
           "58",
           "39"
         ],
+        "optionLatex": [
+          "41",
+          "43",
+          "58",
+          "39"
+        ],
         "answer": "43",
         "solution": {
           "approach": "Inspect first differences.",
@@ -15883,6 +18757,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, in a row of 7 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 6",
         "options": [
+          "5",
+          "9",
+          "7",
+          "-12"
+        ],
+        "optionLatex": [
           "5",
           "9",
           "7",
@@ -15922,6 +18802,12 @@ export const aptitudeLevels = {
           "384.5",
           "404.5"
         ],
+        "optionLatex": [
+          "378.5",
+          "382.5",
+          "384.5",
+          "404.5"
+        ],
         "answer": "382.5",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -15950,6 +18836,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 7x + 5 = 5.",
         "latex": "7x+5=5",
         "options": [
+          "22",
+          "-2",
+          "-14",
+          "0"
+        ],
+        "optionLatex": [
           "22",
           "-2",
           "-14",
@@ -15988,6 +18880,12 @@ export const aptitudeLevels = {
           "7.5",
           "14.5"
         ],
+        "optionLatex": [
+          "21.5",
+          "43.5",
+          "7.5",
+          "14.5"
+        ],
         "answer": "21.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -16016,6 +18914,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 98[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "98\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "120",
+          "96",
+          "98",
+          "84"
+        ],
+        "optionLatex": [
           "120",
           "96",
           "98",
@@ -16054,6 +18958,12 @@ export const aptitudeLevels = {
           "0.4211",
           "-3.5789"
         ],
+        "optionLatex": [
+          "15.4211",
+          "-13.5789",
+          "0.4211",
+          "-3.5789"
+        ],
         "answer": "0.4211",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -16082,6 +18992,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "188",
+          "202",
+          "185",
+          "204"
+        ],
+        "optionLatex": [
           "188",
           "202",
           "185",
@@ -16120,6 +19036,12 @@ export const aptitudeLevels = {
           "243",
           "229"
         ],
+        "optionLatex": [
+          "258",
+          "236",
+          "243",
+          "229"
+        ],
         "answer": "243",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -16148,6 +19070,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, a caselet score has base 48 and adjustment 51. What combined score is reported?",
         "latex": "48+51",
         "options": [
+          "114",
+          "99",
+          "121",
+          "95"
+        ],
+        "optionLatex": [
           "114",
           "99",
           "121",
@@ -16186,6 +19114,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -16214,6 +19148,12 @@ export const aptitudeLevels = {
         "q": "In practice set 10, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "12",
+          "10",
+          "14",
+          "7"
+        ],
+        "optionLatex": [
           "12",
           "10",
           "14",
@@ -16253,6 +19193,12 @@ export const aptitudeLevels = {
           "108",
           "123"
         ],
+        "optionLatex": [
+          "130",
+          "91",
+          "108",
+          "123"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -16285,6 +19231,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -16319,6 +19271,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -16352,6 +19310,12 @@ export const aptitudeLevels = {
           "82",
           "75"
         ],
+        "optionLatex": [
+          "60",
+          "43",
+          "82",
+          "75"
+        ],
         "answer": "60",
         "solution": {
           "approach": "Inspect first differences.",
@@ -16380,6 +19344,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, in a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "20",
+          "22",
+          "6",
+          "42"
+        ],
+        "optionLatex": [
           "20",
           "22",
           "6",
@@ -16419,6 +19389,12 @@ export const aptitudeLevels = {
           "493.17",
           "485.17"
         ],
+        "optionLatex": [
+          "478.17",
+          "480.17",
+          "493.17",
+          "485.17"
+        ],
         "answer": "478.17",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -16447,6 +19423,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, the roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "27",
+          "63",
+          "48",
+          "41"
+        ],
+        "optionLatex": [
           "27",
           "63",
           "48",
@@ -16485,6 +19467,12 @@ export const aptitudeLevels = {
           "250.5",
           "264.5"
         ],
+        "optionLatex": [
+          "257.5",
+          "247.5",
+          "250.5",
+          "264.5"
+        ],
         "answer": "264.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -16513,6 +19501,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, from a point 29 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=29\\tan(45^\\circ)",
         "options": [
+          "36",
+          "15",
+          "31",
+          "29"
+        ],
+        "optionLatex": [
           "36",
           "15",
           "31",
@@ -16551,6 +19545,12 @@ export const aptitudeLevels = {
           "0.5833",
           "4.5833"
         ],
+        "optionLatex": [
+          "-16.4167",
+          "-13.4167",
+          "0.5833",
+          "4.5833"
+        ],
         "answer": "0.5833",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -16579,6 +19579,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, find the population variance of [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=32",
         "options": [
+          "39",
+          "34",
+          "32",
+          "54"
+        ],
+        "optionLatex": [
           "39",
           "34",
           "32",
@@ -16617,6 +19623,12 @@ export const aptitudeLevels = {
           "11650",
           "11657"
         ],
+        "optionLatex": [
+          "11664",
+          "11668",
+          "11650",
+          "11657"
+        ],
         "answer": "11664",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -16645,6 +19657,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, a caselet score has base 63 and adjustment 31. What combined score is reported?",
         "latex": "63+31",
         "options": [
+          "92",
+          "94",
+          "96",
+          "116"
+        ],
+        "optionLatex": [
           "92",
           "94",
           "96",
@@ -16683,6 +19701,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -16711,6 +19735,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "31",
+          "27",
+          "15",
+          "29"
+        ],
+        "optionLatex": [
           "31",
           "27",
           "15",
@@ -16750,6 +19780,12 @@ export const aptitudeLevels = {
           "125",
           "103"
         ],
+        "optionLatex": [
+          "99",
+          "101",
+          "125",
+          "103"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -16782,6 +19818,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -16816,6 +19858,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -16849,6 +19897,12 @@ export const aptitudeLevels = {
           "52",
           "46"
         ],
+        "optionLatex": [
+          "70",
+          "48",
+          "52",
+          "46"
+        ],
         "answer": "48",
         "solution": {
           "approach": "Inspect first differences.",
@@ -16877,6 +19931,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, in a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "33",
+          "31",
+          "35",
+          "57"
+        ],
+        "optionLatex": [
           "33",
           "31",
           "35",
@@ -16916,6 +19976,12 @@ export const aptitudeLevels = {
           "-11.3478",
           "5.6522"
         ],
+        "optionLatex": [
+          "27.6522",
+          "9.6522",
+          "-11.3478",
+          "5.6522"
+        ],
         "answer": "5.6522",
         "solution": {
           "approach": "Add individual rates.",
@@ -16944,6 +20010,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 13 = 10.",
         "latex": "10x+13=10",
         "options": [
+          "-2.3",
+          "-14.3",
+          "-0.3",
+          "-4.3"
+        ],
+        "optionLatex": [
           "-2.3",
           "-14.3",
           "-0.3",
@@ -16982,6 +20054,12 @@ export const aptitudeLevels = {
           "1396",
           "1378"
         ],
+        "optionLatex": [
+          "1390",
+          "1392",
+          "1396",
+          "1378"
+        ],
         "answer": "1392",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -17010,6 +20088,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 31[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "31\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "33",
+          "31",
+          "27",
+          "38"
+        ],
+        "optionLatex": [
           "33",
           "31",
           "27",
@@ -17048,6 +20132,12 @@ export const aptitudeLevels = {
           "1802440078",
           "1802440080"
         ],
+        "optionLatex": [
+          "1802440102",
+          "1802440084",
+          "1802440078",
+          "1802440080"
+        ],
         "answer": "1802440080",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -17076,6 +20166,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "184",
+          "182",
+          "189",
+          "175"
+        ],
+        "optionLatex": [
           "184",
           "182",
           "189",
@@ -17114,6 +20210,12 @@ export const aptitudeLevels = {
           "66",
           "79"
         ],
+        "optionLatex": [
+          "64",
+          "86",
+          "66",
+          "79"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -17142,6 +20244,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, a caselet score has base 78 and adjustment 61. What combined score is reported?",
         "latex": "78+61",
         "options": [
+          "135",
+          "139",
+          "143",
+          "161"
+        ],
+        "optionLatex": [
           "135",
           "139",
           "143",
@@ -17180,6 +20288,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -17208,6 +20322,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "4",
+          "0",
+          "-3",
+          "2"
+        ],
+        "optionLatex": [
           "4",
           "0",
           "-3",
@@ -17247,6 +20367,12 @@ export const aptitudeLevels = {
           "141",
           "148"
         ],
+        "optionLatex": [
+          "170",
+          "152",
+          "141",
+          "148"
+        ],
         "answer": "148",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -17279,6 +20405,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -17313,6 +20445,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -17346,6 +20484,12 @@ export const aptitudeLevels = {
           "54",
           "47"
         ],
+        "optionLatex": [
+          "51",
+          "33",
+          "54",
+          "47"
+        ],
         "answer": "47",
         "solution": {
           "approach": "Inspect first differences.",
@@ -17374,6 +20518,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, in a row of 12 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 11",
         "options": [
+          "-4",
+          "32",
+          "-7",
+          "10"
+        ],
+        "optionLatex": [
           "-4",
           "32",
           "-7",
@@ -17413,6 +20563,12 @@ export const aptitudeLevels = {
           "6.6667",
           "4.6667"
         ],
+        "optionLatex": [
+          "10.6667",
+          "-0.3333",
+          "6.6667",
+          "4.6667"
+        ],
         "answer": "6.6667",
         "solution": {
           "approach": "Add individual rates.",
@@ -17441,6 +20597,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=7x+4 and g(x)=4x+4. Find f(g(9)).",
         "latex": "f(x)=7x+4,\\quad g(x)=4x+4,\\quad f(g(9))",
         "options": [
+          "286",
+          "284",
+          "306",
+          "270"
+        ],
+        "optionLatex": [
           "286",
           "284",
           "306",
@@ -17479,6 +20641,12 @@ export const aptitudeLevels = {
           "171.5",
           "149.5"
         ],
+        "optionLatex": [
+          "135.5",
+          "153.5",
+          "171.5",
+          "149.5"
+        ],
         "answer": "149.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -17507,6 +20675,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 46[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "46\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "32",
+          "39",
+          "44",
+          "46"
+        ],
+        "optionLatex": [
           "32",
           "39",
           "44",
@@ -17545,6 +20719,12 @@ export const aptitudeLevels = {
           "2331890",
           "2331876"
         ],
+        "optionLatex": [
+          "2331888",
+          "2331905",
+          "2331890",
+          "2331876"
+        ],
         "answer": "2331890",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -17573,6 +20753,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, find the mean of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=32",
         "options": [
+          "18",
+          "32",
+          "47",
+          "39"
+        ],
+        "optionLatex": [
           "18",
           "32",
           "47",
@@ -17611,6 +20797,12 @@ export const aptitudeLevels = {
           "2336.5714",
           "2340.5714"
         ],
+        "optionLatex": [
+          "2347.5714",
+          "2344.5714",
+          "2336.5714",
+          "2340.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -17639,6 +20831,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, a caselet score has base 93 and adjustment 41. What combined score is reported?",
         "latex": "93+41",
         "options": [
+          "132",
+          "127",
+          "149",
+          "134"
+        ],
+        "optionLatex": [
           "132",
           "127",
           "149",
@@ -17677,6 +20875,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -17705,6 +20909,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "23",
+          "19",
+          "2",
+          "26"
+        ],
+        "optionLatex": [
           "23",
           "19",
           "2",
@@ -17744,6 +20954,12 @@ export const aptitudeLevels = {
           "143",
           "136"
         ],
+        "optionLatex": [
+          "126",
+          "147",
+          "143",
+          "136"
+        ],
         "answer": "143",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -17776,6 +20992,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -17810,6 +21032,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -17843,6 +21071,12 @@ export const aptitudeLevels = {
           "32",
           "42"
         ],
+        "optionLatex": [
+          "46",
+          "68",
+          "32",
+          "42"
+        ],
         "answer": "46",
         "solution": {
           "approach": "Inspect first differences.",
@@ -17871,6 +21105,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, in a row of 27 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 26",
         "options": [
+          "21",
+          "25",
+          "40",
+          "32"
+        ],
+        "optionLatex": [
           "21",
           "25",
           "40",
@@ -17910,6 +21150,12 @@ export const aptitudeLevels = {
           "46.5614",
           "55.5614"
         ],
+        "optionLatex": [
+          "51.5614",
+          "53.5614",
+          "46.5614",
+          "55.5614"
+        ],
         "answer": "53.5614",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -17938,6 +21184,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 4 < x <= 9?",
         "latex": "4<x\\le 9",
         "options": [
+          "5",
+          "1",
+          "-9",
+          "20"
+        ],
+        "optionLatex": [
           "5",
           "1",
           "-9",
@@ -17976,6 +21228,12 @@ export const aptitudeLevels = {
           "32",
           "47"
         ],
+        "optionLatex": [
+          "30",
+          "25",
+          "32",
+          "47"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -18004,6 +21262,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 61[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "61\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "65",
+          "47",
+          "61",
+          "76"
+        ],
+        "optionLatex": [
           "65",
           "47",
           "61",
@@ -18042,6 +21306,12 @@ export const aptitudeLevels = {
           "-1.5556",
           "-13.5556"
         ],
+        "optionLatex": [
+          "2.4444",
+          "0.4444",
+          "-1.5556",
+          "-13.5556"
+        ],
         "answer": "0.4444",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -18070,6 +21340,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, find the mean of the data set [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=57",
         "options": [
+          "40",
+          "55",
+          "79",
+          "57"
+        ],
+        "optionLatex": [
           "40",
           "55",
           "79",
@@ -18108,6 +21384,12 @@ export const aptitudeLevels = {
           "283",
           "288"
         ],
+        "optionLatex": [
+          "297",
+          "290",
+          "283",
+          "288"
+        ],
         "answer": "290",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -18136,6 +21418,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, a caselet score has base 48 and adjustment 71. What combined score is reported?",
         "latex": "48+71",
         "options": [
+          "126",
+          "115",
+          "112",
+          "119"
+        ],
+        "optionLatex": [
           "126",
           "115",
           "112",
@@ -18174,6 +21462,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -18202,6 +21496,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "34",
+          "20",
+          "56",
+          "38"
+        ],
+        "optionLatex": [
           "34",
           "20",
           "56",
@@ -18241,6 +21541,12 @@ export const aptitudeLevels = {
           "61",
           "71"
         ],
+        "optionLatex": [
+          "82",
+          "78",
+          "61",
+          "71"
+        ],
         "answer": "78",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -18273,6 +21579,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -18307,6 +21619,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -18340,6 +21658,12 @@ export const aptitudeLevels = {
           "60",
           "49"
         ],
+        "optionLatex": [
+          "45",
+          "43",
+          "60",
+          "49"
+        ],
         "answer": "45",
         "solution": {
           "approach": "Inspect first differences.",
@@ -18368,6 +21692,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, in a row of 42 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 41",
         "options": [
+          "23",
+          "40",
+          "42",
+          "26"
+        ],
+        "optionLatex": [
           "23",
           "40",
           "42",
@@ -18407,6 +21737,12 @@ export const aptitudeLevels = {
           "67",
           "53"
         ],
+        "optionLatex": [
+          "50",
+          "71",
+          "67",
+          "53"
+        ],
         "answer": "67",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -18435,6 +21771,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 12 and common difference 12.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(12)+(29-1)12\\right)",
         "options": [
+          "5227",
+          "5220",
+          "5216",
+          "5224"
+        ],
+        "optionLatex": [
           "5227",
           "5220",
           "5216",
@@ -18473,6 +21815,12 @@ export const aptitudeLevels = {
           "433",
           "437"
         ],
+        "optionLatex": [
+          "452",
+          "459",
+          "433",
+          "437"
+        ],
         "answer": "437",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -18501,6 +21849,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, from a point 89 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=89\\tan(45^\\circ)",
         "options": [
+          "96",
+          "82",
+          "89",
+          "85"
+        ],
+        "optionLatex": [
           "96",
           "82",
           "89",
@@ -18539,6 +21893,12 @@ export const aptitudeLevels = {
           "0.2727",
           "15.2727"
         ],
+        "optionLatex": [
+          "-6.7273",
+          "-16.7273",
+          "0.2727",
+          "15.2727"
+        ],
         "answer": "0.2727",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -18567,6 +21927,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, find the median of the data set [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=30",
         "options": [
+          "28",
+          "30",
+          "16",
+          "23"
+        ],
+        "optionLatex": [
           "28",
           "30",
           "16",
@@ -18605,6 +21971,12 @@ export const aptitudeLevels = {
           "32",
           "54"
         ],
+        "optionLatex": [
+          "47",
+          "25",
+          "32",
+          "54"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -18633,6 +22005,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, a caselet score has base 63 and adjustment 51. What combined score is reported?",
         "latex": "63+51",
         "options": [
+          "114",
+          "118",
+          "116",
+          "107"
+        ],
+        "optionLatex": [
           "114",
           "118",
           "116",
@@ -18671,6 +22049,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -18699,6 +22083,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "7",
+          "9",
+          "13",
+          "16"
+        ],
+        "optionLatex": [
           "7",
           "9",
           "13",
@@ -18738,6 +22128,12 @@ export const aptitudeLevels = {
           "138",
           "106"
         ],
+        "optionLatex": [
+          "123",
+          "116",
+          "138",
+          "106"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -18770,6 +22166,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -18804,6 +22206,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -18837,6 +22245,12 @@ export const aptitudeLevels = {
           "40",
           "30"
         ],
+        "optionLatex": [
+          "46",
+          "44",
+          "40",
+          "30"
+        ],
         "answer": "44",
         "solution": {
           "approach": "Inspect first differences.",
@@ -18865,6 +22279,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, in a row of 17 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 16",
         "options": [
+          "1",
+          "30",
+          "19",
+          "15"
+        ],
+        "optionLatex": [
           "1",
           "30",
           "19",
@@ -18904,6 +22324,12 @@ export const aptitudeLevels = {
           "12164",
           "12160"
         ],
+        "optionLatex": [
+          "12157",
+          "12179",
+          "12164",
+          "12160"
+        ],
         "answer": "12164",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -18932,6 +22358,12 @@ export const aptitudeLevels = {
         "q": "If log base 14 of (x + 14) equals log base 14 of 28, find x.",
         "latex": "\\log_{14}(x+14)=\\log_{14}(28)",
         "options": [
+          "21",
+          "16",
+          "12",
+          "14"
+        ],
+        "optionLatex": [
           "21",
           "16",
           "12",
@@ -18970,6 +22402,12 @@ export const aptitudeLevels = {
           "508",
           "512"
         ],
+        "optionLatex": [
+          "510",
+          "505",
+          "508",
+          "512"
+        ],
         "answer": "512",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -18998,6 +22436,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 91[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "91\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "87",
+          "89",
+          "91",
+          "98"
+        ],
+        "optionLatex": [
           "87",
           "89",
           "91",
@@ -19036,6 +22480,12 @@ export const aptitudeLevels = {
           "204636013545596",
           "204636013545586"
         ],
+        "optionLatex": [
+          "204636013545622",
+          "204636013545600",
+          "204636013545596",
+          "204636013545586"
+        ],
         "answer": "204636013545600",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -19064,6 +22514,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, find the population variance of [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=182",
         "options": [
+          "182",
+          "204",
+          "168",
+          "197"
+        ],
+        "optionLatex": [
           "182",
           "204",
           "168",
@@ -19102,6 +22558,12 @@ export const aptitudeLevels = {
           "81",
           "67"
         ],
+        "optionLatex": [
+          "96",
+          "77",
+          "81",
+          "67"
+        ],
         "answer": "81",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -19130,6 +22592,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, a caselet score has base 78 and adjustment 31. What combined score is reported?",
         "latex": "78+31",
         "options": [
+          "113",
+          "109",
+          "107",
+          "116"
+        ],
+        "optionLatex": [
           "113",
           "109",
           "107",
@@ -19168,6 +22636,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -19196,6 +22670,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "22",
+          "24",
+          "20",
+          "39"
+        ],
+        "optionLatex": [
           "22",
           "24",
           "20",
@@ -19235,6 +22715,12 @@ export const aptitudeLevels = {
           "118",
           "114"
         ],
+        "optionLatex": [
+          "104",
+          "122",
+          "118",
+          "114"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -19267,6 +22753,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -19301,6 +22793,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -19334,6 +22832,12 @@ export const aptitudeLevels = {
           "50",
           "57"
         ],
+        "optionLatex": [
+          "54",
+          "43",
+          "50",
+          "57"
+        ],
         "answer": "50",
         "solution": {
           "approach": "Inspect first differences.",
@@ -19362,6 +22866,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, in a row of 32 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 31",
         "options": [
+          "45",
+          "23",
+          "32",
+          "30"
+        ],
+        "optionLatex": [
           "45",
           "23",
           "32",
@@ -19401,6 +22911,12 @@ export const aptitudeLevels = {
           "4619",
           "4605"
         ],
+        "optionLatex": [
+          "4634",
+          "4621",
+          "4619",
+          "4605"
+        ],
         "answer": "4619",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -19429,6 +22945,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 7 = 14.",
         "latex": "4x+7=14",
         "options": [
+          "1.75",
+          "5.75",
+          "16.75",
+          "-2.25"
+        ],
+        "optionLatex": [
           "1.75",
           "5.75",
           "16.75",
@@ -19467,6 +22989,12 @@ export const aptitudeLevels = {
           "26.5",
           "22.5"
         ],
+        "optionLatex": [
+          "24.5",
+          "19.5",
+          "26.5",
+          "22.5"
+        ],
         "answer": "26.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -19495,6 +23023,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 9[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "9\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "9",
+          "2",
+          "-5",
+          "13"
+        ],
+        "optionLatex": [
           "9",
           "2",
           "-5",
@@ -19533,6 +23067,12 @@ export const aptitudeLevels = {
           "1916797315",
           "1916797311"
         ],
+        "optionLatex": [
+          "1916797326",
+          "1916797313",
+          "1916797315",
+          "1916797311"
+        ],
         "answer": "1916797311",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -19561,6 +23101,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, find the population variance of [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=72",
         "options": [
+          "87",
+          "74",
+          "72",
+          "68"
+        ],
+        "optionLatex": [
           "87",
           "74",
           "72",
@@ -19599,6 +23145,12 @@ export const aptitudeLevels = {
           "2918",
           "2916"
         ],
+        "optionLatex": [
+          "2914",
+          "2923",
+          "2918",
+          "2916"
+        ],
         "answer": "2916",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -19627,6 +23179,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, a caselet score has base 93 and adjustment 61. What combined score is reported?",
         "latex": "93+61",
         "options": [
+          "147",
+          "154",
+          "169",
+          "140"
+        ],
+        "optionLatex": [
           "147",
           "154",
           "169",
@@ -19665,6 +23223,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -19693,6 +23257,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "22",
+          "39",
+          "43",
+          "61"
+        ],
+        "optionLatex": [
           "22",
           "39",
           "43",
@@ -19732,6 +23302,12 @@ export const aptitudeLevels = {
           "163",
           "165"
         ],
+        "optionLatex": [
+          "167",
+          "185",
+          "163",
+          "165"
+        ],
         "answer": "163",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -19764,6 +23340,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -19798,6 +23380,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -19831,6 +23419,12 @@ export const aptitudeLevels = {
           "49",
           "47"
         ],
+        "optionLatex": [
+          "51",
+          "56",
+          "49",
+          "47"
+        ],
         "answer": "49",
         "solution": {
           "approach": "Inspect first differences.",
@@ -19859,6 +23453,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, in a row of 7 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 6",
         "options": [
+          "7",
+          "20",
+          "1",
+          "5"
+        ],
+        "optionLatex": [
           "7",
           "20",
           "1",
@@ -19898,6 +23498,12 @@ export const aptitudeLevels = {
           "15",
           "10"
         ],
+        "optionLatex": [
+          "12",
+          "8",
+          "15",
+          "10"
+        ],
         "answer": "8",
         "solution": {
           "approach": "Work backward from A's future age.",
@@ -19926,6 +23532,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 11 = 8.",
         "latex": "10x+11=8",
         "options": [
+          "-7.3",
+          "-0.3",
+          "21.7",
+          "-2.3"
+        ],
+        "optionLatex": [
           "-7.3",
           "-0.3",
           "21.7",
@@ -19964,6 +23576,12 @@ export const aptitudeLevels = {
           "94",
           "92"
         ],
+        "optionLatex": [
+          "75",
+          "114",
+          "94",
+          "92"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -19992,6 +23610,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 24[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "24\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "17",
+          "28",
+          "10",
+          "24"
+        ],
+        "optionLatex": [
           "17",
           "28",
           "10",
@@ -20030,6 +23654,12 @@ export const aptitudeLevels = {
           "2.5",
           "-6.5"
         ],
+        "optionLatex": [
+          "15.5",
+          "0.5",
+          "2.5",
+          "-6.5"
+        ],
         "answer": "0.5",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -20058,6 +23688,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, find the population variance of [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=162",
         "options": [
+          "184",
+          "155",
+          "169",
+          "162"
+        ],
+        "optionLatex": [
           "184",
           "155",
           "169",
@@ -20096,6 +23732,12 @@ export const aptitudeLevels = {
           "50",
           "57"
         ],
+        "optionLatex": [
+          "64",
+          "86",
+          "50",
+          "57"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -20124,6 +23766,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, a caselet score has base 48 and adjustment 41. What combined score is reported?",
         "latex": "48+41",
         "options": [
+          "89",
+          "93",
+          "75",
+          "85"
+        ],
+        "optionLatex": [
           "89",
           "93",
           "75",
@@ -20162,6 +23810,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -20190,6 +23844,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "12",
+          "21",
+          "36",
+          "14"
+        ],
+        "optionLatex": [
           "12",
           "21",
           "36",
@@ -20229,6 +23889,12 @@ export const aptitudeLevels = {
           "98",
           "81"
         ],
+        "optionLatex": [
+          "120",
+          "113",
+          "98",
+          "81"
+        ],
         "answer": "98",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -20261,6 +23927,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -20295,6 +23967,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -20328,6 +24006,12 @@ export const aptitudeLevels = {
           "34",
           "48"
         ],
+        "optionLatex": [
+          "31",
+          "44",
+          "34",
+          "48"
+        ],
         "answer": "48",
         "solution": {
           "approach": "Inspect first differences.",
@@ -20356,6 +24040,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, in a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "3",
+          "27",
+          "20",
+          "13"
+        ],
+        "optionLatex": [
           "3",
           "27",
           "20",
@@ -20395,6 +24085,12 @@ export const aptitudeLevels = {
           "5478",
           "5495"
         ],
+        "optionLatex": [
+          "5499",
+          "5517",
+          "5478",
+          "5495"
+        ],
         "answer": "5495",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -20423,6 +24119,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, the roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "39",
+          "41",
+          "48",
+          "56"
+        ],
+        "optionLatex": [
           "39",
           "41",
           "48",
@@ -20461,6 +24163,12 @@ export const aptitudeLevels = {
           "381",
           "420"
         ],
+        "optionLatex": [
+          "398",
+          "413",
+          "381",
+          "420"
+        ],
         "answer": "398",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -20489,6 +24197,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, from a point 79 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=79\\tan(45^\\circ)",
         "options": [
+          "94",
+          "79",
+          "83",
+          "77"
+        ],
+        "optionLatex": [
           "94",
           "79",
           "83",
@@ -20527,6 +24241,12 @@ export const aptitudeLevels = {
           "-6.6111",
           "0.3889"
         ],
+        "optionLatex": [
+          "2.3889",
+          "7.3889",
+          "-6.6111",
+          "0.3889"
+        ],
         "answer": "0.3889",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -20555,6 +24275,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, find the mean of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=42",
         "options": [
+          "38",
+          "25",
+          "42",
+          "46"
+        ],
+        "optionLatex": [
           "38",
           "25",
           "42",
@@ -20593,6 +24319,12 @@ export const aptitudeLevels = {
           "2333.5714",
           "2362.5714"
         ],
+        "optionLatex": [
+          "2340.5714",
+          "2355.5714",
+          "2333.5714",
+          "2362.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -20621,6 +24353,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, a caselet score has base 63 and adjustment 71. What combined score is reported?",
         "latex": "63+71",
         "options": [
+          "134",
+          "130",
+          "156",
+          "141"
+        ],
+        "optionLatex": [
           "134",
           "130",
           "156",
@@ -20659,6 +24397,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -20687,6 +24431,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "15",
+          "51",
+          "36",
+          "29"
+        ],
+        "optionLatex": [
           "15",
           "51",
           "36",
@@ -20726,6 +24476,12 @@ export const aptitudeLevels = {
           "89",
           "100"
         ],
+        "optionLatex": [
+          "108",
+          "93",
+          "89",
+          "100"
+        ],
         "answer": "93",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -20758,6 +24514,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -20792,6 +24554,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -20825,6 +24593,12 @@ export const aptitudeLevels = {
           "61",
           "37"
         ],
+        "optionLatex": [
+          "76",
+          "54",
+          "61",
+          "37"
+        ],
         "answer": "54",
         "solution": {
           "approach": "Inspect first differences.",
@@ -20853,6 +24627,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, in a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "35",
+          "42",
+          "57",
+          "18"
+        ],
+        "optionLatex": [
           "35",
           "42",
           "57",
@@ -20892,6 +24672,12 @@ export const aptitudeLevels = {
           "15522",
           "15501"
         ],
+        "optionLatex": [
+          "15518",
+          "15533",
+          "15522",
+          "15501"
+        ],
         "answer": "15518",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -20920,6 +24706,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 6 = 13.",
         "latex": "4x+6=13",
         "options": [
+          "5.75",
+          "23.75",
+          "1.75",
+          "-5.25"
+        ],
+        "optionLatex": [
           "5.75",
           "23.75",
           "1.75",
@@ -20958,6 +24750,12 @@ export const aptitudeLevels = {
           "67",
           "48"
         ],
+        "optionLatex": [
+          "35",
+          "52",
+          "67",
+          "48"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -20986,6 +24784,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 54[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "54\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "54",
+          "69",
+          "47",
+          "76"
+        ],
+        "optionLatex": [
           "54",
           "69",
           "47",
@@ -21024,6 +24828,12 @@ export const aptitudeLevels = {
           "154442",
           "154423"
         ],
+        "optionLatex": [
+          "154438",
+          "154440",
+          "154442",
+          "154423"
+        ],
         "answer": "154440",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -21052,6 +24862,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, find the mean of the data set [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=37",
         "options": [
+          "35",
+          "37",
+          "33",
+          "41"
+        ],
+        "optionLatex": [
           "35",
           "37",
           "33",
@@ -21090,6 +24906,12 @@ export const aptitudeLevels = {
           "529",
           "561"
         ],
+        "optionLatex": [
+          "542",
+          "546",
+          "529",
+          "561"
+        ],
         "answer": "546",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -21118,6 +24940,12 @@ export const aptitudeLevels = {
         "q": "In practice set 10, a caselet score has base 78 and adjustment 51. What combined score is reported?",
         "latex": "78+51",
         "options": [
+          "129",
+          "133",
+          "144",
+          "136"
+        ],
+        "optionLatex": [
           "129",
           "133",
           "144",
@@ -21156,6 +24984,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -21184,6 +25018,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "26",
+          "4",
+          "-3",
+          "6"
+        ],
+        "optionLatex": [
           "26",
           "4",
           "-3",
@@ -21223,6 +25063,12 @@ export const aptitudeLevels = {
           "136",
           "153"
         ],
+        "optionLatex": [
+          "138",
+          "142",
+          "136",
+          "153"
+        ],
         "answer": "138",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -21255,6 +25101,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -21289,6 +25141,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -21322,6 +25180,12 @@ export const aptitudeLevels = {
           "29",
           "50"
         ],
+        "optionLatex": [
+          "53",
+          "46",
+          "29",
+          "50"
+        ],
         "answer": "46",
         "solution": {
           "approach": "Inspect first differences.",
@@ -21350,6 +25214,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, in a row of 12 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 11",
         "options": [
+          "10",
+          "6",
+          "25",
+          "3"
+        ],
+        "optionLatex": [
           "10",
           "6",
           "25",
@@ -21389,6 +25259,12 @@ export const aptitudeLevels = {
           "8462.3172",
           "8447.3172"
         ],
+        "optionLatex": [
+          "8433.3172",
+          "8469.3172",
+          "8462.3172",
+          "8447.3172"
+        ],
         "answer": "8447.3172",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -21417,6 +25293,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=10x+10 and g(x)=10x+7. Find f(g(9)).",
         "latex": "f(x)=10x+10,\\quad g(x)=10x+7,\\quad f(g(9))",
         "options": [
+          "1002",
+          "995",
+          "963",
+          "980"
+        ],
+        "optionLatex": [
           "1002",
           "995",
           "963",
@@ -21455,6 +25337,12 @@ export const aptitudeLevels = {
           "107",
           "99"
         ],
+        "optionLatex": [
+          "90",
+          "92",
+          "107",
+          "99"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -21483,6 +25371,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 69[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "69\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "62",
+          "52",
+          "76",
+          "69"
+        ],
+        "optionLatex": [
           "62",
           "52",
           "76",
@@ -21521,6 +25415,12 @@ export const aptitudeLevels = {
           "20490",
           "20475"
         ],
+        "optionLatex": [
+          "20471",
+          "20477",
+          "20490",
+          "20475"
+        ],
         "answer": "20475",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -21549,6 +25449,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, find the median of the data set [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=22",
         "options": [
+          "22",
+          "20",
+          "24",
+          "29"
+        ],
+        "optionLatex": [
           "22",
           "20",
           "24",
@@ -21587,6 +25493,12 @@ export const aptitudeLevels = {
           "168",
           "154"
         ],
+        "optionLatex": [
+          "164",
+          "190",
+          "168",
+          "154"
+        ],
         "answer": "168",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -21615,6 +25527,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, a caselet score has base 93 and adjustment 31. What combined score is reported?",
         "latex": "93+31",
         "options": [
+          "110",
+          "120",
+          "139",
+          "124"
+        ],
+        "optionLatex": [
           "110",
           "120",
           "139",
@@ -21653,6 +25571,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -21681,6 +25605,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "12",
+          "5",
+          "41",
+          "19"
+        ],
+        "optionLatex": [
           "12",
           "5",
           "41",
@@ -21720,6 +25650,12 @@ export const aptitudeLevels = {
           "155",
           "137"
         ],
+        "optionLatex": [
+          "133",
+          "131",
+          "155",
+          "137"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -21752,6 +25688,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -21786,6 +25728,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -21819,6 +25767,12 @@ export const aptitudeLevels = {
           "60",
           "47"
         ],
+        "optionLatex": [
+          "31",
+          "45",
+          "60",
+          "47"
+        ],
         "answer": "45",
         "solution": {
           "approach": "Inspect first differences.",
@@ -21847,6 +25801,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, in a row of 27 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 26",
         "options": [
+          "32",
+          "25",
+          "23",
+          "21"
+        ],
+        "optionLatex": [
           "32",
           "25",
           "23",
@@ -21886,6 +25846,12 @@ export const aptitudeLevels = {
           "147",
           "154"
         ],
+        "optionLatex": [
+          "149",
+          "140",
+          "147",
+          "154"
+        ],
         "answer": "147",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -21914,6 +25880,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 7 < x <= 15?",
         "latex": "7<x\\le 15",
         "options": [
+          "8",
+          "4",
+          "1",
+          "30"
+        ],
+        "optionLatex": [
           "8",
           "4",
           "1",
@@ -21952,6 +25924,12 @@ export const aptitudeLevels = {
           "152",
           "167"
         ],
+        "optionLatex": [
+          "159",
+          "135",
+          "152",
+          "167"
+        ],
         "answer": "152",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -21980,6 +25958,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 84[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "84\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "86",
+          "70",
+          "84",
+          "77"
+        ],
+        "optionLatex": [
           "86",
           "70",
           "84",
@@ -22018,6 +26002,12 @@ export const aptitudeLevels = {
           "7.2667",
           "-13.7333"
         ],
+        "optionLatex": [
+          "-1.7333",
+          "0.2667",
+          "7.2667",
+          "-13.7333"
+        ],
         "answer": "0.2667",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -22046,6 +26036,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "204",
+          "186",
+          "197",
+          "182"
+        ],
+        "optionLatex": [
           "204",
           "186",
           "197",
@@ -22084,6 +26080,12 @@ export const aptitudeLevels = {
           "133",
           "131"
         ],
+        "optionLatex": [
+          "135",
+          "118",
+          "133",
+          "131"
+        ],
         "answer": "135",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -22112,6 +26114,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, a caselet score has base 48 and adjustment 61. What combined score is reported?",
         "latex": "48+61",
         "options": [
+          "131",
+          "109",
+          "124",
+          "102"
+        ],
+        "optionLatex": [
           "131",
           "109",
           "124",
@@ -22150,6 +26158,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -22178,6 +26192,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "27",
+          "49",
+          "34",
+          "30"
+        ],
+        "optionLatex": [
           "27",
           "49",
           "34",
@@ -22217,6 +26237,12 @@ export const aptitudeLevels = {
           "125",
           "133"
         ],
+        "optionLatex": [
+          "118",
+          "114",
+          "125",
+          "133"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -22249,6 +26275,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -22283,6 +26315,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -22316,6 +26354,12 @@ export const aptitudeLevels = {
           "49",
           "51"
         ],
+        "optionLatex": [
+          "53",
+          "66",
+          "49",
+          "51"
+        ],
         "answer": "51",
         "solution": {
           "approach": "Inspect first differences.",
@@ -22344,6 +26388,12 @@ export const aptitudeLevels = {
         "q": "In practice set 10, in a row of 42 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 41",
         "options": [
+          "44",
+          "36",
+          "23",
+          "40"
+        ],
+        "optionLatex": [
           "44",
           "36",
           "23",
@@ -22383,6 +26433,12 @@ export const aptitudeLevels = {
           "16408.2658",
           "16429.2658"
         ],
+        "optionLatex": [
+          "16425.2658",
+          "16421.2658",
+          "16408.2658",
+          "16429.2658"
+        ],
         "answer": "16425.2658",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -22411,6 +26467,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 6 and common difference 5.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(6)+(29-1)5\\right)",
         "options": [
+          "2190",
+          "2202",
+          "2197",
+          "2204"
+        ],
+        "optionLatex": [
           "2190",
           "2202",
           "2197",
@@ -22449,6 +26511,12 @@ export const aptitudeLevels = {
           "880",
           "884"
         ],
+        "optionLatex": [
+          "868",
+          "882",
+          "880",
+          "884"
+        ],
         "answer": "882",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -22477,6 +26545,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, from a point 69 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=69\\tan(45^\\circ)",
         "options": [
+          "73",
+          "71",
+          "69",
+          "62"
+        ],
+        "optionLatex": [
           "73",
           "71",
           "69",
@@ -22515,6 +26589,12 @@ export const aptitudeLevels = {
           "22.375",
           "2.375"
         ],
+        "optionLatex": [
+          "-13.625",
+          "0.375",
+          "22.375",
+          "2.375"
+        ],
         "answer": "0.375",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -22543,6 +26623,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, find the population variance of [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=152",
         "options": [
+          "159",
+          "152",
+          "174",
+          "167"
+        ],
+        "optionLatex": [
           "159",
           "152",
           "174",
@@ -22581,6 +26667,12 @@ export const aptitudeLevels = {
           "5815",
           "5828"
         ],
+        "optionLatex": [
+          "5832",
+          "5836",
+          "5815",
+          "5828"
+        ],
         "answer": "5832",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -22609,6 +26701,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, a caselet score has base 63 and adjustment 41. What combined score is reported?",
         "latex": "63+41",
         "options": [
+          "102",
+          "104",
+          "87",
+          "97"
+        ],
+        "optionLatex": [
           "102",
           "104",
           "87",
@@ -22647,6 +26745,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -22675,6 +26779,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "13",
+          "9",
+          "-8",
+          "11"
+        ],
+        "optionLatex": [
           "13",
           "9",
           "-8",
@@ -22714,6 +26824,12 @@ export const aptitudeLevels = {
           "111",
           "117"
         ],
+        "optionLatex": [
+          "135",
+          "113",
+          "111",
+          "117"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -22746,6 +26862,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -22780,6 +26902,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -22813,6 +26941,12 @@ export const aptitudeLevels = {
           "57",
           "43"
         ],
+        "optionLatex": [
+          "54",
+          "50",
+          "57",
+          "43"
+        ],
         "answer": "50",
         "solution": {
           "approach": "Inspect first differences.",
@@ -22841,6 +26975,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, in a row of 17 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 16",
         "options": [
+          "-2",
+          "15",
+          "30",
+          "22"
+        ],
+        "optionLatex": [
           "-2",
           "15",
           "30",
@@ -22880,6 +27020,12 @@ export const aptitudeLevels = {
           "1082.5",
           "1089.5"
         ],
+        "optionLatex": [
+          "1050.5",
+          "1067.5",
+          "1082.5",
+          "1089.5"
+        ],
         "answer": "1067.5",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -22908,6 +27054,12 @@ export const aptitudeLevels = {
         "q": "If log base 15 of (x + 54) equals log base 15 of 108, find x.",
         "latex": "\\log_{15}(x+54)=\\log_{15}(108)",
         "options": [
+          "54",
+          "58",
+          "61",
+          "40"
+        ],
+        "optionLatex": [
           "54",
           "58",
           "61",
@@ -22946,6 +27098,12 @@ export const aptitudeLevels = {
           "21",
           "14"
         ],
+        "optionLatex": [
+          "7",
+          "4",
+          "21",
+          "14"
+        ],
         "answer": "21",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -22974,6 +27132,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 17[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "17\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "19",
+          "39",
+          "24",
+          "17"
+        ],
+        "optionLatex": [
           "19",
           "39",
           "24",
@@ -23012,6 +27176,12 @@ export const aptitudeLevels = {
           "35229123949219184",
           "35229123949219216"
         ],
+        "optionLatex": [
+          "35229123949219224",
+          "35229123949219200",
+          "35229123949219184",
+          "35229123949219216"
+        ],
         "answer": "35229123949219200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -23040,6 +27210,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, find the population variance of [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=2",
         "options": [
+          "24",
+          "-5",
+          "2",
+          "-12"
+        ],
+        "optionLatex": [
           "24",
           "-5",
           "2",
@@ -23078,6 +27254,12 @@ export const aptitudeLevels = {
           "50",
           "79"
         ],
+        "optionLatex": [
+          "64",
+          "66",
+          "50",
+          "79"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -23106,6 +27288,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, a caselet score has base 78 and adjustment 71. What combined score is reported?",
         "latex": "78+71",
         "options": [
+          "171",
+          "153",
+          "135",
+          "149"
+        ],
+        "optionLatex": [
           "171",
           "153",
           "135",
@@ -23144,6 +27332,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -23172,6 +27366,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "24",
+          "22",
+          "46",
+          "17"
+        ],
+        "optionLatex": [
           "24",
           "22",
           "46",
@@ -23211,6 +27411,12 @@ export const aptitudeLevels = {
           "110",
           "123"
         ],
+        "optionLatex": [
+          "115",
+          "108",
+          "110",
+          "123"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -23243,6 +27449,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -23277,6 +27489,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -23310,6 +27528,12 @@ export const aptitudeLevels = {
           "21",
           "34"
         ],
+        "optionLatex": [
+          "38",
+          "36",
+          "21",
+          "34"
+        ],
         "answer": "38",
         "solution": {
           "approach": "Inspect first differences.",
@@ -23338,6 +27562,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, in a row of 32 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 31",
         "options": [
+          "32",
+          "52",
+          "30",
+          "16"
+        ],
+        "optionLatex": [
           "32",
           "52",
           "30",
@@ -23377,6 +27607,12 @@ export const aptitudeLevels = {
           "550.0561",
           "535.0561"
         ],
+        "optionLatex": [
+          "557.0561",
+          "539.0561",
+          "550.0561",
+          "535.0561"
+        ],
         "answer": "535.0561",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -23405,6 +27641,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 7x + 13 = 17.",
         "latex": "7x+13=17",
         "options": [
+          "-13.4286",
+          "22.5714",
+          "0.5714",
+          "-1.4286"
+        ],
+        "optionLatex": [
           "-13.4286",
           "22.5714",
           "0.5714",
@@ -23443,6 +27685,12 @@ export const aptitudeLevels = {
           "250.5",
           "262.5"
         ],
+        "optionLatex": [
+          "247.5",
+          "264.5",
+          "250.5",
+          "262.5"
+        ],
         "answer": "264.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -23471,6 +27719,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 32[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "32\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "28",
+          "30",
+          "18",
+          "32"
+        ],
+        "optionLatex": [
           "28",
           "30",
           "18",
@@ -23509,6 +27763,12 @@ export const aptitudeLevels = {
           "64276915527",
           "64276915523"
         ],
+        "optionLatex": [
+          "64276915525",
+          "64276915510",
+          "64276915527",
+          "64276915523"
+        ],
         "answer": "64276915527",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -23537,6 +27797,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, find the mean of the data set [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=32",
         "options": [
+          "34",
+          "25",
+          "28",
+          "32"
+        ],
+        "optionLatex": [
           "34",
           "25",
           "28",
@@ -23575,6 +27841,12 @@ export const aptitudeLevels = {
           "2336.5714",
           "2340.5714"
         ],
+        "optionLatex": [
+          "2333.5714",
+          "2355.5714",
+          "2336.5714",
+          "2340.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -23603,6 +27875,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, a caselet score has base 93 and adjustment 51. What combined score is reported?",
         "latex": "93+51",
         "options": [
+          "144",
+          "146",
+          "151",
+          "137"
+        ],
+        "optionLatex": [
           "144",
           "146",
           "151",
@@ -23641,6 +27919,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -23669,6 +27953,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "54",
+          "46",
+          "37",
+          "39"
+        ],
+        "optionLatex": [
           "54",
           "46",
           "37",
@@ -23708,6 +27998,12 @@ export const aptitudeLevels = {
           "153",
           "155"
         ],
+        "optionLatex": [
+          "136",
+          "157",
+          "153",
+          "155"
+        ],
         "answer": "153",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -23740,6 +28036,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -23774,6 +28076,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -23807,6 +28115,12 @@ export const aptitudeLevels = {
           "55",
           "77"
         ],
+        "optionLatex": [
+          "51",
+          "53",
+          "55",
+          "77"
+        ],
         "answer": "55",
         "solution": {
           "approach": "Inspect first differences.",
@@ -23835,6 +28149,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, in a row of 7 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 6",
         "options": [
+          "9",
+          "1",
+          "5",
+          "7"
+        ],
+        "optionLatex": [
           "9",
           "1",
           "5",
@@ -23874,6 +28194,12 @@ export const aptitudeLevels = {
           "-2.8824",
           "2.1176"
         ],
+        "optionLatex": [
+          "4.1176",
+          "-12.8824",
+          "-2.8824",
+          "2.1176"
+        ],
         "answer": "4.1176",
         "solution": {
           "approach": "Add individual rates.",
@@ -23902,6 +28228,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 4 = 11.",
         "latex": "4x+4=11",
         "options": [
+          "-12.25",
+          "16.75",
+          "8.75",
+          "1.75"
+        ],
+        "optionLatex": [
           "-12.25",
           "16.75",
           "8.75",
@@ -23940,6 +28272,12 @@ export const aptitudeLevels = {
           "559",
           "574"
         ],
+        "optionLatex": [
+          "552",
+          "554",
+          "559",
+          "574"
+        ],
         "answer": "552",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -23968,6 +28306,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 47[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "47\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "69",
+          "62",
+          "51",
+          "47"
+        ],
+        "optionLatex": [
           "69",
           "62",
           "51",
@@ -24006,6 +28350,12 @@ export const aptitudeLevels = {
           "22.6154",
           "0.6154"
         ],
+        "optionLatex": [
+          "-6.3846",
+          "-1.3846",
+          "22.6154",
+          "0.6154"
+        ],
         "answer": "0.6154",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -24034,6 +28384,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, find the mean of the data set [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=37",
         "options": [
+          "41",
+          "44",
+          "30",
+          "37"
+        ],
+        "optionLatex": [
           "41",
           "44",
           "30",
@@ -24072,6 +28428,12 @@ export const aptitudeLevels = {
           "162",
           "169"
         ],
+        "optionLatex": [
+          "166",
+          "158",
+          "162",
+          "169"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -24100,6 +28462,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, a caselet score has base 48 and adjustment 31. What combined score is reported?",
         "latex": "48+31",
         "options": [
+          "101",
+          "65",
+          "81",
+          "79"
+        ],
+        "optionLatex": [
           "101",
           "65",
           "81",
@@ -24138,6 +28506,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -24166,6 +28540,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "21",
+          "29",
+          "10",
+          "14"
+        ],
+        "optionLatex": [
           "21",
           "29",
           "10",
@@ -24205,6 +28585,12 @@ export const aptitudeLevels = {
           "81",
           "110"
         ],
+        "optionLatex": [
+          "88",
+          "84",
+          "81",
+          "110"
+        ],
         "answer": "88",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -24237,6 +28623,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -24271,6 +28663,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -24304,6 +28702,12 @@ export const aptitudeLevels = {
           "50",
           "61"
         ],
+        "optionLatex": [
+          "76",
+          "54",
+          "50",
+          "61"
+        ],
         "answer": "54",
         "solution": {
           "approach": "Inspect first differences.",
@@ -24332,6 +28736,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, in a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "24",
+          "20",
+          "35",
+          "22"
+        ],
+        "optionLatex": [
           "24",
           "20",
           "35",
@@ -24371,6 +28781,12 @@ export const aptitudeLevels = {
           "10.4762",
           "-6.5238"
         ],
+        "optionLatex": [
+          "25.4762",
+          "6.4762",
+          "10.4762",
+          "-6.5238"
+        ],
         "answer": "10.4762",
         "solution": {
           "approach": "Add individual rates.",
@@ -24399,6 +28815,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, the roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "39",
+          "24",
+          "41",
+          "48"
+        ],
+        "optionLatex": [
           "39",
           "24",
           "41",
@@ -24437,6 +28859,12 @@ export const aptitudeLevels = {
           "145.5",
           "149.5"
         ],
+        "optionLatex": [
+          "153.5",
+          "132.5",
+          "145.5",
+          "149.5"
+        ],
         "answer": "149.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -24465,6 +28893,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, from a point 59 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=59\\tan(45^\\circ)",
         "options": [
+          "55",
+          "66",
+          "59",
+          "45"
+        ],
+        "optionLatex": [
           "55",
           "66",
           "59",
@@ -24503,6 +28937,12 @@ export const aptitudeLevels = {
           "0.4667",
           "15.4667"
         ],
+        "optionLatex": [
+          "-1.5333",
+          "-16.5333",
+          "0.4667",
+          "15.4667"
+        ],
         "answer": "0.4667",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -24531,6 +28971,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, find the median of the data set [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=42",
         "options": [
+          "28",
+          "42",
+          "38",
+          "40"
+        ],
+        "optionLatex": [
           "28",
           "42",
           "38",
@@ -24569,6 +29015,12 @@ export const aptitudeLevels = {
           "367",
           "384"
         ],
+        "optionLatex": [
+          "388",
+          "380",
+          "367",
+          "384"
+        ],
         "answer": "384",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -24597,6 +29049,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, a caselet score has base 63 and adjustment 61. What combined score is reported?",
         "latex": "63+61",
         "options": [
+          "124",
+          "122",
+          "139",
+          "128"
+        ],
+        "optionLatex": [
           "124",
           "122",
           "139",
@@ -24635,6 +29093,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -24663,6 +29127,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "29",
+          "15",
+          "12",
+          "36"
+        ],
+        "optionLatex": [
           "29",
           "15",
           "12",
@@ -24702,6 +29172,12 @@ export const aptitudeLevels = {
           "133",
           "137"
         ],
+        "optionLatex": [
+          "129",
+          "148",
+          "133",
+          "137"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -24734,6 +29210,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -24768,6 +29250,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -24801,6 +29289,12 @@ export const aptitudeLevels = {
           "57",
           "35"
         ],
+        "optionLatex": [
+          "18",
+          "21",
+          "57",
+          "35"
+        ],
         "answer": "35",
         "solution": {
           "approach": "Inspect first differences.",
@@ -24829,6 +29323,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, in a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "42",
+          "18",
+          "31",
+          "35"
+        ],
+        "optionLatex": [
           "42",
           "18",
           "31",
@@ -24868,6 +29368,12 @@ export const aptitudeLevels = {
           "39.5192",
           "29.5192"
         ],
+        "optionLatex": [
+          "43.5192",
+          "58.5192",
+          "39.5192",
+          "29.5192"
+        ],
         "answer": "43.5192",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -24896,6 +29402,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 7x + 12 = 16.",
         "latex": "7x+12=16",
         "options": [
+          "0.5714",
+          "-16.4286",
+          "-13.4286",
+          "-6.4286"
+        ],
+        "optionLatex": [
           "0.5714",
           "-16.4286",
           "-13.4286",
@@ -24934,6 +29446,12 @@ export const aptitudeLevels = {
           "54",
           "32"
         ],
+        "optionLatex": [
+          "36",
+          "47",
+          "54",
+          "32"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -24962,6 +29480,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 77[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "77\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "92",
+          "75",
+          "77",
+          "99"
+        ],
+        "optionLatex": [
           "92",
           "75",
           "77",
@@ -25000,6 +29524,12 @@ export const aptitudeLevels = {
           "115511775",
           "115511743"
         ],
+        "optionLatex": [
+          "115511760",
+          "115511767",
+          "115511775",
+          "115511743"
+        ],
         "answer": "115511760",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -25028,6 +29558,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, find the population variance of [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=162",
         "options": [
+          "164",
+          "162",
+          "184",
+          "148"
+        ],
+        "optionLatex": [
           "164",
           "162",
           "184",
@@ -25066,6 +29602,12 @@ export const aptitudeLevels = {
           "185",
           "193"
         ],
+        "optionLatex": [
+          "175",
+          "189",
+          "185",
+          "193"
+        ],
         "answer": "189",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -25094,6 +29636,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, a caselet score has base 78 and adjustment 41. What combined score is reported?",
         "latex": "78+41",
         "options": [
+          "119",
+          "126",
+          "134",
+          "121"
+        ],
+        "optionLatex": [
           "119",
           "126",
           "134",
@@ -25132,6 +29680,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -25160,6 +29714,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "4",
+          "-13",
+          "0",
+          "8"
+        ],
+        "optionLatex": [
           "4",
           "-13",
           "0",
@@ -25199,6 +29759,12 @@ export const aptitudeLevels = {
           "114",
           "126"
         ],
+        "optionLatex": [
+          "132",
+          "128",
+          "114",
+          "126"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -25231,6 +29797,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -25265,6 +29837,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -25298,6 +29876,12 @@ export const aptitudeLevels = {
           "52",
           "74"
         ],
+        "optionLatex": [
+          "38",
+          "45",
+          "52",
+          "74"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Inspect first differences.",
@@ -25326,6 +29910,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, in a row of 12 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 11",
         "options": [
+          "6",
+          "10",
+          "17",
+          "-7"
+        ],
+        "optionLatex": [
           "6",
           "10",
           "17",
@@ -25365,6 +29955,12 @@ export const aptitudeLevels = {
           "89",
           "103"
         ],
+        "optionLatex": [
+          "110",
+          "96",
+          "89",
+          "103"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -25393,6 +29989,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=4x+3 and g(x)=3x+10. Find f(g(9)).",
         "latex": "f(x)=4x+3,\\quad g(x)=3x+10,\\quad f(g(9))",
         "options": [
+          "166",
+          "134",
+          "144",
+          "151"
+        ],
+        "optionLatex": [
           "166",
           "134",
           "144",
@@ -25431,6 +30033,12 @@ export const aptitudeLevels = {
           "459",
           "433"
         ],
+        "optionLatex": [
+          "437",
+          "441",
+          "459",
+          "433"
+        ],
         "answer": "437",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -25459,6 +30067,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 92[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "92\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "94",
+          "107",
+          "92",
+          "88"
+        ],
+        "optionLatex": [
           "94",
           "107",
           "92",
@@ -25497,6 +30111,12 @@ export const aptitudeLevels = {
           "424253",
           "424292"
         ],
+        "optionLatex": [
+          "424268",
+          "424270",
+          "424253",
+          "424292"
+        ],
         "answer": "424270",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -25525,6 +30145,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, find the population variance of [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=152",
         "options": [
+          "145",
+          "152",
+          "138",
+          "154"
+        ],
+        "optionLatex": [
           "145",
           "152",
           "138",
@@ -25563,6 +30189,12 @@ export const aptitudeLevels = {
           "8746",
           "8748"
         ],
+        "optionLatex": [
+          "8744",
+          "8752",
+          "8746",
+          "8748"
+        ],
         "answer": "8748",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -25591,6 +30223,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, a caselet score has base 93 and adjustment 71. What combined score is reported?",
         "latex": "93+71",
         "options": [
+          "150",
+          "171",
+          "164",
+          "168"
+        ],
+        "optionLatex": [
           "150",
           "171",
           "164",
@@ -25629,6 +30267,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -25657,6 +30301,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "34",
+          "2",
+          "19",
+          "26"
+        ],
+        "optionLatex": [
           "34",
           "2",
           "19",
@@ -25696,6 +30346,12 @@ export const aptitudeLevels = {
           "123",
           "119"
         ],
+        "optionLatex": [
+          "109",
+          "121",
+          "123",
+          "119"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -25728,6 +30384,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -25762,6 +30424,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -25795,6 +30463,12 @@ export const aptitudeLevels = {
           "55",
           "58"
         ],
+        "optionLatex": [
+          "51",
+          "73",
+          "55",
+          "58"
+        ],
         "answer": "51",
         "solution": {
           "approach": "Inspect first differences.",
@@ -25823,6 +30497,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, in a row of 27 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 26",
         "options": [
+          "8",
+          "18",
+          "25",
+          "11"
+        ],
+        "optionLatex": [
           "8",
           "18",
           "25",
@@ -25862,6 +30542,12 @@ export const aptitudeLevels = {
           "18742",
           "18746"
         ],
+        "optionLatex": [
+          "18749",
+          "18738",
+          "18742",
+          "18746"
+        ],
         "answer": "18742",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -25890,6 +30576,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 10 < x <= 8?",
         "latex": "10<x\\le 8",
         "options": [
+          "-19",
+          "5",
+          "0",
+          "-2"
+        ],
+        "optionLatex": [
           "-19",
           "5",
           "0",
@@ -25928,6 +30620,12 @@ export const aptitudeLevels = {
           "72",
           "65"
         ],
+        "optionLatex": [
+          "70",
+          "87",
+          "72",
+          "65"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -25956,6 +30654,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 10[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "10\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "6",
+          "-4",
+          "8",
+          "10"
+        ],
+        "optionLatex": [
           "6",
           "-4",
           "8",
@@ -25994,6 +30698,12 @@ export const aptitudeLevels = {
           "-1.6667",
           "-13.6667"
         ],
+        "optionLatex": [
+          "0.3333",
+          "22.3333",
+          "-1.6667",
+          "-13.6667"
+        ],
         "answer": "0.3333",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -26022,6 +30732,12 @@ export const aptitudeLevels = {
         "q": "In practice set 10, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "202",
+          "185",
+          "217",
+          "204"
+        ],
+        "optionLatex": [
           "202",
           "185",
           "217",
@@ -26060,6 +30776,12 @@ export const aptitudeLevels = {
           "57",
           "86"
         ],
+        "optionLatex": [
+          "62",
+          "64",
+          "57",
+          "86"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -26088,6 +30810,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, a caselet score has base 48 and adjustment 51. What combined score is reported?",
         "latex": "48+51",
         "options": [
+          "121",
+          "101",
+          "99",
+          "85"
+        ],
+        "optionLatex": [
           "121",
           "101",
           "99",
@@ -26126,6 +30854,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -26154,6 +30888,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "34",
+          "49",
+          "27",
+          "38"
+        ],
+        "optionLatex": [
           "34",
           "49",
           "27",
@@ -26193,6 +30933,12 @@ export const aptitudeLevels = {
           "106",
           "108"
         ],
+        "optionLatex": [
+          "112",
+          "123",
+          "106",
+          "108"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -26225,6 +30971,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -26259,6 +31011,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -26292,6 +31050,12 @@ export const aptitudeLevels = {
           "39",
           "41"
         ],
+        "optionLatex": [
+          "35",
+          "22",
+          "39",
+          "41"
+        ],
         "answer": "39",
         "solution": {
           "approach": "Inspect first differences.",
@@ -26320,6 +31084,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, in a row of 42 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 41",
         "options": [
+          "36",
+          "42",
+          "38",
+          "40"
+        ],
+        "optionLatex": [
           "36",
           "42",
           "38",
@@ -26359,6 +31129,12 @@ export const aptitudeLevels = {
           "7862",
           "7853"
         ],
+        "optionLatex": [
+          "7838",
+          "7855",
+          "7862",
+          "7853"
+        ],
         "answer": "7855",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -26387,6 +31163,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 9 and common difference 11.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(9)+(29-1)11\\right)",
         "options": [
+          "4727",
+          "4731",
+          "4749",
+          "4725"
+        ],
+        "optionLatex": [
           "4727",
           "4731",
           "4749",
@@ -26425,6 +31207,12 @@ export const aptitudeLevels = {
           "26",
           "30"
         ],
+        "optionLatex": [
+          "48",
+          "12",
+          "26",
+          "30"
+        ],
         "answer": "26",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -26453,6 +31241,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, from a point 49 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=49\\tan(45^\\circ)",
         "options": [
+          "49",
+          "45",
+          "47",
+          "35"
+        ],
+        "optionLatex": [
           "49",
           "45",
           "47",
@@ -26491,6 +31285,12 @@ export const aptitudeLevels = {
           "2.2143",
           "0.2143"
         ],
+        "optionLatex": [
+          "22.2143",
+          "-13.7857",
+          "2.2143",
+          "0.2143"
+        ],
         "answer": "0.2143",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -26519,6 +31319,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, find the mean of the data set [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=22",
         "options": [
+          "22",
+          "37",
+          "8",
+          "18"
+        ],
+        "optionLatex": [
           "22",
           "37",
           "8",
@@ -26557,6 +31363,12 @@ export const aptitudeLevels = {
           "2344.5714",
           "2333.5714"
         ],
+        "optionLatex": [
+          "2336.5714",
+          "2340.5714",
+          "2344.5714",
+          "2333.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -26585,6 +31397,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, a caselet score has base 63 and adjustment 31. What combined score is reported?",
         "latex": "63+31",
         "options": [
+          "94",
+          "98",
+          "92",
+          "116"
+        ],
+        "optionLatex": [
           "94",
           "98",
           "92",
@@ -26623,6 +31441,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -26651,6 +31475,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "11",
+          "7",
+          "16",
+          "9"
+        ],
+        "optionLatex": [
           "11",
           "7",
           "16",
@@ -26690,6 +31520,12 @@ export const aptitudeLevels = {
           "110",
           "103"
         ],
+        "optionLatex": [
+          "107",
+          "125",
+          "110",
+          "103"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -26722,6 +31558,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -26756,6 +31598,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -26789,6 +31637,12 @@ export const aptitudeLevels = {
           "56",
           "58"
         ],
+        "optionLatex": [
+          "52",
+          "78",
+          "56",
+          "58"
+        ],
         "answer": "56",
         "solution": {
           "approach": "Inspect first differences.",
@@ -26817,6 +31671,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, in a row of 17 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 16",
         "options": [
+          "15",
+          "22",
+          "13",
+          "30"
+        ],
+        "optionLatex": [
           "15",
           "22",
           "13",
@@ -26856,6 +31716,12 @@ export const aptitudeLevels = {
           "14",
           "9"
         ],
+        "optionLatex": [
+          "16",
+          "31",
+          "14",
+          "9"
+        ],
         "answer": "16",
         "solution": {
           "approach": "Work backward from A's future age.",
@@ -26884,6 +31750,12 @@ export const aptitudeLevels = {
         "q": "If log base 16 of (x + 14) equals log base 16 of 28, find x.",
         "latex": "\\log_{16}(x+14)=\\log_{16}(28)",
         "options": [
+          "14",
+          "7",
+          "16",
+          "18"
+        ],
+        "optionLatex": [
           "14",
           "7",
           "16",
@@ -26922,6 +31794,12 @@ export const aptitudeLevels = {
           "92",
           "88"
         ],
+        "optionLatex": [
+          "94",
+          "99",
+          "92",
+          "88"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -26950,6 +31828,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 40[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "40\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "42",
+          "47",
+          "44",
+          "40"
+        ],
+        "optionLatex": [
           "42",
           "47",
           "44",
@@ -26988,6 +31872,12 @@ export const aptitudeLevels = {
           "259459202",
           "259459193"
         ],
+        "optionLatex": [
+          "259459200",
+          "259459183",
+          "259459202",
+          "259459193"
+        ],
         "answer": "259459200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -27016,6 +31906,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, find the mean of the data set [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=37",
         "options": [
+          "33",
+          "23",
+          "37",
+          "35"
+        ],
+        "optionLatex": [
           "33",
           "23",
           "37",
@@ -27054,6 +31950,12 @@ export const aptitudeLevels = {
           "114",
           "110"
         ],
+        "optionLatex": [
+          "136",
+          "129",
+          "114",
+          "110"
+        ],
         "answer": "114",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -27082,6 +31984,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, a caselet score has base 78 and adjustment 61. What combined score is reported?",
         "latex": "78+61",
         "options": [
+          "146",
+          "143",
+          "135",
+          "139"
+        ],
+        "optionLatex": [
           "146",
           "143",
           "135",
@@ -27120,6 +32028,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -27148,6 +32062,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "10",
+          "24",
+          "31",
+          "26"
+        ],
+        "optionLatex": [
           "10",
           "24",
           "31",
@@ -27187,6 +32107,12 @@ export const aptitudeLevels = {
           "134",
           "141"
         ],
+        "optionLatex": [
+          "148",
+          "131",
+          "134",
+          "141"
+        ],
         "answer": "148",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -27219,6 +32145,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -27253,6 +32185,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -27286,6 +32224,12 @@ export const aptitudeLevels = {
           "38",
           "53"
         ],
+        "optionLatex": [
+          "70",
+          "55",
+          "38",
+          "53"
+        ],
         "answer": "55",
         "solution": {
           "approach": "Inspect first differences.",
@@ -27314,6 +32258,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, in a row of 32 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 31",
         "options": [
+          "13",
+          "30",
+          "16",
+          "28"
+        ],
+        "optionLatex": [
           "13",
           "30",
           "16",
@@ -27353,6 +32303,12 @@ export const aptitudeLevels = {
           "1071",
           "1064"
         ],
+        "optionLatex": [
+          "1086",
+          "1069",
+          "1071",
+          "1064"
+        ],
         "answer": "1071",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -27381,6 +32337,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 6 = 20.",
         "latex": "10x+6=20",
         "options": [
+          "1.4",
+          "-15.6",
+          "-5.6",
+          "-0.6"
+        ],
+        "optionLatex": [
           "1.4",
           "-15.6",
           "-5.6",
@@ -27419,6 +32381,12 @@ export const aptitudeLevels = {
           "333",
           "318"
         ],
+        "optionLatex": [
+          "322",
+          "325",
+          "333",
+          "318"
+        ],
         "answer": "318",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -27447,6 +32415,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 55[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "55\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "55",
+          "38",
+          "59",
+          "41"
+        ],
+        "optionLatex": [
           "55",
           "38",
           "59",
@@ -27485,6 +32459,12 @@ export const aptitudeLevels = {
           "3108088",
           "3108101"
         ],
+        "optionLatex": [
+          "3108127",
+          "3108105",
+          "3108088",
+          "3108101"
+        ],
         "answer": "3108105",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -27513,6 +32493,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, find the median of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=30",
         "options": [
+          "30",
+          "34",
+          "37",
+          "13"
+        ],
+        "optionLatex": [
           "30",
           "34",
           "37",
@@ -27551,6 +32537,12 @@ export const aptitudeLevels = {
           "136",
           "134"
         ],
+        "optionLatex": [
+          "138",
+          "151",
+          "136",
+          "134"
+        ],
         "answer": "136",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -27579,6 +32571,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, a caselet score has base 93 and adjustment 41. What combined score is reported?",
         "latex": "93+41",
         "options": [
+          "130",
+          "117",
+          "127",
+          "134"
+        ],
+        "optionLatex": [
           "130",
           "117",
           "127",
@@ -27617,6 +32615,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -27645,6 +32649,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "37",
+          "25",
+          "61",
+          "39"
+        ],
+        "optionLatex": [
           "37",
           "25",
           "61",
@@ -27684,6 +32694,12 @@ export const aptitudeLevels = {
           "143",
           "126"
         ],
+        "optionLatex": [
+          "145",
+          "139",
+          "143",
+          "126"
+        ],
         "answer": "143",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -27716,6 +32732,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -27750,6 +32772,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -27783,6 +32811,12 @@ export const aptitudeLevels = {
           "39",
           "65"
         ],
+        "optionLatex": [
+          "43",
+          "47",
+          "39",
+          "65"
+        ],
         "answer": "43",
         "solution": {
           "approach": "Inspect first differences.",
@@ -27811,6 +32845,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, in a row of 7 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 6",
         "options": [
+          "3",
+          "5",
+          "-9",
+          "1"
+        ],
+        "optionLatex": [
           "3",
           "5",
           "-9",
@@ -27850,6 +32890,12 @@ export const aptitudeLevels = {
           "5634",
           "5641"
         ],
+        "optionLatex": [
+          "5630",
+          "5620",
+          "5634",
+          "5641"
+        ],
         "answer": "5634",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -27878,6 +32924,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 7x + 10 = 14.",
         "latex": "7x+10=14",
         "options": [
+          "-13.4286",
+          "-3.4286",
+          "0.5714",
+          "15.5714"
+        ],
+        "optionLatex": [
           "-13.4286",
           "-3.4286",
           "0.5714",
@@ -27916,6 +32968,12 @@ export const aptitudeLevels = {
           "50",
           "56"
         ],
+        "optionLatex": [
+          "59",
+          "52",
+          "50",
+          "56"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -27944,6 +33002,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 70[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "70\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "66",
+          "70",
+          "74",
+          "68"
+        ],
+        "optionLatex": [
           "66",
           "70",
           "74",
@@ -27982,6 +33046,12 @@ export const aptitudeLevels = {
           "22.4211",
           "0.4211"
         ],
+        "optionLatex": [
+          "-3.5789",
+          "2.4211",
+          "22.4211",
+          "0.4211"
+        ],
         "answer": "0.4211",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -28010,6 +33080,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, find the population variance of [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=2",
         "options": [
+          "2",
+          "4",
+          "-5",
+          "6"
+        ],
+        "optionLatex": [
           "2",
           "4",
           "-5",
@@ -28048,6 +33124,12 @@ export const aptitudeLevels = {
           "265",
           "241"
         ],
+        "optionLatex": [
+          "247",
+          "243",
+          "265",
+          "241"
+        ],
         "answer": "243",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -28076,6 +33158,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, a caselet score has base 48 and adjustment 71. What combined score is reported?",
         "latex": "48+71",
         "options": [
+          "119",
+          "102",
+          "134",
+          "117"
+        ],
+        "optionLatex": [
           "119",
           "102",
           "134",
@@ -28114,6 +33202,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -28142,6 +33236,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "36",
+          "10",
+          "14",
+          "16"
+        ],
+        "optionLatex": [
           "36",
           "10",
           "14",
@@ -28181,6 +33281,12 @@ export const aptitudeLevels = {
           "61",
           "74"
         ],
+        "optionLatex": [
+          "78",
+          "76",
+          "61",
+          "74"
+        ],
         "answer": "78",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -28213,6 +33319,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -28247,6 +33359,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -28280,6 +33398,12 @@ export const aptitudeLevels = {
           "55",
           "53"
         ],
+        "optionLatex": [
+          "57",
+          "51",
+          "55",
+          "53"
+        ],
         "answer": "53",
         "solution": {
           "approach": "Inspect first differences.",
@@ -28308,6 +33432,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, in a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "3",
+          "16",
+          "20",
+          "18"
+        ],
+        "optionLatex": [
           "3",
           "16",
           "20",
@@ -28347,6 +33477,12 @@ export const aptitudeLevels = {
           "11081.6784",
           "11073.6784"
         ],
+        "optionLatex": [
+          "11062.6784",
+          "11066.6784",
+          "11081.6784",
+          "11073.6784"
+        ],
         "answer": "11066.6784",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -28375,6 +33511,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, the roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "27",
+          "24",
+          "41",
+          "63"
+        ],
+        "optionLatex": [
           "27",
           "24",
           "41",
@@ -28413,6 +33555,12 @@ export const aptitudeLevels = {
           "92",
           "75"
         ],
+        "optionLatex": [
+          "99",
+          "107",
+          "92",
+          "75"
+        ],
         "answer": "92",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -28441,6 +33589,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, from a point 39 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=39\\tan(45^\\circ)",
         "options": [
+          "35",
+          "61",
+          "43",
+          "39"
+        ],
+        "optionLatex": [
           "35",
           "61",
           "43",
@@ -28479,6 +33633,12 @@ export const aptitudeLevels = {
           "22.5833",
           "-13.4167"
         ],
+        "optionLatex": [
+          "0.5833",
+          "-6.4167",
+          "22.5833",
+          "-13.4167"
+        ],
         "answer": "0.5833",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -28507,6 +33667,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, find the population variance of [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=152",
         "options": [
+          "152",
+          "150",
+          "138",
+          "154"
+        ],
+        "optionLatex": [
           "152",
           "150",
           "138",
@@ -28545,6 +33711,12 @@ export const aptitudeLevels = {
           "11650",
           "11664"
         ],
+        "optionLatex": [
+          "11679",
+          "11668",
+          "11650",
+          "11664"
+        ],
         "answer": "11664",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -28573,6 +33745,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, a caselet score has base 63 and adjustment 51. What combined score is reported?",
         "latex": "63+51",
         "options": [
+          "110",
+          "97",
+          "118",
+          "114"
+        ],
+        "optionLatex": [
           "110",
           "97",
           "118",
@@ -28611,6 +33789,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -28639,6 +33823,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "27",
+          "22",
+          "29",
+          "12"
+        ],
+        "optionLatex": [
           "27",
           "22",
           "29",
@@ -28678,6 +33868,12 @@ export const aptitudeLevels = {
           "138",
           "130"
         ],
+        "optionLatex": [
+          "123",
+          "125",
+          "138",
+          "130"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -28710,6 +33906,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -28744,6 +33946,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -28777,6 +33985,12 @@ export const aptitudeLevels = {
           "34",
           "45"
         ],
+        "optionLatex": [
+          "41",
+          "39",
+          "34",
+          "45"
+        ],
         "answer": "41",
         "solution": {
           "approach": "Inspect first differences.",
@@ -28805,6 +34019,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, in a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "18",
+          "33",
+          "31",
+          "35"
+        ],
+        "optionLatex": [
           "18",
           "33",
           "31",
@@ -28844,6 +34064,12 @@ export const aptitudeLevels = {
           "204",
           "189"
         ],
+        "optionLatex": [
+          "175",
+          "191",
+          "204",
+          "189"
+        ],
         "answer": "189",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -28872,6 +34098,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 5 = 19.",
         "latex": "10x+5=19",
         "options": [
+          "-12.6",
+          "3.4",
+          "1.4",
+          "-0.6"
+        ],
+        "optionLatex": [
           "-12.6",
           "3.4",
           "1.4",
@@ -28910,6 +34142,12 @@ export const aptitudeLevels = {
           "138",
           "174"
         ],
+        "optionLatex": [
+          "154",
+          "152",
+          "138",
+          "174"
+        ],
         "answer": "152",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -28938,6 +34176,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 3[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "3\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "-11",
+          "25",
+          "-14",
+          "3"
+        ],
+        "optionLatex": [
           "-11",
           "25",
           "-14",
@@ -28976,6 +34220,12 @@ export const aptitudeLevels = {
           "1802440076",
           "1802440084"
         ],
+        "optionLatex": [
+          "1802440063",
+          "1802440080",
+          "1802440076",
+          "1802440084"
+        ],
         "answer": "1802440080",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -29004,6 +34254,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, find the population variance of [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=182",
         "options": [
+          "182",
+          "186",
+          "204",
+          "197"
+        ],
+        "optionLatex": [
           "182",
           "186",
           "204",
@@ -29042,6 +34298,12 @@ export const aptitudeLevels = {
           "71",
           "64"
         ],
+        "optionLatex": [
+          "86",
+          "57",
+          "71",
+          "64"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -29070,6 +34332,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, a caselet score has base 78 and adjustment 31. What combined score is reported?",
         "latex": "78+31",
         "options": [
+          "107",
+          "116",
+          "113",
+          "109"
+        ],
+        "optionLatex": [
           "107",
           "116",
           "113",
@@ -29108,6 +34376,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -29136,6 +34410,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "-13",
+          "-10",
+          "6",
+          "4"
+        ],
+        "optionLatex": [
           "-13",
           "-10",
           "6",
@@ -29175,6 +34455,12 @@ export const aptitudeLevels = {
           "114",
           "104"
         ],
+        "optionLatex": [
+          "122",
+          "118",
+          "114",
+          "104"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -29207,6 +34493,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -29241,6 +34533,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -29274,6 +34572,12 @@ export const aptitudeLevels = {
           "40",
           "55"
         ],
+        "optionLatex": [
+          "62",
+          "23",
+          "40",
+          "55"
+        ],
         "answer": "40",
         "solution": {
           "approach": "Inspect first differences.",
@@ -29302,6 +34606,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, in a row of 12 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 11",
         "options": [
+          "10",
+          "-7",
+          "12",
+          "-4"
+        ],
+        "optionLatex": [
           "10",
           "-7",
           "12",
@@ -29341,6 +34651,12 @@ export const aptitudeLevels = {
           "15208.7079",
           "15197.7079"
         ],
+        "optionLatex": [
+          "15201.7079",
+          "15187.7079",
+          "15208.7079",
+          "15197.7079"
+        ],
         "answer": "15201.7079",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -29369,6 +34685,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=7x+9 and g(x)=9x+13. Find f(g(9)).",
         "latex": "f(x)=7x+9,\\quad g(x)=9x+13,\\quad f(g(9))",
         "options": [
+          "667",
+          "674",
+          "650",
+          "660"
+        ],
+        "optionLatex": [
           "667",
           "674",
           "650",
@@ -29407,6 +34729,12 @@ export const aptitudeLevels = {
           "246",
           "242"
         ],
+        "optionLatex": [
+          "249",
+          "244",
+          "246",
+          "242"
+        ],
         "answer": "242",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -29435,6 +34763,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 18[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "18\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "14",
+          "4",
+          "18",
+          "1"
+        ],
+        "optionLatex": [
           "14",
           "4",
           "18",
@@ -29473,6 +34807,12 @@ export const aptitudeLevels = {
           "2331894",
           "2331883"
         ],
+        "optionLatex": [
+          "2331892",
+          "2331890",
+          "2331894",
+          "2331883"
+        ],
         "answer": "2331890",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -29501,6 +34841,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, find the mean of the data set [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=42",
         "options": [
+          "57",
+          "42",
+          "64",
+          "46"
+        ],
+        "optionLatex": [
           "57",
           "42",
           "64",
@@ -29539,6 +34885,12 @@ export const aptitudeLevels = {
           "2333.5714",
           "2362.5714"
         ],
+        "optionLatex": [
+          "2340.5714",
+          "2326.5714",
+          "2333.5714",
+          "2362.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -29567,6 +34919,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, a caselet score has base 93 and adjustment 61. What combined score is reported?",
         "latex": "93+61",
         "options": [
+          "154",
+          "152",
+          "147",
+          "158"
+        ],
+        "optionLatex": [
           "154",
           "152",
           "147",
@@ -29605,6 +34963,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -29633,6 +34997,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "5",
+          "2",
+          "26",
+          "19"
+        ],
+        "optionLatex": [
           "5",
           "2",
           "26",
@@ -29672,6 +35042,12 @@ export const aptitudeLevels = {
           "185",
           "163"
         ],
+        "optionLatex": [
+          "178",
+          "165",
+          "185",
+          "163"
+        ],
         "answer": "163",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -29704,6 +35080,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -29738,6 +35120,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -29771,6 +35159,12 @@ export const aptitudeLevels = {
           "64",
           "53"
         ],
+        "optionLatex": [
+          "57",
+          "72",
+          "64",
+          "53"
+        ],
         "answer": "57",
         "solution": {
           "approach": "Inspect first differences.",
@@ -29799,6 +35193,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, in a row of 27 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 26",
         "options": [
+          "25",
+          "21",
+          "40",
+          "29"
+        ],
+        "optionLatex": [
           "25",
           "21",
           "40",
@@ -29838,6 +35238,12 @@ export const aptitudeLevels = {
           "281.5",
           "266.5"
         ],
+        "optionLatex": [
+          "283.5",
+          "279.5",
+          "281.5",
+          "266.5"
+        ],
         "answer": "283.5",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -29866,6 +35272,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 4 < x <= 14?",
         "latex": "4<x\\le 14",
         "options": [
+          "3",
+          "10",
+          "25",
+          "6"
+        ],
+        "optionLatex": [
           "3",
           "10",
           "25",
@@ -29904,6 +35316,12 @@ export const aptitudeLevels = {
           "3.5",
           "15.5"
         ],
+        "optionLatex": [
+          "24.5",
+          "17.5",
+          "3.5",
+          "15.5"
+        ],
         "answer": "17.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -29932,6 +35350,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 33[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "33\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "26",
+          "19",
+          "55",
+          "33"
+        ],
+        "optionLatex": [
           "26",
           "19",
           "55",
@@ -29970,6 +35394,12 @@ export const aptitudeLevels = {
           "-13.5556",
           "22.4444"
         ],
+        "optionLatex": [
+          "0.4444",
+          "2.4444",
+          "-13.5556",
+          "22.4444"
+        ],
         "answer": "0.4444",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -29998,6 +35428,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, find the mean of the data set [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=37",
         "options": [
+          "41",
+          "44",
+          "37",
+          "39"
+        ],
+        "optionLatex": [
           "41",
           "44",
           "37",
@@ -30036,6 +35472,12 @@ export const aptitudeLevels = {
           "312",
           "286"
         ],
+        "optionLatex": [
+          "305",
+          "290",
+          "312",
+          "286"
+        ],
         "answer": "290",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -30064,6 +35506,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, a caselet score has base 48 and adjustment 41. What combined score is reported?",
         "latex": "48+41",
         "options": [
+          "85",
+          "93",
+          "89",
+          "87"
+        ],
+        "optionLatex": [
           "85",
           "93",
           "89",
@@ -30102,6 +35550,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -30130,6 +35584,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "38",
+          "34",
+          "41",
+          "49"
+        ],
+        "optionLatex": [
           "38",
           "34",
           "41",
@@ -30169,6 +35629,12 @@ export const aptitudeLevels = {
           "91",
           "102"
         ],
+        "optionLatex": [
+          "81",
+          "98",
+          "91",
+          "102"
+        ],
         "answer": "98",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -30201,6 +35667,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -30235,6 +35707,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -30268,6 +35746,12 @@ export const aptitudeLevels = {
           "67",
           "38"
         ],
+        "optionLatex": [
+          "47",
+          "45",
+          "67",
+          "38"
+        ],
         "answer": "45",
         "solution": {
           "approach": "Inspect first differences.",
@@ -30296,6 +35780,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, in a row of 42 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 41",
         "options": [
+          "38",
+          "55",
+          "62",
+          "40"
+        ],
+        "optionLatex": [
           "38",
           "55",
           "62",
@@ -30335,6 +35825,12 @@ export const aptitudeLevels = {
           "419.78",
           "417.78"
         ],
+        "optionLatex": [
+          "403.78",
+          "410.78",
+          "419.78",
+          "417.78"
+        ],
         "answer": "417.78",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -30363,6 +35859,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 12 and common difference 4.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(12)+(29-1)4\\right)",
         "options": [
+          "1965",
+          "1970",
+          "1972",
+          "1979"
+        ],
+        "optionLatex": [
           "1965",
           "1970",
           "1972",
@@ -30401,6 +35903,12 @@ export const aptitudeLevels = {
           "264.5",
           "266.5"
         ],
+        "optionLatex": [
+          "247.5",
+          "260.5",
+          "264.5",
+          "266.5"
+        ],
         "answer": "264.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -30429,6 +35937,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, from a point 29 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=29\\tan(45^\\circ)",
         "options": [
+          "29",
+          "51",
+          "44",
+          "25"
+        ],
+        "optionLatex": [
           "29",
           "51",
           "44",
@@ -30467,6 +35981,12 @@ export const aptitudeLevels = {
           "2.2727",
           "-16.7273"
         ],
+        "optionLatex": [
+          "-3.7273",
+          "0.2727",
+          "2.2727",
+          "-16.7273"
+        ],
         "answer": "0.2727",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -30495,6 +36015,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, find the median of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=34",
         "options": [
+          "34",
+          "32",
+          "49",
+          "36"
+        ],
+        "optionLatex": [
           "34",
           "32",
           "49",
@@ -30533,6 +36059,12 @@ export const aptitudeLevels = {
           "18",
           "25"
         ],
+        "optionLatex": [
+          "32",
+          "28",
+          "18",
+          "25"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -30561,6 +36093,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, a caselet score has base 63 and adjustment 71. What combined score is reported?",
         "latex": "63+71",
         "options": [
+          "134",
+          "132",
+          "120",
+          "127"
+        ],
+        "optionLatex": [
           "134",
           "132",
           "120",
@@ -30599,6 +36137,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -30627,6 +36171,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "11",
+          "9",
+          "-5",
+          "24"
+        ],
+        "optionLatex": [
           "11",
           "9",
           "-5",
@@ -30666,6 +36216,12 @@ export const aptitudeLevels = {
           "108",
           "89"
         ],
+        "optionLatex": [
+          "79",
+          "93",
+          "108",
+          "89"
+        ],
         "answer": "93",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -30698,6 +36254,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -30732,6 +36294,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -30765,6 +36333,12 @@ export const aptitudeLevels = {
           "42",
           "30"
         ],
+        "optionLatex": [
+          "44",
+          "37",
+          "42",
+          "30"
+        ],
         "answer": "44",
         "solution": {
           "approach": "Inspect first differences.",
@@ -30793,6 +36367,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, in a row of 17 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 16",
         "options": [
+          "1",
+          "15",
+          "19",
+          "22"
+        ],
+        "optionLatex": [
           "1",
           "15",
           "19",
@@ -30832,6 +36412,12 @@ export const aptitudeLevels = {
           "10.5517",
           "6.5517"
         ],
+        "optionLatex": [
+          "13.5517",
+          "21.5517",
+          "10.5517",
+          "6.5517"
+        ],
         "answer": "6.5517",
         "solution": {
           "approach": "Add individual rates.",
@@ -30860,6 +36446,12 @@ export const aptitudeLevels = {
         "q": "If log base 17 of (x + 54) equals log base 17 of 108, find x.",
         "latex": "\\log_{17}(x+54)=\\log_{17}(108)",
         "options": [
+          "37",
+          "54",
+          "76",
+          "40"
+        ],
+        "optionLatex": [
           "37",
           "54",
           "76",
@@ -30898,6 +36490,12 @@ export const aptitudeLevels = {
           "1088",
           "1096"
         ],
+        "optionLatex": [
+          "1092",
+          "1085",
+          "1088",
+          "1096"
+        ],
         "answer": "1092",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -30926,6 +36524,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 63[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "63\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "63",
+          "46",
+          "59",
+          "49"
+        ],
+        "optionLatex": [
           "63",
           "46",
           "59",
@@ -30964,6 +36568,12 @@ export const aptitudeLevels = {
           "204636013545598",
           "204636013545600"
         ],
+        "optionLatex": [
+          "204636013545615",
+          "204636013545604",
+          "204636013545598",
+          "204636013545600"
+        ],
         "answer": "204636013545600",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -30992,6 +36602,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "202",
+          "200",
+          "195",
+          "204"
+        ],
+        "optionLatex": [
           "202",
           "200",
           "195",
@@ -31030,6 +36646,12 @@ export const aptitudeLevels = {
           "81",
           "88"
         ],
+        "optionLatex": [
+          "83",
+          "85",
+          "81",
+          "88"
+        ],
         "answer": "81",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -31058,6 +36680,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, a caselet score has base 78 and adjustment 51. What combined score is reported?",
         "latex": "78+51",
         "options": [
+          "129",
+          "144",
+          "151",
+          "136"
+        ],
+        "optionLatex": [
           "129",
           "144",
           "151",
@@ -31096,6 +36724,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -31124,6 +36758,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "22",
+          "24",
+          "7",
+          "26"
+        ],
+        "optionLatex": [
           "22",
           "24",
           "7",
@@ -31163,6 +36803,12 @@ export const aptitudeLevels = {
           "138",
           "153"
         ],
+        "optionLatex": [
+          "142",
+          "145",
+          "138",
+          "153"
+        ],
         "answer": "138",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -31195,6 +36841,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -31229,6 +36881,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -31262,6 +36920,12 @@ export const aptitudeLevels = {
           "54",
           "68"
         ],
+        "optionLatex": [
+          "61",
+          "44",
+          "54",
+          "68"
+        ],
         "answer": "61",
         "solution": {
           "approach": "Inspect first differences.",
@@ -31290,6 +36954,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, in a row of 32 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 31",
         "options": [
+          "45",
+          "23",
+          "30",
+          "37"
+        ],
+        "optionLatex": [
           "45",
           "23",
           "30",
@@ -31329,6 +36999,12 @@ export const aptitudeLevels = {
           "30.8889",
           "8.8889"
         ],
+        "optionLatex": [
+          "10.8889",
+          "23.8889",
+          "30.8889",
+          "8.8889"
+        ],
         "answer": "8.8889",
         "solution": {
           "approach": "Add individual rates.",
@@ -31357,6 +37033,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 12 = 6.",
         "latex": "4x+12=6",
         "options": [
+          "-8.5",
+          "-3.5",
+          "-1.5",
+          "20.5"
+        ],
+        "optionLatex": [
           "-8.5",
           "-3.5",
           "-1.5",
@@ -31395,6 +37077,12 @@ export const aptitudeLevels = {
           "151.5",
           "156.5"
         ],
+        "optionLatex": [
+          "164.5",
+          "149.5",
+          "151.5",
+          "156.5"
+        ],
         "answer": "149.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -31423,6 +37111,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 78[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "78\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "80",
+          "85",
+          "78",
+          "76"
+        ],
+        "optionLatex": [
           "80",
           "85",
           "78",
@@ -31461,6 +37155,12 @@ export const aptitudeLevels = {
           "1916797311",
           "1916797333"
         ],
+        "optionLatex": [
+          "1916797294",
+          "1916797307",
+          "1916797311",
+          "1916797333"
+        ],
         "answer": "1916797311",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -31489,6 +37189,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, find the population variance of [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=32",
         "options": [
+          "32",
+          "28",
+          "18",
+          "47"
+        ],
+        "optionLatex": [
           "32",
           "28",
           "18",
@@ -31527,6 +37233,12 @@ export const aptitudeLevels = {
           "2912",
           "2918"
         ],
+        "optionLatex": [
+          "2909",
+          "2916",
+          "2912",
+          "2918"
+        ],
         "answer": "2916",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -31555,6 +37267,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, a caselet score has base 93 and adjustment 31. What combined score is reported?",
         "latex": "93+31",
         "options": [
+          "126",
+          "120",
+          "124",
+          "107"
+        ],
+        "optionLatex": [
           "126",
           "120",
           "124",
@@ -31593,6 +37311,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -31621,6 +37345,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "46",
+          "54",
+          "39",
+          "37"
+        ],
+        "optionLatex": [
           "46",
           "54",
           "39",
@@ -31660,6 +37390,12 @@ export const aptitudeLevels = {
           "135",
           "133"
         ],
+        "optionLatex": [
+          "140",
+          "148",
+          "135",
+          "133"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -31692,6 +37428,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -31726,6 +37468,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -31759,6 +37507,12 @@ export const aptitudeLevels = {
           "42",
           "64"
         ],
+        "optionLatex": [
+          "44",
+          "57",
+          "42",
+          "64"
+        ],
         "answer": "42",
         "solution": {
           "approach": "Inspect first differences.",
@@ -31787,6 +37541,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, in a row of 7 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 6",
         "options": [
+          "3",
+          "1",
+          "5",
+          "-9"
+        ],
+        "optionLatex": [
           "3",
           "1",
           "5",
@@ -31826,6 +37586,12 @@ export const aptitudeLevels = {
           "43.9762",
           "34.9762"
         ],
+        "optionLatex": [
+          "41.9762",
+          "48.9762",
+          "43.9762",
+          "34.9762"
+        ],
         "answer": "41.9762",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -31854,6 +37620,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 10x + 3 = 17.",
         "latex": "10x+3=17",
         "options": [
+          "1.4",
+          "-15.6",
+          "-5.6",
+          "23.4"
+        ],
+        "optionLatex": [
           "1.4",
           "-15.6",
           "-5.6",
@@ -31892,6 +37664,12 @@ export const aptitudeLevels = {
           "15",
           "32"
         ],
+        "optionLatex": [
+          "54",
+          "47",
+          "15",
+          "32"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -31920,6 +37698,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 93[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "93\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "100",
+          "89",
+          "108",
+          "93"
+        ],
+        "optionLatex": [
           "100",
           "89",
           "108",
@@ -31958,6 +37742,12 @@ export const aptitudeLevels = {
           "0.5",
           "-3.5"
         ],
+        "optionLatex": [
+          "2.5",
+          "-16.5",
+          "0.5",
+          "-3.5"
+        ],
         "answer": "0.5",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -31986,6 +37776,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "182",
+          "175",
+          "186",
+          "184"
+        ],
+        "optionLatex": [
           "182",
           "175",
           "186",
@@ -32024,6 +37820,12 @@ export const aptitudeLevels = {
           "64",
           "68"
         ],
+        "optionLatex": [
+          "86",
+          "57",
+          "64",
+          "68"
+        ],
         "answer": "64",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -32052,6 +37854,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, a caselet score has base 48 and adjustment 61. What combined score is reported?",
         "latex": "48+61",
         "options": [
+          "92",
+          "102",
+          "111",
+          "109"
+        ],
+        "optionLatex": [
           "92",
           "102",
           "111",
@@ -32090,6 +37898,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -32118,6 +37932,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "7",
+          "14",
+          "12",
+          "0"
+        ],
+        "optionLatex": [
           "7",
           "14",
           "12",
@@ -32157,6 +37977,12 @@ export const aptitudeLevels = {
           "118",
           "140"
         ],
+        "optionLatex": [
+          "104",
+          "101",
+          "118",
+          "140"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -32189,6 +38015,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -32223,6 +38055,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -32256,6 +38094,12 @@ export const aptitudeLevels = {
           "48",
           "63"
         ],
+        "optionLatex": [
+          "45",
+          "41",
+          "48",
+          "63"
+        ],
         "answer": "41",
         "solution": {
           "approach": "Inspect first differences.",
@@ -32284,6 +38128,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, in a row of 22 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 21",
         "options": [
+          "13",
+          "20",
+          "3",
+          "18"
+        ],
+        "optionLatex": [
           "13",
           "20",
           "3",
@@ -32323,6 +38173,12 @@ export const aptitudeLevels = {
           "57",
           "72"
         ],
+        "optionLatex": [
+          "50",
+          "54",
+          "57",
+          "72"
+        ],
         "answer": "50",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -32351,6 +38207,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, the roots of x^2 - 9x + 20 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-9x+20=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "24",
+          "41",
+          "43",
+          "45"
+        ],
+        "optionLatex": [
           "24",
           "41",
           "43",
@@ -32389,6 +38251,12 @@ export const aptitudeLevels = {
           "441",
           "423"
         ],
+        "optionLatex": [
+          "437",
+          "435",
+          "441",
+          "423"
+        ],
         "answer": "437",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -32417,6 +38285,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, from a point 89 m from a tower, the angle of elevation is 45 degrees. Find the tower height.",
         "latex": "h=89\\tan(45^\\circ)",
         "options": [
+          "89",
+          "93",
+          "72",
+          "85"
+        ],
+        "optionLatex": [
           "89",
           "93",
           "72",
@@ -32455,6 +38329,12 @@ export const aptitudeLevels = {
           "0.3889",
           "2.3889"
         ],
+        "optionLatex": [
+          "4.3889",
+          "-13.6111",
+          "0.3889",
+          "2.3889"
+        ],
         "answer": "0.3889",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -32483,6 +38363,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, find the mean of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=32",
         "options": [
+          "39",
+          "28",
+          "30",
+          "32"
+        ],
+        "optionLatex": [
           "39",
           "28",
           "30",
@@ -32521,6 +38407,12 @@ export const aptitudeLevels = {
           "2342.5714",
           "2340.5714"
         ],
+        "optionLatex": [
+          "2355.5714",
+          "2333.5714",
+          "2342.5714",
+          "2340.5714"
+        ],
         "answer": "2340.5714",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -32549,6 +38441,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, a caselet score has base 63 and adjustment 41. What combined score is reported?",
         "latex": "63+41",
         "options": [
+          "100",
+          "104",
+          "106",
+          "119"
+        ],
+        "optionLatex": [
           "100",
           "104",
           "106",
@@ -32587,6 +38485,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -32615,6 +38519,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "25",
+          "29",
+          "27",
+          "36"
+        ],
+        "optionLatex": [
           "25",
           "29",
           "27",
@@ -32654,6 +38564,12 @@ export const aptitudeLevels = {
           "111",
           "120"
         ],
+        "optionLatex": [
+          "113",
+          "115",
+          "111",
+          "120"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -32686,6 +38602,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -32720,6 +38642,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -32753,6 +38681,12 @@ export const aptitudeLevels = {
           "80",
           "60"
         ],
+        "optionLatex": [
+          "51",
+          "58",
+          "80",
+          "60"
+        ],
         "answer": "58",
         "solution": {
           "approach": "Inspect first differences.",
@@ -32781,6 +38715,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, in a row of 37 seats, A is not at either end and B sits exactly 1 seat to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 36",
         "options": [
+          "21",
+          "28",
+          "35",
+          "33"
+        ],
+        "optionLatex": [
           "21",
           "28",
           "35",
@@ -32820,6 +38760,12 @@ export const aptitudeLevels = {
           "7291",
           "7298"
         ],
+        "optionLatex": [
+          "7296",
+          "7313",
+          "7291",
+          "7298"
+        ],
         "answer": "7298",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -32848,6 +38794,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 4x + 11 = 5.",
         "latex": "4x+11=5",
         "options": [
+          "0.5",
+          "-8.5",
+          "5.5",
+          "-1.5"
+        ],
+        "optionLatex": [
           "0.5",
           "-8.5",
           "5.5",
@@ -32886,6 +38838,12 @@ export const aptitudeLevels = {
           "514",
           "519"
         ],
+        "optionLatex": [
+          "510",
+          "512",
+          "514",
+          "519"
+        ],
         "answer": "512",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -32914,6 +38872,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 26[sin^2(45\u00b0) + cos^2(45\u00b0)].",
         "latex": "26\\left(\\sin^2(45^\\circ)+\\cos^2(45^\\circ)\\right)",
         "options": [
+          "24",
+          "26",
+          "19",
+          "22"
+        ],
+        "optionLatex": [
           "24",
           "26",
           "19",
@@ -32952,6 +38916,12 @@ export const aptitudeLevels = {
           "154440",
           "154433"
         ],
+        "optionLatex": [
+          "154423",
+          "154438",
+          "154440",
+          "154433"
+        ],
         "answer": "154440",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -32980,6 +38950,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, find the mean of the data set [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=57",
         "options": [
+          "57",
+          "64",
+          "53",
+          "55"
+        ],
+        "optionLatex": [
           "57",
           "64",
           "53",
@@ -33018,6 +38994,12 @@ export const aptitudeLevels = {
           "550",
           "546"
         ],
+        "optionLatex": [
+          "544",
+          "568",
+          "550",
+          "546"
+        ],
         "answer": "546",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -33046,6 +39028,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, a caselet score has base 78 and adjustment 71. What combined score is reported?",
         "latex": "78+71",
         "options": [
+          "147",
+          "164",
+          "149",
+          "151"
+        ],
+        "optionLatex": [
           "147",
           "164",
           "149",
@@ -33084,6 +39072,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -33112,6 +39106,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "-3",
+          "4",
+          "8",
+          "26"
+        ],
+        "optionLatex": [
           "-3",
           "4",
           "8",
@@ -33157,6 +39157,12 @@ export const aptitudeLevels = {
           "26546",
           "26503"
         ],
+        "optionLatex": [
+          "26510",
+          "26517",
+          "26546",
+          "26503"
+        ],
         "answer": "26510",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -33185,6 +39191,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 5 = 18.",
         "latex": "5x+5=18",
         "options": [
+          "4.6",
+          "38.6",
+          "-1.4",
+          "2.6"
+        ],
+        "optionLatex": [
           "4.6",
           "38.6",
           "-1.4",
@@ -33223,6 +39235,12 @@ export const aptitudeLevels = {
           "158",
           "162"
         ],
+        "optionLatex": [
+          "166",
+          "134",
+          "158",
+          "162"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -33251,6 +39269,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 36[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "36\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "40",
+          "65",
+          "36",
+          "29"
+        ],
+        "optionLatex": [
           "40",
           "65",
           "36",
@@ -33289,6 +39313,12 @@ export const aptitudeLevels = {
           "0.5333",
           "-30.4667"
         ],
+        "optionLatex": [
+          "2.5333",
+          "7.5333",
+          "0.5333",
+          "-30.4667"
+        ],
         "answer": "0.5333",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -33317,6 +39347,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=37",
         "options": [
+          "37",
+          "6",
+          "73",
+          "66"
+        ],
+        "optionLatex": [
           "37",
           "6",
           "73",
@@ -33355,6 +39391,12 @@ export const aptitudeLevels = {
           "162",
           "164"
         ],
+        "optionLatex": [
+          "134",
+          "191",
+          "162",
+          "164"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -33383,6 +39425,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 88 and adjustment 41. What combined score is reported?",
         "latex": "88+41",
         "options": [
+          "122",
+          "136",
+          "129",
+          "127"
+        ],
+        "optionLatex": [
           "122",
           "136",
           "129",
@@ -33421,6 +39469,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -33449,6 +39503,12 @@ export const aptitudeLevels = {
         "q": "In a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "-15",
+          "11",
+          "20",
+          "13"
+        ],
+        "optionLatex": [
           "-15",
           "11",
           "20",
@@ -33488,6 +39548,12 @@ export const aptitudeLevels = {
           "138",
           "145"
         ],
+        "optionLatex": [
+          "167",
+          "107",
+          "138",
+          "145"
+        ],
         "answer": "138",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -33520,6 +39586,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -33554,6 +39626,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -33587,6 +39665,12 @@ export const aptitudeLevels = {
           "79",
           "22"
         ],
+        "optionLatex": [
+          "50",
+          "46",
+          "79",
+          "22"
+        ],
         "answer": "50",
         "solution": {
           "approach": "Inspect first differences.",
@@ -33615,6 +39699,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "-9",
+          "12",
+          "15",
+          "19"
+        ],
+        "optionLatex": [
           "-9",
           "12",
           "15",
@@ -33654,6 +39744,12 @@ export const aptitudeLevels = {
           "12901.8512",
           "12877.8512"
         ],
+        "optionLatex": [
+          "12880.8512",
+          "12908.8512",
+          "12901.8512",
+          "12877.8512"
+        ],
         "answer": "12908.8512",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -33682,6 +39778,12 @@ export const aptitudeLevels = {
         "q": "The roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "217",
+          "257",
+          "221",
+          "214"
+        ],
+        "optionLatex": [
           "217",
           "257",
           "221",
@@ -33720,6 +39822,12 @@ export const aptitudeLevels = {
           "212.5",
           "214.5"
         ],
+        "optionLatex": [
+          "216.5",
+          "243.5",
+          "212.5",
+          "214.5"
+        ],
         "answer": "214.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -33748,6 +39856,12 @@ export const aptitudeLevels = {
         "q": "From a point 59 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=59\\tan(60^\\circ)",
         "options": [
+          "102.191",
+          "98.191",
+          "106.191",
+          "71.191"
+        ],
+        "optionLatex": [
           "102.191",
           "98.191",
           "106.191",
@@ -33786,6 +39900,12 @@ export const aptitudeLevels = {
           "7.4118",
           "2.4118"
         ],
+        "optionLatex": [
+          "-1.5882",
+          "0.4118",
+          "7.4118",
+          "2.4118"
+        ],
         "answer": "0.4118",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -33814,6 +39934,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the median of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=34",
         "options": [
+          "70",
+          "34",
+          "27",
+          "36"
+        ],
+        "optionLatex": [
           "70",
           "34",
           "27",
@@ -33852,6 +39978,12 @@ export const aptitudeLevels = {
           "353",
           "388"
         ],
+        "optionLatex": [
+          "384",
+          "356",
+          "353",
+          "388"
+        ],
         "answer": "384",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -33880,6 +40012,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 43 and adjustment 71. What combined score is reported?",
         "latex": "43+71",
         "options": [
+          "83",
+          "107",
+          "114",
+          "110"
+        ],
+        "optionLatex": [
           "83",
           "107",
           "114",
@@ -33918,6 +40056,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -33946,6 +40090,12 @@ export const aptitudeLevels = {
         "q": "In a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "35",
+          "21",
+          "28",
+          "24"
+        ],
+        "optionLatex": [
           "35",
           "21",
           "28",
@@ -33985,6 +40135,12 @@ export const aptitudeLevels = {
           "77",
           "45"
         ],
+        "optionLatex": [
+          "73",
+          "109",
+          "77",
+          "45"
+        ],
         "answer": "73",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -34017,6 +40173,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -34051,6 +40213,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -34084,6 +40252,12 @@ export const aptitudeLevels = {
           "42",
           "40"
         ],
+        "optionLatex": [
+          "11",
+          "46",
+          "42",
+          "40"
+        ],
         "answer": "42",
         "solution": {
           "approach": "Inspect first differences.",
@@ -34112,6 +40286,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "30",
+          "3",
+          "36",
+          "34"
+        ],
+        "optionLatex": [
           "30",
           "3",
           "36",
@@ -34151,6 +40331,12 @@ export const aptitudeLevels = {
           "277",
           "255"
         ],
+        "optionLatex": [
+          "241",
+          "248",
+          "277",
+          "255"
+        ],
         "answer": "248",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -34179,6 +40365,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 8x + 13 = 6.",
         "latex": "8x+13=6",
         "options": [
+          "-0.875",
+          "1.125",
+          "-4.875",
+          "35.125"
+        ],
+        "optionLatex": [
           "-0.875",
           "1.125",
           "-4.875",
@@ -34217,6 +40409,12 @@ export const aptitudeLevels = {
           "72",
           "108"
         ],
+        "optionLatex": [
+          "74",
+          "44",
+          "72",
+          "108"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -34245,6 +40443,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 66[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "66\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "62",
+          "66",
+          "102",
+          "59"
+        ],
+        "optionLatex": [
           "62",
           "66",
           "102",
@@ -34283,6 +40487,12 @@ export const aptitudeLevels = {
           "344362193",
           "344362198"
         ],
+        "optionLatex": [
+          "344362200",
+          "344362236",
+          "344362193",
+          "344362198"
+        ],
         "answer": "344362200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -34311,6 +40521,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "209",
+          "206",
+          "171",
+          "202"
+        ],
+        "optionLatex": [
           "209",
           "206",
           "171",
@@ -34349,6 +40565,12 @@ export const aptitudeLevels = {
           "35728",
           "35750"
         ],
+        "optionLatex": [
+          "35721",
+          "35723",
+          "35728",
+          "35750"
+        ],
         "answer": "35721",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -34377,6 +40599,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 58 and adjustment 51. What combined score is reported?",
         "latex": "58+51",
         "options": [
+          "81",
+          "145",
+          "116",
+          "109"
+        ],
+        "optionLatex": [
           "81",
           "145",
           "116",
@@ -34415,6 +40643,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -34443,6 +40677,12 @@ export const aptitudeLevels = {
         "q": "In a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "3",
+          "-28",
+          "-25",
+          "32"
+        ],
+        "optionLatex": [
           "3",
           "-28",
           "-25",
@@ -34482,6 +40722,12 @@ export const aptitudeLevels = {
           "90",
           "147"
         ],
+        "optionLatex": [
+          "114",
+          "118",
+          "90",
+          "147"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -34514,6 +40760,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -34548,6 +40800,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -34581,6 +40839,12 @@ export const aptitudeLevels = {
           "41",
           "45"
         ],
+        "optionLatex": [
+          "77",
+          "37",
+          "41",
+          "45"
+        ],
         "answer": "41",
         "solution": {
           "approach": "Inspect first differences.",
@@ -34609,6 +40873,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "13",
+          "9",
+          "45",
+          "16"
+        ],
+        "optionLatex": [
           "13",
           "9",
           "45",
@@ -34648,6 +40918,12 @@ export const aptitudeLevels = {
           "21599.236",
           "21623.236"
         ],
+        "optionLatex": [
+          "21634.236",
+          "21627.236",
+          "21599.236",
+          "21623.236"
+        ],
         "answer": "21627.236",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -34676,6 +40952,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=5x+4 and g(x)=4x+17. Find f(g(9)).",
         "latex": "f(x)=5x+4,\\quad g(x)=4x+17,\\quad f(g(9))",
         "options": [
+          "269",
+          "262",
+          "265",
+          "241"
+        ],
+        "optionLatex": [
           "269",
           "262",
           "265",
@@ -34714,6 +40996,12 @@ export const aptitudeLevels = {
           "238",
           "242"
         ],
+        "optionLatex": [
+          "240",
+          "271",
+          "238",
+          "242"
+        ],
         "answer": "242",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -34742,6 +41030,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 81[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "81\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "81",
+          "85",
+          "74",
+          "77"
+        ],
+        "optionLatex": [
           "81",
           "85",
           "74",
@@ -34780,6 +41074,12 @@ export const aptitudeLevels = {
           "814357",
           "814385"
         ],
+        "optionLatex": [
+          "814421",
+          "814354",
+          "814357",
+          "814385"
+        ],
         "answer": "814385",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -34808,6 +41108,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=32",
         "options": [
+          "61",
+          "30",
+          "32",
+          "28"
+        ],
+        "optionLatex": [
           "61",
           "30",
           "32",
@@ -34846,6 +41152,12 @@ export const aptitudeLevels = {
           "684",
           "617"
         ],
+        "optionLatex": [
+          "655",
+          "648",
+          "684",
+          "617"
+        ],
         "answer": "648",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -34874,6 +41186,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 73 and adjustment 31. What combined score is reported?",
         "latex": "73+31",
         "options": [
+          "133",
+          "100",
+          "111",
+          "104"
+        ],
+        "optionLatex": [
           "133",
           "100",
           "111",
@@ -34912,6 +41230,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -34940,6 +41264,12 @@ export const aptitudeLevels = {
         "q": "In a row of 22 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 19",
         "options": [
+          "20",
+          "16",
+          "18",
+          "25"
+        ],
+        "optionLatex": [
           "20",
           "16",
           "18",
@@ -34979,6 +41309,12 @@ export const aptitudeLevels = {
           "113",
           "109"
         ],
+        "optionLatex": [
+          "111",
+          "85",
+          "113",
+          "109"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -35011,6 +41347,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -35045,6 +41387,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -35078,6 +41426,12 @@ export const aptitudeLevels = {
           "45",
           "47"
         ],
+        "optionLatex": [
+          "49",
+          "54",
+          "45",
+          "47"
+        ],
         "answer": "47",
         "solution": {
           "approach": "Inspect first differences.",
@@ -35106,6 +41460,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "24",
+          "31",
+          "20",
+          "53"
+        ],
+        "optionLatex": [
           "24",
           "31",
           "20",
@@ -35145,6 +41505,12 @@ export const aptitudeLevels = {
           "576.5",
           "604.5"
         ],
+        "optionLatex": [
+          "611.5",
+          "606.5",
+          "576.5",
+          "604.5"
+        ],
         "answer": "604.5",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -35173,6 +41539,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 2 < x <= 9?",
         "latex": "2<x\\le 9",
         "options": [
+          "14",
+          "11",
+          "-24",
+          "7"
+        ],
+        "optionLatex": [
           "14",
           "11",
           "-24",
@@ -35211,6 +41583,12 @@ export const aptitudeLevels = {
           "19.5",
           "23.5"
         ],
+        "optionLatex": [
+          "-4.5",
+          "59.5",
+          "19.5",
+          "23.5"
+        ],
         "answer": "23.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -35239,6 +41617,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 96[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "96\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "103",
+          "89",
+          "125",
+          "96"
+        ],
+        "optionLatex": [
           "103",
           "89",
           "125",
@@ -35277,6 +41661,12 @@ export const aptitudeLevels = {
           "0.2857",
           "29.2857"
         ],
+        "optionLatex": [
+          "-3.7143",
+          "36.2857",
+          "0.2857",
+          "29.2857"
+        ],
         "answer": "0.2857",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -35305,6 +41695,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "182",
+          "180",
+          "211",
+          "151"
+        ],
+        "optionLatex": [
           "182",
           "180",
           "211",
@@ -35343,6 +41739,12 @@ export const aptitudeLevels = {
           "8228",
           "8199"
         ],
+        "optionLatex": [
+          "8161",
+          "8192",
+          "8228",
+          "8199"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -35371,6 +41773,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 88 and adjustment 61. What combined score is reported?",
         "latex": "88+61",
         "options": [
+          "118",
+          "121",
+          "147",
+          "149"
+        ],
+        "optionLatex": [
           "118",
           "121",
           "147",
@@ -35409,6 +41817,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -35437,6 +41851,12 @@ export const aptitudeLevels = {
         "q": "In a row of 37 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 34",
         "options": [
+          "33",
+          "37",
+          "2",
+          "26"
+        ],
+        "optionLatex": [
           "33",
           "37",
           "2",
@@ -35476,6 +41896,12 @@ export const aptitudeLevels = {
           "156",
           "151"
         ],
+        "optionLatex": [
+          "187",
+          "158",
+          "156",
+          "151"
+        ],
         "answer": "158",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -35508,6 +41934,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -35542,6 +41974,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -35575,6 +42013,12 @@ export const aptitudeLevels = {
           "82",
           "46"
         ],
+        "optionLatex": [
+          "75",
+          "42",
+          "82",
+          "46"
+        ],
         "answer": "46",
         "solution": {
           "approach": "Inspect first differences.",
@@ -35603,6 +42047,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "41",
+          "43",
+          "68",
+          "39"
+        ],
+        "optionLatex": [
           "41",
           "43",
           "68",
@@ -35642,6 +42092,12 @@ export const aptitudeLevels = {
           "741.75",
           "710.75"
         ],
+        "optionLatex": [
+          "743.75",
+          "770.75",
+          "741.75",
+          "710.75"
+        ],
         "answer": "741.75",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -35670,6 +42126,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 10 and common difference 12.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(10)+(29-1)12\\right)",
         "options": [
+          "5164",
+          "5162",
+          "5191",
+          "5169"
+        ],
+        "optionLatex": [
           "5164",
           "5162",
           "5191",
@@ -35708,6 +42170,12 @@ export const aptitudeLevels = {
           "469",
           "464"
         ],
+        "optionLatex": [
+          "462",
+          "498",
+          "469",
+          "464"
+        ],
         "answer": "462",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -35736,6 +42204,12 @@ export const aptitudeLevels = {
         "q": "From a point 49 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=49\\tan(60^\\circ)",
         "options": [
+          "84.8705",
+          "82.8705",
+          "80.8705",
+          "88.8705"
+        ],
+        "optionLatex": [
           "84.8705",
           "82.8705",
           "80.8705",
@@ -35774,6 +42248,12 @@ export const aptitudeLevels = {
           "29.4286",
           "-27.5714"
         ],
+        "optionLatex": [
+          "-3.5714",
+          "0.4286",
+          "29.4286",
+          "-27.5714"
+        ],
         "answer": "0.4286",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -35802,6 +42282,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=32",
         "options": [
+          "32",
+          "34",
+          "61",
+          "36"
+        ],
+        "optionLatex": [
           "32",
           "34",
           "61",
@@ -35840,6 +42326,12 @@ export const aptitudeLevels = {
           "197.8",
           "200.8"
         ],
+        "optionLatex": [
+          "233.8",
+          "204.8",
+          "197.8",
+          "200.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -35868,6 +42360,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 43 and adjustment 41. What combined score is reported?",
         "latex": "43+41",
         "options": [
+          "53",
+          "77",
+          "120",
+          "84"
+        ],
+        "optionLatex": [
           "53",
           "77",
           "120",
@@ -35906,6 +42404,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -35934,6 +42438,12 @@ export const aptitudeLevels = {
         "q": "In a row of 12 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 9",
         "options": [
+          "-20",
+          "8",
+          "37",
+          "10"
+        ],
+        "optionLatex": [
           "-20",
           "8",
           "37",
@@ -35973,6 +42483,12 @@ export const aptitudeLevels = {
           "93",
           "122"
         ],
+        "optionLatex": [
+          "97",
+          "100",
+          "93",
+          "122"
+        ],
         "answer": "93",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -36005,6 +42521,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -36039,6 +42561,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -36072,6 +42600,12 @@ export const aptitudeLevels = {
           "38",
           "34"
         ],
+        "optionLatex": [
+          "63",
+          "32",
+          "38",
+          "34"
+        ],
         "answer": "34",
         "solution": {
           "approach": "Inspect first differences.",
@@ -36100,6 +42634,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "-17",
+          "7",
+          "14",
+          "10"
+        ],
+        "optionLatex": [
           "-17",
           "7",
           "14",
@@ -36139,6 +42679,12 @@ export const aptitudeLevels = {
           "-21.7037",
           "35.2963"
         ],
+        "optionLatex": [
+          "42.2963",
+          "6.2963",
+          "-21.7037",
+          "35.2963"
+        ],
         "answer": "6.2963",
         "solution": {
           "approach": "Add individual rates.",
@@ -36167,6 +42713,12 @@ export const aptitudeLevels = {
         "q": "If log base 7 of (x + 54) equals log base 7 of 108, find x.",
         "latex": "\\log_{7}(x+54)=\\log_{7}(108)",
         "options": [
+          "54",
+          "90",
+          "52",
+          "47"
+        ],
+        "optionLatex": [
           "54",
           "90",
           "52",
@@ -36205,6 +42757,12 @@ export const aptitudeLevels = {
           "208",
           "177"
         ],
+        "optionLatex": [
+          "180",
+          "244",
+          "208",
+          "177"
+        ],
         "answer": "208",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -36233,6 +42791,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 29[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "29\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "1",
+          "65",
+          "33",
+          "29"
+        ],
+        "optionLatex": [
           "1",
           "65",
           "33",
@@ -36271,6 +42835,12 @@ export const aptitudeLevels = {
           "296541907193",
           "296541907200"
         ],
+        "optionLatex": [
+          "296541907236",
+          "296541907202",
+          "296541907193",
+          "296541907200"
+        ],
         "answer": "296541907200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -36299,6 +42869,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=57",
         "options": [
+          "55",
+          "57",
+          "93",
+          "53"
+        ],
+        "optionLatex": [
           "55",
           "57",
           "93",
@@ -36337,6 +42913,12 @@ export const aptitudeLevels = {
           "150",
           "114"
         ],
+        "optionLatex": [
+          "121",
+          "118",
+          "150",
+          "114"
+        ],
         "answer": "114",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -36365,6 +42947,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 58 and adjustment 71. What combined score is reported?",
         "latex": "58+71",
         "options": [
+          "129",
+          "136",
+          "98",
+          "101"
+        ],
+        "optionLatex": [
           "129",
           "136",
           "98",
@@ -36403,6 +42991,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -36431,6 +43025,12 @@ export const aptitudeLevels = {
         "q": "In a row of 27 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 24",
         "options": [
+          "23",
+          "59",
+          "-8",
+          "30"
+        ],
+        "optionLatex": [
           "23",
           "59",
           "-8",
@@ -36470,6 +43070,12 @@ export const aptitudeLevels = {
           "88",
           "90"
         ],
+        "optionLatex": [
+          "84",
+          "95",
+          "88",
+          "90"
+        ],
         "answer": "88",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -36502,6 +43108,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -36536,6 +43148,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -36569,6 +43187,12 @@ export const aptitudeLevels = {
           "51",
           "53"
         ],
+        "optionLatex": [
+          "58",
+          "55",
+          "51",
+          "53"
+        ],
         "answer": "51",
         "solution": {
           "approach": "Inspect first differences.",
@@ -36597,6 +43221,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "65",
+          "29",
+          "22",
+          "25"
+        ],
+        "optionLatex": [
           "65",
           "29",
           "22",
@@ -36636,6 +43266,12 @@ export const aptitudeLevels = {
           "15.2353",
           "8.2353"
         ],
+        "optionLatex": [
+          "10.2353",
+          "-19.7647",
+          "15.2353",
+          "8.2353"
+        ],
         "answer": "8.2353",
         "solution": {
           "approach": "Add individual rates.",
@@ -36664,6 +43300,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 7 = 10.",
         "latex": "2x+7=10",
         "options": [
+          "8.5",
+          "1.5",
+          "-29.5",
+          "3.5"
+        ],
+        "optionLatex": [
           "8.5",
           "1.5",
           "-29.5",
@@ -36702,6 +43344,12 @@ export const aptitudeLevels = {
           "304",
           "297"
         ],
+        "optionLatex": [
+          "326",
+          "269",
+          "304",
+          "297"
+        ],
         "answer": "297",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -36730,6 +43378,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 44[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "44\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "44",
+          "80",
+          "13",
+          "73"
+        ],
+        "optionLatex": [
           "44",
           "80",
           "13",
@@ -36768,6 +43422,12 @@ export const aptitudeLevels = {
           "48903485",
           "48903492"
         ],
+        "optionLatex": [
+          "48903461",
+          "48903496",
+          "48903485",
+          "48903492"
+        ],
         "answer": "48903492",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -36796,6 +43456,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the median of the data set [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=30",
         "options": [
+          "28",
+          "34",
+          "30",
+          "-1"
+        ],
+        "optionLatex": [
           "28",
           "34",
           "30",
@@ -36834,6 +43500,12 @@ export const aptitudeLevels = {
           "134",
           "129"
         ],
+        "optionLatex": [
+          "136",
+          "165",
+          "134",
+          "129"
+        ],
         "answer": "136",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -36862,6 +43534,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 73 and adjustment 51. What combined score is reported?",
         "latex": "73+51",
         "options": [
+          "128",
+          "124",
+          "120",
+          "93"
+        ],
+        "optionLatex": [
           "128",
           "124",
           "120",
@@ -36900,6 +43578,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -36928,6 +43612,12 @@ export const aptitudeLevels = {
         "q": "In a row of 42 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 39",
         "options": [
+          "7",
+          "34",
+          "42",
+          "38"
+        ],
+        "optionLatex": [
           "7",
           "34",
           "42",
@@ -36967,6 +43657,12 @@ export const aptitudeLevels = {
           "126",
           "137"
         ],
+        "optionLatex": [
+          "105",
+          "133",
+          "126",
+          "137"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -36999,6 +43695,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -37033,6 +43735,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -37066,6 +43774,12 @@ export const aptitudeLevels = {
           "79",
           "86"
         ],
+        "optionLatex": [
+          "46",
+          "50",
+          "79",
+          "86"
+        ],
         "answer": "50",
         "solution": {
           "approach": "Inspect first differences.",
@@ -37094,6 +43808,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "0",
+          "-27",
+          "6",
+          "4"
+        ],
+        "optionLatex": [
           "0",
           "-27",
           "6",
@@ -37133,6 +43853,12 @@ export const aptitudeLevels = {
           "82.6596",
           "48.6596"
         ],
+        "optionLatex": [
+          "46.6596",
+          "50.6596",
+          "82.6596",
+          "48.6596"
+        ],
         "answer": "46.6596",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -37161,6 +43887,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 8x + 11 = 4.",
         "latex": "8x+11=4",
         "options": [
+          "-4.875",
+          "-0.875",
+          "-28.875",
+          "6.125"
+        ],
+        "optionLatex": [
           "-4.875",
           "-0.875",
           "-28.875",
@@ -37199,6 +43931,12 @@ export const aptitudeLevels = {
           "89",
           "119"
         ],
+        "optionLatex": [
+          "110",
+          "117",
+          "89",
+          "119"
+        ],
         "answer": "117",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -37227,6 +43965,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 59[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "59\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "66",
+          "88",
+          "59",
+          "63"
+        ],
+        "optionLatex": [
           "66",
           "88",
           "59",
@@ -37265,6 +44009,12 @@ export const aptitudeLevels = {
           "4.6667",
           "-27.3333"
         ],
+        "optionLatex": [
+          "0.6667",
+          "-6.3333",
+          "4.6667",
+          "-27.3333"
+        ],
         "answer": "0.6667",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -37293,6 +44043,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=182",
         "options": [
+          "178",
+          "186",
+          "182",
+          "189"
+        ],
+        "optionLatex": [
           "178",
           "186",
           "182",
@@ -37331,6 +44087,12 @@ export const aptitudeLevels = {
           "45925",
           "45963"
         ],
+        "optionLatex": [
+          "45934",
+          "45927",
+          "45925",
+          "45963"
+        ],
         "answer": "45927",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -37359,6 +44121,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 88 and adjustment 31. What combined score is reported?",
         "latex": "88+31",
         "options": [
+          "91",
+          "88",
+          "155",
+          "119"
+        ],
+        "optionLatex": [
           "91",
           "88",
           "155",
@@ -37397,6 +44165,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -37425,6 +44199,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, in a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "9",
+          "6",
+          "11",
+          "13"
+        ],
+        "optionLatex": [
           "9",
           "6",
           "11",
@@ -37464,6 +44244,12 @@ export const aptitudeLevels = {
           "124",
           "121"
         ],
+        "optionLatex": [
+          "128",
+          "157",
+          "124",
+          "121"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -37496,6 +44282,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -37530,6 +44322,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -37563,6 +44361,12 @@ export const aptitudeLevels = {
           "67",
           "31"
         ],
+        "optionLatex": [
+          "27",
+          "33",
+          "67",
+          "31"
+        ],
         "answer": "31",
         "solution": {
           "approach": "Inspect first differences.",
@@ -37591,6 +44395,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "21",
+          "17",
+          "19",
+          "26"
+        ],
+        "optionLatex": [
           "21",
           "17",
           "19",
@@ -37630,6 +44440,12 @@ export const aptitudeLevels = {
           "94",
           "66"
         ],
+        "optionLatex": [
+          "63",
+          "98",
+          "94",
+          "66"
+        ],
         "answer": "94",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -37658,6 +44474,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, the roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "250",
+          "221",
+          "193",
+          "217"
+        ],
+        "optionLatex": [
           "250",
           "221",
           "193",
@@ -37696,6 +44518,12 @@ export const aptitudeLevels = {
           "132",
           "101"
         ],
+        "optionLatex": [
+          "125",
+          "134",
+          "132",
+          "101"
+        ],
         "answer": "132",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -37724,6 +44552,12 @@ export const aptitudeLevels = {
         "q": "From a point 39 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=39\\tan(60^\\circ)",
         "options": [
+          "63.55",
+          "67.55",
+          "74.55",
+          "36.55"
+        ],
+        "optionLatex": [
           "63.55",
           "67.55",
           "74.55",
@@ -37762,6 +44596,12 @@ export const aptitudeLevels = {
           "4.5",
           "29.5"
         ],
+        "optionLatex": [
+          "0.5",
+          "36.5",
+          "4.5",
+          "29.5"
+        ],
         "answer": "0.5",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -37790,6 +44630,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=72",
         "options": [
+          "65",
+          "72",
+          "79",
+          "68"
+        ],
+        "optionLatex": [
           "65",
           "72",
           "79",
@@ -37828,6 +44674,12 @@ export const aptitudeLevels = {
           "868",
           "864"
         ],
+        "optionLatex": [
+          "833",
+          "862",
+          "868",
+          "864"
+        ],
         "answer": "864",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -37856,6 +44708,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 43 and adjustment 61. What combined score is reported?",
         "latex": "43+61",
         "options": [
+          "133",
+          "76",
+          "104",
+          "106"
+        ],
+        "optionLatex": [
           "133",
           "76",
           "104",
@@ -37894,6 +44752,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -37922,6 +44786,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, in a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "28",
+          "-3",
+          "21",
+          "35"
+        ],
+        "optionLatex": [
           "28",
           "-3",
           "21",
@@ -37961,6 +44831,12 @@ export const aptitudeLevels = {
           "149",
           "120"
         ],
+        "optionLatex": [
+          "113",
+          "117",
+          "149",
+          "120"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -37993,6 +44869,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -38027,6 +44909,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -38060,6 +44948,12 @@ export const aptitudeLevels = {
           "41",
           "52"
         ],
+        "optionLatex": [
+          "48",
+          "46",
+          "41",
+          "52"
+        ],
         "answer": "48",
         "solution": {
           "approach": "Inspect first differences.",
@@ -38088,6 +44982,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "30",
+          "6",
+          "34",
+          "36"
+        ],
+        "optionLatex": [
           "30",
           "6",
           "34",
@@ -38127,6 +45027,12 @@ export const aptitudeLevels = {
           "10512",
           "10510"
         ],
+        "optionLatex": [
+          "10514",
+          "10516",
+          "10512",
+          "10510"
+        ],
         "answer": "10514",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -38155,6 +45061,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 6 = 9.",
         "latex": "2x+6=9",
         "options": [
+          "37.5",
+          "1.5",
+          "3.5",
+          "-26.5"
+        ],
+        "optionLatex": [
           "37.5",
           "1.5",
           "3.5",
@@ -38193,6 +45105,12 @@ export const aptitudeLevels = {
           "514",
           "505"
         ],
+        "optionLatex": [
+          "512",
+          "510",
+          "514",
+          "505"
+        ],
         "answer": "512",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -38221,6 +45139,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 89[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "89\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "87",
+          "89",
+          "58",
+          "96"
+        ],
+        "optionLatex": [
           "87",
           "89",
           "58",
@@ -38259,6 +45183,12 @@ export const aptitudeLevels = {
           "3484127549",
           "3484127518"
         ],
+        "optionLatex": [
+          "3484127520",
+          "3484127522",
+          "3484127549",
+          "3484127518"
+        ],
         "answer": "3484127520",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -38287,6 +45217,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=162",
         "options": [
+          "162",
+          "164",
+          "131",
+          "158"
+        ],
+        "optionLatex": [
           "162",
           "164",
           "131",
@@ -38325,6 +45261,12 @@ export const aptitudeLevels = {
           "8190",
           "8196"
         ],
+        "optionLatex": [
+          "8192",
+          "8188",
+          "8190",
+          "8196"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -38353,6 +45295,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 58 and adjustment 41. What combined score is reported?",
         "latex": "58+41",
         "options": [
+          "71",
+          "103",
+          "99",
+          "95"
+        ],
+        "optionLatex": [
           "71",
           "103",
           "99",
@@ -38391,6 +45339,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -38419,6 +45373,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, in a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "3",
+          "39",
+          "10",
+          "1"
+        ],
+        "optionLatex": [
           "3",
           "39",
           "10",
@@ -38458,6 +45418,12 @@ export const aptitudeLevels = {
           "108",
           "115"
         ],
+        "optionLatex": [
+          "110",
+          "77",
+          "108",
+          "115"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -38490,6 +45456,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -38524,6 +45496,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -38557,6 +45535,12 @@ export const aptitudeLevels = {
           "19",
           "43"
         ],
+        "optionLatex": [
+          "54",
+          "47",
+          "19",
+          "43"
+        ],
         "answer": "47",
         "solution": {
           "approach": "Inspect first differences.",
@@ -38585,6 +45569,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "16",
+          "11",
+          "9",
+          "38"
+        ],
+        "optionLatex": [
           "16",
           "11",
           "9",
@@ -38624,6 +45614,12 @@ export const aptitudeLevels = {
           "11507",
           "11509"
         ],
+        "optionLatex": [
+          "11511",
+          "11514",
+          "11507",
+          "11509"
+        ],
         "answer": "11507",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -38652,6 +45648,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=8x+10 and g(x)=10x+20. Find f(g(9)).",
         "latex": "f(x)=8x+10,\\quad g(x)=10x+20,\\quad f(g(9))",
         "options": [
+          "890",
+          "897",
+          "919",
+          "888"
+        ],
+        "optionLatex": [
           "890",
           "897",
           "919",
@@ -38690,6 +45692,12 @@ export const aptitudeLevels = {
           "21.5",
           "0.5"
         ],
+        "optionLatex": [
+          "28.5",
+          "30.5",
+          "21.5",
+          "0.5"
+        ],
         "answer": "28.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -38718,6 +45726,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 7[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "7\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "14",
+          "7",
+          "5",
+          "3"
+        ],
+        "optionLatex": [
           "14",
           "7",
           "5",
@@ -38756,6 +45770,12 @@ export const aptitudeLevels = {
           "70",
           "63"
         ],
+        "optionLatex": [
+          "77",
+          "106",
+          "70",
+          "63"
+        ],
         "answer": "70",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -38784,6 +45804,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=42",
         "options": [
+          "42",
+          "35",
+          "38",
+          "71"
+        ],
+        "optionLatex": [
           "42",
           "35",
           "38",
@@ -38822,6 +45848,12 @@ export const aptitudeLevels = {
           "204.8",
           "240.8"
         ],
+        "optionLatex": [
+          "206.8",
+          "176.8",
+          "204.8",
+          "240.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -38850,6 +45882,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 73 and adjustment 71. What combined score is reported?",
         "latex": "73+71",
         "options": [
+          "144",
+          "146",
+          "180",
+          "140"
+        ],
+        "optionLatex": [
           "144",
           "146",
           "180",
@@ -38888,6 +45926,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -38916,6 +45960,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, in a row of 22 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 19",
         "options": [
+          "-13",
+          "18",
+          "25",
+          "-10"
+        ],
+        "optionLatex": [
           "-13",
           "18",
           "25",
@@ -38955,6 +46005,12 @@ export const aptitudeLevels = {
           "72",
           "107"
         ],
+        "optionLatex": [
+          "103",
+          "96",
+          "72",
+          "107"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -38987,6 +46043,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -39021,6 +46083,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -39054,6 +46122,12 @@ export const aptitudeLevels = {
           "33",
           "37"
         ],
+        "optionLatex": [
+          "35",
+          "71",
+          "33",
+          "37"
+        ],
         "answer": "35",
         "solution": {
           "approach": "Inspect first differences.",
@@ -39082,6 +46156,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "20",
+          "53",
+          "24",
+          "22"
+        ],
+        "optionLatex": [
           "20",
           "53",
           "24",
@@ -39121,6 +46201,12 @@ export const aptitudeLevels = {
           "24",
           "60"
         ],
+        "optionLatex": [
+          "20",
+          "28",
+          "24",
+          "60"
+        ],
         "answer": "24",
         "solution": {
           "approach": "Work backward from A's future age.",
@@ -39149,6 +46235,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 5 < x <= 15?",
         "latex": "5<x\\le 15",
         "options": [
+          "10",
+          "3",
+          "46",
+          "14"
+        ],
+        "optionLatex": [
           "10",
           "3",
           "46",
@@ -39187,6 +46279,12 @@ export const aptitudeLevels = {
           "254",
           "259"
         ],
+        "optionLatex": [
+          "252",
+          "256",
+          "254",
+          "259"
+        ],
         "answer": "252",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -39215,6 +46313,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 22[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "22\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "58",
+          "51",
+          "22",
+          "18"
+        ],
+        "optionLatex": [
           "58",
           "51",
           "22",
@@ -39253,6 +46357,12 @@ export const aptitudeLevels = {
           "2.3636",
           "0.3636"
         ],
+        "optionLatex": [
+          "-6.6364",
+          "36.3636",
+          "2.3636",
+          "0.3636"
+        ],
         "answer": "0.3636",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -39281,6 +46391,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=37",
         "options": [
+          "66",
+          "35",
+          "39",
+          "37"
+        ],
+        "optionLatex": [
           "66",
           "35",
           "39",
@@ -39319,6 +46435,12 @@ export const aptitudeLevels = {
           "290",
           "319"
         ],
+        "optionLatex": [
+          "288",
+          "283",
+          "290",
+          "319"
+        ],
         "answer": "290",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -39347,6 +46469,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 88 and adjustment 51. What combined score is reported?",
         "latex": "88+51",
         "options": [
+          "141",
+          "111",
+          "132",
+          "139"
+        ],
+        "optionLatex": [
           "141",
           "111",
           "132",
@@ -39385,6 +46513,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -39413,6 +46547,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, in a row of 37 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 34",
         "options": [
+          "2",
+          "37",
+          "29",
+          "33"
+        ],
+        "optionLatex": [
           "2",
           "37",
           "29",
@@ -39452,6 +46592,12 @@ export const aptitudeLevels = {
           "146",
           "148"
         ],
+        "optionLatex": [
+          "141",
+          "120",
+          "146",
+          "148"
+        ],
         "answer": "148",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -39484,6 +46630,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -39518,6 +46670,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -39551,6 +46709,12 @@ export const aptitudeLevels = {
           "52",
           "54"
         ],
+        "optionLatex": [
+          "81",
+          "56",
+          "52",
+          "54"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Inspect first differences.",
@@ -39579,6 +46743,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "37",
+          "43",
+          "39",
+          "41"
+        ],
+        "optionLatex": [
           "37",
           "43",
           "39",
@@ -39618,6 +46788,12 @@ export const aptitudeLevels = {
           "54619",
           "54659"
         ],
+        "optionLatex": [
+          "54595",
+          "54623",
+          "54619",
+          "54659"
+        ],
         "answer": "54623",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -39646,6 +46822,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 4 and common difference 5.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(4)+(29-1)5\\right)",
         "options": [
+          "2139",
+          "2144",
+          "2118",
+          "2146"
+        ],
+        "optionLatex": [
           "2139",
           "2144",
           "2118",
@@ -39684,6 +46866,12 @@ export const aptitudeLevels = {
           "831",
           "838"
         ],
+        "optionLatex": [
+          "834",
+          "810",
+          "831",
+          "838"
+        ],
         "answer": "838",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -39712,6 +46900,12 @@ export const aptitudeLevels = {
         "q": "From a point 29 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=29\\tan(60^\\circ)",
         "options": [
+          "19.2295",
+          "22.2295",
+          "50.2295",
+          "57.2295"
+        ],
+        "optionLatex": [
           "19.2295",
           "22.2295",
           "50.2295",
@@ -39750,6 +46944,12 @@ export const aptitudeLevels = {
           "-1.7692",
           "36.2308"
         ],
+        "optionLatex": [
+          "0.2308",
+          "4.2308",
+          "-1.7692",
+          "36.2308"
+        ],
         "answer": "0.2308",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -39778,6 +46978,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the median of the data set [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=22",
         "options": [
+          "20",
+          "22",
+          "26",
+          "51"
+        ],
+        "optionLatex": [
           "20",
           "22",
           "26",
@@ -39816,6 +47022,12 @@ export const aptitudeLevels = {
           "61",
           "30"
         ],
+        "optionLatex": [
+          "36",
+          "32",
+          "61",
+          "30"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -39844,6 +47056,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 43 and adjustment 31. What combined score is reported?",
         "latex": "43+31",
         "options": [
+          "81",
+          "110",
+          "74",
+          "72"
+        ],
+        "optionLatex": [
           "81",
           "110",
           "74",
@@ -39882,6 +47100,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -39910,6 +47134,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, in a row of 12 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 9",
         "options": [
+          "4",
+          "-20",
+          "8",
+          "12"
+        ],
+        "optionLatex": [
           "4",
           "-20",
           "8",
@@ -39949,6 +47179,12 @@ export const aptitudeLevels = {
           "112",
           "87"
         ],
+        "optionLatex": [
+          "85",
+          "83",
+          "112",
+          "87"
+        ],
         "answer": "83",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -39981,6 +47217,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -40015,6 +47257,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -40048,6 +47296,12 @@ export const aptitudeLevels = {
           "51",
           "44"
         ],
+        "optionLatex": [
+          "23",
+          "47",
+          "51",
+          "44"
+        ],
         "answer": "51",
         "solution": {
           "approach": "Inspect first differences.",
@@ -40076,6 +47330,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "50",
+          "12",
+          "10",
+          "14"
+        ],
+        "optionLatex": [
           "50",
           "12",
           "10",
@@ -40115,6 +47375,12 @@ export const aptitudeLevels = {
           "10384",
           "10388"
         ],
+        "optionLatex": [
+          "10360",
+          "10392",
+          "10384",
+          "10388"
+        ],
         "answer": "10388",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -40143,6 +47409,12 @@ export const aptitudeLevels = {
         "q": "If log base 8 of (x + 14) equals log base 8 of 28, find x.",
         "latex": "\\log_{8}(x+14)=\\log_{8}(28)",
         "options": [
+          "10",
+          "-17",
+          "14",
+          "18"
+        ],
+        "optionLatex": [
           "10",
           "-17",
           "14",
@@ -40181,6 +47453,12 @@ export const aptitudeLevels = {
           "134",
           "162"
         ],
+        "optionLatex": [
+          "164",
+          "198",
+          "134",
+          "162"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -40209,6 +47487,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 52[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "52\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "52",
+          "59",
+          "45",
+          "56"
+        ],
+        "optionLatex": [
           "52",
           "59",
           "45",
@@ -40247,6 +47531,12 @@ export const aptitudeLevels = {
           "1608143925023996",
           "1608143925024000"
         ],
+        "optionLatex": [
+          "1608143925024002",
+          "1608143925024007",
+          "1608143925023996",
+          "1608143925024000"
+        ],
         "answer": "1608143925024000",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -40275,6 +47565,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 32, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "182",
+          "178",
+          "218",
+          "180"
+        ],
+        "optionLatex": [
           "182",
           "178",
           "218",
@@ -40313,6 +47609,12 @@ export const aptitudeLevels = {
           "15345",
           "15309"
         ],
+        "optionLatex": [
+          "15302",
+          "15278",
+          "15345",
+          "15309"
+        ],
         "answer": "15309",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -40341,6 +47643,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 58 and adjustment 61. What combined score is reported?",
         "latex": "58+61",
         "options": [
+          "88",
+          "121",
+          "119",
+          "126"
+        ],
+        "optionLatex": [
           "88",
           "121",
           "119",
@@ -40379,6 +47687,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -40407,6 +47721,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, in a row of 27 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 24",
         "options": [
+          "16",
+          "23",
+          "-5",
+          "30"
+        ],
+        "optionLatex": [
           "16",
           "23",
           "-5",
@@ -40446,6 +47766,12 @@ export const aptitudeLevels = {
           "128",
           "100"
         ],
+        "optionLatex": [
+          "164",
+          "130",
+          "128",
+          "100"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -40478,6 +47804,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -40512,6 +47844,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -40545,6 +47883,12 @@ export const aptitudeLevels = {
           "41",
           "68"
         ],
+        "optionLatex": [
+          "75",
+          "39",
+          "41",
+          "68"
+        ],
         "answer": "39",
         "solution": {
           "approach": "Inspect first differences.",
@@ -40573,6 +47917,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "25",
+          "36",
+          "29",
+          "-2"
+        ],
+        "optionLatex": [
           "25",
           "36",
           "29",
@@ -40612,6 +47962,12 @@ export const aptitudeLevels = {
           "15567.6214",
           "15565.6214"
         ],
+        "optionLatex": [
+          "15592.6214",
+          "15563.6214",
+          "15567.6214",
+          "15565.6214"
+        ],
         "answer": "15563.6214",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -40640,6 +47996,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 13 = 13.",
         "latex": "5x+13=13",
         "options": [
+          "4",
+          "0",
+          "-7",
+          "-31"
+        ],
+        "optionLatex": [
           "4",
           "0",
           "-7",
@@ -40678,6 +48040,12 @@ export const aptitudeLevels = {
           "250.5",
           "214.5"
         ],
+        "optionLatex": [
+          "218.5",
+          "183.5",
+          "250.5",
+          "214.5"
+        ],
         "answer": "214.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -40706,6 +48074,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 67[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "67\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "67",
+          "39",
+          "36",
+          "96"
+        ],
+        "optionLatex": [
           "67",
           "39",
           "36",
@@ -40744,6 +48118,12 @@ export const aptitudeLevels = {
           "7392009768",
           "7392009737"
         ],
+        "optionLatex": [
+          "7392009764",
+          "7392009772",
+          "7392009768",
+          "7392009737"
+        ],
         "answer": "7392009768",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -40772,6 +48152,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=152",
         "options": [
+          "152",
+          "121",
+          "124",
+          "188"
+        ],
+        "optionLatex": [
           "152",
           "121",
           "124",
@@ -40810,6 +48196,12 @@ export const aptitudeLevels = {
           "223",
           "245"
         ],
+        "optionLatex": [
+          "216",
+          "212",
+          "223",
+          "245"
+        ],
         "answer": "216",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -40838,6 +48230,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 73 and adjustment 41. What combined score is reported?",
         "latex": "73+41",
         "options": [
+          "107",
+          "116",
+          "150",
+          "114"
+        ],
+        "optionLatex": [
           "107",
           "116",
           "150",
@@ -40876,6 +48274,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -40904,6 +48308,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, in a row of 42 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 39",
         "options": [
+          "45",
+          "38",
+          "74",
+          "10"
+        ],
+        "optionLatex": [
           "45",
           "38",
           "74",
@@ -40943,6 +48353,12 @@ export const aptitudeLevels = {
           "125",
           "116"
         ],
+        "optionLatex": [
+          "92",
+          "123",
+          "125",
+          "116"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -40975,6 +48391,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -41009,6 +48431,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -41042,6 +48470,12 @@ export const aptitudeLevels = {
           "49",
           "45"
         ],
+        "optionLatex": [
+          "42",
+          "78",
+          "49",
+          "45"
+        ],
         "answer": "49",
         "solution": {
           "approach": "Inspect first differences.",
@@ -41070,6 +48504,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "40",
+          "-3",
+          "6",
+          "4"
+        ],
+        "optionLatex": [
           "40",
           "-3",
           "6",
@@ -41109,6 +48549,12 @@ export const aptitudeLevels = {
           "341",
           "310"
         ],
+        "optionLatex": [
+          "377",
+          "343",
+          "341",
+          "310"
+        ],
         "answer": "341",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -41137,6 +48583,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 4 = 7.",
         "latex": "2x+4=7",
         "options": [
+          "5.5",
+          "1.5",
+          "-26.5",
+          "8.5"
+        ],
+        "optionLatex": [
           "5.5",
           "1.5",
           "-26.5",
@@ -41175,6 +48627,12 @@ export const aptitudeLevels = {
           "101",
           "72"
         ],
+        "optionLatex": [
+          "41",
+          "79",
+          "101",
+          "72"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -41203,6 +48661,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 82[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "82\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "82",
+          "75",
+          "111",
+          "54"
+        ],
+        "optionLatex": [
           "82",
           "75",
           "111",
@@ -41241,6 +48705,12 @@ export const aptitudeLevels = {
           "-6.5556",
           "-30.5556"
         ],
+        "optionLatex": [
+          "0.4444",
+          "29.4444",
+          "-6.5556",
+          "-30.5556"
+        ],
         "answer": "0.4444",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -41269,6 +48739,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=2",
         "options": [
+          "2",
+          "-5",
+          "9",
+          "-29"
+        ],
+        "optionLatex": [
           "2",
           "-5",
           "9",
@@ -41307,6 +48783,12 @@ export const aptitudeLevels = {
           "8161",
           "8199"
         ],
+        "optionLatex": [
+          "8192",
+          "8190",
+          "8161",
+          "8199"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -41335,6 +48817,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 88 and adjustment 71. What combined score is reported?",
         "latex": "88+71",
         "options": [
+          "195",
+          "152",
+          "159",
+          "131"
+        ],
+        "optionLatex": [
           "195",
           "152",
           "159",
@@ -41373,6 +48861,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -41401,6 +48895,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, in a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "11",
+          "17",
+          "6",
+          "13"
+        ],
+        "optionLatex": [
           "11",
           "17",
           "6",
@@ -41440,6 +48940,12 @@ export const aptitudeLevels = {
           "122",
           "147"
         ],
+        "optionLatex": [
+          "118",
+          "114",
+          "122",
+          "147"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -41472,6 +48978,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -41506,6 +49018,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -41539,6 +49057,12 @@ export const aptitudeLevels = {
           "41",
           "37"
         ],
+        "optionLatex": [
+          "6",
+          "9",
+          "41",
+          "37"
+        ],
         "answer": "37",
         "solution": {
           "approach": "Inspect first differences.",
@@ -41567,6 +49091,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "12",
+          "19",
+          "55",
+          "-12"
+        ],
+        "optionLatex": [
           "12",
           "19",
           "55",
@@ -41606,6 +49136,12 @@ export const aptitudeLevels = {
           "30398.4051",
           "30407.4051"
         ],
+        "optionLatex": [
+          "30400.4051",
+          "30404.4051",
+          "30398.4051",
+          "30407.4051"
+        ],
         "answer": "30400.4051",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -41634,6 +49170,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, the roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "250",
+          "214",
+          "217",
+          "221"
+        ],
+        "optionLatex": [
           "250",
           "214",
           "217",
@@ -41672,6 +49214,12 @@ export const aptitudeLevels = {
           "882",
           "851"
         ],
+        "optionLatex": [
+          "880",
+          "889",
+          "882",
+          "851"
+        ],
         "answer": "882",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -41700,6 +49248,12 @@ export const aptitudeLevels = {
         "q": "From a point 89 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=89\\tan(60^\\circ)",
         "options": [
+          "126.1525",
+          "161.1525",
+          "123.1525",
+          "154.1525"
+        ],
+        "optionLatex": [
           "126.1525",
           "161.1525",
           "123.1525",
@@ -41738,6 +49292,12 @@ export const aptitudeLevels = {
           "4.6364",
           "-1.3636"
         ],
+        "optionLatex": [
+          "36.6364",
+          "0.6364",
+          "4.6364",
+          "-1.3636"
+        ],
         "answer": "0.6364",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -41766,6 +49326,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=32",
         "options": [
+          "68",
+          "34",
+          "39",
+          "32"
+        ],
+        "optionLatex": [
           "68",
           "34",
           "39",
@@ -41804,6 +49370,12 @@ export const aptitudeLevels = {
           "202.8",
           "211.8"
         ],
+        "optionLatex": [
+          "204.8",
+          "176.8",
+          "202.8",
+          "211.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -41832,6 +49404,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 43 and adjustment 51. What combined score is reported?",
         "latex": "43+51",
         "options": [
+          "94",
+          "130",
+          "98",
+          "123"
+        ],
+        "optionLatex": [
           "94",
           "130",
           "98",
@@ -41870,6 +49448,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -41898,6 +49482,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, in a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "-3",
+          "0",
+          "24",
+          "28"
+        ],
+        "optionLatex": [
           "-3",
           "0",
           "24",
@@ -41937,6 +49527,12 @@ export const aptitudeLevels = {
           "139",
           "103"
         ],
+        "optionLatex": [
+          "101",
+          "105",
+          "139",
+          "103"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -41969,6 +49565,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -42003,6 +49605,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -42036,6 +49644,12 @@ export const aptitudeLevels = {
           "36",
           "32"
         ],
+        "optionLatex": [
+          "29",
+          "38",
+          "36",
+          "32"
+        ],
         "answer": "36",
         "solution": {
           "approach": "Inspect first differences.",
@@ -42064,6 +49678,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "41",
+          "3",
+          "70",
+          "34"
+        ],
+        "optionLatex": [
           "41",
           "3",
           "70",
@@ -42103,6 +49723,12 @@ export const aptitudeLevels = {
           "1566.5",
           "1533.5"
         ],
+        "optionLatex": [
+          "1537.5",
+          "1530.5",
+          "1566.5",
+          "1533.5"
+        ],
         "answer": "1537.5",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -42131,6 +49757,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 12 = 12.",
         "latex": "5x+12=12",
         "options": [
+          "-4",
+          "0",
+          "2",
+          "7"
+        ],
+        "optionLatex": [
           "-4",
           "0",
           "2",
@@ -42169,6 +49801,12 @@ export const aptitudeLevels = {
           "30.5",
           "24.5"
         ],
+        "optionLatex": [
+          "28.5",
+          "64.5",
+          "30.5",
+          "24.5"
+        ],
         "answer": "28.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -42197,6 +49835,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 15[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "15\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "-16",
+          "22",
+          "15",
+          "44"
+        ],
+        "optionLatex": [
           "-16",
           "22",
           "15",
@@ -42235,6 +49879,12 @@ export const aptitudeLevels = {
           "4037884",
           "4037876"
         ],
+        "optionLatex": [
+          "4037887",
+          "4037880",
+          "4037884",
+          "4037876"
+        ],
         "answer": "4037880",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -42263,6 +49913,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=37",
         "options": [
+          "37",
+          "6",
+          "30",
+          "35"
+        ],
+        "optionLatex": [
           "37",
           "6",
           "30",
@@ -42301,6 +49957,12 @@ export const aptitudeLevels = {
           "518",
           "539"
         ],
+        "optionLatex": [
+          "542",
+          "546",
+          "518",
+          "539"
+        ],
         "answer": "546",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -42329,6 +49991,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 58 and adjustment 31. What combined score is reported?",
         "latex": "58+31",
         "options": [
+          "89",
+          "118",
+          "85",
+          "125"
+        ],
+        "optionLatex": [
           "89",
           "118",
           "85",
@@ -42367,6 +50035,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -42395,6 +50069,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, in a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "-28",
+          "39",
+          "3",
+          "-4"
+        ],
+        "optionLatex": [
           "-28",
           "39",
           "3",
@@ -42434,6 +50114,12 @@ export const aptitudeLevels = {
           "134",
           "70"
         ],
+        "optionLatex": [
+          "100",
+          "98",
+          "134",
+          "70"
+        ],
         "answer": "98",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -42466,6 +50152,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -42500,6 +50192,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -42533,6 +50231,12 @@ export const aptitudeLevels = {
           "60",
           "53"
         ],
+        "optionLatex": [
+          "46",
+          "25",
+          "60",
+          "53"
+        ],
         "answer": "53",
         "solution": {
           "approach": "Inspect first differences.",
@@ -42561,6 +50265,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "2",
+          "13",
+          "9",
+          "11"
+        ],
+        "optionLatex": [
           "2",
           "13",
           "9",
@@ -42600,6 +50310,12 @@ export const aptitudeLevels = {
           "2446.8842",
           "2415.8842"
         ],
+        "optionLatex": [
+          "2450.8842",
+          "2475.8842",
+          "2446.8842",
+          "2415.8842"
+        ],
         "answer": "2446.8842",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -42628,6 +50344,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=2x+3 and g(x)=3x+6. Find f(g(9)).",
         "latex": "f(x)=2x+3,\\quad g(x)=3x+6,\\quad f(g(9))",
         "options": [
+          "41",
+          "69",
+          "73",
+          "67"
+        ],
+        "optionLatex": [
           "41",
           "69",
           "73",
@@ -42666,6 +50388,12 @@ export const aptitudeLevels = {
           "498",
           "458"
         ],
+        "optionLatex": [
+          "462",
+          "466",
+          "498",
+          "458"
+        ],
         "answer": "462",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -42694,6 +50422,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 30[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "30\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "30",
+          "37",
+          "-1",
+          "32"
+        ],
+        "optionLatex": [
           "30",
           "37",
           "-1",
@@ -42732,6 +50466,12 @@ export const aptitudeLevels = {
           "73822",
           "73787"
         ],
+        "optionLatex": [
+          "73815",
+          "73819",
+          "73822",
+          "73787"
+        ],
         "answer": "73815",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -42760,6 +50500,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the median of the data set [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=42",
         "options": [
+          "71",
+          "42",
+          "49",
+          "40"
+        ],
+        "optionLatex": [
           "71",
           "42",
           "49",
@@ -42798,6 +50544,12 @@ export const aptitudeLevels = {
           "161",
           "168"
         ],
+        "optionLatex": [
+          "204",
+          "172",
+          "161",
+          "168"
+        ],
         "answer": "168",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -42826,6 +50578,12 @@ export const aptitudeLevels = {
         "q": "A caselet score has base 73 and adjustment 61. What combined score is reported?",
         "latex": "73+61",
         "options": [
+          "170",
+          "141",
+          "134",
+          "138"
+        ],
+        "optionLatex": [
           "170",
           "141",
           "134",
@@ -42864,6 +50622,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -42892,6 +50656,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, in a row of 22 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 19",
         "options": [
+          "16",
+          "22",
+          "18",
+          "54"
+        ],
+        "optionLatex": [
           "16",
           "22",
           "18",
@@ -42931,6 +50701,12 @@ export const aptitudeLevels = {
           "141",
           "179"
         ],
+        "optionLatex": [
+          "115",
+          "143",
+          "141",
+          "179"
+        ],
         "answer": "143",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -42963,6 +50739,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -42997,6 +50779,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -43030,6 +50818,12 @@ export const aptitudeLevels = {
           "37",
           "39"
         ],
+        "optionLatex": [
+          "34",
+          "41",
+          "37",
+          "39"
+        ],
         "answer": "41",
         "solution": {
           "approach": "Inspect first differences.",
@@ -43058,6 +50852,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "24",
+          "22",
+          "26",
+          "20"
+        ],
+        "optionLatex": [
           "24",
           "22",
           "26",
@@ -43097,6 +50897,12 @@ export const aptitudeLevels = {
           "7.2381",
           "34.2381"
         ],
+        "optionLatex": [
+          "5.2381",
+          "41.2381",
+          "7.2381",
+          "34.2381"
+        ],
         "answer": "5.2381",
         "solution": {
           "approach": "Add individual rates.",
@@ -43125,6 +50931,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 8 < x <= 8?",
         "latex": "8<x\\le 8",
         "options": [
+          "-31",
+          "-2",
+          "0",
+          "36"
+        ],
+        "optionLatex": [
           "-31",
           "-2",
           "0",
@@ -43163,6 +50975,12 @@ export const aptitudeLevels = {
           "516",
           "489"
         ],
+        "optionLatex": [
+          "524",
+          "520",
+          "516",
+          "489"
+        ],
         "answer": "520",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -43191,6 +51009,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 45[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "45\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "49",
+          "45",
+          "81",
+          "74"
+        ],
+        "optionLatex": [
           "49",
           "45",
           "81",
@@ -43229,6 +51053,12 @@ export const aptitudeLevels = {
           "0.5",
           "2.5"
         ],
+        "optionLatex": [
+          "29.5",
+          "-6.5",
+          "0.5",
+          "2.5"
+        ],
         "answer": "0.5",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -43257,6 +51087,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 11, find the population variance of [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=162",
         "options": [
+          "198",
+          "162",
+          "155",
+          "158"
+        ],
+        "optionLatex": [
           "198",
           "162",
           "155",
@@ -43295,6 +51131,12 @@ export const aptitudeLevels = {
           "25484",
           "25522"
         ],
+        "optionLatex": [
+          "25519",
+          "25515",
+          "25484",
+          "25522"
+        ],
         "answer": "25515",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -43323,6 +51165,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, a caselet score has base 88 and adjustment 41. What combined score is reported?",
         "latex": "88+41",
         "options": [
+          "127",
+          "129",
+          "136",
+          "122"
+        ],
+        "optionLatex": [
           "127",
           "129",
           "136",
@@ -43361,6 +51209,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -43389,6 +51243,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, in a row of 37 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 34",
         "options": [
+          "33",
+          "26",
+          "40",
+          "62"
+        ],
+        "optionLatex": [
           "33",
           "26",
           "40",
@@ -43428,6 +51288,12 @@ export const aptitudeLevels = {
           "131",
           "107"
         ],
+        "optionLatex": [
+          "138",
+          "174",
+          "131",
+          "107"
+        ],
         "answer": "138",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -43460,6 +51326,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -43494,6 +51366,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -43527,6 +51405,12 @@ export const aptitudeLevels = {
           "40",
           "12"
         ],
+        "optionLatex": [
+          "69",
+          "36",
+          "40",
+          "12"
+        ],
         "answer": "40",
         "solution": {
           "approach": "Inspect first differences.",
@@ -43555,6 +51439,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "41",
+          "32",
+          "46",
+          "39"
+        ],
+        "optionLatex": [
           "41",
           "32",
           "46",
@@ -43594,6 +51484,12 @@ export const aptitudeLevels = {
           "5.7143",
           "12.7143"
         ],
+        "optionLatex": [
+          "3.7143",
+          "-1.2857",
+          "5.7143",
+          "12.7143"
+        ],
         "answer": "5.7143",
         "solution": {
           "approach": "Add individual rates.",
@@ -43622,6 +51518,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 7 and common difference 11.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(7)+(29-1)11\\right)",
         "options": [
+          "4641",
+          "4673",
+          "4705",
+          "4669"
+        ],
+        "optionLatex": [
           "4641",
           "4673",
           "4705",
@@ -43660,6 +51562,12 @@ export const aptitudeLevels = {
           "326",
           "297"
         ],
+        "optionLatex": [
+          "293",
+          "301",
+          "326",
+          "297"
+        ],
         "answer": "297",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -43688,6 +51596,12 @@ export const aptitudeLevels = {
         "q": "From a point 79 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=79\\tan(60^\\circ)",
         "options": [
+          "143.832",
+          "136.832",
+          "132.832",
+          "105.832"
+        ],
+        "optionLatex": [
           "143.832",
           "136.832",
           "132.832",
@@ -43726,6 +51640,12 @@ export const aptitudeLevels = {
           "0.3",
           "-3.7"
         ],
+        "optionLatex": [
+          "7.3",
+          "36.3",
+          "0.3",
+          "-3.7"
+        ],
         "answer": "0.3",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -43754,6 +51674,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=152",
         "options": [
+          "159",
+          "152",
+          "121",
+          "156"
+        ],
+        "optionLatex": [
           "159",
           "152",
           "121",
@@ -43792,6 +51718,12 @@ export const aptitudeLevels = {
           "439",
           "428"
         ],
+        "optionLatex": [
+          "461",
+          "432",
+          "439",
+          "428"
+        ],
         "answer": "432",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -43820,6 +51752,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, a caselet score has base 43 and adjustment 71. What combined score is reported?",
         "latex": "43+71",
         "options": [
+          "114",
+          "110",
+          "121",
+          "150"
+        ],
+        "optionLatex": [
           "114",
           "110",
           "121",
@@ -43858,6 +51796,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -43886,6 +51830,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, in a row of 12 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 9",
         "options": [
+          "8",
+          "6",
+          "44",
+          "15"
+        ],
+        "optionLatex": [
           "8",
           "6",
           "44",
@@ -43925,6 +51875,12 @@ export const aptitudeLevels = {
           "77",
           "69"
         ],
+        "optionLatex": [
+          "66",
+          "73",
+          "77",
+          "69"
+        ],
         "answer": "73",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -43957,6 +51913,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -43991,6 +51953,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -44024,6 +51992,12 @@ export const aptitudeLevels = {
           "86",
           "29"
         ],
+        "optionLatex": [
+          "57",
+          "61",
+          "86",
+          "29"
+        ],
         "answer": "57",
         "solution": {
           "approach": "Inspect first differences.",
@@ -44052,6 +52026,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "50",
+          "10",
+          "7",
+          "14"
+        ],
+        "optionLatex": [
           "50",
           "10",
           "7",
@@ -44091,6 +52071,12 @@ export const aptitudeLevels = {
           "102.4627",
           "95.4627"
         ],
+        "optionLatex": [
+          "35.4627",
+          "66.4627",
+          "102.4627",
+          "95.4627"
+        ],
         "answer": "66.4627",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -44119,6 +52105,12 @@ export const aptitudeLevels = {
         "q": "If log base 9 of (x + 54) equals log base 9 of 108, find x.",
         "latex": "\\log_{9}(x+54)=\\log_{9}(108)",
         "options": [
+          "52",
+          "54",
+          "50",
+          "47"
+        ],
+        "optionLatex": [
           "52",
           "54",
           "50",
@@ -44157,6 +52149,12 @@ export const aptitudeLevels = {
           "86",
           "117"
         ],
+        "optionLatex": [
+          "113",
+          "115",
+          "86",
+          "117"
+        ],
         "answer": "117",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -44185,6 +52183,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 75[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "75\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "44",
+          "79",
+          "47",
+          "75"
+        ],
+        "optionLatex": [
           "44",
           "79",
           "47",
@@ -44223,6 +52227,12 @@ export const aptitudeLevels = {
           "119276318345184032",
           "119276318345184048"
         ],
+        "optionLatex": [
+          "119276318345183968",
+          "119276318345184000",
+          "119276318345184032",
+          "119276318345184048"
+        ],
         "answer": "119276318345184000",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -44251,6 +52261,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 4, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "171",
+          "202",
+          "204",
+          "206"
+        ],
+        "optionLatex": [
           "171",
           "202",
           "204",
@@ -44289,6 +52305,12 @@ export const aptitudeLevels = {
           "8192",
           "8221"
         ],
+        "optionLatex": [
+          "8194",
+          "8188",
+          "8192",
+          "8221"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -44317,6 +52339,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, a caselet score has base 58 and adjustment 51. What combined score is reported?",
         "latex": "58+51",
         "options": [
+          "111",
+          "107",
+          "109",
+          "113"
+        ],
+        "optionLatex": [
           "111",
           "107",
           "109",
@@ -44355,6 +52383,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -44383,6 +52417,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, in a row of 27 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 24",
         "options": [
+          "27",
+          "23",
+          "59",
+          "30"
+        ],
+        "optionLatex": [
           "27",
           "23",
           "59",
@@ -44422,6 +52462,12 @@ export const aptitudeLevels = {
           "120",
           "116"
         ],
+        "optionLatex": [
+          "118",
+          "111",
+          "120",
+          "116"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -44454,6 +52500,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -44488,6 +52540,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -44521,6 +52579,12 @@ export const aptitudeLevels = {
           "42",
           "31"
         ],
+        "optionLatex": [
+          "38",
+          "74",
+          "42",
+          "31"
+        ],
         "answer": "38",
         "solution": {
           "approach": "Inspect first differences.",
@@ -44549,6 +52613,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "58",
+          "29",
+          "-2",
+          "33"
+        ],
+        "optionLatex": [
           "58",
           "29",
           "-2",
@@ -44588,6 +52658,12 @@ export const aptitudeLevels = {
           "42",
           "72"
         ],
+        "optionLatex": [
+          "70",
+          "39",
+          "42",
+          "72"
+        ],
         "answer": "70",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -44616,6 +52692,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 8x + 6 = 16.",
         "latex": "8x+6=16",
         "options": [
+          "5.25",
+          "-0.75",
+          "1.25",
+          "-29.75"
+        ],
+        "optionLatex": [
           "5.25",
           "-0.75",
           "1.25",
@@ -44654,6 +52736,12 @@ export const aptitudeLevels = {
           "130",
           "134"
         ],
+        "optionLatex": [
+          "132",
+          "139",
+          "130",
+          "134"
+        ],
         "answer": "132",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -44682,6 +52770,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 90[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "90\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "86",
+          "119",
+          "59",
+          "90"
+        ],
+        "optionLatex": [
           "86",
           "119",
           "59",
@@ -44720,6 +52814,12 @@ export const aptitudeLevels = {
           "8",
           "37"
         ],
+        "optionLatex": [
+          "10",
+          "6",
+          "8",
+          "37"
+        ],
         "answer": "8",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -44748,6 +52848,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=22",
         "options": [
+          "51",
+          "20",
+          "22",
+          "18"
+        ],
+        "optionLatex": [
           "51",
           "20",
           "22",
@@ -44786,6 +52892,12 @@ export const aptitudeLevels = {
           "202.8",
           "204.8"
         ],
+        "optionLatex": [
+          "197.8",
+          "233.8",
+          "202.8",
+          "204.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -44814,6 +52926,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, a caselet score has base 73 and adjustment 31. What combined score is reported?",
         "latex": "73+31",
         "options": [
+          "104",
+          "102",
+          "100",
+          "111"
+        ],
+        "optionLatex": [
           "104",
           "102",
           "100",
@@ -44852,6 +52970,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -44880,6 +53004,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, in a row of 42 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 39",
         "options": [
+          "34",
+          "42",
+          "38",
+          "31"
+        ],
+        "optionLatex": [
           "34",
           "42",
           "38",
@@ -44919,6 +53049,12 @@ export const aptitudeLevels = {
           "85",
           "111"
         ],
+        "optionLatex": [
+          "113",
+          "120",
+          "85",
+          "111"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -44951,6 +53087,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -44985,6 +53127,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -45018,6 +53166,12 @@ export const aptitudeLevels = {
           "37",
           "9"
         ],
+        "optionLatex": [
+          "73",
+          "33",
+          "37",
+          "9"
+        ],
         "answer": "37",
         "solution": {
           "approach": "Inspect first differences.",
@@ -45046,6 +53200,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "-24",
+          "40",
+          "4",
+          "0"
+        ],
+        "optionLatex": [
           "-24",
           "40",
           "4",
@@ -45085,6 +53245,12 @@ export const aptitudeLevels = {
           "36799",
           "36832"
         ],
+        "optionLatex": [
+          "36823",
+          "36830",
+          "36799",
+          "36832"
+        ],
         "answer": "36830",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -45113,6 +53279,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 10 = 10.",
         "latex": "5x+10=10",
         "options": [
+          "29",
+          "2",
+          "-4",
+          "0"
+        ],
+        "optionLatex": [
           "29",
           "2",
           "-4",
@@ -45151,6 +53323,12 @@ export const aptitudeLevels = {
           "44",
           "79"
         ],
+        "optionLatex": [
+          "76",
+          "72",
+          "44",
+          "79"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -45179,6 +53357,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 8[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "8\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "8",
+          "-23",
+          "-20",
+          "15"
+        ],
+        "optionLatex": [
           "8",
           "-23",
           "-20",
@@ -45217,6 +53401,12 @@ export const aptitudeLevels = {
           "-30.4667",
           "-27.4667"
         ],
+        "optionLatex": [
+          "0.5333",
+          "4.5333",
+          "-30.4667",
+          "-27.4667"
+        ],
         "answer": "0.5333",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -45245,6 +53435,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=37",
         "options": [
+          "30",
+          "37",
+          "44",
+          "33"
+        ],
+        "optionLatex": [
           "30",
           "37",
           "44",
@@ -45283,6 +53479,12 @@ export const aptitudeLevels = {
           "191",
           "155"
         ],
+        "optionLatex": [
+          "169",
+          "162",
+          "191",
+          "155"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -45311,6 +53513,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, a caselet score has base 88 and adjustment 61. What combined score is reported?",
         "latex": "88+61",
         "options": [
+          "149",
+          "118",
+          "178",
+          "121"
+        ],
+        "optionLatex": [
           "149",
           "118",
           "178",
@@ -45349,6 +53557,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -45377,6 +53591,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, in a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "11",
+          "15",
+          "42",
+          "13"
+        ],
+        "optionLatex": [
           "11",
           "15",
           "42",
@@ -45416,6 +53636,12 @@ export const aptitudeLevels = {
           "158",
           "187"
         ],
+        "optionLatex": [
+          "156",
+          "162",
+          "158",
+          "187"
+        ],
         "answer": "158",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -45448,6 +53674,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -45482,6 +53714,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -45515,6 +53753,12 @@ export const aptitudeLevels = {
           "54",
           "61"
         ],
+        "optionLatex": [
+          "83",
+          "26",
+          "54",
+          "61"
+        ],
         "answer": "54",
         "solution": {
           "approach": "Inspect first differences.",
@@ -45543,6 +53787,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "19",
+          "26",
+          "17",
+          "15"
+        ],
+        "optionLatex": [
           "19",
           "26",
           "17",
@@ -45582,6 +53832,12 @@ export const aptitudeLevels = {
           "63441",
           "63412"
         ],
+        "optionLatex": [
+          "63439",
+          "63443",
+          "63441",
+          "63412"
+        ],
         "answer": "63443",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -45610,6 +53866,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, the roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "225",
+          "190",
+          "221",
+          "250"
+        ],
+        "optionLatex": [
           "225",
           "190",
           "221",
@@ -45648,6 +53910,12 @@ export const aptitudeLevels = {
           "47.5",
           "16.5"
         ],
+        "optionLatex": [
+          "25.5",
+          "18.5",
+          "47.5",
+          "16.5"
+        ],
         "answer": "18.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -45676,6 +53944,12 @@ export const aptitudeLevels = {
         "q": "From a point 69 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=69\\tan(60^\\circ)",
         "options": [
+          "148.5115",
+          "121.5115",
+          "91.5115",
+          "119.5115"
+        ],
+        "optionLatex": [
           "148.5115",
           "121.5115",
           "91.5115",
@@ -45714,6 +53988,12 @@ export const aptitudeLevels = {
           "-3.5882",
           "0.4118"
         ],
+        "optionLatex": [
+          "-6.5882",
+          "-27.5882",
+          "-3.5882",
+          "0.4118"
+        ],
         "answer": "0.4118",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -45742,6 +54022,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the median of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=30",
         "options": [
+          "2",
+          "28",
+          "30",
+          "59"
+        ],
+        "optionLatex": [
           "2",
           "28",
           "30",
@@ -45780,6 +54066,12 @@ export const aptitudeLevels = {
           "377",
           "384"
         ],
+        "optionLatex": [
+          "413",
+          "386",
+          "377",
+          "384"
+        ],
         "answer": "384",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -45808,6 +54100,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, a caselet score has base 43 and adjustment 41. What combined score is reported?",
         "latex": "43+41",
         "options": [
+          "88",
+          "84",
+          "120",
+          "77"
+        ],
+        "optionLatex": [
           "88",
           "84",
           "120",
@@ -45846,6 +54144,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -45874,6 +54178,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, in a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "24",
+          "26",
+          "28",
+          "57"
+        ],
+        "optionLatex": [
           "24",
           "26",
           "28",
@@ -45913,6 +54223,12 @@ export const aptitudeLevels = {
           "95",
           "93"
         ],
+        "optionLatex": [
+          "62",
+          "65",
+          "95",
+          "93"
+        ],
         "answer": "93",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -45945,6 +54261,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -45979,6 +54301,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -46012,6 +54340,12 @@ export const aptitudeLevels = {
           "71",
           "44"
         ],
+        "optionLatex": [
+          "14",
+          "42",
+          "71",
+          "44"
+        ],
         "answer": "42",
         "solution": {
           "approach": "Inspect first differences.",
@@ -46040,6 +54374,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "34",
+          "30",
+          "3",
+          "70"
+        ],
+        "optionLatex": [
           "34",
           "30",
           "3",
@@ -46079,6 +54419,12 @@ export const aptitudeLevels = {
           "68",
           "61"
         ],
+        "optionLatex": [
+          "30",
+          "32",
+          "68",
+          "61"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Work backward from A's future age.",
@@ -46107,6 +54453,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 8x + 5 = 15.",
         "latex": "8x+5=15",
         "options": [
+          "1.25",
+          "-0.75",
+          "8.25",
+          "-2.75"
+        ],
+        "optionLatex": [
           "1.25",
           "-0.75",
           "8.25",
@@ -46145,6 +54497,12 @@ export const aptitudeLevels = {
           "221",
           "252"
         ],
+        "optionLatex": [
+          "281",
+          "250",
+          "221",
+          "252"
+        ],
         "answer": "252",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -46173,6 +54531,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 38[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "38\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "7",
+          "40",
+          "38",
+          "31"
+        ],
+        "optionLatex": [
           "7",
           "40",
           "38",
@@ -46211,6 +54575,12 @@ export const aptitudeLevels = {
           "344362229",
           "344362207"
         ],
+        "optionLatex": [
+          "344362200",
+          "344362202",
+          "344362229",
+          "344362207"
+        ],
         "answer": "344362200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -46239,6 +54609,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 27, find the population variance of [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=2",
         "options": [
+          "6",
+          "-26",
+          "2",
+          "-5"
+        ],
+        "optionLatex": [
           "6",
           "-26",
           "2",
@@ -46277,6 +54653,12 @@ export const aptitudeLevels = {
           "35719",
           "35721"
         ],
+        "optionLatex": [
+          "35723",
+          "35693",
+          "35719",
+          "35721"
+        ],
         "answer": "35721",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -46305,6 +54687,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, a caselet score has base 58 and adjustment 71. What combined score is reported?",
         "latex": "58+71",
         "options": [
+          "158",
+          "133",
+          "129",
+          "131"
+        ],
+        "optionLatex": [
           "158",
           "133",
           "129",
@@ -46343,6 +54731,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -46371,6 +54765,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, in a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "-1",
+          "3",
+          "5",
+          "-4"
+        ],
+        "optionLatex": [
           "-1",
           "3",
           "5",
@@ -46410,6 +54810,12 @@ export const aptitudeLevels = {
           "124",
           "88"
         ],
+        "optionLatex": [
+          "84",
+          "90",
+          "124",
+          "88"
+        ],
         "answer": "88",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -46442,6 +54848,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -46476,6 +54888,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -46509,6 +54927,12 @@ export const aptitudeLevels = {
           "41",
           "37"
         ],
+        "optionLatex": [
+          "10",
+          "45",
+          "41",
+          "37"
+        ],
         "answer": "41",
         "solution": {
           "approach": "Inspect first differences.",
@@ -46537,6 +54961,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "5",
+          "-22",
+          "45",
+          "9"
+        ],
+        "optionLatex": [
           "5",
           "-22",
           "45",
@@ -46576,6 +55006,12 @@ export const aptitudeLevels = {
           "29737",
           "29777"
         ],
+        "optionLatex": [
+          "29734",
+          "29741",
+          "29737",
+          "29777"
+        ],
         "answer": "29741",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -46604,6 +55040,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=5x+9 and g(x)=9x+9. Find f(g(9)).",
         "latex": "f(x)=5x+9,\\quad g(x)=9x+9,\\quad f(g(9))",
         "options": [
+          "463",
+          "459",
+          "495",
+          "457"
+        ],
+        "optionLatex": [
           "463",
           "459",
           "495",
@@ -46642,6 +55084,12 @@ export const aptitudeLevels = {
           "774",
           "731"
         ],
+        "optionLatex": [
+          "736",
+          "738",
+          "774",
+          "731"
+        ],
         "answer": "738",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -46670,6 +55118,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 53[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "53\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "53",
+          "49",
+          "60",
+          "57"
+        ],
+        "optionLatex": [
           "53",
           "49",
           "60",
@@ -46708,6 +55162,12 @@ export const aptitudeLevels = {
           "814385",
           "814392"
         ],
+        "optionLatex": [
+          "814421",
+          "814378",
+          "814385",
+          "814392"
+        ],
         "answer": "814385",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -46736,6 +55196,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the population variance of [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=152",
         "options": [
+          "154",
+          "121",
+          "152",
+          "159"
+        ],
+        "optionLatex": [
           "154",
           "121",
           "152",
@@ -46774,6 +55240,12 @@ export const aptitudeLevels = {
           "650",
           "644"
         ],
+        "optionLatex": [
+          "617",
+          "648",
+          "650",
+          "644"
+        ],
         "answer": "648",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -46802,6 +55274,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, a caselet score has base 73 and adjustment 51. What combined score is reported?",
         "latex": "73+51",
         "options": [
+          "160",
+          "124",
+          "122",
+          "93"
+        ],
+        "optionLatex": [
           "160",
           "124",
           "122",
@@ -46840,6 +55318,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -46868,6 +55352,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, in a row of 22 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 19",
         "options": [
+          "18",
+          "14",
+          "-10",
+          "25"
+        ],
+        "optionLatex": [
           "18",
           "14",
           "-10",
@@ -46907,6 +55397,12 @@ export const aptitudeLevels = {
           "126",
           "102"
         ],
+        "optionLatex": [
+          "105",
+          "133",
+          "126",
+          "102"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -46939,6 +55435,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -46973,6 +55475,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -47006,6 +55514,12 @@ export const aptitudeLevels = {
           "47",
           "16"
         ],
+        "optionLatex": [
+          "45",
+          "76",
+          "47",
+          "16"
+        ],
         "answer": "47",
         "solution": {
           "approach": "Inspect first differences.",
@@ -47034,6 +55548,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "53",
+          "22",
+          "24",
+          "28"
+        ],
+        "optionLatex": [
           "53",
           "22",
           "24",
@@ -47073,6 +55593,12 @@ export const aptitudeLevels = {
           "3577",
           "3591"
         ],
+        "optionLatex": [
+          "3584",
+          "3586",
+          "3577",
+          "3591"
+        ],
         "answer": "3584",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -47101,6 +55627,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 2 < x <= 14?",
         "latex": "2<x\\le 14",
         "options": [
+          "41",
+          "14",
+          "5",
+          "12"
+        ],
+        "optionLatex": [
           "41",
           "14",
           "5",
@@ -47139,6 +55671,12 @@ export const aptitudeLevels = {
           "162",
           "166"
         ],
+        "optionLatex": [
+          "160",
+          "158",
+          "162",
+          "166"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -47167,6 +55705,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 68[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "68\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "66",
+          "97",
+          "68",
+          "104"
+        ],
+        "optionLatex": [
           "66",
           "97",
           "68",
@@ -47205,6 +55749,12 @@ export const aptitudeLevels = {
           "7.2857",
           "36.2857"
         ],
+        "optionLatex": [
+          "0.2857",
+          "-27.7143",
+          "7.2857",
+          "36.2857"
+        ],
         "answer": "0.2857",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -47233,6 +55783,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 20, find the population variance of [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=182",
         "options": [
+          "186",
+          "182",
+          "178",
+          "175"
+        ],
+        "optionLatex": [
           "186",
           "182",
           "178",
@@ -47271,6 +55827,12 @@ export const aptitudeLevels = {
           "8190",
           "8164"
         ],
+        "optionLatex": [
+          "8192",
+          "8194",
+          "8190",
+          "8164"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -47299,6 +55861,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, a caselet score has base 88 and adjustment 31. What combined score is reported?",
         "latex": "88+31",
         "options": [
+          "119",
+          "123",
+          "121",
+          "126"
+        ],
+        "optionLatex": [
           "119",
           "123",
           "121",
@@ -47337,6 +55905,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -47365,6 +55939,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, in a row of 37 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 34",
         "options": [
+          "26",
+          "33",
+          "2",
+          "35"
+        ],
+        "optionLatex": [
           "26",
           "33",
           "2",
@@ -47404,6 +55984,12 @@ export const aptitudeLevels = {
           "130",
           "164"
         ],
+        "optionLatex": [
+          "121",
+          "128",
+          "130",
+          "164"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -47436,6 +56022,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -47470,6 +56062,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -47503,6 +56101,12 @@ export const aptitudeLevels = {
           "46",
           "42"
         ],
+        "optionLatex": [
+          "75",
+          "82",
+          "46",
+          "42"
+        ],
         "answer": "46",
         "solution": {
           "approach": "Inspect first differences.",
@@ -47531,6 +56135,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "43",
+          "35",
+          "39",
+          "41"
+        ],
+        "optionLatex": [
           "43",
           "35",
           "39",
@@ -47570,6 +56180,12 @@ export const aptitudeLevels = {
           "18048.7168",
           "18050.7168"
         ],
+        "optionLatex": [
+          "18020.7168",
+          "18041.7168",
+          "18048.7168",
+          "18050.7168"
+        ],
         "answer": "18048.7168",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -47598,6 +56214,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 10 and common difference 4.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(10)+(29-1)4\\right)",
         "options": [
+          "1910",
+          "1886",
+          "1914",
+          "1950"
+        ],
+        "optionLatex": [
           "1910",
           "1886",
           "1914",
@@ -47636,6 +56258,12 @@ export const aptitudeLevels = {
           "186.5",
           "210.5"
         ],
+        "optionLatex": [
+          "214.5",
+          "212.5",
+          "186.5",
+          "210.5"
+        ],
         "answer": "214.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -47664,6 +56292,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, from a point 59 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=59\\tan(60^\\circ)",
         "options": [
+          "104.191",
+          "109.191",
+          "131.191",
+          "102.191"
+        ],
+        "optionLatex": [
           "104.191",
           "109.191",
           "131.191",
@@ -47702,6 +56336,12 @@ export const aptitudeLevels = {
           "0.4286",
           "-1.5714"
         ],
+        "optionLatex": [
+          "4.4286",
+          "-3.5714",
+          "0.4286",
+          "-1.5714"
+        ],
         "answer": "0.4286",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -47730,6 +56370,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, find the mean of the data set [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=42",
         "options": [
+          "42",
+          "35",
+          "71",
+          "11"
+        ],
+        "optionLatex": [
           "42",
           "35",
           "71",
@@ -47768,6 +56414,12 @@ export const aptitudeLevels = {
           "204.8",
           "202.8"
         ],
+        "optionLatex": [
+          "211.8",
+          "200.8",
+          "204.8",
+          "202.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -47796,6 +56448,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, a caselet score has base 43 and adjustment 61. What combined score is reported?",
         "latex": "43+61",
         "options": [
+          "104",
+          "73",
+          "140",
+          "97"
+        ],
+        "optionLatex": [
           "104",
           "73",
           "140",
@@ -47834,6 +56492,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -47862,6 +56526,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, in a row of 12 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 9",
         "options": [
+          "8",
+          "6",
+          "15",
+          "-23"
+        ],
+        "optionLatex": [
           "8",
           "6",
           "15",
@@ -47901,6 +56571,12 @@ export const aptitudeLevels = {
           "113",
           "109"
         ],
+        "optionLatex": [
+          "149",
+          "85",
+          "113",
+          "109"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -47933,6 +56609,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -47967,6 +56649,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -48000,6 +56688,12 @@ export const aptitudeLevels = {
           "38",
           "36"
         ],
+        "optionLatex": [
+          "74",
+          "34",
+          "38",
+          "36"
+        ],
         "answer": "38",
         "solution": {
           "approach": "Inspect first differences.",
@@ -48028,6 +56722,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "18",
+          "7",
+          "-17",
+          "14"
+        ],
+        "optionLatex": [
           "18",
           "7",
           "-17",
@@ -48067,6 +56767,12 @@ export const aptitudeLevels = {
           "153",
           "159"
         ],
+        "optionLatex": [
+          "155",
+          "157",
+          "153",
+          "159"
+        ],
         "answer": "155",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -48095,6 +56801,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, if log base 10 of (x + 14) equals log base 10 of 28, find x.",
         "latex": "\\log_{10}(x+14)=\\log_{10}(28)",
         "options": [
+          "-14",
+          "12",
+          "14",
+          "43"
+        ],
+        "optionLatex": [
           "-14",
           "12",
           "14",
@@ -48133,6 +56845,12 @@ export const aptitudeLevels = {
           "70",
           "72"
         ],
+        "optionLatex": [
+          "76",
+          "101",
+          "70",
+          "72"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -48161,6 +56879,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 98[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "98\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "96",
+          "102",
+          "94",
+          "98"
+        ],
+        "optionLatex": [
           "96",
           "102",
           "94",
@@ -48199,6 +56923,12 @@ export const aptitudeLevels = {
           "296541907172",
           "296541907198"
         ],
+        "optionLatex": [
+          "296541907207",
+          "296541907200",
+          "296541907172",
+          "296541907198"
+        ],
         "answer": "296541907200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -48227,6 +56957,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 13, find the mean of the data set [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=37",
         "options": [
+          "6",
+          "73",
+          "37",
+          "44"
+        ],
+        "optionLatex": [
           "6",
           "73",
           "37",
@@ -48265,6 +57001,12 @@ export const aptitudeLevels = {
           "114",
           "143"
         ],
+        "optionLatex": [
+          "116",
+          "121",
+          "114",
+          "143"
+        ],
         "answer": "114",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -48293,6 +57035,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, a caselet score has base 58 and adjustment 41. What combined score is reported?",
         "latex": "58+41",
         "options": [
+          "135",
+          "101",
+          "99",
+          "68"
+        ],
+        "optionLatex": [
           "135",
           "101",
           "99",
@@ -48331,6 +57079,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -48359,6 +57113,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, in a row of 27 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 24",
         "options": [
+          "27",
+          "21",
+          "23",
+          "16"
+        ],
+        "optionLatex": [
           "27",
           "21",
           "23",
@@ -48398,6 +57158,12 @@ export const aptitudeLevels = {
           "112",
           "106"
         ],
+        "optionLatex": [
+          "108",
+          "144",
+          "112",
+          "106"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -48430,6 +57196,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -48464,6 +57236,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -48497,6 +57275,12 @@ export const aptitudeLevels = {
           "48",
           "44"
         ],
+        "optionLatex": [
+          "46",
+          "13",
+          "48",
+          "44"
+        ],
         "answer": "44",
         "solution": {
           "approach": "Inspect first differences.",
@@ -48525,6 +57309,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "29",
+          "1",
+          "33",
+          "-2"
+        ],
+        "optionLatex": [
           "29",
           "1",
           "33",
@@ -48564,6 +57354,12 @@ export const aptitudeLevels = {
           "25295.8202",
           "25331.8202"
         ],
+        "optionLatex": [
+          "25264.8202",
+          "25299.8202",
+          "25295.8202",
+          "25331.8202"
+        ],
         "answer": "25295.8202",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -48592,6 +57388,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 12 = 19.",
         "latex": "2x+12=19",
         "options": [
+          "-3.5",
+          "-0.5",
+          "39.5",
+          "3.5"
+        ],
+        "optionLatex": [
           "-3.5",
           "-0.5",
           "39.5",
@@ -48630,6 +57432,12 @@ export const aptitudeLevels = {
           "238",
           "249"
         ],
+        "optionLatex": [
+          "235",
+          "242",
+          "238",
+          "249"
+        ],
         "answer": "242",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -48658,6 +57466,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 16[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "16\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "16",
+          "52",
+          "18",
+          "45"
+        ],
+        "optionLatex": [
           "16",
           "52",
           "18",
@@ -48696,6 +57510,12 @@ export const aptitudeLevels = {
           "48903499",
           "48903485"
         ],
+        "optionLatex": [
+          "48903492",
+          "48903461",
+          "48903499",
+          "48903485"
+        ],
         "answer": "48903492",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -48724,6 +57544,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 28, find the median of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=34",
         "options": [
+          "30",
+          "6",
+          "34",
+          "3"
+        ],
+        "optionLatex": [
           "30",
           "6",
           "34",
@@ -48762,6 +57588,12 @@ export const aptitudeLevels = {
           "136",
           "165"
         ],
+        "optionLatex": [
+          "105",
+          "129",
+          "136",
+          "165"
+        ],
         "answer": "136",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -48790,6 +57622,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, a caselet score has base 73 and adjustment 71. What combined score is reported?",
         "latex": "73+71",
         "options": [
+          "144",
+          "137",
+          "180",
+          "116"
+        ],
+        "optionLatex": [
           "144",
           "137",
           "180",
@@ -48828,6 +57666,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -48856,6 +57700,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, in a row of 42 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 39",
         "options": [
+          "34",
+          "38",
+          "74",
+          "36"
+        ],
+        "optionLatex": [
           "34",
           "38",
           "74",
@@ -48895,6 +57745,12 @@ export const aptitudeLevels = {
           "75",
           "103"
         ],
+        "optionLatex": [
+          "110",
+          "99",
+          "75",
+          "103"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -48927,6 +57783,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -48961,6 +57823,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -48994,6 +57862,12 @@ export const aptitudeLevels = {
           "41",
           "12"
         ],
+        "optionLatex": [
+          "43",
+          "50",
+          "41",
+          "12"
+        ],
         "answer": "43",
         "solution": {
           "approach": "Inspect first differences.",
@@ -49022,6 +57896,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "8",
+          "-24",
+          "4",
+          "11"
+        ],
+        "optionLatex": [
           "8",
           "-24",
           "4",
@@ -49061,6 +57941,12 @@ export const aptitudeLevels = {
           "1298.5",
           "1293.5"
         ],
+        "optionLatex": [
+          "1300.5",
+          "1296.5",
+          "1298.5",
+          "1293.5"
+        ],
         "answer": "1300.5",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -49089,6 +57975,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 8x + 3 = 13.",
         "latex": "8x+3=13",
         "options": [
+          "37.25",
+          "1.25",
+          "5.25",
+          "-2.75"
+        ],
+        "optionLatex": [
           "37.25",
           "1.25",
           "5.25",
@@ -49127,6 +58019,12 @@ export const aptitudeLevels = {
           "18.5",
           "-12.5"
         ],
+        "optionLatex": [
+          "25.5",
+          "47.5",
+          "18.5",
+          "-12.5"
+        ],
         "answer": "18.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -49155,6 +58053,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 31[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "31\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "33",
+          "31",
+          "27",
+          "35"
+        ],
+        "optionLatex": [
           "33",
           "31",
           "27",
@@ -49193,6 +58097,12 @@ export const aptitudeLevels = {
           "7.6667",
           "0.6667"
         ],
+        "optionLatex": [
+          "-27.3333",
+          "-3.3333",
+          "7.6667",
+          "0.6667"
+        ],
         "answer": "0.6667",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -49221,6 +58131,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 6, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "198",
+          "174",
+          "202",
+          "171"
+        ],
+        "optionLatex": [
           "198",
           "174",
           "202",
@@ -49259,6 +58175,12 @@ export const aptitudeLevels = {
           "45956",
           "45920"
         ],
+        "optionLatex": [
+          "45927",
+          "45963",
+          "45956",
+          "45920"
+        ],
         "answer": "45927",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -49287,6 +58209,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, a caselet score has base 88 and adjustment 51. What combined score is reported?",
         "latex": "88+51",
         "options": [
+          "139",
+          "108",
+          "146",
+          "137"
+        ],
+        "optionLatex": [
           "139",
           "108",
           "146",
@@ -49325,6 +58253,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -49353,6 +58287,12 @@ export const aptitudeLevels = {
         "q": "In practice set 10, in a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "11",
+          "13",
+          "49",
+          "17"
+        ],
+        "optionLatex": [
           "11",
           "13",
           "49",
@@ -49392,6 +58332,12 @@ export const aptitudeLevels = {
           "148",
           "146"
         ],
+        "optionLatex": [
+          "150",
+          "117",
+          "148",
+          "146"
+        ],
         "answer": "148",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -49424,6 +58370,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -49458,6 +58410,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -49491,6 +58449,12 @@ export const aptitudeLevels = {
           "40",
           "46"
         ],
+        "optionLatex": [
+          "38",
+          "42",
+          "40",
+          "46"
+        ],
         "answer": "42",
         "solution": {
           "approach": "Inspect first differences.",
@@ -49519,6 +58483,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "26",
+          "19",
+          "23",
+          "55"
+        ],
+        "optionLatex": [
           "26",
           "19",
           "23",
@@ -49558,6 +58528,12 @@ export const aptitudeLevels = {
           "407.88",
           "414.88"
         ],
+        "optionLatex": [
+          "400.88",
+          "379.88",
+          "407.88",
+          "414.88"
+        ],
         "answer": "407.88",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -49586,6 +58562,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, the roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "219",
+          "221",
+          "214",
+          "190"
+        ],
+        "optionLatex": [
           "219",
           "221",
           "214",
@@ -49624,6 +58606,12 @@ export const aptitudeLevels = {
           "462",
           "469"
         ],
+        "optionLatex": [
+          "491",
+          "434",
+          "462",
+          "469"
+        ],
         "answer": "462",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -49652,6 +58640,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, from a point 49 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=49\\tan(60^\\circ)",
         "options": [
+          "113.8705",
+          "80.8705",
+          "82.8705",
+          "84.8705"
+        ],
+        "optionLatex": [
           "113.8705",
           "80.8705",
           "82.8705",
@@ -49690,6 +58684,12 @@ export const aptitudeLevels = {
           "0.5",
           "7.5"
         ],
+        "optionLatex": [
+          "36.5",
+          "-30.5",
+          "0.5",
+          "7.5"
+        ],
         "answer": "0.5",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -49718,6 +58718,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 21, find the population variance of [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=32",
         "options": [
+          "68",
+          "32",
+          "28",
+          "4"
+        ],
+        "optionLatex": [
           "68",
           "32",
           "28",
@@ -49756,6 +58762,12 @@ export const aptitudeLevels = {
           "864",
           "866"
         ],
+        "optionLatex": [
+          "893",
+          "871",
+          "864",
+          "866"
+        ],
         "answer": "864",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -49784,6 +58796,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, a caselet score has base 43 and adjustment 31. What combined score is reported?",
         "latex": "43+31",
         "options": [
+          "74",
+          "81",
+          "103",
+          "43"
+        ],
+        "optionLatex": [
           "74",
           "81",
           "103",
@@ -49822,6 +58840,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -49850,6 +58874,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, in a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "0",
+          "28",
+          "26",
+          "24"
+        ],
+        "optionLatex": [
           "0",
           "28",
           "26",
@@ -49889,6 +58919,12 @@ export const aptitudeLevels = {
           "76",
           "112"
         ],
+        "optionLatex": [
+          "79",
+          "83",
+          "76",
+          "112"
+        ],
         "answer": "83",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -49921,6 +58957,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -49955,6 +58997,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -49988,6 +59036,12 @@ export const aptitudeLevels = {
           "44",
           "55"
         ],
+        "optionLatex": [
+          "46",
+          "48",
+          "44",
+          "55"
+        ],
         "answer": "48",
         "solution": {
           "approach": "Inspect first differences.",
@@ -50016,6 +59070,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "34",
+          "30",
+          "27",
+          "70"
+        ],
+        "optionLatex": [
           "34",
           "30",
           "27",
@@ -50055,6 +59115,12 @@ export const aptitudeLevels = {
           "6.9697",
           "10.9697"
         ],
+        "optionLatex": [
+          "42.9697",
+          "13.9697",
+          "6.9697",
+          "10.9697"
+        ],
         "answer": "6.9697",
         "solution": {
           "approach": "Add individual rates.",
@@ -50083,6 +59149,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 11 = 18.",
         "latex": "2x+11=18",
         "options": [
+          "7.5",
+          "32.5",
+          "5.5",
+          "3.5"
+        ],
+        "optionLatex": [
           "7.5",
           "32.5",
           "5.5",
@@ -50121,6 +59193,12 @@ export const aptitudeLevels = {
           "398",
           "396"
         ],
+        "optionLatex": [
+          "400",
+          "402",
+          "398",
+          "396"
+        ],
         "answer": "400",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -50149,6 +59227,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 61[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "61\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "63",
+          "97",
+          "61",
+          "57"
+        ],
+        "optionLatex": [
           "63",
           "97",
           "61",
@@ -50187,6 +59271,12 @@ export const aptitudeLevels = {
           "3484127516",
           "3484127524"
         ],
+        "optionLatex": [
+          "3484127520",
+          "3484127489",
+          "3484127516",
+          "3484127524"
+        ],
         "answer": "3484127520",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -50215,6 +59305,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 36, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "186",
+          "218",
+          "182",
+          "211"
+        ],
+        "optionLatex": [
           "186",
           "218",
           "182",
@@ -50253,6 +59349,12 @@ export const aptitudeLevels = {
           "8192",
           "8161"
         ],
+        "optionLatex": [
+          "8164",
+          "8228",
+          "8192",
+          "8161"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -50281,6 +59383,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, a caselet score has base 58 and adjustment 61. What combined score is reported?",
         "latex": "58+61",
         "options": [
+          "88",
+          "119",
+          "126",
+          "112"
+        ],
+        "optionLatex": [
           "88",
           "119",
           "126",
@@ -50319,6 +59427,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -50347,6 +59461,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, in a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "-4",
+          "1",
+          "32",
+          "3"
+        ],
+        "optionLatex": [
           "-4",
           "1",
           "32",
@@ -50386,6 +59506,12 @@ export const aptitudeLevels = {
           "164",
           "135"
         ],
+        "optionLatex": [
+          "126",
+          "128",
+          "164",
+          "135"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -50418,6 +59544,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -50452,6 +59584,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -50485,6 +59623,12 @@ export const aptitudeLevels = {
           "45",
           "47"
         ],
+        "optionLatex": [
+          "76",
+          "43",
+          "45",
+          "47"
+        ],
         "answer": "47",
         "solution": {
           "approach": "Inspect first differences.",
@@ -50513,6 +59657,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "2",
+          "11",
+          "38",
+          "9"
+        ],
+        "optionLatex": [
           "2",
           "11",
           "38",
@@ -50552,6 +59702,12 @@ export const aptitudeLevels = {
           "-21",
           "39"
         ],
+        "optionLatex": [
+          "10",
+          "6",
+          "-21",
+          "39"
+        ],
         "answer": "10",
         "solution": {
           "approach": "Add individual rates.",
@@ -50580,6 +59736,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=8x+15 and g(x)=15x+12. Find f(g(9)).",
         "latex": "f(x)=8x+15,\\quad g(x)=15x+12,\\quad f(g(9))",
         "options": [
+          "1191",
+          "1189",
+          "1184",
+          "1227"
+        ],
+        "optionLatex": [
           "1191",
           "1189",
           "1184",
@@ -50618,6 +59780,12 @@ export const aptitudeLevels = {
           "266",
           "333"
         ],
+        "optionLatex": [
+          "304",
+          "297",
+          "266",
+          "333"
+        ],
         "answer": "297",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -50646,6 +59814,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 76[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "76\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "76",
+          "112",
+          "72",
+          "74"
+        ],
+        "optionLatex": [
           "76",
           "112",
           "72",
@@ -50684,6 +59858,12 @@ export const aptitudeLevels = {
           "70",
           "39"
         ],
+        "optionLatex": [
+          "72",
+          "63",
+          "70",
+          "39"
+        ],
         "answer": "70",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -50712,6 +59892,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 14, find the mean of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=32",
         "options": [
+          "36",
+          "4",
+          "61",
+          "32"
+        ],
+        "optionLatex": [
           "36",
           "4",
           "61",
@@ -50750,6 +59936,12 @@ export const aptitudeLevels = {
           "173.8",
           "211.8"
         ],
+        "optionLatex": [
+          "204.8",
+          "200.8",
+          "173.8",
+          "211.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -50778,6 +59970,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, a caselet score has base 73 and adjustment 41. What combined score is reported?",
         "latex": "73+41",
         "options": [
+          "110",
+          "83",
+          "121",
+          "114"
+        ],
+        "optionLatex": [
           "110",
           "83",
           "121",
@@ -50816,6 +60014,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -50844,6 +60048,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, in a row of 22 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 19",
         "options": [
+          "20",
+          "54",
+          "18",
+          "47"
+        ],
+        "optionLatex": [
           "20",
           "54",
           "18",
@@ -50883,6 +60093,12 @@ export const aptitudeLevels = {
           "119",
           "125"
         ],
+        "optionLatex": [
+          "130",
+          "123",
+          "119",
+          "125"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -50915,6 +60131,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -50949,6 +60171,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -50982,6 +60210,12 @@ export const aptitudeLevels = {
           "15",
           "50"
         ],
+        "optionLatex": [
+          "53",
+          "46",
+          "15",
+          "50"
+        ],
         "answer": "46",
         "solution": {
           "approach": "Inspect first differences.",
@@ -51010,6 +60244,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "28",
+          "24",
+          "-4",
+          "26"
+        ],
+        "optionLatex": [
           "28",
           "24",
           "-4",
@@ -51049,6 +60289,12 @@ export const aptitudeLevels = {
           "55.5614",
           "53.5614"
         ],
+        "optionLatex": [
+          "46.5614",
+          "82.5614",
+          "55.5614",
+          "53.5614"
+        ],
         "answer": "53.5614",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -51077,6 +60323,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 5 < x <= 7?",
         "latex": "5<x\\le 7",
         "options": [
+          "38",
+          "-2",
+          "2",
+          "0"
+        ],
+        "optionLatex": [
           "38",
           "-2",
           "2",
@@ -51115,6 +60367,12 @@ export const aptitudeLevels = {
           "110",
           "117"
         ],
+        "optionLatex": [
+          "119",
+          "146",
+          "110",
+          "117"
+        ],
         "answer": "117",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -51143,6 +60401,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 91[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "91\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "98",
+          "89",
+          "91",
+          "127"
+        ],
+        "optionLatex": [
           "98",
           "89",
           "91",
@@ -51181,6 +60445,12 @@ export const aptitudeLevels = {
           "4.3636",
           "-3.6364"
         ],
+        "optionLatex": [
+          "0.3636",
+          "2.3636",
+          "4.3636",
+          "-3.6364"
+        ],
         "answer": "0.3636",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -51209,6 +60479,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 29, find the mean of the data set [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=57",
         "options": [
+          "57",
+          "86",
+          "55",
+          "53"
+        ],
+        "optionLatex": [
           "57",
           "86",
           "55",
@@ -51247,6 +60523,12 @@ export const aptitudeLevels = {
           "290",
           "288"
         ],
+        "optionLatex": [
+          "292",
+          "262",
+          "290",
+          "288"
+        ],
         "answer": "290",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -51275,6 +60557,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, a caselet score has base 88 and adjustment 71. What combined score is reported?",
         "latex": "88+71",
         "options": [
+          "131",
+          "163",
+          "159",
+          "188"
+        ],
+        "optionLatex": [
           "131",
           "163",
           "159",
@@ -51313,6 +60601,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -51341,6 +60635,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, in a row of 37 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 34",
         "options": [
+          "33",
+          "5",
+          "35",
+          "29"
+        ],
+        "optionLatex": [
           "33",
           "5",
           "35",
@@ -51380,6 +60680,12 @@ export const aptitudeLevels = {
           "111",
           "122"
         ],
+        "optionLatex": [
+          "120",
+          "118",
+          "111",
+          "122"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -51412,6 +60718,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -51446,6 +60758,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -51479,6 +60797,12 @@ export const aptitudeLevels = {
           "74",
           "17"
         ],
+        "optionLatex": [
+          "45",
+          "43",
+          "74",
+          "17"
+        ],
         "answer": "45",
         "solution": {
           "approach": "Inspect first differences.",
@@ -51507,6 +60831,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "75",
+          "39",
+          "35",
+          "32"
+        ],
+        "optionLatex": [
           "75",
           "39",
           "35",
@@ -51546,6 +60876,12 @@ export const aptitudeLevels = {
           "113",
           "102"
         ],
+        "optionLatex": [
+          "104",
+          "106",
+          "113",
+          "102"
+        ],
         "answer": "106",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -51574,6 +60910,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 4 and common difference 10.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(4)+(29-1)10\\right)",
         "options": [
+          "4176",
+          "4205",
+          "4178",
+          "4169"
+        ],
+        "optionLatex": [
           "4176",
           "4205",
           "4178",
@@ -51612,6 +60954,12 @@ export const aptitudeLevels = {
           "125",
           "101"
         ],
+        "optionLatex": [
+          "132",
+          "168",
+          "125",
+          "101"
+        ],
         "answer": "132",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -51640,6 +60988,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, from a point 39 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=39\\tan(60^\\circ)",
         "options": [
+          "74.55",
+          "60.55",
+          "67.55",
+          "103.55"
+        ],
+        "optionLatex": [
           "74.55",
           "60.55",
           "67.55",
@@ -51678,6 +61032,12 @@ export const aptitudeLevels = {
           "2.2308",
           "0.2308"
         ],
+        "optionLatex": [
+          "7.2308",
+          "-30.7692",
+          "2.2308",
+          "0.2308"
+        ],
         "answer": "0.2308",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -51706,6 +61066,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 7, find the median of the data set [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=30",
         "options": [
+          "37",
+          "34",
+          "30",
+          "28"
+        ],
+        "optionLatex": [
           "37",
           "34",
           "30",
@@ -51744,6 +61110,12 @@ export const aptitudeLevels = {
           "34",
           "28"
         ],
+        "optionLatex": [
+          "32",
+          "4",
+          "34",
+          "28"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -51772,6 +61144,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, a caselet score has base 43 and adjustment 51. What combined score is reported?",
         "latex": "43+51",
         "options": [
+          "123",
+          "63",
+          "94",
+          "90"
+        ],
+        "optionLatex": [
           "123",
           "63",
           "94",
@@ -51810,6 +61188,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -51838,6 +61222,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, in a row of 12 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 9",
         "options": [
+          "8",
+          "-23",
+          "37",
+          "15"
+        ],
+        "optionLatex": [
           "8",
           "-23",
           "37",
@@ -51877,6 +61267,12 @@ export const aptitudeLevels = {
           "105",
           "139"
         ],
+        "optionLatex": [
+          "103",
+          "107",
+          "105",
+          "139"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -51909,6 +61305,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -51943,6 +61345,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -51976,6 +61384,12 @@ export const aptitudeLevels = {
           "80",
           "44"
         ],
+        "optionLatex": [
+          "42",
+          "16",
+          "80",
+          "44"
+        ],
         "answer": "44",
         "solution": {
           "approach": "Inspect first differences.",
@@ -52004,6 +61418,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "50",
+          "14",
+          "12",
+          "7"
+        ],
+        "optionLatex": [
           "50",
           "14",
           "12",
@@ -52043,6 +61463,12 @@ export const aptitudeLevels = {
           "17348",
           "17320"
         ],
+        "optionLatex": [
+          "17355",
+          "17317",
+          "17348",
+          "17320"
+        ],
         "answer": "17348",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -52071,6 +61497,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, if log base 11 of (x + 54) equals log base 11 of 108, find x.",
         "latex": "\\log_{11}(x+54)=\\log_{11}(108)",
         "options": [
+          "47",
+          "61",
+          "54",
+          "58"
+        ],
+        "optionLatex": [
           "47",
           "61",
           "54",
@@ -52109,6 +61541,12 @@ export const aptitudeLevels = {
           "519",
           "505"
         ],
+        "optionLatex": [
+          "512",
+          "548",
+          "519",
+          "505"
+        ],
         "answer": "512",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -52137,6 +61575,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 24[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "24\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "24",
+          "17",
+          "-4",
+          "53"
+        ],
+        "optionLatex": [
           "24",
           "17",
           "-4",
@@ -52175,6 +61619,12 @@ export const aptitudeLevels = {
           "1608143925024007",
           "1608143925023996"
         ],
+        "optionLatex": [
+          "1608143925024000",
+          "1608143925023972",
+          "1608143925024007",
+          "1608143925023996"
+        ],
         "answer": "1608143925024000",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -52203,6 +61653,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 22, find the population variance of [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=182",
         "options": [
+          "182",
+          "180",
+          "218",
+          "189"
+        ],
+        "optionLatex": [
           "182",
           "180",
           "218",
@@ -52241,6 +61697,12 @@ export const aptitudeLevels = {
           "15345",
           "15302"
         ],
+        "optionLatex": [
+          "15307",
+          "15309",
+          "15345",
+          "15302"
+        ],
         "answer": "15309",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -52269,6 +61731,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, a caselet score has base 58 and adjustment 31. What combined score is reported?",
         "latex": "58+31",
         "options": [
+          "82",
+          "89",
+          "91",
+          "87"
+        ],
+        "optionLatex": [
           "82",
           "89",
           "91",
@@ -52307,6 +61775,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -52335,6 +61809,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, in a row of 27 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 24",
         "options": [
+          "-5",
+          "19",
+          "23",
+          "-8"
+        ],
+        "optionLatex": [
           "-5",
           "19",
           "23",
@@ -52374,6 +61854,12 @@ export const aptitudeLevels = {
           "94",
           "105"
         ],
+        "optionLatex": [
+          "96",
+          "98",
+          "94",
+          "105"
+        ],
         "answer": "98",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -52406,6 +61892,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -52440,6 +61932,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -52473,6 +61971,12 @@ export const aptitudeLevels = {
           "36",
           "68"
         ],
+        "optionLatex": [
+          "30",
+          "32",
+          "36",
+          "68"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Inspect first differences.",
@@ -52501,6 +62005,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "65",
+          "29",
+          "-2",
+          "58"
+        ],
+        "optionLatex": [
           "65",
           "29",
           "-2",
@@ -52540,6 +62050,12 @@ export const aptitudeLevels = {
           "28003",
           "28001"
         ],
+        "optionLatex": [
+          "28030",
+          "27970",
+          "28003",
+          "28001"
+        ],
         "answer": "28001",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -52568,6 +62084,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 5 = 5.",
         "latex": "5x+5=5",
         "options": [
+          "-2",
+          "7",
+          "-4",
+          "0"
+        ],
+        "optionLatex": [
           "-2",
           "7",
           "-4",
@@ -52606,6 +62128,12 @@ export const aptitudeLevels = {
           "23.5",
           "59.5"
         ],
+        "optionLatex": [
+          "25.5",
+          "16.5",
+          "23.5",
+          "59.5"
+        ],
         "answer": "23.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -52634,6 +62162,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 39[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "39\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "43",
+          "11",
+          "39",
+          "75"
+        ],
+        "optionLatex": [
           "43",
           "11",
           "39",
@@ -52672,6 +62206,12 @@ export const aptitudeLevels = {
           "7392009737",
           "7392009764"
         ],
+        "optionLatex": [
+          "7392009804",
+          "7392009768",
+          "7392009737",
+          "7392009764"
+        ],
         "answer": "7392009768",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -52700,6 +62240,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 37, find the population variance of [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=72",
         "options": [
+          "41",
+          "65",
+          "79",
+          "72"
+        ],
+        "optionLatex": [
           "41",
           "65",
           "79",
@@ -52738,6 +62284,12 @@ export const aptitudeLevels = {
           "216",
           "220"
         ],
+        "optionLatex": [
+          "185",
+          "223",
+          "216",
+          "220"
+        ],
         "answer": "216",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -52766,6 +62318,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, a caselet score has base 73 and adjustment 61. What combined score is reported?",
         "latex": "73+61",
         "options": [
+          "106",
+          "141",
+          "134",
+          "163"
+        ],
+        "optionLatex": [
           "106",
           "141",
           "134",
@@ -52804,6 +62362,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -52832,6 +62396,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, in a row of 42 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 39",
         "options": [
+          "74",
+          "38",
+          "42",
+          "36"
+        ],
+        "optionLatex": [
           "74",
           "38",
           "42",
@@ -52871,6 +62441,12 @@ export const aptitudeLevels = {
           "172",
           "145"
         ],
+        "optionLatex": [
+          "179",
+          "143",
+          "172",
+          "145"
+        ],
         "answer": "143",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -52903,6 +62479,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -52937,6 +62519,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -52970,6 +62558,12 @@ export const aptitudeLevels = {
           "49",
           "18"
         ],
+        "optionLatex": [
+          "45",
+          "47",
+          "49",
+          "18"
+        ],
         "answer": "49",
         "solution": {
           "approach": "Inspect first differences.",
@@ -52998,6 +62592,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "6",
+          "40",
+          "2",
+          "4"
+        ],
+        "optionLatex": [
           "6",
           "40",
           "2",
@@ -53037,6 +62637,12 @@ export const aptitudeLevels = {
           "-15",
           "14"
         ],
+        "optionLatex": [
+          "16",
+          "18",
+          "-15",
+          "14"
+        ],
         "answer": "16",
         "solution": {
           "approach": "Work backward from A's future age.",
@@ -53065,6 +62671,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 9 = 16.",
         "latex": "2x+9=16",
         "options": [
+          "5.5",
+          "-27.5",
+          "3.5",
+          "-0.5"
+        ],
+        "optionLatex": [
           "5.5",
           "-27.5",
           "3.5",
@@ -53103,6 +62715,12 @@ export const aptitudeLevels = {
           "252",
           "250"
         ],
+        "optionLatex": [
+          "245",
+          "224",
+          "252",
+          "250"
+        ],
         "answer": "252",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -53131,6 +62749,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 54[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "54\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "47",
+          "54",
+          "50",
+          "23"
+        ],
+        "optionLatex": [
           "47",
           "54",
           "50",
@@ -53169,6 +62793,12 @@ export const aptitudeLevels = {
           "-3.5556",
           "4.4444"
         ],
+        "optionLatex": [
+          "-1.5556",
+          "0.4444",
+          "-3.5556",
+          "4.4444"
+        ],
         "answer": "0.4444",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -53197,6 +62827,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 15, find the population variance of [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=162",
         "options": [
+          "131",
+          "164",
+          "162",
+          "155"
+        ],
+        "optionLatex": [
           "131",
           "164",
           "162",
@@ -53235,6 +62871,12 @@ export const aptitudeLevels = {
           "8164",
           "8192"
         ],
+        "optionLatex": [
+          "8185",
+          "8228",
+          "8164",
+          "8192"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -53263,6 +62905,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, a caselet score has base 88 and adjustment 41. What combined score is reported?",
         "latex": "88+41",
         "options": [
+          "133",
+          "101",
+          "131",
+          "129"
+        ],
+        "optionLatex": [
           "133",
           "101",
           "131",
@@ -53301,6 +62949,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -53329,6 +62983,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, in a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "42",
+          "17",
+          "9",
+          "13"
+        ],
+        "optionLatex": [
           "42",
           "17",
           "9",
@@ -53368,6 +63028,12 @@ export const aptitudeLevels = {
           "138",
           "110"
         ],
+        "optionLatex": [
+          "167",
+          "136",
+          "138",
+          "110"
+        ],
         "answer": "138",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -53400,6 +63066,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -53434,6 +63106,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -53467,6 +63145,12 @@ export const aptitudeLevels = {
           "48",
           "46"
         ],
+        "optionLatex": [
+          "20",
+          "17",
+          "48",
+          "46"
+        ],
         "answer": "48",
         "solution": {
           "approach": "Inspect first differences.",
@@ -53495,6 +63179,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "15",
+          "48",
+          "26",
+          "19"
+        ],
+        "optionLatex": [
           "15",
           "48",
           "26",
@@ -53534,6 +63224,12 @@ export const aptitudeLevels = {
           "16513",
           "16546"
         ],
+        "optionLatex": [
+          "16517",
+          "16489",
+          "16513",
+          "16546"
+        ],
         "answer": "16517",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -53562,6 +63258,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, the roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "193",
+          "221",
+          "228",
+          "219"
+        ],
+        "optionLatex": [
           "193",
           "221",
           "228",
@@ -53600,6 +63302,12 @@ export const aptitudeLevels = {
           "1284",
           "1286"
         ],
+        "optionLatex": [
+          "1288",
+          "1279",
+          "1284",
+          "1286"
+        ],
         "answer": "1286",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -53628,6 +63336,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, from a point 29 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=29\\tan(60^\\circ)",
         "options": [
+          "46.2295",
+          "57.2295",
+          "54.2295",
+          "50.2295"
+        ],
+        "optionLatex": [
           "46.2295",
           "57.2295",
           "54.2295",
@@ -53666,6 +63380,12 @@ export const aptitudeLevels = {
           "0.6364",
           "7.6364"
         ],
+        "optionLatex": [
+          "36.6364",
+          "-3.3636",
+          "0.6364",
+          "7.6364"
+        ],
         "answer": "0.6364",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -53694,6 +63414,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 30, find the mean of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=42",
         "options": [
+          "78",
+          "42",
+          "49",
+          "35"
+        ],
+        "optionLatex": [
           "78",
           "42",
           "49",
@@ -53732,6 +63458,12 @@ export const aptitudeLevels = {
           "200.8",
           "204.8"
         ],
+        "optionLatex": [
+          "202.8",
+          "173.8",
+          "200.8",
+          "204.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -53760,6 +63492,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, a caselet score has base 43 and adjustment 71. What combined score is reported?",
         "latex": "43+71",
         "options": [
+          "110",
+          "118",
+          "121",
+          "114"
+        ],
+        "optionLatex": [
           "110",
           "118",
           "121",
@@ -53798,6 +63536,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -53826,6 +63570,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, in a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "30",
+          "28",
+          "26",
+          "24"
+        ],
+        "optionLatex": [
           "30",
           "28",
           "26",
@@ -53865,6 +63615,12 @@ export const aptitudeLevels = {
           "75",
           "73"
         ],
+        "optionLatex": [
+          "45",
+          "69",
+          "75",
+          "73"
+        ],
         "answer": "73",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -53897,6 +63653,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -53931,6 +63693,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -53964,6 +63732,12 @@ export const aptitudeLevels = {
           "29",
           "8"
         ],
+        "optionLatex": [
+          "72",
+          "36",
+          "29",
+          "8"
+        ],
         "answer": "36",
         "solution": {
           "approach": "Inspect first differences.",
@@ -53992,6 +63766,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "41",
+          "34",
+          "30",
+          "36"
+        ],
+        "optionLatex": [
           "41",
           "34",
           "30",
@@ -54031,6 +63811,12 @@ export const aptitudeLevels = {
           "10700",
           "10729"
         ],
+        "optionLatex": [
+          "10702",
+          "10736",
+          "10700",
+          "10729"
+        ],
         "answer": "10700",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -54059,6 +63845,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 4 = 4.",
         "latex": "5x+4=4",
         "options": [
+          "0",
+          "-4",
+          "4",
+          "29"
+        ],
+        "optionLatex": [
           "0",
           "-4",
           "4",
@@ -54097,6 +63889,12 @@ export const aptitudeLevels = {
           "162",
           "160"
         ],
+        "optionLatex": [
+          "166",
+          "155",
+          "162",
+          "160"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -54125,6 +63923,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 84[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "84\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "53",
+          "84",
+          "120",
+          "113"
+        ],
+        "optionLatex": [
           "53",
           "84",
           "120",
@@ -54163,6 +63967,12 @@ export const aptitudeLevels = {
           "4037916",
           "4037876"
         ],
+        "optionLatex": [
+          "4037880",
+          "4037882",
+          "4037916",
+          "4037876"
+        ],
         "answer": "4037880",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -54191,6 +64001,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 8, find the mean of the data set [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=37",
         "options": [
+          "37",
+          "44",
+          "41",
+          "6"
+        ],
+        "optionLatex": [
           "37",
           "44",
           "41",
@@ -54229,6 +64045,12 @@ export const aptitudeLevels = {
           "518",
           "539"
         ],
+        "optionLatex": [
+          "546",
+          "582",
+          "518",
+          "539"
+        ],
         "answer": "546",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -54257,6 +64079,12 @@ export const aptitudeLevels = {
         "q": "In practice set 10, a caselet score has base 58 and adjustment 51. What combined score is reported?",
         "latex": "58+51",
         "options": [
+          "78",
+          "113",
+          "109",
+          "145"
+        ],
+        "optionLatex": [
           "78",
           "113",
           "109",
@@ -54295,6 +64123,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -54323,6 +64157,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, in a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "3",
+          "5",
+          "-4",
+          "10"
+        ],
+        "optionLatex": [
           "3",
           "5",
           "-4",
@@ -54362,6 +64202,12 @@ export const aptitudeLevels = {
           "118",
           "120"
         ],
+        "optionLatex": [
+          "122",
+          "87",
+          "118",
+          "120"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -54394,6 +64240,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -54428,6 +64280,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -54461,6 +64319,12 @@ export const aptitudeLevels = {
           "60",
           "55"
         ],
+        "optionLatex": [
+          "57",
+          "53",
+          "60",
+          "55"
+        ],
         "answer": "53",
         "solution": {
           "approach": "Inspect first differences.",
@@ -54489,6 +64353,12 @@ export const aptitudeLevels = {
         "q": "In practice set 17, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "16",
+          "-22",
+          "9",
+          "7"
+        ],
+        "optionLatex": [
           "16",
           "-22",
           "9",
@@ -54528,6 +64398,12 @@ export const aptitudeLevels = {
           "20721.4364",
           "20754.4364"
         ],
+        "optionLatex": [
+          "20752.4364",
+          "20781.4364",
+          "20721.4364",
+          "20754.4364"
+        ],
         "answer": "20752.4364",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -54556,6 +64432,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=2x+8 and g(x)=8x+15. Find f(g(9)).",
         "latex": "f(x)=2x+8,\\quad g(x)=8x+15,\\quad f(g(9))",
         "options": [
+          "178",
+          "189",
+          "182",
+          "175"
+        ],
+        "optionLatex": [
           "178",
           "189",
           "182",
@@ -54594,6 +64476,12 @@ export const aptitudeLevels = {
           "216.5",
           "212.5"
         ],
+        "optionLatex": [
+          "243.5",
+          "214.5",
+          "216.5",
+          "212.5"
+        ],
         "answer": "214.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -54622,6 +64510,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 2[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "2\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "2",
+          "31",
+          "0",
+          "4"
+        ],
+        "optionLatex": [
           "2",
           "31",
           "0",
@@ -54660,6 +64554,12 @@ export const aptitudeLevels = {
           "73811",
           "73817"
         ],
+        "optionLatex": [
+          "73787",
+          "73815",
+          "73811",
+          "73817"
+        ],
         "answer": "73815",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -54688,6 +64588,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 23, find the median of the data set [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=22",
         "options": [
+          "-6",
+          "26",
+          "22",
+          "15"
+        ],
+        "optionLatex": [
           "-6",
           "26",
           "22",
@@ -54726,6 +64632,12 @@ export const aptitudeLevels = {
           "164",
           "172"
         ],
+        "optionLatex": [
+          "168",
+          "204",
+          "164",
+          "172"
+        ],
         "answer": "168",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -54754,6 +64666,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, a caselet score has base 73 and adjustment 31. What combined score is reported?",
         "latex": "73+31",
         "options": [
+          "97",
+          "133",
+          "104",
+          "73"
+        ],
+        "optionLatex": [
           "97",
           "133",
           "104",
@@ -54792,6 +64710,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -54820,6 +64744,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, in a row of 22 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 19",
         "options": [
+          "25",
+          "47",
+          "54",
+          "18"
+        ],
+        "optionLatex": [
           "25",
           "47",
           "54",
@@ -54859,6 +64789,12 @@ export const aptitudeLevels = {
           "120",
           "106"
         ],
+        "optionLatex": [
+          "109",
+          "113",
+          "120",
+          "106"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -54891,6 +64827,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -54925,6 +64867,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -54958,6 +64906,12 @@ export const aptitudeLevels = {
           "52",
           "45"
         ],
+        "optionLatex": [
+          "43",
+          "74",
+          "52",
+          "45"
+        ],
         "answer": "45",
         "solution": {
           "approach": "Inspect first differences.",
@@ -54986,6 +64940,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "20",
+          "17",
+          "24",
+          "26"
+        ],
+        "optionLatex": [
           "20",
           "17",
           "24",
@@ -55025,6 +64985,12 @@ export const aptitudeLevels = {
           "151",
           "155"
         ],
+        "optionLatex": [
+          "148",
+          "157",
+          "151",
+          "155"
+        ],
         "answer": "155",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -55053,6 +65019,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 8 < x <= 13?",
         "latex": "8<x\\le 13",
         "options": [
+          "3",
+          "41",
+          "34",
+          "5"
+        ],
+        "optionLatex": [
           "3",
           "41",
           "34",
@@ -55091,6 +65063,12 @@ export const aptitudeLevels = {
           "79",
           "70"
         ],
+        "optionLatex": [
+          "74",
+          "72",
+          "79",
+          "70"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -55119,6 +65097,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 17[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "17\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "46",
+          "21",
+          "24",
+          "17"
+        ],
+        "optionLatex": [
           "46",
           "21",
           "24",
@@ -55157,6 +65141,12 @@ export const aptitudeLevels = {
           "0.5",
           "-27.5"
         ],
+        "optionLatex": [
+          "2.5",
+          "29.5",
+          "0.5",
+          "-27.5"
+        ],
         "answer": "0.5",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -55185,6 +65175,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 1, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "218",
+          "182",
+          "178",
+          "175"
+        ],
+        "optionLatex": [
           "218",
           "182",
           "178",
@@ -55223,6 +65219,12 @@ export const aptitudeLevels = {
           "25515",
           "25522"
         ],
+        "optionLatex": [
+          "25517",
+          "25519",
+          "25515",
+          "25522"
+        ],
         "answer": "25515",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -55251,6 +65253,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, a caselet score has base 88 and adjustment 61. What combined score is reported?",
         "latex": "88+61",
         "options": [
+          "121",
+          "185",
+          "151",
+          "149"
+        ],
+        "optionLatex": [
           "121",
           "185",
           "151",
@@ -55289,6 +65297,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -55317,6 +65331,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, in a row of 37 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 34",
         "options": [
+          "69",
+          "35",
+          "40",
+          "33"
+        ],
+        "optionLatex": [
           "69",
           "35",
           "40",
@@ -55356,6 +65376,12 @@ export const aptitudeLevels = {
           "154",
           "160"
         ],
+        "optionLatex": [
+          "187",
+          "158",
+          "154",
+          "160"
+        ],
         "answer": "158",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -55388,6 +65414,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -55422,6 +65454,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -55455,6 +65493,12 @@ export const aptitudeLevels = {
           "62",
           "5"
         ],
+        "optionLatex": [
+          "31",
+          "33",
+          "62",
+          "5"
+        ],
         "answer": "33",
         "solution": {
           "approach": "Inspect first differences.",
@@ -55483,6 +65527,12 @@ export const aptitudeLevels = {
         "q": "In practice set 10, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "8",
+          "39",
+          "75",
+          "41"
+        ],
+        "optionLatex": [
           "8",
           "39",
           "75",
@@ -55522,6 +65572,12 @@ export const aptitudeLevels = {
           "34187.7975",
           "34180.7975"
         ],
+        "optionLatex": [
+          "34191.7975",
+          "34216.7975",
+          "34187.7975",
+          "34180.7975"
+        ],
         "answer": "34187.7975",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -55550,6 +65606,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 7 and common difference 3.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(7)+(29-1)3\\right)",
         "options": [
+          "1414",
+          "1393",
+          "1421",
+          "1428"
+        ],
+        "optionLatex": [
           "1414",
           "1393",
           "1421",
@@ -55588,6 +65650,12 @@ export const aptitudeLevels = {
           "878",
           "854"
         ],
+        "optionLatex": [
+          "884",
+          "882",
+          "878",
+          "854"
+        ],
         "answer": "882",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -55616,6 +65684,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, from a point 89 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=89\\tan(60^\\circ)",
         "options": [
+          "158.1525",
+          "147.1525",
+          "161.1525",
+          "154.1525"
+        ],
+        "optionLatex": [
           "158.1525",
           "147.1525",
           "161.1525",
@@ -55654,6 +65728,12 @@ export const aptitudeLevels = {
           "-3.7",
           "-6.7"
         ],
+        "optionLatex": [
+          "-27.7",
+          "0.3",
+          "-3.7",
+          "-6.7"
+        ],
         "answer": "0.3",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -55682,6 +65762,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 16, find the population variance of [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=152",
         "options": [
+          "152",
+          "124",
+          "156",
+          "121"
+        ],
+        "optionLatex": [
           "152",
           "124",
           "156",
@@ -55720,6 +65806,12 @@ export const aptitudeLevels = {
           "434",
           "425"
         ],
+        "optionLatex": [
+          "468",
+          "432",
+          "434",
+          "425"
+        ],
         "answer": "432",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -55748,6 +65840,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, a caselet score has base 43 and adjustment 41. What combined score is reported?",
         "latex": "43+41",
         "options": [
+          "86",
+          "84",
+          "88",
+          "53"
+        ],
+        "optionLatex": [
           "86",
           "84",
           "88",
@@ -55786,6 +65884,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -55814,6 +65918,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, in a row of 12 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 9",
         "options": [
+          "44",
+          "-23",
+          "10",
+          "8"
+        ],
+        "optionLatex": [
           "44",
           "-23",
           "10",
@@ -55853,6 +65963,12 @@ export const aptitudeLevels = {
           "95",
           "93"
         ],
+        "optionLatex": [
+          "91",
+          "86",
+          "95",
+          "93"
+        ],
         "answer": "93",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -55885,6 +66001,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -55919,6 +66041,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -55952,6 +66080,12 @@ export const aptitudeLevels = {
           "43",
           "50"
         ],
+        "optionLatex": [
+          "46",
+          "54",
+          "43",
+          "50"
+        ],
         "answer": "50",
         "solution": {
           "approach": "Inspect first differences.",
@@ -55980,6 +66114,12 @@ export const aptitudeLevels = {
         "q": "In practice set 25, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "-17",
+          "-14",
+          "14",
+          "16"
+        ],
+        "optionLatex": [
           "-17",
           "-14",
           "14",
@@ -56019,6 +66159,12 @@ export const aptitudeLevels = {
           "915",
           "913"
         ],
+        "optionLatex": [
+          "919",
+          "887",
+          "915",
+          "913"
+        ],
         "answer": "915",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -56047,6 +66193,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, if log base 12 of (x + 14) equals log base 12 of 28, find x.",
         "latex": "\\log_{12}(x+14)=\\log_{12}(28)",
         "options": [
+          "16",
+          "14",
+          "21",
+          "18"
+        ],
+        "optionLatex": [
           "16",
           "14",
           "21",
@@ -56085,6 +66237,12 @@ export const aptitudeLevels = {
           "19.5",
           "52.5"
         ],
+        "optionLatex": [
+          "16.5",
+          "23.5",
+          "19.5",
+          "52.5"
+        ],
         "answer": "23.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -56113,6 +66271,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 47[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "47\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "47",
+          "83",
+          "51",
+          "19"
+        ],
+        "optionLatex": [
           "47",
           "83",
           "51",
@@ -56151,6 +66315,12 @@ export const aptitudeLevels = {
           "119276318345184000",
           "119276318345183968"
         ],
+        "optionLatex": [
+          "119276318345184032",
+          "119276318345183984",
+          "119276318345184000",
+          "119276318345183968"
+        ],
         "answer": "119276318345184000",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -56179,6 +66349,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 31, find the population variance of [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=2",
         "options": [
+          "2",
+          "-2",
+          "4",
+          "38"
+        ],
+        "optionLatex": [
           "2",
           "-2",
           "4",
@@ -56217,6 +66393,12 @@ export const aptitudeLevels = {
           "8192",
           "8199"
         ],
+        "optionLatex": [
+          "8221",
+          "8164",
+          "8192",
+          "8199"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -56245,6 +66427,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, a caselet score has base 58 and adjustment 71. What combined score is reported?",
         "latex": "58+71",
         "options": [
+          "101",
+          "98",
+          "127",
+          "129"
+        ],
+        "optionLatex": [
           "101",
           "98",
           "127",
@@ -56283,6 +66471,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -56311,6 +66505,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, in a row of 27 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 24",
         "options": [
+          "27",
+          "19",
+          "23",
+          "21"
+        ],
+        "optionLatex": [
           "27",
           "19",
           "23",
@@ -56350,6 +66550,12 @@ export const aptitudeLevels = {
           "88",
           "84"
         ],
+        "optionLatex": [
+          "90",
+          "92",
+          "88",
+          "84"
+        ],
         "answer": "88",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -56382,6 +66588,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -56416,6 +66628,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -56449,6 +66667,12 @@ export const aptitudeLevels = {
           "18",
           "21"
         ],
+        "optionLatex": [
+          "51",
+          "49",
+          "18",
+          "21"
+        ],
         "answer": "49",
         "solution": {
           "approach": "Inspect first differences.",
@@ -56477,6 +66701,12 @@ export const aptitudeLevels = {
         "q": "In practice set 3, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "22",
+          "58",
+          "29",
+          "31"
+        ],
+        "optionLatex": [
           "22",
           "58",
           "29",
@@ -56516,6 +66746,12 @@ export const aptitudeLevels = {
           "437.6356",
           "470.6356"
         ],
+        "optionLatex": [
+          "468.6356",
+          "466.6356",
+          "437.6356",
+          "470.6356"
+        ],
         "answer": "468.6356",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -56544,6 +66780,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 8x + 11 = 8.",
         "latex": "8x+11=8",
         "options": [
+          "-2.375",
+          "35.625",
+          "-0.375",
+          "3.625"
+        ],
+        "optionLatex": [
           "-2.375",
           "35.625",
           "-0.375",
@@ -56582,6 +66824,12 @@ export const aptitudeLevels = {
           "460",
           "469"
         ],
+        "optionLatex": [
+          "462",
+          "434",
+          "460",
+          "469"
+        ],
         "answer": "462",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -56610,6 +66858,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 62[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "62\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "64",
+          "62",
+          "98",
+          "66"
+        ],
+        "optionLatex": [
           "64",
           "62",
           "98",
@@ -56648,6 +66902,12 @@ export const aptitudeLevels = {
           "4",
           "15"
         ],
+        "optionLatex": [
+          "44",
+          "8",
+          "4",
+          "15"
+        ],
         "answer": "8",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -56676,6 +66936,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 9, find the mean of the data set [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=32",
         "options": [
+          "30",
+          "1",
+          "32",
+          "39"
+        ],
+        "optionLatex": [
           "30",
           "1",
           "32",
@@ -56714,6 +66980,12 @@ export const aptitudeLevels = {
           "233.8",
           "204.8"
         ],
+        "optionLatex": [
+          "173.8",
+          "202.8",
+          "233.8",
+          "204.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -56742,6 +67014,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, a caselet score has base 73 and adjustment 51. What combined score is reported?",
         "latex": "73+51",
         "options": [
+          "124",
+          "122",
+          "117",
+          "160"
+        ],
+        "optionLatex": [
           "124",
           "122",
           "117",
@@ -56780,6 +67058,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -56808,6 +67092,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, in a row of 42 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 39",
         "options": [
+          "34",
+          "45",
+          "40",
+          "38"
+        ],
+        "optionLatex": [
           "34",
           "45",
           "40",
@@ -56847,6 +67137,12 @@ export const aptitudeLevels = {
           "162",
           "135"
         ],
+        "optionLatex": [
+          "133",
+          "131",
+          "162",
+          "135"
+        ],
         "answer": "133",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -56879,6 +67175,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -56913,6 +67215,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -56946,6 +67254,12 @@ export const aptitudeLevels = {
           "44",
           "37"
         ],
+        "optionLatex": [
+          "73",
+          "33",
+          "44",
+          "37"
+        ],
         "answer": "37",
         "solution": {
           "approach": "Inspect first differences.",
@@ -56974,6 +67288,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "6",
+          "-24",
+          "4",
+          "0"
+        ],
+        "optionLatex": [
           "6",
           "-24",
           "4",
@@ -57013,6 +67333,12 @@ export const aptitudeLevels = {
           "8.2963",
           "10.2963"
         ],
+        "optionLatex": [
+          "42.2963",
+          "6.2963",
+          "8.2963",
+          "10.2963"
+        ],
         "answer": "6.2963",
         "solution": {
           "approach": "Add individual rates.",
@@ -57041,6 +67367,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 15 = 19.",
         "latex": "5x+15=19",
         "options": [
+          "-30.2",
+          "0.8",
+          "-1.2",
+          "-3.2"
+        ],
+        "optionLatex": [
           "-30.2",
           "0.8",
           "-1.2",
@@ -57079,6 +67411,12 @@ export const aptitudeLevels = {
           "312",
           "340"
         ],
+        "optionLatex": [
+          "333",
+          "344",
+          "312",
+          "340"
+        ],
         "answer": "340",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -57107,6 +67445,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 77[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "77\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "77",
+          "49",
+          "75",
+          "106"
+        ],
+        "optionLatex": [
           "77",
           "49",
           "75",
@@ -57145,6 +67489,12 @@ export const aptitudeLevels = {
           "2.5333",
           "0.5333"
         ],
+        "optionLatex": [
+          "36.5333",
+          "-3.4667",
+          "2.5333",
+          "0.5333"
+        ],
         "answer": "0.5333",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -57173,6 +67523,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 24, find the mean of the data set [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=37",
         "options": [
+          "41",
+          "6",
+          "33",
+          "37"
+        ],
+        "optionLatex": [
           "41",
           "6",
           "33",
@@ -57211,6 +67567,12 @@ export const aptitudeLevels = {
           "131",
           "164"
         ],
+        "optionLatex": [
+          "162",
+          "191",
+          "131",
+          "164"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -57239,6 +67601,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, a caselet score has base 88 and adjustment 31. What combined score is reported?",
         "latex": "88+31",
         "options": [
+          "123",
+          "91",
+          "112",
+          "119"
+        ],
+        "optionLatex": [
           "123",
           "91",
           "112",
@@ -57277,6 +67645,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -57305,6 +67679,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, in a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "13",
+          "6",
+          "9",
+          "11"
+        ],
+        "optionLatex": [
           "13",
           "6",
           "9",
@@ -57344,6 +67724,12 @@ export const aptitudeLevels = {
           "128",
           "157"
         ],
+        "optionLatex": [
+          "97",
+          "130",
+          "128",
+          "157"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -57376,6 +67762,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -57410,6 +67802,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -57443,6 +67841,12 @@ export const aptitudeLevels = {
           "54",
           "52"
         ],
+        "optionLatex": [
+          "61",
+          "23",
+          "54",
+          "52"
+        ],
         "answer": "54",
         "solution": {
           "approach": "Inspect first differences.",
@@ -57471,6 +67875,12 @@ export const aptitudeLevels = {
         "q": "In practice set 33, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "12",
+          "-12",
+          "17",
+          "19"
+        ],
+        "optionLatex": [
           "12",
           "-12",
           "17",
@@ -57510,6 +67920,12 @@ export const aptitudeLevels = {
           "1.2353",
           "8.2353"
         ],
+        "optionLatex": [
+          "37.2353",
+          "4.2353",
+          "1.2353",
+          "8.2353"
+        ],
         "answer": "8.2353",
         "solution": {
           "approach": "Add individual rates.",
@@ -57538,6 +67954,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, the roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "221",
+          "225",
+          "223",
+          "219"
+        ],
+        "optionLatex": [
           "221",
           "225",
           "223",
@@ -57576,6 +67998,12 @@ export const aptitudeLevels = {
           "304",
           "297"
         ],
+        "optionLatex": [
+          "266",
+          "293",
+          "304",
+          "297"
+        ],
         "answer": "297",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -57604,6 +68032,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, from a point 79 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=79\\tan(60^\\circ)",
         "options": [
+          "136.832",
+          "172.832",
+          "105.832",
+          "129.832"
+        ],
+        "optionLatex": [
           "136.832",
           "172.832",
           "105.832",
@@ -57642,6 +68076,12 @@ export const aptitudeLevels = {
           "36.4118",
           "0.4118"
         ],
+        "optionLatex": [
+          "-30.5882",
+          "4.4118",
+          "36.4118",
+          "0.4118"
+        ],
         "answer": "0.4118",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -57670,6 +68110,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 2, find the median of the data set [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=42",
         "options": [
+          "42",
+          "49",
+          "44",
+          "78"
+        ],
+        "optionLatex": [
           "42",
           "49",
           "44",
@@ -57708,6 +68154,12 @@ export const aptitudeLevels = {
           "384",
           "380"
         ],
+        "optionLatex": [
+          "420",
+          "353",
+          "384",
+          "380"
+        ],
         "answer": "384",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -57736,6 +68188,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, a caselet score has base 43 and adjustment 61. What combined score is reported?",
         "latex": "43+61",
         "options": [
+          "104",
+          "73",
+          "111",
+          "102"
+        ],
+        "optionLatex": [
           "104",
           "73",
           "111",
@@ -57774,6 +68232,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -57802,6 +68266,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, in a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "28",
+          "21",
+          "30",
+          "64"
+        ],
+        "optionLatex": [
           "28",
           "21",
           "30",
@@ -57841,6 +68311,12 @@ export const aptitudeLevels = {
           "115",
           "82"
         ],
+        "optionLatex": [
+          "113",
+          "142",
+          "115",
+          "82"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -57873,6 +68349,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -57907,6 +68389,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -57940,6 +68428,12 @@ export const aptitudeLevels = {
           "38",
           "40"
         ],
+        "optionLatex": [
+          "71",
+          "42",
+          "38",
+          "40"
+        ],
         "answer": "42",
         "solution": {
           "approach": "Inspect first differences.",
@@ -57968,6 +68462,12 @@ export const aptitudeLevels = {
         "q": "In practice set 11, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "41",
+          "63",
+          "36",
+          "34"
+        ],
+        "optionLatex": [
           "41",
           "63",
           "36",
@@ -58007,6 +68507,12 @@ export const aptitudeLevels = {
           "72.5192",
           "41.5192"
         ],
+        "optionLatex": [
+          "47.5192",
+          "43.5192",
+          "72.5192",
+          "41.5192"
+        ],
         "answer": "43.5192",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -58035,6 +68541,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 8x + 10 = 7.",
         "latex": "8x+10=7",
         "options": [
+          "-28.375",
+          "-31.375",
+          "-0.375",
+          "-4.375"
+        ],
+        "optionLatex": [
           "-28.375",
           "-31.375",
           "-0.375",
@@ -58073,6 +68585,12 @@ export const aptitudeLevels = {
           "124",
           "119"
         ],
+        "optionLatex": [
+          "117",
+          "115",
+          "124",
+          "119"
+        ],
         "answer": "117",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -58101,6 +68619,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 10[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "10\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "39",
+          "-21",
+          "10",
+          "46"
+        ],
+        "optionLatex": [
           "39",
           "-21",
           "10",
@@ -58139,6 +68663,12 @@ export const aptitudeLevels = {
           "344362236",
           "344362196"
         ],
+        "optionLatex": [
+          "344362200",
+          "344362229",
+          "344362236",
+          "344362196"
+        ],
         "answer": "344362200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -58167,6 +68697,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 17, find the population variance of [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=162",
         "options": [
+          "166",
+          "169",
+          "162",
+          "155"
+        ],
+        "optionLatex": [
           "166",
           "169",
           "162",
@@ -58205,6 +68741,12 @@ export const aptitudeLevels = {
           "35721",
           "35719"
         ],
+        "optionLatex": [
+          "35757",
+          "35725",
+          "35721",
+          "35719"
+        ],
         "answer": "35721",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -58233,6 +68775,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, a caselet score has base 58 and adjustment 41. What combined score is reported?",
         "latex": "58+41",
         "options": [
+          "99",
+          "135",
+          "106",
+          "68"
+        ],
+        "optionLatex": [
           "99",
           "135",
           "106",
@@ -58271,6 +68819,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -58299,6 +68853,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, in a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "-25",
+          "7",
+          "32",
+          "3"
+        ],
+        "optionLatex": [
           "-25",
           "7",
           "32",
@@ -58338,6 +68898,12 @@ export const aptitudeLevels = {
           "108",
           "80"
         ],
+        "optionLatex": [
+          "101",
+          "77",
+          "108",
+          "80"
+        ],
         "answer": "108",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -58370,6 +68936,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -58404,6 +68976,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -58437,6 +69015,12 @@ export const aptitudeLevels = {
           "32",
           "70"
         ],
+        "optionLatex": [
+          "36",
+          "34",
+          "32",
+          "70"
+        ],
         "answer": "34",
         "solution": {
           "approach": "Inspect first differences.",
@@ -58465,6 +69049,12 @@ export const aptitudeLevels = {
         "q": "In practice set 26, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "7",
+          "9",
+          "2",
+          "38"
+        ],
+        "optionLatex": [
           "7",
           "9",
           "2",
@@ -58504,6 +69094,12 @@ export const aptitudeLevels = {
           "86",
           "54"
         ],
+        "optionLatex": [
+          "82",
+          "111",
+          "86",
+          "54"
+        ],
         "answer": "82",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -58532,6 +69128,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=5x+14 and g(x)=14x+18. Find f(g(9)).",
         "latex": "f(x)=5x+14,\\quad g(x)=14x+18,\\quad f(g(9))",
         "options": [
+          "734",
+          "738",
+          "741",
+          "706"
+        ],
+        "optionLatex": [
           "734",
           "738",
           "741",
@@ -58570,6 +69172,12 @@ export const aptitudeLevels = {
           "132",
           "139"
         ],
+        "optionLatex": [
+          "101",
+          "128",
+          "132",
+          "139"
+        ],
         "answer": "132",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -58598,6 +69206,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 25[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "25\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "21",
+          "25",
+          "61",
+          "-6"
+        ],
+        "optionLatex": [
           "21",
           "25",
           "61",
@@ -58636,6 +69250,12 @@ export const aptitudeLevels = {
           "814392",
           "814385"
         ],
+        "optionLatex": [
+          "814357",
+          "814354",
+          "814392",
+          "814385"
+        ],
         "answer": "814385",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -58664,6 +69284,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 32, find the population variance of [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=152",
         "options": [
+          "181",
+          "152",
+          "121",
+          "145"
+        ],
+        "optionLatex": [
           "181",
           "152",
           "121",
@@ -58702,6 +69328,12 @@ export const aptitudeLevels = {
           "648",
           "644"
         ],
+        "optionLatex": [
+          "646",
+          "684",
+          "648",
+          "644"
+        ],
         "answer": "648",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -58730,6 +69362,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, a caselet score has base 73 and adjustment 71. What combined score is reported?",
         "latex": "73+71",
         "options": [
+          "144",
+          "146",
+          "148",
+          "113"
+        ],
+        "optionLatex": [
           "144",
           "146",
           "148",
@@ -58768,6 +69406,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -58796,6 +69440,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, in a row of 22 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 19",
         "options": [
+          "-10",
+          "18",
+          "22",
+          "54"
+        ],
+        "optionLatex": [
           "-10",
           "18",
           "22",
@@ -58835,6 +69485,12 @@ export const aptitudeLevels = {
           "107",
           "103"
         ],
+        "optionLatex": [
+          "110",
+          "101",
+          "107",
+          "103"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -58867,6 +69523,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -58901,6 +69563,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -58934,6 +69602,12 @@ export const aptitudeLevels = {
           "87",
           "58"
         ],
+        "optionLatex": [
+          "20",
+          "51",
+          "87",
+          "58"
+        ],
         "answer": "51",
         "solution": {
           "approach": "Inspect first differences.",
@@ -58962,6 +69636,12 @@ export const aptitudeLevels = {
         "q": "In practice set 4, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "-4",
+          "-7",
+          "24",
+          "31"
+        ],
+        "optionLatex": [
           "-4",
           "-7",
           "24",
@@ -59001,6 +69681,12 @@ export const aptitudeLevels = {
           "8631",
           "8660"
         ],
+        "optionLatex": [
+          "8624",
+          "8653",
+          "8631",
+          "8660"
+        ],
         "answer": "8624",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -59029,6 +69715,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 2 < x <= 6?",
         "latex": "2<x\\le 6",
         "options": [
+          "33",
+          "4",
+          "-27",
+          "6"
+        ],
+        "optionLatex": [
           "33",
           "4",
           "-27",
@@ -59067,6 +69759,12 @@ export const aptitudeLevels = {
           "74",
           "41"
         ],
+        "optionLatex": [
+          "72",
+          "65",
+          "74",
+          "41"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -59095,6 +69793,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 40[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "40\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "12",
+          "36",
+          "40",
+          "69"
+        ],
+        "optionLatex": [
           "12",
           "36",
           "40",
@@ -59133,6 +69837,12 @@ export const aptitudeLevels = {
           "-3.7143",
           "-6.7143"
         ],
+        "optionLatex": [
+          "2.2857",
+          "0.2857",
+          "-3.7143",
+          "-6.7143"
+        ],
         "answer": "0.2857",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -59161,6 +69871,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 10, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "171",
+          "238",
+          "198",
+          "202"
+        ],
+        "optionLatex": [
           "171",
           "238",
           "198",
@@ -59199,6 +69915,12 @@ export const aptitudeLevels = {
           "8199",
           "8192"
         ],
+        "optionLatex": [
+          "8188",
+          "8194",
+          "8199",
+          "8192"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -59227,6 +69949,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, a caselet score has base 88 and adjustment 51. What combined score is reported?",
         "latex": "88+51",
         "options": [
+          "132",
+          "143",
+          "137",
+          "139"
+        ],
+        "optionLatex": [
           "132",
           "143",
           "137",
@@ -59265,6 +69993,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -59293,6 +70027,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, in a row of 37 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 34",
         "options": [
+          "37",
+          "33",
+          "62",
+          "2"
+        ],
+        "optionLatex": [
           "37",
           "33",
           "62",
@@ -59332,6 +70072,12 @@ export const aptitudeLevels = {
           "148",
           "141"
         ],
+        "optionLatex": [
+          "144",
+          "146",
+          "148",
+          "141"
+        ],
         "answer": "148",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -59364,6 +70110,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -59398,6 +70150,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -59431,6 +70189,12 @@ export const aptitudeLevels = {
           "37",
           "43"
         ],
+        "optionLatex": [
+          "39",
+          "35",
+          "37",
+          "43"
+        ],
         "answer": "39",
         "solution": {
           "approach": "Inspect first differences.",
@@ -59459,6 +70223,12 @@ export const aptitudeLevels = {
         "q": "In practice set 19, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "39",
+          "68",
+          "41",
+          "46"
+        ],
+        "optionLatex": [
           "39",
           "68",
           "41",
@@ -59498,6 +70268,12 @@ export const aptitudeLevels = {
           "5657",
           "5661"
         ],
+        "optionLatex": [
+          "5664",
+          "5655",
+          "5657",
+          "5661"
+        ],
         "answer": "5657",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -59526,6 +70302,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 10 and common difference 9.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(10)+(29-1)9\\right)",
         "options": [
+          "3937",
+          "3944",
+          "3980",
+          "3946"
+        ],
+        "optionLatex": [
           "3937",
           "3944",
           "3980",
@@ -59564,6 +70346,12 @@ export const aptitudeLevels = {
           "0.5",
           "28.5"
         ],
+        "optionLatex": [
+          "21.5",
+          "26.5",
+          "0.5",
+          "28.5"
+        ],
         "answer": "28.5",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -59592,6 +70380,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, from a point 69 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=69\\tan(60^\\circ)",
         "options": [
+          "155.5115",
+          "119.5115",
+          "115.5115",
+          "148.5115"
+        ],
+        "optionLatex": [
           "155.5115",
           "119.5115",
           "115.5115",
@@ -59630,6 +70424,12 @@ export const aptitudeLevels = {
           "-1.5714",
           "-6.5714"
         ],
+        "optionLatex": [
+          "0.4286",
+          "7.4286",
+          "-1.5714",
+          "-6.5714"
+        ],
         "answer": "0.4286",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -59658,6 +70458,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 25, find the mean of the data set [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=22",
         "options": [
+          "51",
+          "-6",
+          "18",
+          "22"
+        ],
+        "optionLatex": [
           "51",
           "-6",
           "18",
@@ -59696,6 +70502,12 @@ export const aptitudeLevels = {
           "208.8",
           "206.8"
         ],
+        "optionLatex": [
+          "204.8",
+          "200.8",
+          "208.8",
+          "206.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -59724,6 +70536,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, a caselet score has base 43 and adjustment 31. What combined score is reported?",
         "latex": "43+31",
         "options": [
+          "76",
+          "81",
+          "74",
+          "67"
+        ],
+        "optionLatex": [
           "76",
           "81",
           "74",
@@ -59762,6 +70580,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -59790,6 +70614,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, in a row of 12 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 9",
         "options": [
+          "4",
+          "-20",
+          "8",
+          "10"
+        ],
+        "optionLatex": [
           "4",
           "-20",
           "8",
@@ -59829,6 +70659,12 @@ export const aptitudeLevels = {
           "81",
           "79"
         ],
+        "optionLatex": [
+          "83",
+          "87",
+          "81",
+          "79"
+        ],
         "answer": "83",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -59861,6 +70697,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -59895,6 +70737,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -59928,6 +70776,12 @@ export const aptitudeLevels = {
           "38",
           "42"
         ],
+        "optionLatex": [
+          "10",
+          "7",
+          "38",
+          "42"
+        ],
         "answer": "38",
         "solution": {
           "approach": "Inspect first differences.",
@@ -59956,6 +70810,12 @@ export const aptitudeLevels = {
         "q": "In practice set 34, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "-17",
+          "-14",
+          "18",
+          "14"
+        ],
+        "optionLatex": [
           "-17",
           "-14",
           "18",
@@ -59995,6 +70855,12 @@ export const aptitudeLevels = {
           "53",
           "24"
         ],
+        "optionLatex": [
+          "17",
+          "-7",
+          "53",
+          "24"
+        ],
         "answer": "24",
         "solution": {
           "approach": "Work backward from A's future age.",
@@ -60023,6 +70889,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, if log base 13 of (x + 54) equals log base 13 of 108, find x.",
         "latex": "\\log_{13}(x+54)=\\log_{13}(108)",
         "options": [
+          "47",
+          "50",
+          "54",
+          "83"
+        ],
+        "optionLatex": [
           "47",
           "50",
           "54",
@@ -60061,6 +70933,12 @@ export const aptitudeLevels = {
           "288",
           "252"
         ],
+        "optionLatex": [
+          "256",
+          "224",
+          "288",
+          "252"
+        ],
         "answer": "252",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -60089,6 +70967,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 70[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "70\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "70",
+          "68",
+          "39",
+          "66"
+        ],
+        "optionLatex": [
           "70",
           "68",
           "39",
@@ -60127,6 +71011,12 @@ export const aptitudeLevels = {
           "296541907198",
           "296541907202"
         ],
+        "optionLatex": [
+          "296541907204",
+          "296541907200",
+          "296541907198",
+          "296541907202"
+        ],
         "answer": "296541907200",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -60155,6 +71045,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 3, find the mean of the data set [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=37",
         "options": [
+          "9",
+          "44",
+          "39",
+          "37"
+        ],
+        "optionLatex": [
           "9",
           "44",
           "39",
@@ -60193,6 +71089,12 @@ export const aptitudeLevels = {
           "86",
           "121"
         ],
+        "optionLatex": [
+          "143",
+          "114",
+          "86",
+          "121"
+        ],
         "answer": "114",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -60221,6 +71123,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, a caselet score has base 58 and adjustment 61. What combined score is reported?",
         "latex": "58+61",
         "options": [
+          "119",
+          "123",
+          "121",
+          "88"
+        ],
+        "optionLatex": [
           "119",
           "123",
           "121",
@@ -60259,6 +71167,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -60287,6 +71201,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, in a row of 27 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 24",
         "options": [
+          "59",
+          "-5",
+          "21",
+          "23"
+        ],
+        "optionLatex": [
           "59",
           "-5",
           "21",
@@ -60326,6 +71246,12 @@ export const aptitudeLevels = {
           "128",
           "126"
         ],
+        "optionLatex": [
+          "157",
+          "100",
+          "128",
+          "126"
+        ],
         "answer": "128",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -60358,6 +71284,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -60392,6 +71324,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -60425,6 +71363,12 @@ export const aptitudeLevels = {
           "53",
           "48"
         ],
+        "optionLatex": [
+          "59",
+          "55",
+          "53",
+          "48"
+        ],
         "answer": "55",
         "solution": {
           "approach": "Inspect first differences.",
@@ -60453,6 +71397,12 @@ export const aptitudeLevels = {
         "q": "In practice set 12, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "27",
+          "36",
+          "33",
+          "29"
+        ],
+        "optionLatex": [
           "27",
           "36",
           "33",
@@ -60492,6 +71442,12 @@ export const aptitudeLevels = {
           "6291",
           "6265"
         ],
+        "optionLatex": [
+          "6295",
+          "6293",
+          "6291",
+          "6265"
+        ],
         "answer": "6293",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -60520,6 +71476,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 4 = 11.",
         "latex": "2x+4=11",
         "options": [
+          "5.5",
+          "3.5",
+          "-27.5",
+          "7.5"
+        ],
+        "optionLatex": [
           "5.5",
           "3.5",
           "-27.5",
@@ -60558,6 +71520,12 @@ export const aptitudeLevels = {
           "487",
           "511"
         ],
+        "optionLatex": [
+          "518",
+          "554",
+          "487",
+          "511"
+        ],
         "answer": "518",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -60586,6 +71554,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 85[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "85\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "114",
+          "78",
+          "85",
+          "92"
+        ],
+        "optionLatex": [
           "114",
           "78",
           "85",
@@ -60624,6 +71598,12 @@ export const aptitudeLevels = {
           "48903492",
           "48903490"
         ],
+        "optionLatex": [
+          "48903464",
+          "48903521",
+          "48903492",
+          "48903490"
+        ],
         "answer": "48903492",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -60652,6 +71632,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 18, find the median of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=30",
         "options": [
+          "34",
+          "28",
+          "30",
+          "37"
+        ],
+        "optionLatex": [
           "34",
           "28",
           "30",
@@ -60690,6 +71676,12 @@ export const aptitudeLevels = {
           "136",
           "132"
         ],
+        "optionLatex": [
+          "138",
+          "140",
+          "136",
+          "132"
+        ],
         "answer": "136",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -60718,6 +71710,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, a caselet score has base 73 and adjustment 41. What combined score is reported?",
         "latex": "73+41",
         "options": [
+          "114",
+          "112",
+          "110",
+          "118"
+        ],
+        "optionLatex": [
           "114",
           "112",
           "110",
@@ -60756,6 +71754,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -60784,6 +71788,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, in a row of 42 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 39",
         "options": [
+          "67",
+          "40",
+          "38",
+          "36"
+        ],
+        "optionLatex": [
           "67",
           "40",
           "38",
@@ -60823,6 +71833,12 @@ export const aptitudeLevels = {
           "92",
           "95"
         ],
+        "optionLatex": [
+          "130",
+          "123",
+          "92",
+          "95"
+        ],
         "answer": "123",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -60855,6 +71871,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -60889,6 +71911,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -60922,6 +71950,12 @@ export const aptitudeLevels = {
           "12",
           "15"
         ],
+        "optionLatex": [
+          "36",
+          "43",
+          "12",
+          "15"
+        ],
         "answer": "43",
         "solution": {
           "approach": "Inspect first differences.",
@@ -60950,6 +71984,12 @@ export const aptitudeLevels = {
         "q": "In practice set 27, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "4",
+          "0",
+          "8",
+          "40"
+        ],
+        "optionLatex": [
           "4",
           "0",
           "8",
@@ -60989,6 +72029,12 @@ export const aptitudeLevels = {
           "68854",
           "68856"
         ],
+        "optionLatex": [
+          "68858",
+          "68851",
+          "68854",
+          "68856"
+        ],
         "answer": "68858",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -61017,6 +72063,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 8x + 8 = 5.",
         "latex": "8x+8=5",
         "options": [
+          "-0.375",
+          "-2.375",
+          "6.625",
+          "-7.375"
+        ],
+        "optionLatex": [
           "-0.375",
           "-2.375",
           "6.625",
@@ -61055,6 +72107,12 @@ export const aptitudeLevels = {
           "164",
           "162"
         ],
+        "optionLatex": [
+          "166",
+          "131",
+          "164",
+          "162"
+        ],
         "answer": "162",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -61083,6 +72141,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 3[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "3\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "-1",
+          "1",
+          "-25",
+          "3"
+        ],
+        "optionLatex": [
           "-1",
           "1",
           "-25",
@@ -61121,6 +72185,12 @@ export const aptitudeLevels = {
           "2.6667",
           "29.6667"
         ],
+        "optionLatex": [
+          "0.6667",
+          "-3.3333",
+          "2.6667",
+          "29.6667"
+        ],
         "answer": "0.6667",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -61149,6 +72219,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 33, find the population variance of [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=2",
         "options": [
+          "-29",
+          "6",
+          "-26",
+          "2"
+        ],
+        "optionLatex": [
           "-29",
           "6",
           "-26",
@@ -61187,6 +72263,12 @@ export const aptitudeLevels = {
           "45931",
           "45934"
         ],
+        "optionLatex": [
+          "45963",
+          "45927",
+          "45931",
+          "45934"
+        ],
         "answer": "45927",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -61215,6 +72297,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, a caselet score has base 88 and adjustment 71. What combined score is reported?",
         "latex": "88+71",
         "options": [
+          "131",
+          "159",
+          "163",
+          "166"
+        ],
+        "optionLatex": [
           "131",
           "159",
           "163",
@@ -61253,6 +72341,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -61281,6 +72375,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, in a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "20",
+          "15",
+          "9",
+          "13"
+        ],
+        "optionLatex": [
           "20",
           "15",
           "9",
@@ -61320,6 +72420,12 @@ export const aptitudeLevels = {
           "147",
           "90"
         ],
+        "optionLatex": [
+          "116",
+          "118",
+          "147",
+          "90"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -61352,6 +72458,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -61386,6 +72498,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -61419,6 +72537,12 @@ export const aptitudeLevels = {
           "40",
           "42"
         ],
+        "optionLatex": [
+          "71",
+          "35",
+          "40",
+          "42"
+        ],
         "answer": "42",
         "solution": {
           "approach": "Inspect first differences.",
@@ -61447,6 +72571,12 @@ export const aptitudeLevels = {
         "q": "In practice set 5, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "21",
+          "12",
+          "19",
+          "17"
+        ],
+        "optionLatex": [
           "21",
           "12",
           "19",
@@ -61486,6 +72616,12 @@ export const aptitudeLevels = {
           "23191.68",
           "23215.68"
         ],
+        "optionLatex": [
+          "23218.68",
+          "23222.68",
+          "23191.68",
+          "23215.68"
+        ],
         "answer": "23222.68",
         "solution": {
           "approach": "Track percentage changes multiplicatively.",
@@ -61514,6 +72650,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, the roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "221",
+          "225",
+          "193",
+          "223"
+        ],
+        "optionLatex": [
           "221",
           "225",
           "193",
@@ -61552,6 +72694,12 @@ export const aptitudeLevels = {
           "214.5",
           "210.5"
         ],
+        "optionLatex": [
+          "183.5",
+          "186.5",
+          "214.5",
+          "210.5"
+        ],
         "answer": "214.5",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -61580,6 +72728,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, from a point 59 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=59\\tan(60^\\circ)",
         "options": [
+          "98.191",
+          "102.191",
+          "138.191",
+          "106.191"
+        ],
+        "optionLatex": [
           "98.191",
           "102.191",
           "138.191",
@@ -61618,6 +72772,12 @@ export const aptitudeLevels = {
           "-1.5",
           "29.5"
         ],
+        "optionLatex": [
+          "-27.5",
+          "0.5",
+          "-1.5",
+          "29.5"
+        ],
         "answer": "0.5",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -61646,6 +72806,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 11, find the population variance of [24, 38, 52, 16, 30].",
         "latex": "\\text{data}=[24, 38, 52, 16, 30],\\quad \\text{answer}=152",
         "options": [
+          "124",
+          "188",
+          "154",
+          "152"
+        ],
+        "optionLatex": [
           "124",
           "188",
           "154",
@@ -61684,6 +72850,12 @@ export const aptitudeLevels = {
           "864",
           "860"
         ],
+        "optionLatex": [
+          "857",
+          "833",
+          "864",
+          "860"
+        ],
         "answer": "864",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -61712,6 +72884,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, a caselet score has base 43 and adjustment 51. What combined score is reported?",
         "latex": "43+51",
         "options": [
+          "101",
+          "94",
+          "98",
+          "96"
+        ],
+        "optionLatex": [
           "101",
           "94",
           "98",
@@ -61750,6 +72928,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -61778,6 +72962,12 @@ export const aptitudeLevels = {
         "q": "In practice set 15, in a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "28",
+          "32",
+          "57",
+          "30"
+        ],
+        "optionLatex": [
           "28",
           "32",
           "57",
@@ -61817,6 +73007,12 @@ export const aptitudeLevels = {
           "110",
           "99"
         ],
+        "optionLatex": [
+          "75",
+          "103",
+          "110",
+          "99"
+        ],
         "answer": "103",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -61849,6 +73045,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -61883,6 +73085,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -61916,6 +73124,12 @@ export const aptitudeLevels = {
           "59",
           "21"
         ],
+        "optionLatex": [
+          "52",
+          "56",
+          "59",
+          "21"
+        ],
         "answer": "52",
         "solution": {
           "approach": "Inspect first differences.",
@@ -61944,6 +73158,12 @@ export const aptitudeLevels = {
         "q": "In practice set 20, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "41",
+          "63",
+          "34",
+          "38"
+        ],
+        "optionLatex": [
           "41",
           "63",
           "34",
@@ -61983,6 +73203,12 @@ export const aptitudeLevels = {
           "189",
           "210"
         ],
+        "optionLatex": [
+          "224",
+          "217",
+          "189",
+          "210"
+        ],
         "answer": "217",
         "solution": {
           "approach": "Use unitary ratio division.",
@@ -62011,6 +73237,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 3 = 10.",
         "latex": "2x+3=10",
         "options": [
+          "5.5",
+          "3.5",
+          "32.5",
+          "10.5"
+        ],
+        "optionLatex": [
           "5.5",
           "3.5",
           "32.5",
@@ -62049,6 +73281,12 @@ export const aptitudeLevels = {
           "72",
           "65"
         ],
+        "optionLatex": [
+          "44",
+          "108",
+          "72",
+          "65"
+        ],
         "answer": "72",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -62077,6 +73315,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 33[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "33\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "29",
+          "33",
+          "5",
+          "35"
+        ],
+        "optionLatex": [
           "29",
           "33",
           "5",
@@ -62115,6 +73359,12 @@ export const aptitudeLevels = {
           "3484127520",
           "3484127492"
         ],
+        "optionLatex": [
+          "3484127522",
+          "3484127513",
+          "3484127520",
+          "3484127492"
+        ],
         "answer": "3484127520",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -62143,6 +73393,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 26, find the population variance of [39, 18, 47, 26, 55].",
         "latex": "\\text{data}=[39, 18, 47, 26, 55],\\quad \\text{answer}=182",
         "options": [
+          "186",
+          "218",
+          "211",
+          "182"
+        ],
+        "optionLatex": [
           "186",
           "218",
           "211",
@@ -62181,6 +73437,12 @@ export const aptitudeLevels = {
           "8199",
           "8192"
         ],
+        "optionLatex": [
+          "8194",
+          "8164",
+          "8199",
+          "8192"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -62209,6 +73471,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, a caselet score has base 58 and adjustment 31. What combined score is reported?",
         "latex": "58+31",
         "options": [
+          "85",
+          "82",
+          "61",
+          "89"
+        ],
+        "optionLatex": [
           "85",
           "82",
           "61",
@@ -62247,6 +73515,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -62275,6 +73549,12 @@ export const aptitudeLevels = {
         "q": "In practice set 30, in a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "3",
+          "-4",
+          "7",
+          "-28"
+        ],
+        "optionLatex": [
           "3",
           "-4",
           "7",
@@ -62314,6 +73594,12 @@ export const aptitudeLevels = {
           "96",
           "67"
         ],
+        "optionLatex": [
+          "94",
+          "98",
+          "96",
+          "67"
+        ],
         "answer": "98",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -62346,6 +73632,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -62380,6 +73672,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -62413,6 +73711,12 @@ export const aptitudeLevels = {
           "42",
           "36"
         ],
+        "optionLatex": [
+          "33",
+          "40",
+          "42",
+          "36"
+        ],
         "answer": "40",
         "solution": {
           "approach": "Inspect first differences.",
@@ -62441,6 +73745,12 @@ export const aptitudeLevels = {
         "q": "In practice set 35, in a row of 12 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 10",
         "options": [
+          "13",
+          "16",
+          "11",
+          "9"
+        ],
+        "optionLatex": [
           "13",
           "16",
           "11",
@@ -62480,6 +73790,12 @@ export const aptitudeLevels = {
           "35767.2135",
           "35765.2135"
         ],
+        "optionLatex": [
+          "35761.2135",
+          "35794.2135",
+          "35767.2135",
+          "35765.2135"
+        ],
         "answer": "35765.2135",
         "solution": {
           "approach": "Connect cost price, selling price, and marked price.",
@@ -62508,6 +73824,12 @@ export const aptitudeLevels = {
         "q": "Let f(x)=8x+7 and g(x)=7x+4. Find f(g(9)).",
         "latex": "f(x)=8x+7,\\quad g(x)=7x+4,\\quad f(g(9))",
         "options": [
+          "579",
+          "550",
+          "543",
+          "539"
+        ],
+        "optionLatex": [
           "579",
           "550",
           "543",
@@ -62546,6 +73868,12 @@ export const aptitudeLevels = {
           "249",
           "271"
         ],
+        "optionLatex": [
+          "211",
+          "242",
+          "249",
+          "271"
+        ],
         "answer": "242",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -62574,6 +73902,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 48[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "48\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "84",
+          "44",
+          "48",
+          "50"
+        ],
+        "optionLatex": [
           "84",
           "44",
           "48",
@@ -62612,6 +73946,12 @@ export const aptitudeLevels = {
           "68",
           "106"
         ],
+        "optionLatex": [
+          "42",
+          "70",
+          "68",
+          "106"
+        ],
         "answer": "70",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -62640,6 +73980,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 4, find the mean of the data set [54, 48, 42, 36, 30].",
         "latex": "\\text{data}=[54, 48, 42, 36, 30],\\quad \\text{answer}=42",
         "options": [
+          "35",
+          "46",
+          "42",
+          "40"
+        ],
+        "optionLatex": [
           "35",
           "46",
           "42",
@@ -62678,6 +74024,12 @@ export const aptitudeLevels = {
           "204.8",
           "240.8"
         ],
+        "optionLatex": [
+          "173.8",
+          "233.8",
+          "204.8",
+          "240.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -62706,6 +74058,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, a caselet score has base 73 and adjustment 61. What combined score is reported?",
         "latex": "73+61",
         "options": [
+          "163",
+          "138",
+          "127",
+          "134"
+        ],
+        "optionLatex": [
           "163",
           "138",
           "127",
@@ -62744,6 +74102,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -62772,6 +74136,12 @@ export const aptitudeLevels = {
         "q": "In practice set 8, in a row of 22 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 19",
         "options": [
+          "20",
+          "14",
+          "18",
+          "22"
+        ],
+        "optionLatex": [
           "20",
           "14",
           "18",
@@ -62811,6 +74181,12 @@ export const aptitudeLevels = {
           "143",
           "172"
         ],
+        "optionLatex": [
+          "150",
+          "136",
+          "143",
+          "172"
+        ],
         "answer": "143",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -62843,6 +74219,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -62877,6 +74259,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -62910,6 +74298,12 @@ export const aptitudeLevels = {
           "37",
           "8"
         ],
+        "optionLatex": [
+          "43",
+          "39",
+          "37",
+          "8"
+        ],
         "answer": "39",
         "solution": {
           "approach": "Inspect first differences.",
@@ -62938,6 +74332,12 @@ export const aptitudeLevels = {
         "q": "In practice set 13, in a row of 27 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 25",
         "options": [
+          "22",
+          "24",
+          "-7",
+          "28"
+        ],
+        "optionLatex": [
           "22",
           "24",
           "-7",
@@ -62977,6 +74377,12 @@ export const aptitudeLevels = {
           "250",
           "256"
         ],
+        "optionLatex": [
+          "221",
+          "252",
+          "250",
+          "256"
+        ],
         "answer": "252",
         "solution": {
           "approach": "Apply the simple interest formula.",
@@ -63005,6 +74411,12 @@ export const aptitudeLevels = {
         "q": "How many integers x satisfy 5 < x <= 12?",
         "latex": "5<x\\le 12",
         "options": [
+          "-21",
+          "7",
+          "-24",
+          "5"
+        ],
+        "optionLatex": [
           "-21",
           "7",
           "-24",
@@ -63043,6 +74455,12 @@ export const aptitudeLevels = {
           "23",
           "25"
         ],
+        "optionLatex": [
+          "19",
+          "52",
+          "23",
+          "25"
+        ],
         "answer": "23",
         "solution": {
           "approach": "Use midpoint formula.",
@@ -63071,6 +74489,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 63[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "63\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "70",
+          "63",
+          "61",
+          "56"
+        ],
+        "optionLatex": [
           "70",
           "63",
           "61",
@@ -63109,6 +74533,12 @@ export const aptitudeLevels = {
           "2.3636",
           "-1.6364"
         ],
+        "optionLatex": [
+          "-30.6364",
+          "0.3636",
+          "2.3636",
+          "-1.6364"
+        ],
         "answer": "0.3636",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -63137,6 +74567,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 19, find the mean of the data set [19, 28, 37, 46, 55].",
         "latex": "\\text{data}=[19, 28, 37, 46, 55],\\quad \\text{answer}=37",
         "options": [
+          "73",
+          "6",
+          "30",
+          "37"
+        ],
+        "optionLatex": [
           "73",
           "6",
           "30",
@@ -63175,6 +74611,12 @@ export const aptitudeLevels = {
           "290",
           "326"
         ],
+        "optionLatex": [
+          "283",
+          "259",
+          "290",
+          "326"
+        ],
         "answer": "290",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -63203,6 +74645,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, a caselet score has base 88 and adjustment 41. What combined score is reported?",
         "latex": "88+41",
         "options": [
+          "101",
+          "129",
+          "136",
+          "165"
+        ],
+        "optionLatex": [
           "101",
           "129",
           "136",
@@ -63241,6 +74689,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -63269,6 +74723,12 @@ export const aptitudeLevels = {
         "q": "In practice set 23, in a row of 37 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 34",
         "options": [
+          "2",
+          "33",
+          "69",
+          "37"
+        ],
+        "optionLatex": [
           "2",
           "33",
           "69",
@@ -63308,6 +74768,12 @@ export const aptitudeLevels = {
           "138",
           "174"
         ],
+        "optionLatex": [
+          "136",
+          "140",
+          "138",
+          "174"
+        ],
         "answer": "138",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -63340,6 +74806,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -63374,6 +74846,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -63407,6 +74885,12 @@ export const aptitudeLevels = {
           "45",
           "17"
         ],
+        "optionLatex": [
+          "43",
+          "52",
+          "45",
+          "17"
+        ],
         "answer": "45",
         "solution": {
           "approach": "Inspect first differences.",
@@ -63435,6 +74919,12 @@ export const aptitudeLevels = {
         "q": "In practice set 28, in a row of 42 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 40",
         "options": [
+          "39",
+          "41",
+          "75",
+          "8"
+        ],
+        "optionLatex": [
           "39",
           "41",
           "75",
@@ -63474,6 +74964,12 @@ export const aptitudeLevels = {
           "380",
           "374"
         ],
+        "optionLatex": [
+          "347",
+          "378",
+          "380",
+          "374"
+        ],
         "answer": "378",
         "solution": {
           "approach": "Use compound amount and subtract principal.",
@@ -63502,6 +74998,12 @@ export const aptitudeLevels = {
         "q": "Find the sum of the first 29 terms of the AP with first term 4 and common difference 15.",
         "latex": "S_{29}=\\frac{29}{2}\\left(2(4)+(29-1)15\\right)",
         "options": [
+          "6208",
+          "6213",
+          "6206",
+          "6235"
+        ],
+        "optionLatex": [
           "6208",
           "6213",
           "6206",
@@ -63540,6 +75042,12 @@ export const aptitudeLevels = {
           "434",
           "491"
         ],
+        "optionLatex": [
+          "462",
+          "431",
+          "434",
+          "491"
+        ],
         "answer": "462",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -63568,6 +75076,12 @@ export const aptitudeLevels = {
         "q": "In practice set 32, from a point 49 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=49\\tan(60^\\circ)",
         "options": [
+          "53.8705",
+          "84.8705",
+          "91.8705",
+          "82.8705"
+        ],
+        "optionLatex": [
           "53.8705",
           "84.8705",
           "91.8705",
@@ -63606,6 +75120,12 @@ export const aptitudeLevels = {
           "7.2308",
           "29.2308"
         ],
+        "optionLatex": [
+          "0.2308",
+          "-6.7692",
+          "7.2308",
+          "29.2308"
+        ],
         "answer": "0.2308",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -63634,6 +75154,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 34, find the median of the data set [34, 58, 32, 56, 30].",
         "latex": "\\text{data}=[34, 58, 32, 56, 30],\\quad \\text{answer}=34",
         "options": [
+          "30",
+          "36",
+          "63",
+          "34"
+        ],
+        "optionLatex": [
           "30",
           "36",
           "63",
@@ -63672,6 +75198,12 @@ export const aptitudeLevels = {
           "32",
           "30"
         ],
+        "optionLatex": [
+          "34",
+          "25",
+          "32",
+          "30"
+        ],
         "answer": "32",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -63700,6 +75232,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, a caselet score has base 43 and adjustment 71. What combined score is reported?",
         "latex": "43+71",
         "options": [
+          "116",
+          "150",
+          "86",
+          "114"
+        ],
+        "optionLatex": [
           "116",
           "150",
           "86",
@@ -63738,6 +75276,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -63766,6 +75310,12 @@ export const aptitudeLevels = {
         "q": "In practice set 1, in a row of 12 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 9",
         "options": [
+          "-23",
+          "8",
+          "44",
+          "37"
+        ],
+        "optionLatex": [
           "-23",
           "8",
           "44",
@@ -63805,6 +75355,12 @@ export const aptitudeLevels = {
           "42",
           "109"
         ],
+        "optionLatex": [
+          "102",
+          "73",
+          "42",
+          "109"
+        ],
         "answer": "73",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -63837,6 +75393,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -63871,6 +75433,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -63904,6 +75472,12 @@ export const aptitudeLevels = {
           "13",
           "42"
         ],
+        "optionLatex": [
+          "44",
+          "80",
+          "13",
+          "42"
+        ],
         "answer": "44",
         "solution": {
           "approach": "Inspect first differences.",
@@ -63932,6 +75506,12 @@ export const aptitudeLevels = {
         "q": "In practice set 6, in a row of 17 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 15",
         "options": [
+          "14",
+          "7",
+          "10",
+          "50"
+        ],
+        "optionLatex": [
           "14",
           "7",
           "10",
@@ -63971,6 +75551,12 @@ export const aptitudeLevels = {
           "34.2381",
           "7.2381"
         ],
+        "optionLatex": [
+          "41.2381",
+          "5.2381",
+          "34.2381",
+          "7.2381"
+        ],
         "answer": "5.2381",
         "solution": {
           "approach": "Add individual rates.",
@@ -63999,6 +75585,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, if log base 14 of (x + 14) equals log base 14 of 28, find x.",
         "latex": "\\log_{14}(x+14)=\\log_{14}(28)",
         "options": [
+          "10",
+          "43",
+          "7",
+          "14"
+        ],
+        "optionLatex": [
           "10",
           "43",
           "7",
@@ -64037,6 +75629,12 @@ export const aptitudeLevels = {
           "280",
           "252"
         ],
+        "optionLatex": [
+          "287",
+          "282",
+          "280",
+          "252"
+        ],
         "answer": "280",
         "solution": {
           "approach": "Use cuboid surface area formula.",
@@ -64065,6 +75663,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 93[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "93\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "91",
+          "93",
+          "89",
+          "65"
+        ],
+        "optionLatex": [
           "91",
           "93",
           "89",
@@ -64103,6 +75707,12 @@ export const aptitudeLevels = {
           "1608143925023996",
           "1608143925023993"
         ],
+        "optionLatex": [
+          "1608143925024002",
+          "1608143925024000",
+          "1608143925023996",
+          "1608143925023993"
+        ],
         "answer": "1608143925024000",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -64131,6 +75741,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 12, find the population variance of [49, 38, 27, 16, 55].",
         "latex": "\\text{data}=[49, 38, 27, 16, 55],\\quad \\text{answer}=202",
         "options": [
+          "202",
+          "198",
+          "195",
+          "238"
+        ],
+        "optionLatex": [
           "202",
           "198",
           "195",
@@ -64169,6 +75785,12 @@ export const aptitudeLevels = {
           "15311",
           "15281"
         ],
+        "optionLatex": [
+          "15309",
+          "15338",
+          "15311",
+          "15281"
+        ],
         "answer": "15309",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -64197,6 +75819,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, a caselet score has base 58 and adjustment 51. What combined score is reported?",
         "latex": "58+51",
         "options": [
+          "78",
+          "116",
+          "109",
+          "105"
+        ],
+        "optionLatex": [
           "78",
           "116",
           "109",
@@ -64235,6 +75863,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -64263,6 +75897,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, in a row of 27 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 24",
         "options": [
+          "59",
+          "30",
+          "25",
+          "23"
+        ],
+        "optionLatex": [
           "59",
           "30",
           "25",
@@ -64302,6 +75942,12 @@ export const aptitudeLevels = {
           "111",
           "118"
         ],
+        "optionLatex": [
+          "116",
+          "90",
+          "111",
+          "118"
+        ],
         "answer": "118",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -64334,6 +75980,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -64368,6 +76020,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -64401,6 +76059,12 @@ export const aptitudeLevels = {
           "45",
           "79"
         ],
+        "optionLatex": [
+          "43",
+          "36",
+          "45",
+          "79"
+        ],
         "answer": "43",
         "solution": {
           "approach": "Inspect first differences.",
@@ -64429,6 +76093,12 @@ export const aptitudeLevels = {
         "q": "In practice set 21, in a row of 32 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 30",
         "options": [
+          "27",
+          "29",
+          "65",
+          "58"
+        ],
+        "optionLatex": [
           "27",
           "29",
           "65",
@@ -64468,6 +76138,12 @@ export const aptitudeLevels = {
           "34.7143",
           "5.7143"
         ],
+        "optionLatex": [
+          "-22.2857",
+          "9.7143",
+          "34.7143",
+          "5.7143"
+        ],
         "answer": "5.7143",
         "solution": {
           "approach": "Add individual rates.",
@@ -64496,6 +76172,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 10 = 14.",
         "latex": "5x+10=14",
         "options": [
+          "-6.2",
+          "2.8",
+          "0.8",
+          "36.8"
+        ],
+        "optionLatex": [
           "-6.2",
           "2.8",
           "0.8",
@@ -64534,6 +76216,12 @@ export const aptitudeLevels = {
           "269",
           "326"
         ],
+        "optionLatex": [
+          "266",
+          "297",
+          "269",
+          "326"
+        ],
         "answer": "297",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -64562,6 +76250,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 11[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "11\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "11",
+          "47",
+          "7",
+          "9"
+        ],
+        "optionLatex": [
           "11",
           "47",
           "7",
@@ -64600,6 +76294,12 @@ export const aptitudeLevels = {
           "7392009764",
           "7392009804"
         ],
+        "optionLatex": [
+          "7392009768",
+          "7392009737",
+          "7392009764",
+          "7392009804"
+        ],
         "answer": "7392009768",
         "solution": {
           "approach": "Committee order does not matter.",
@@ -64628,6 +76328,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 27, find the population variance of [14, 18, 22, 26, 30].",
         "latex": "\\text{data}=[14, 18, 22, 26, 30],\\quad \\text{answer}=32",
         "options": [
+          "32",
+          "4",
+          "61",
+          "30"
+        ],
+        "optionLatex": [
           "32",
           "4",
           "61",
@@ -64666,6 +76372,12 @@ export const aptitudeLevels = {
           "218",
           "216"
         ],
+        "optionLatex": [
+          "252",
+          "209",
+          "218",
+          "216"
+        ],
         "answer": "216",
         "solution": {
           "approach": "Differentiate using the power rule.",
@@ -64694,6 +76406,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, a caselet score has base 73 and adjustment 31. What combined score is reported?",
         "latex": "73+31",
         "options": [
+          "140",
+          "104",
+          "102",
+          "108"
+        ],
+        "optionLatex": [
           "140",
           "104",
           "102",
@@ -64732,6 +76450,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -64760,6 +76484,12 @@ export const aptitudeLevels = {
         "q": "In practice set 31, in a row of 42 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 39",
         "options": [
+          "34",
+          "45",
+          "38",
+          "7"
+        ],
+        "optionLatex": [
           "34",
           "45",
           "38",
@@ -64799,6 +76529,12 @@ export const aptitudeLevels = {
           "113",
           "111"
         ],
+        "optionLatex": [
+          "120",
+          "109",
+          "113",
+          "111"
+        ],
         "answer": "113",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -64831,6 +76567,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -64865,6 +76607,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -64898,6 +76646,12 @@ export const aptitudeLevels = {
           "42",
           "47"
         ],
+        "optionLatex": [
+          "49",
+          "45",
+          "42",
+          "47"
+        ],
         "answer": "49",
         "solution": {
           "approach": "Inspect first differences.",
@@ -64926,6 +76680,12 @@ export const aptitudeLevels = {
         "q": "In practice set 36, in a row of 7 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 5",
         "options": [
+          "6",
+          "8",
+          "4",
+          "33"
+        ],
+        "optionLatex": [
           "6",
           "8",
           "4",
@@ -64965,6 +76725,12 @@ export const aptitudeLevels = {
           "39.9762",
           "45.9762"
         ],
+        "optionLatex": [
+          "37.9762",
+          "41.9762",
+          "39.9762",
+          "45.9762"
+        ],
         "answer": "41.9762",
         "solution": {
           "approach": "For equal distances, use harmonic mean.",
@@ -64993,6 +76759,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 2x + 14 = 8.",
         "latex": "2x+14=8",
         "options": [
+          "-5",
+          "-3",
+          "-1",
+          "-34"
+        ],
+        "optionLatex": [
           "-5",
           "-3",
           "-1",
@@ -65031,6 +76803,12 @@ export const aptitudeLevels = {
           "153",
           "146"
         ],
+        "optionLatex": [
+          "119",
+          "117",
+          "153",
+          "146"
+        ],
         "answer": "117",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -65059,6 +76837,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 26[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "26\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "-5",
+          "26",
+          "33",
+          "55"
+        ],
+        "optionLatex": [
           "-5",
           "26",
           "33",
@@ -65097,6 +76881,12 @@ export const aptitudeLevels = {
           "0.4444",
           "-3.5556"
         ],
+        "optionLatex": [
+          "-30.5556",
+          "7.4444",
+          "0.4444",
+          "-3.5556"
+        ],
         "answer": "0.4444",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -65125,6 +76915,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 5, find the population variance of [29, 48, 17, 36, 55].",
         "latex": "\\text{data}=[29, 48, 17, 36, 55],\\quad \\text{answer}=182",
         "options": [
+          "154",
+          "189",
+          "178",
+          "182"
+        ],
+        "optionLatex": [
           "154",
           "189",
           "178",
@@ -65163,6 +76959,12 @@ export const aptitudeLevels = {
           "8221",
           "8161"
         ],
+        "optionLatex": [
+          "8190",
+          "8192",
+          "8221",
+          "8161"
+        ],
         "answer": "8192",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -65191,6 +76993,12 @@ export const aptitudeLevels = {
         "q": "In practice set 7, a caselet score has base 88 and adjustment 61. What combined score is reported?",
         "latex": "88+61",
         "options": [
+          "142",
+          "149",
+          "153",
+          "145"
+        ],
+        "optionLatex": [
           "142",
           "149",
           "153",
@@ -65229,6 +77037,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -65257,6 +77071,12 @@ export const aptitudeLevels = {
         "q": "In practice set 9, in a row of 17 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 14",
         "options": [
+          "9",
+          "20",
+          "-15",
+          "13"
+        ],
+        "optionLatex": [
           "9",
           "20",
           "-15",
@@ -65296,6 +77116,12 @@ export const aptitudeLevels = {
           "194",
           "160"
         ],
+        "optionLatex": [
+          "158",
+          "127",
+          "194",
+          "160"
+        ],
         "answer": "158",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -65328,6 +77154,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -65362,6 +77194,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -65395,6 +77233,12 @@ export const aptitudeLevels = {
           "39",
           "45"
         ],
+        "optionLatex": [
+          "41",
+          "48",
+          "39",
+          "45"
+        ],
         "answer": "41",
         "solution": {
           "approach": "Inspect first differences.",
@@ -65423,6 +77267,12 @@ export const aptitudeLevels = {
         "q": "In practice set 14, in a row of 22 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 20",
         "options": [
+          "15",
+          "23",
+          "12",
+          "19"
+        ],
+        "optionLatex": [
           "15",
           "23",
           "12",
@@ -65462,6 +77312,12 @@ export const aptitudeLevels = {
           "89",
           "85"
         ],
+        "optionLatex": [
+          "93",
+          "82",
+          "89",
+          "85"
+        ],
         "answer": "89",
         "solution": {
           "approach": "Compare total sums before and after replacement.",
@@ -65490,6 +77346,12 @@ export const aptitudeLevels = {
         "q": "In practice set 16, the roots of x^2 - 19x + 70 = 0 are alpha and beta. Find alpha^2 + beta^2.",
         "latex": "x^2-19x+70=0,\\quad \\alpha^2+\\beta^2",
         "options": [
+          "250",
+          "257",
+          "221",
+          "193"
+        ],
+        "optionLatex": [
           "250",
           "257",
           "221",
@@ -65528,6 +77390,12 @@ export const aptitudeLevels = {
           "168",
           "132"
         ],
+        "optionLatex": [
+          "130",
+          "101",
+          "168",
+          "132"
+        ],
         "answer": "132",
         "solution": {
           "approach": "Use triangle area formula.",
@@ -65556,6 +77424,12 @@ export const aptitudeLevels = {
         "q": "In practice set 18, from a point 39 m from a tower, the angle of elevation is 60 degrees. Find the tower height.",
         "latex": "h=39\\tan(60^\\circ)",
         "options": [
+          "60.55",
+          "71.55",
+          "69.55",
+          "67.55"
+        ],
+        "optionLatex": [
           "60.55",
           "71.55",
           "69.55",
@@ -65594,6 +77468,12 @@ export const aptitudeLevels = {
           "0.6364",
           "36.6364"
         ],
+        "optionLatex": [
+          "7.6364",
+          "-6.3636",
+          "0.6364",
+          "36.6364"
+        ],
         "answer": "0.6364",
         "solution": {
           "approach": "Probability = favorable outcomes / total outcomes.",
@@ -65622,6 +77502,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 20, find the mean of the data set [44, 28, 12, 46, 30].",
         "latex": "\\text{data}=[44, 28, 12, 46, 30],\\quad \\text{answer}=32",
         "options": [
+          "30",
+          "32",
+          "68",
+          "28"
+        ],
+        "optionLatex": [
           "30",
           "32",
           "68",
@@ -65660,6 +77546,12 @@ export const aptitudeLevels = {
           "176.8",
           "211.8"
         ],
+        "optionLatex": [
+          "204.8",
+          "202.8",
+          "176.8",
+          "211.8"
+        ],
         "answer": "204.8",
         "solution": {
           "approach": "Area under a nonnegative curve is a definite integral.",
@@ -65688,6 +77580,12 @@ export const aptitudeLevels = {
         "q": "In practice set 22, a caselet score has base 43 and adjustment 41. What combined score is reported?",
         "latex": "43+41",
         "options": [
+          "56",
+          "82",
+          "91",
+          "84"
+        ],
+        "optionLatex": [
           "56",
           "82",
           "91",
@@ -65726,6 +77624,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -65754,6 +77658,12 @@ export const aptitudeLevels = {
         "q": "In practice set 24, in a row of 32 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 29",
         "options": [
+          "28",
+          "57",
+          "21",
+          "-3"
+        ],
+        "optionLatex": [
           "28",
           "57",
           "21",
@@ -65793,6 +77703,12 @@ export const aptitudeLevels = {
           "91",
           "129"
         ],
+        "optionLatex": [
+          "93",
+          "100",
+          "91",
+          "129"
+        ],
         "answer": "93",
         "solution": {
           "approach": "Combine base score and adjustment.",
@@ -65825,6 +77741,12 @@ export const aptitudeLevels = {
           "The conclusion does not necessarily follow",
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
+        ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
         ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
@@ -65859,6 +77781,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -65892,6 +77820,12 @@ export const aptitudeLevels = {
           "38",
           "40"
         ],
+        "optionLatex": [
+          "9",
+          "47",
+          "38",
+          "40"
+        ],
         "answer": "40",
         "solution": {
           "approach": "Inspect first differences.",
@@ -65920,6 +77854,12 @@ export const aptitudeLevels = {
         "q": "In practice set 29, in a row of 37 seats, A is not at either end and B sits exactly 2 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 35",
         "options": [
+          "27",
+          "34",
+          "6",
+          "41"
+        ],
+        "optionLatex": [
           "27",
           "34",
           "6",
@@ -65959,6 +77899,12 @@ export const aptitudeLevels = {
           "2900",
           "2869"
         ],
+        "optionLatex": [
+          "2898",
+          "2872",
+          "2900",
+          "2869"
+        ],
         "answer": "2900",
         "solution": {
           "approach": "Apply order of operations carefully.",
@@ -65987,6 +77933,12 @@ export const aptitudeLevels = {
         "q": "Solve the equation 5x + 9 = 13.",
         "latex": "5x+9=13",
         "options": [
+          "0.8",
+          "36.8",
+          "29.8",
+          "-6.2"
+        ],
+        "optionLatex": [
           "0.8",
           "36.8",
           "29.8",
@@ -66025,6 +77977,12 @@ export const aptitudeLevels = {
           "510",
           "505"
         ],
+        "optionLatex": [
+          "514",
+          "512",
+          "510",
+          "505"
+        ],
         "answer": "512",
         "solution": {
           "approach": "Relate square diagonal to circle diameter.",
@@ -66053,6 +78011,12 @@ export const aptitudeLevels = {
         "q": "Evaluate 56[sin^2(60\u00b0) + cos^2(60\u00b0)].",
         "latex": "56\\left(\\sin^2(60^\\circ)+\\cos^2(60^\\circ)\\right)",
         "options": [
+          "56",
+          "25",
+          "54",
+          "58"
+        ],
+        "optionLatex": [
           "56",
           "25",
           "54",
@@ -66091,6 +78055,12 @@ export const aptitudeLevels = {
           "4037887",
           "4037916"
         ],
+        "optionLatex": [
+          "4037873",
+          "4037880",
+          "4037887",
+          "4037916"
+        ],
         "answer": "4037880",
         "solution": {
           "approach": "Ordered selection means permutation.",
@@ -66119,6 +78089,12 @@ export const aptitudeLevels = {
         "q": "In the advanced version, in practice set 35, find the mean of the data set [59, 58, 57, 56, 55].",
         "latex": "\\text{data}=[59, 58, 57, 56, 55],\\quad \\text{answer}=57",
         "options": [
+          "57",
+          "55",
+          "29",
+          "26"
+        ],
+        "optionLatex": [
           "57",
           "55",
           "29",
@@ -66157,6 +78133,12 @@ export const aptitudeLevels = {
           "575",
           "518"
         ],
+        "optionLatex": [
+          "548",
+          "546",
+          "575",
+          "518"
+        ],
         "answer": "546",
         "solution": {
           "approach": "Recognize the difference quotient for f(x)=a x^2 at x=x0.",
@@ -66185,6 +78167,12 @@ export const aptitudeLevels = {
         "q": "In practice set 37, a caselet score has base 58 and adjustment 71. What combined score is reported?",
         "latex": "58+71",
         "options": [
+          "98",
+          "129",
+          "125",
+          "136"
+        ],
+        "optionLatex": [
           "98",
           "129",
           "125",
@@ -66223,6 +78211,12 @@ export const aptitudeLevels = {
           "It follows only if every second-group member is in the third group",
           "The statements contradict each other"
         ],
+        "optionLatex": [
+          "\\text{The conclusion must follow}",
+          "\\text{The conclusion does not necessarily follow}",
+          "\\text{It follows only if every second-group member is in the third group}",
+          "\\text{The statements contradict each other}"
+        ],
         "answer": "The conclusion does not necessarily follow",
         "solution": {
           "approach": "Translate the statements into set relations.",
@@ -66251,6 +78245,12 @@ export const aptitudeLevels = {
         "q": "In practice set 2, in a row of 7 seats, A is not at either end and B sits exactly 3 seats to A's right. How many possible positions can A occupy?",
         "latex": "2\\le A\\le 4",
         "options": [
+          "3",
+          "5",
+          "7",
+          "-1"
+        ],
+        "optionLatex": [
           "3",
           "5",
           "7",

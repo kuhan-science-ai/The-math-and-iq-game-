@@ -168,6 +168,13 @@ const QuestionDisplay = ({ question, fallback }) => {
   );
 };
 
+const getOptionLatex = (question, option, index) => {
+  if (!question) return option;
+  if (typeof index === "number" && question.optionLatex?.[index]) return question.optionLatex[index];
+  const optionIndex = question.options?.indexOf(option);
+  return optionIndex >= 0 ? question.optionLatex?.[optionIndex] || option : option;
+};
+
 const SolutionReview = ({ question, selectedAnswer, wasCorrect, onNext, isFinal }) => {
   if (!question) return null;
   const solution = question.solution;
@@ -177,9 +184,9 @@ const SolutionReview = ({ question, selectedAnswer, wasCorrect, onNext, isFinal 
     <div className={`solution-review ${wasCorrect ? "correct" : "incorrect"}`} aria-live="polite">
       <div className="section-title tight">
         <h2>{wasCorrect ? "Correct answer" : "Not quite"}</h2>
-        <span>Your answer: {selectedAnswer}</span>
+        <span>Your answer: <LatexFormula value={getOptionLatex(question, selectedAnswer)} /></span>
       </div>
-      <p><strong>Answer:</strong> {question.answer}</p>
+      <p><strong>Answer:</strong> <LatexFormula value={getOptionLatex(question, question.answer)} /></p>
       {solution?.approach && <p><strong>Approach:</strong> {solution.approach}</p>}
       <ol>
         {steps.map((step, stepIndex) => <li key={`${question.id}-step-${stepIndex}`}>{step}</li>)}
@@ -312,7 +319,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
       <RewardUnlock rewards={newRewards} />
       {running ? <QuestionDisplay question={question} /> : <QuestionDisplay fallback="Ready?" />}
       {running && question.options ? (
-        <div className="options">{question.options.map((option) => <button key={option} onClick={() => chooseOption(option)}><LatexFormula value={option} /></button>)}</div>
+        <div className="options">{question.options.map((option, optionIndex) => <button key={option} onClick={() => chooseOption(option)}><LatexFormula value={getOptionLatex(question, option, optionIndex)} /></button>)}</div>
       ) : (
         <form className="answer-row" onSubmit={submit}>
           <input value={answer} onChange={(e) => setAnswer(e.target.value)} disabled={!running} inputMode={question.inputMode || "text"} autoFocus />
@@ -452,7 +459,7 @@ const AptitudeMode = () => {
       )}
 
       {started && (done ? <QuestionDisplay fallback="Complete" /> : <QuestionDisplay question={current} />)}
-      {started && !done && !answerReview && <div className="options">{current.options.map((option) => <button key={option} onClick={() => choose(option)}><LatexFormula value={option} /></button>)}</div>}
+      {started && !done && !answerReview && <div className="options">{current.options.map((option, optionIndex) => <button key={option} onClick={() => choose(option)}><LatexFormula value={getOptionLatex(current, option, optionIndex)} /></button>)}</div>}
       {started && !done && answerReview && (
         <SolutionReview
           question={current}

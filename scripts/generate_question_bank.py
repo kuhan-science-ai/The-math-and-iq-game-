@@ -1,6 +1,7 @@
 import json
 import math
 import random
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -57,6 +58,13 @@ def text_latex(value):
     return f"\\text{{{safe}}}"
 
 
+def option_latex(value):
+    text = clean_num(value)
+    if re.fullmatch(r"-?\d+(\.\d+)?", text):
+        return text
+    return text_latex(text)
+
+
 def make_options(answer, spread=12):
     if isinstance(answer, str):
         choices = [answer]
@@ -101,6 +109,7 @@ def qobj(difficulty, number, category, topic, subtopic, qtype, question, answer,
         "question": question,
         "latex": latex or text_latex(question),
         "options": opts,
+        "option_latex": [option_latex(option) for option in opts],
         "correct_answer": answer_text,
         "difficulty_score": score,
         "estimated_time_seconds": time,
@@ -447,6 +456,7 @@ def convert_for_web(dataset):
                 "q": q["question"],
                 "latex": q["latex"],
                 "options": q["options"],
+                "optionLatex": q["option_latex"],
                 "answer": q["correct_answer"],
                 "solution": q["solution"],
                 "difficultyScore": q["difficulty_score"],
@@ -466,6 +476,7 @@ def validate(dataset):
     for q in questions:
         assert q["correct_answer"] in q["options"], q["id"]
         assert len(q["options"]) == 4, q["id"]
+        assert len(q["option_latex"]) == 4, q["id"]
         assert q["solution"]["steps"], q["id"]
         assert q["solution"]["final_answer"] == q["correct_answer"], q["id"]
 
