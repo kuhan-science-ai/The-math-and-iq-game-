@@ -928,6 +928,44 @@ button:disabled {
   color: #d9f7e8;
 }
 
+.solution-review {
+  display: grid;
+  gap: 0.75rem;
+  border: 1px solid rgba(67, 215, 255, 0.28);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(67, 215, 255, 0.12), transparent 18rem),
+    linear-gradient(180deg, rgba(11, 16, 27, 0.96), rgba(8, 12, 28, 0.96));
+  padding: 1rem;
+}
+
+.solution-review.correct {
+  border-color: rgba(48, 232, 144, 0.42);
+}
+
+.solution-review.incorrect {
+  border-color: rgba(255, 94, 168, 0.42);
+}
+
+.solution-review p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.solution-review strong {
+  color: #eaf8ff;
+}
+
+.solution-review ol {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0;
+  color: #d9f7e8;
+  line-height: 1.5;
+  padding-left: 1.35rem;
+}
+
 .reward-unlock {
   position: relative;
   display: grid;

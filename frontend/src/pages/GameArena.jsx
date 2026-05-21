@@ -164,6 +164,27 @@ const QuestionDisplay = ({ question, fallback }) => {
   );
 };
 
+const SolutionReview = ({ question, selectedAnswer, wasCorrect, onNext, isFinal }) => {
+  if (!question) return null;
+  const solution = question.solution;
+  const steps = Array.isArray(solution?.steps) ? solution.steps : [solution].filter(Boolean);
+
+  return (
+    <div className={`solution-review ${wasCorrect ? "correct" : "incorrect"}`} aria-live="polite">
+      <div className="section-title tight">
+        <h2>{wasCorrect ? "Correct answer" : "Not quite"}</h2>
+        <span>Your answer: {selectedAnswer}</span>
+      </div>
+      <p><strong>Answer:</strong> {question.answer}</p>
+      {solution?.approach && <p><strong>Approach:</strong> {solution.approach}</p>}
+      <ol>
+        {steps.map((step, stepIndex) => <li key={`${question.id}-step-${stepIndex}`}>{step}</li>)}
+      </ol>
+      <button className="primary compact" onClick={onNext}>{isFinal ? "Finish round" : "Next question"}</button>
+    </div>
+  );
+};
+
 const RewardUnlock = ({ rewards = [] }) => {
   if (!rewards.length) return null;
 
@@ -312,6 +333,7 @@ const AptitudeMode = () => {
   const [celebrate, setCelebrate] = useState(false);
   const [message, setMessage] = useState("");
   const [newRewards, setNewRewards] = useState([]);
+  const [answerReview, setAnswerReview] = useState(null);
   const levelConfig = aptitudeLevels[level];
   const current = roundQuestions[index];
 
@@ -330,28 +352,40 @@ const AptitudeMode = () => {
     setDone(false);
     setMessage("");
     setNewRewards([]);
+    setAnswerReview(null);
     setStarted(true);
   };
 
-  const choose = async (option) => {
+  const finishRound = async (nextCorrect) => {
+    const accuracy = Math.round((nextCorrect / roundQuestions.length) * 100);
+    const score = Math.round(nextCorrect * 10 * levelConfig.multiplier);
+    const data = await api("/game/submit-score", {
+      method: "POST",
+      body: JSON.stringify({ mode: "aptitude", score, accuracy })
+    });
+    setUser(data.user);
+    setNewRewards(data.newRewards || []);
+    setDone(true);
+    setCelebrate(true);
+    setMessage(`${levelConfig.label} round saved. Score ${score}, ${accuracy}% accuracy, +${data.xpGain} XP${data.xpMultiplier > 1 ? ` (${data.xpMultiplier}x boost)` : ""}.`);
+    setTimeout(() => setCelebrate(false), 2600);
+  };
+
+  const choose = (option) => {
+    if (answerReview) return;
     const nextCorrect = correct + (option === current.answer ? 1 : 0);
     setCorrect(nextCorrect);
+    setAnswerReview({ selectedAnswer: option, wasCorrect: option === current.answer, nextCorrect });
+  };
+
+  const continueAfterReview = async () => {
+    if (!answerReview) return;
     if (index === roundQuestions.length - 1) {
-      const accuracy = Math.round((nextCorrect / roundQuestions.length) * 100);
-      const score = Math.round(nextCorrect * 10 * levelConfig.multiplier);
-      const data = await api("/game/submit-score", {
-        method: "POST",
-        body: JSON.stringify({ mode: "aptitude", score, accuracy })
-      });
-      setUser(data.user);
-      setNewRewards(data.newRewards || []);
-      setDone(true);
-      setCelebrate(true);
-      setMessage(`${levelConfig.label} round saved. Score ${score}, ${accuracy}% accuracy, +${data.xpGain} XP${data.xpMultiplier > 1 ? ` (${data.xpMultiplier}x boost)` : ""}.`);
-      setTimeout(() => setCelebrate(false), 2600);
+      await finishRound(answerReview.nextCorrect);
     } else {
       setIndex(index + 1);
     }
+    setAnswerReview(null);
   };
 
   const reset = () => {
@@ -363,6 +397,7 @@ const AptitudeMode = () => {
     setCelebrate(false);
     setMessage("");
     setNewRewards([]);
+    setAnswerReview(null);
   };
 
   return (
@@ -413,7 +448,16 @@ const AptitudeMode = () => {
       )}
 
       {started && (done ? <QuestionDisplay fallback="Complete" /> : <QuestionDisplay question={current} />)}
-      {started && !done && <div className="options">{current.options.map((option) => <button key={option} onClick={() => choose(option)}><LatexFormula value={option} /></button>)}</div>}
+      {started && !done && !answerReview && <div className="options">{current.options.map((option) => <button key={option} onClick={() => choose(option)}><LatexFormula value={option} /></button>)}</div>}
+      {started && !done && answerReview && (
+        <SolutionReview
+          question={current}
+          selectedAnswer={answerReview.selectedAnswer}
+          wasCorrect={answerReview.wasCorrect}
+          onNext={continueAfterReview}
+          isFinal={index === roundQuestions.length - 1}
+        />
+      )}
       {started && done && <button className="secondary" onClick={reset}>Configure new round</button>}
       {message && <p className="success">{message}</p>}
     </div>
