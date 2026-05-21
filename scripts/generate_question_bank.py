@@ -52,6 +52,11 @@ def clean_num(value):
     return f"{value:.4f}".rstrip("0").rstrip(".")
 
 
+def text_latex(value):
+    safe = str(value).replace("\\", "\\textbackslash{}").replace("{", "\\{").replace("}", "\\}")
+    return f"\\text{{{safe}}}"
+
+
 def make_options(answer, spread=12):
     if isinstance(answer, str):
         choices = [answer]
@@ -94,7 +99,7 @@ def qobj(difficulty, number, category, topic, subtopic, qtype, question, answer,
         "subtopic": subtopic,
         "question_type": qtype,
         "question": question,
-        "latex": latex or question,
+        "latex": latex or text_latex(question),
         "options": opts,
         "correct_answer": answer_text,
         "difficulty_score": score,
@@ -120,14 +125,16 @@ def arithmetic(difficulty, n, category, topic, subtopic, qtype):
         answer = new_value * 100 / (100 + pct // 2)
         question = f"An exam index rises by {pct}% to {clean_num(new_value)} and then falls by {pct//2}%. What is the final value?"
         steps = ["Track percentage changes multiplicatively.", f"After the rise, value is {clean_num(new_value)}.", f"After a fall of {pct//2}%, multiply by {(100-pct//2)}/100.", f"Final value = {clean_num(new_value)} x {(100-pct//2)}/100 = {clean_num(new_value * (100 - pct//2) / 100)}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, new_value * (100 - pct//2) / 100, steps, score=90 + scale)
+        latex = rf"{clean_num(new_value)}\times\frac{{{100-pct//2}}}{{100}}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, new_value * (100 - pct//2) / 100, steps, score=90 + scale, latex=latex)
     if subtopic == "Ratio and Proportion":
         x, y = 3 + n % 9, 5 + (2 * n) % 11
         total = (x + y) * (20 + n % 15)
         answer = total * x / (x + y)
         question = f"A fund of {total} is divided in the ratio {x}:{y}. What is the smaller share?"
         steps = ["Use unitary ratio division.", f"Total parts = {x}+{y} = {x+y}.", f"One part = {total}/{x+y} = {clean_num(total/(x+y))}.", f"Smaller share = {min(x,y)} parts = {clean_num(total*min(x,y)/(x+y))}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, total * min(x, y) / (x + y), steps)
+        latex = rf"\frac{{{total}\times {min(x, y)}}}{{{x+y}}}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, total * min(x, y) / (x + y), steps, latex=latex)
     if subtopic == "Profit and Loss":
         cp = 350 + 13 * n
         gain = 12 + n % 34
@@ -135,7 +142,8 @@ def arithmetic(difficulty, n, category, topic, subtopic, qtype):
         mp = cp * (100 + gain) / (100 - discount)
         question = f"An article costs {cp}. It is marked up and then sold at {discount}% discount to gain {gain}%. Find the marked price."
         steps = ["Connect cost price, selling price, and marked price.", f"Selling price for {gain}% gain = {cp} x {100+gain}/100 = {clean_num(cp*(100+gain)/100)}.", f"After {discount}% discount, SP = MP x {(100-discount)}/100.", f"MP = SP x 100/{100-discount} = {clean_num(mp)}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, mp, steps)
+        latex = rf"{cp}\times\frac{{{100+gain}}}{{100}}\times\frac{{100}}{{{100-discount}}}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, mp, steps, latex=latex)
     if subtopic in ["Simple Interest", "Compound Interest"]:
         p = 1000 + 50 * (n % 50)
         r = 5 + n % 13
@@ -149,7 +157,8 @@ def arithmetic(difficulty, n, category, topic, subtopic, qtype):
             answer = amount - p
             question = f"Find the compound interest on {p} at {r}% per annum for {t} years, compounded annually."
             steps = ["Use compound amount and subtract principal.", f"Amount = P(1+r/100)^t = {p}(1+{r}/100)^{t}.", f"Amount = {clean_num(amount)}.", f"CI = Amount - Principal = {clean_num(answer)}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        latex = rf"\frac{{{p}\times {r}\times {t}}}{{100}}" if subtopic == "Simple Interest" else rf"{p}\left(1+\frac{{{r}}}{{100}}\right)^{{{t}}}-{p}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=latex)
     if subtopic in ["Time and Work", "Pipes and Cisterns"]:
         x = 6 + n % 18
         y = 8 + (2 * n) % 20
@@ -157,7 +166,8 @@ def arithmetic(difficulty, n, category, topic, subtopic, qtype):
         actor = "workers" if subtopic == "Time and Work" else "pipes"
         question = f"Two {actor} complete a job alone in {x} and {y} hours respectively. How long together?"
         steps = ["Add individual rates.", f"Combined rate = 1/{x} + 1/{y} = ({x+y})/{x*y}.", f"Time = reciprocal = {x*y}/{x+y}.", f"Time = {clean_num(answer)} hours."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        latex = rf"\frac{{1}}{{{x}}}+\frac{{1}}{{{y}}}=\frac{{{x+y}}}{{{x*y}}}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=latex)
     if subtopic == "Time Speed Distance":
         speed1 = 30 + n % 50
         speed2 = 40 + (3 * n) % 60
@@ -165,7 +175,8 @@ def arithmetic(difficulty, n, category, topic, subtopic, qtype):
         answer = 2 * distance / (distance / speed1 + distance / speed2)
         question = f"A car travels {distance} km at {speed1} km/h and returns at {speed2} km/h. Find average speed for the round trip."
         steps = ["For equal distances, use harmonic mean.", f"Total distance = {2*distance}.", f"Total time = {distance}/{speed1}+{distance}/{speed2}.", f"Average speed = total distance/total time = {clean_num(answer)} km/h."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        latex = rf"\frac{{{2*distance}}}{{\frac{{{distance}}}{{{speed1}}}+\frac{{{distance}}}{{{speed2}}}}}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=latex)
     if subtopic == "Average":
         count = 5 + n % 8
         avg = 30 + n % 60
@@ -174,18 +185,20 @@ def arithmetic(difficulty, n, category, topic, subtopic, qtype):
         answer = count * new_avg - count * avg + replacement
         question = f"The average of {count} numbers is {avg}. One number {replacement} is replaced and the new average is {new_avg}. Find the new number."
         steps = ["Compare total sums before and after replacement.", f"Old total = {count} x {avg} = {count*avg}.", f"New total = {count} x {new_avg} = {count*new_avg}.", f"New number = new total - old total + removed number = {clean_num(answer)}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        latex = rf"{count}\times {new_avg}-{count}\times {avg}+{replacement}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=latex)
     if subtopic == "Ages":
         age = 20 + n % 40
         diff = 4 + n % 16
         answer = age - diff
         question = f"A is {diff} years older than B. After {diff} years, A will be {age + diff}. What is B's current age?"
         steps = ["Work backward from A's future age.", f"A's current age = {age + diff} - {diff} = {age}.", f"B is {diff} years younger.", f"B's current age = {age} - {diff} = {answer}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        latex = rf"({age + diff}-{diff})-{diff}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=latex)
     expr = a * b - c * (a + b)
     question = f"Simplify exactly: {a} x {b} - {c}({a}+{b})."
     steps = ["Apply order of operations carefully.", f"{a} x {b} = {a*b}.", f"{c}({a}+{b}) = {c} x {a+b} = {c*(a+b)}.", f"Difference = {expr}."]
-    return qobj(difficulty, n, category, topic, subtopic, qtype, question, expr, steps)
+    return qobj(difficulty, n, category, topic, subtopic, qtype, question, expr, steps, latex=rf"{a}\times {b}-{c}({a}+{b})")
 
 
 def algebra(difficulty, n, category, topic, subtopic, qtype):
@@ -196,35 +209,35 @@ def algebra(difficulty, n, category, topic, subtopic, qtype):
         question = f"The roots of x^2 - {s}x + {p} = 0 are alpha and beta. Find alpha^2 + beta^2."
         answer = s * s - 2 * p
         steps = ["Use symmetric expressions in roots.", f"alpha + beta = {s}, alpha beta = {p}.", "alpha^2+beta^2=(alpha+beta)^2-2alpha beta.", f"Value = {s}^2 - 2({p}) = {answer}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"x^2-{s}x+{p}=0,\quad \alpha^2+\beta^2")
     if subtopic == "Sequences and Series":
         first, diff, terms = a + 2, b, 12 + n % 20
         answer = terms * (2 * first + (terms - 1) * diff) / 2
         question = f"Find the sum of the first {terms} terms of the AP with first term {first} and common difference {diff}."
         steps = ["Use AP sum formula.", "S_n = n/2[2a+(n-1)d].", f"S = {terms}/2[2({first})+({terms}-1){diff}].", f"S = {clean_num(answer)}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"S_{{{terms}}}=\frac{{{terms}}}{{2}}\left(2({first})+({terms}-1){diff}\right)")
     if subtopic == "Logarithms":
         x = 2 + n % 80
         k = 3 + n % 17
         answer = x
         question = f"If log base {k} of (x + {x}) equals log base {k} of {2*x}, find x."
         steps = ["Equal logarithms with the same base imply equal arguments.", f"x + {x} = {2*x}.", f"x = {x}.", "The domain is positive, so the value is valid."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"\log_{{{k}}}(x+{x})=\log_{{{k}}}({2*x})")
     if subtopic == "Inequalities":
         answer = b - a + 1
         question = f"How many integers x satisfy {a} < x <= {b + 1}?"
         steps = ["List the integer interval endpoints.", f"Smallest integer greater than {a} is {a+1}.", f"Largest allowed integer is {b+1}.", f"Count = {b+1} - {a+1} + 1 = {answer}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"{a}<x\le {b+1}")
     if subtopic == "Functions":
         x = 2 + n % 10
         answer = a * (b * x + c) + b
         question = f"Let f(x)={a}x+{b} and g(x)={b}x+{c}. Find f(g({x}))."
         steps = ["Evaluate inner function first.", f"g({x}) = {b}({x})+{c} = {b*x+c}.", f"f(g({x})) = {a}({b*x+c})+{b}.", f"Value = {answer}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"f(x)={a}x+{b},\quad g(x)={b}x+{c},\quad f(g({x}))")
     answer = (c - b) / a
     question = f"Solve the equation {a}x + {b} = {c}."
     steps = ["Isolate x using inverse operations.", f"{a}x = {c} - {b} = {c-b}.", f"x = ({c-b})/{a}.", f"x = {clean_num(answer)}."]
-    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"{a}x+{b}={c}")
 
 
 def geometry(difficulty, n, category, topic, subtopic, qtype):
@@ -235,24 +248,24 @@ def geometry(difficulty, n, category, topic, subtopic, qtype):
         answer = 2 * r * r
         question = f"A circle has radius {r}. What is the area of a square whose diagonal equals the circle's diameter?"
         steps = ["Relate square diagonal to circle diameter.", f"Circle diameter = {2*r}.", "For square side s, diagonal^2 = 2s^2.", f"Area s^2 = diagonal^2/2 = {(2*r)**2}/2 = {answer}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"\text{{Area}}=\frac{{(2\cdot {r})^2}}{{2}}")
     if subtopic == "Coordinate Geometry":
         x1, y1, x2, y2 = n % 10, (2*n) % 11, 10 + n % 13, 12 + n % 17
         answer = (x1 + x2 + y1 + y2) / 2
         question = f"Find the sum of coordinates of the midpoint of segment joining ({x1},{y1}) and ({x2},{y2})."
         steps = ["Use midpoint formula.", f"Midpoint = (({x1}+{x2})/2, ({y1}+{y2})/2).", "Sum of midpoint coordinates equals half the sum of all endpoint coordinates.", f"Sum = {clean_num(answer)}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"\left(\frac{{{x1}+{x2}}}{{2}},\frac{{{y1}+{y2}}}{{2}}\right)")
     if subtopic == "3D Geometry":
         l, w, h = 3 + n % 12, 4 + (2*n) % 13, 5 + (3*n) % 14
         answer = 2 * (l*w + w*h + h*l)
         question = f"Find total surface area of a cuboid with dimensions {l}, {w}, and {h}."
         steps = ["Use cuboid surface area formula.", "TSA = 2(lw + wh + hl).", f"TSA = 2({l*w}+{w*h}+{h*l}).", f"TSA = {answer}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"2(lw+wh+hl)=2({l*w}+{w*h}+{h*l})")
     base, height = a, b
     answer = base * height / 2
     question = f"A triangle has base {base} and height {height}. Find its area."
     steps = ["Use triangle area formula.", "Area = 1/2 x base x height.", f"Area = 1/2 x {base} x {height}.", f"Area = {clean_num(answer)}."]
-    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"\frac{{1}}{{2}}\times {base}\times {height}")
 
 
 def trigonometry(difficulty, n, category, topic, subtopic, qtype):
@@ -265,11 +278,11 @@ def trigonometry(difficulty, n, category, topic, subtopic, qtype):
         answer = distance * tan
         question = f"From a point {distance} m from a tower, the angle of elevation is {angle} degrees. Find the tower height."
         steps = ["Use tangent as opposite/adjacent.", f"tan({angle}) = height/{distance}.", f"height = {distance} x tan({angle}).", f"height = {clean_num(answer)} m."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"h={distance}\tan({angle}^\circ)")
     answer = coeff * (values[angle] ** 2 + (1 - values[angle] ** 2))
     question = f"Evaluate {coeff}[sin^2({angle}°) + cos^2({angle}°)]."
     steps = ["Use the Pythagorean identity.", "For every angle theta, sin^2(theta)+cos^2(theta)=1.", f"The bracket equals 1 for {angle} degrees.", f"Value = {coeff} x 1 = {coeff}."]
-    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"{coeff}\left(\sin^2({angle}^\circ)+\cos^2({angle}^\circ)\right)")
 
 
 def probability(difficulty, n, category, topic, subtopic, qtype):
@@ -285,13 +298,14 @@ def probability(difficulty, n, category, topic, subtopic, qtype):
             answer = math.comb(total, choose)
             question = f"How many committees of {choose} can be chosen from {total} people?"
             steps = ["Committee order does not matter.", f"C({total},{choose}) = {total}!/[{choose}!({total}-{choose})!].", "Evaluate the combination.", f"Value = {answer}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        latex = rf"P({total},{choose})=\frac{{{total}!}}{{({total}-{choose})!}}" if subtopic == "Permutations" else rf"\binom{{{total}}}{{{choose}}}"
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=latex)
     red = 3 + n % 8
     blue = 4 + (2*n) % 9
     answer = red / (red + blue)
     question = f"A bag has {red} red and {blue} blue balls. One ball is drawn. What is the probability it is red?"
     steps = ["Probability = favorable outcomes / total outcomes.", f"Favorable red balls = {red}.", f"Total balls = {red}+{blue} = {red+blue}.", f"Probability = {red}/{red+blue} = {clean_num(answer)}."]
-    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"\frac{{{red}}}{{{red+blue}}}")
 
 
 def statistics(difficulty, n, category, topic, subtopic, qtype):
@@ -310,7 +324,7 @@ def statistics(difficulty, n, category, topic, subtopic, qtype):
         answer = sum((x - mean) ** 2 for x in nums) / len(nums)
         question = f"Find the population variance of {nums}."
         steps = ["Find mean, then average squared deviations.", f"Mean = {clean_num(mean)}.", "Compute each (x-mean)^2 and add them.", f"Variance = {clean_num(answer)}."]
-    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"\text{{data}}={nums},\quad \text{{answer}}={clean_num(answer)}")
 
 
 def calculus(difficulty, n, category, topic, subtopic, qtype):
@@ -321,17 +335,20 @@ def calculus(difficulty, n, category, topic, subtopic, qtype):
         answer = a * power * (x ** (power - 1))
         question = f"For f(x)={a}x^{power}, find f'({x})."
         steps = ["Differentiate using the power rule.", f"f'(x) = {a} x {power} x x^{power-1}.", f"f'({x}) = {a*power} x {x}^{power-1}.", f"Value = {answer}."]
+        latex = rf"f(x)={a}x^{{{power}}},\quad f'({x})"
     elif subtopic in ["Integration", "Area Under Curve"]:
         upper = 2 + n % 5
         answer = upper ** (power + 1) / (power + 1)
         question = f"Find the area under y=x^{power} from x=0 to x={upper}."
         steps = ["Area under a nonnegative curve is a definite integral.", f"Integral of x^{power} is x^{power+1}/{power+1}.", f"Evaluate from 0 to {upper}.", f"Area = {clean_num(answer)}."]
+        latex = rf"\int_0^{{{upper}}}x^{{{power}}}\,dx"
     else:
         x0 = 2 + n % 40
         question = f"Evaluate the limit as h approaches 0 of [{a}({x0}+h)^2 - {a}({x0})^2]/h."
         steps = ["Recognize the difference quotient for f(x)=a x^2 at x=x0.", f"f'(x)=2ax.", f"f'({x0})=2 x {a} x {x0}.", f"Limit = {2*a*x0}."]
         answer = 2 * a * x0
-    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        latex = rf"\lim_{{h\to 0}}\frac{{{a}({x0}+h)^2-{a}({x0})^2}}{{h}}"
+    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=latex)
 
 
 def aptitude(difficulty, n, category, topic, subtopic, qtype):
@@ -344,31 +361,35 @@ def aptitude(difficulty, n, category, topic, subtopic, qtype):
         next_val = seq[-1] + (9 + n % 11)
         question = f"Find the next term in the pattern: {seq[0]}, {seq[1]}, {seq[2]}, {seq[3]}, ?"
         steps = ["Inspect first differences.", f"Differences are {diffs[0]}, {diffs[1]}, {diffs[2]}.", f"The next designed difference is {9+n%11}.", f"Next term = {seq[-1]} + {9+n%11} = {next_val}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, next_val, steps)
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, next_val, steps, latex=rf"{seq[0]},\ {seq[1]},\ {seq[2]},\ {seq[3]},\ ?")
     if topic in ["Logical Reasoning", "Critical Thinking", "Verbal Reasoning"]:
-        labels = ["zors", "mels", "vors", "nims", "tavs", "lorbs", "sivs", "prax"]
-        z = labels[n % len(labels)] + str(n % 113)
-        m = labels[(n + 2) % len(labels)] + str((n * 3) % 127)
-        v = labels[(n + 5) % len(labels)] + str((n * 5) % 131)
-        answer = "Conclusion follows"
+        groups = [
+            "students in the math club", "coding club members", "quiz team finalists", "scholarship applicants",
+            "robotics volunteers", "science fair winners", "debate team speakers", "library mentors",
+            "logic workshop learners", "advanced algebra students", "geometry lab members", "research interns"
+        ]
+        z = f"{groups[n % len(groups)]} from Batch {chr(65 + n % 5)}"
+        m = f"{groups[(n + 3) % len(groups)]} from Batch {chr(65 + (n + 2) % 5)}"
+        v = f"{groups[(n + 7) % len(groups)]} from Batch {chr(65 + (n + 4) % 5)}"
         question = f"All {z} are {m}. Some {m} are {v}. Can it be concluded that some {z} are {v}?"
-        options = ["Conclusion follows", "Conclusion does not follow", "Only if all mels are vors", "Cannot be evaluated from categories"]
-        steps = ["Translate the statements into set relations.", "All zors are inside mels.", "Some mels are vors does not guarantee overlap with zors.", "Therefore the proposed conclusion does not necessarily follow."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, "Conclusion does not follow", steps, options=options, score=92)
+        options = ["The conclusion must follow", "The conclusion does not necessarily follow", "It follows only if every second-group member is in the third group", "The statements contradict each other"]
+        steps = ["Translate the statements into set relations.", "The first group is completely contained in the second group.", "Only some people in the second group are in the third group, so those people may be outside the first group.", "Therefore the proposed conclusion does not necessarily follow."]
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, "The conclusion does not necessarily follow", steps, options=options, score=92, latex=rf"A\subseteq B,\quad B\cap C\ne\varnothing\quad \not\Rightarrow\quad A\cap C\ne\varnothing")
     if topic in ["Analytical Reasoning", "Puzzle Solving"]:
         total = 7 + n % 40
         gap = 1 + n % 3
         answer = total - gap - 1
-        question = f"In a row of {total} seats, A is not at an end and B sits exactly {gap} seat(s) to A's right. How many possible positions can A occupy?"
+        seat_word = "seat" if gap == 1 else "seats"
+        question = f"In a row of {total} seats, A is not at either end and B sits exactly {gap} {seat_word} to A's right. How many possible positions can A occupy?"
         steps = ["A cannot sit at either end.", f"Because B is immediately to A's right, A also cannot be in seat {total}.", "A may occupy seats 2 through total-1.", f"Count = {total-2}."]
-        steps = ["Translate the seating restriction into valid positions for A.", "A cannot be in the first seat.", f"B must fit {gap} seat(s) to the right, so A cannot be beyond seat {total-gap}.", f"Valid A positions are 2 through {total-gap}.", f"Count = {total-gap} - 2 + 1 = {answer}."]
-        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+        steps = ["Translate the seating restriction into valid positions for A.", "A cannot be in the first seat.", f"B must fit {gap} {seat_word} to the right, so A cannot be beyond seat {total-gap}.", f"Valid A positions are 2 through {total-gap}.", f"Count = {total-gap} - 2 + 1 = {answer}."]
+        return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"2\le A\le {total-gap}")
     a = 40 + n % 60
     b = 25 + (2*n) % 50
     answer = a + b
     question = f"A caselet score has base {a} and adjustment {b}. What combined score is reported?"
     steps = ["Combine base score and adjustment.", f"Base score = {a}.", f"Adjustment = {b}.", f"Combined score = {a}+{b} = {answer}."]
-    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps)
+    return qobj(difficulty, n, category, topic, subtopic, qtype, question, answer, steps, latex=rf"{a}+{b}")
 
 
 DISPATCH = {
@@ -400,8 +421,8 @@ def generate_dataset(difficulty):
         item["estimated_time_seconds"] = 150 + (len(questions) % 5) * 30 if difficulty == "INSANE" else 210 + (len(questions) % 5) * 45
         key = item["question"].lower().strip()
         if key in seen:
-            item["question"] = f"{item['question']} Use the stated case index {local}."
-            item["latex"] = f"{item['latex']}\\quad \\text{{case }}{local}"
+            item["question"] = f"In practice set {1 + local % 37}, {item['question'][0].lower()}{item['question'][1:]}"
+            item["latex"] = item["latex"] or text_latex(item["question"])
             key = item["question"].lower().strip()
             if key in seen:
                 continue
@@ -457,8 +478,8 @@ def main():
     insane_prompts = {q["question"].lower().strip() for q in insane["questions"]}
     for q in impossible["questions"]:
         if q["question"].lower().strip() in insane_prompts:
-            q["question"] = f"{q['question']} Use the impossible extension condition for dataset item {q['id']}."
-            q["latex"] = f"{q['latex']}\\quad \\text{{impossible extension}}"
+            q["question"] = f"In the advanced version, {q['question'][0].lower()}{q['question'][1:]}"
+            q["latex"] = q["latex"] or text_latex(q["question"])
     validate(insane)
     validate(impossible)
     global_prompts = {q["question"].lower().strip() for q in insane["questions"]} | {q["question"].lower().strip() for q in impossible["questions"]}

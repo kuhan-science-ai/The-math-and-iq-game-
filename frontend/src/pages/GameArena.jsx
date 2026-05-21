@@ -153,12 +153,16 @@ const LatexFormula = ({ value }) => {
 };
 
 const QuestionDisplay = ({ question, fallback }) => {
+  const hasFormula = Boolean(question?.latex && question?.latex !== question?.q);
   return (
     <div className="question">
       {question?.category && <span className="question-tag">{question.category}</span>}
-      <div className="question-main">
-        {question ? <LatexFormula value={question.latex || question.q} /> : fallback}
-      </div>
+      <div className="question-prompt">{question ? question.q : fallback}</div>
+      {hasFormula && (
+        <div className="question-main">
+          <LatexFormula value={question.latex} />
+        </div>
+      )}
       {question?.hint && <small>{question.hint}</small>}
     </div>
   );
