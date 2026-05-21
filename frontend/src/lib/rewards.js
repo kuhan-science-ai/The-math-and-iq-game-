@@ -11,7 +11,7 @@ const cosmeticRewards = {
   50: ["level-50-grandmaster-trophy", "Level 50 Grandmaster Trophy", "trophy", "Grandmaster", "The final show-off reward for completing the full path."]
 };
 
-const minorNames = ["XP Spark", "Focus Token", "Accuracy Chip", "Logic Shard", "Speed Core", "Streak Gem"];
+const minorNames = ["XP Spark", "Focus Token", "Accuracy Chip", "Logic Shard", "Speed Core", "Streak Gem", "Knowledge Token", "Prestige Spark"];
 
 const milestoneShards = {
   5: ["ruby-crystal", "Ruby Crystal", "Ruby", "precision arithmetic"],
@@ -26,6 +26,21 @@ const milestoneShards = {
   50: ["royal-topaz-crystal", "Royal Topaz Crystal", "Topaz", "grandmaster mastery"]
 };
 
+const generatedCosmeticReward = (level) => {
+  if (level % 10 !== 0 || cosmeticRewards[level]) return null;
+  const bracketNames = ["Explorer", "Solver", "Strategist", "Mastermind", "Grand Scholar", "Legend"];
+  const slots = ["frame", "title", "aura", "emblem", "trail"];
+  const name = bracketNames[Math.min(bracketNames.length - 1, Math.floor(level / 40))];
+  const type = slots[(level / 10) % slots.length];
+  return [
+    `${name.toLowerCase().replaceAll(" ", "-")}-${type}-${level}`,
+    `${name} ${type[0].toUpperCase()}${type.slice(1)} ${level}`,
+    type,
+    rarityForLevel(level),
+    `A ${rarityForLevel(level).toLowerCase()} ${type} for reaching Level ${level}.`
+  ];
+};
+
 const rarityConfig = {
   Common: { multiplier: 1.25, minutes: 10 },
   Rare: { multiplier: 1.5, minutes: 15 },
@@ -37,11 +52,12 @@ const rarityConfig = {
 };
 
 const rarityForLevel = (level) => {
-  if (level >= 50) return "Grandmaster";
-  if (level >= 40) return "Ascendant";
-  if (level >= 30) return "Mythic";
-  if (level >= 20) return "Legendary";
-  if (level >= 10) return "Epic";
+  if (level >= 200) return "Legend";
+  if (level >= 150) return "Grandmaster";
+  if (level >= 100) return "Ascendant";
+  if (level >= 60) return "Mythic";
+  if (level >= 30) return "Legendary";
+  if (level >= 15) return "Epic";
   if (level >= 5) return "Rare";
   return "Common";
 };
@@ -60,7 +76,7 @@ const tokenReward = (level) => {
 };
 
 const cosmeticReward = (level) => {
-  const item = cosmeticRewards[level];
+  const item = cosmeticRewards[level] || generatedCosmeticReward(level);
   if (!item) return null;
   const [slug, name, type, rarity, description] = item;
   return {
@@ -78,7 +94,7 @@ const cosmeticReward = (level) => {
 const multiplierReward = (level) => {
   if (level % 5 !== 0) return null;
   const rarity = rarityForLevel(level);
-  const config = rarityConfig[rarity];
+  const config = rarityConfig[rarity] || rarityConfig.Grandmaster;
   return {
     id: `level-${level}-xp-multiplier`,
     level,
@@ -93,7 +109,9 @@ const multiplierReward = (level) => {
 };
 
 const shardReward = (level) => {
-  const shard = milestoneShards[level];
+  const shard = milestoneShards[level] || (level % 5 === 0
+    ? [`milestone-crystal-${level}`, `Milestone Crystal ${level}`, ["Ruby", "Amethyst", "Sapphire", "Emerald", "Topaz"][Math.floor(level / 5) % 5], "long-term mastery"]
+    : null);
   if (!shard) return null;
   const [slug, name, color, theme] = shard;
   return {
@@ -111,7 +129,7 @@ const shardReward = (level) => {
 
 const rewardsForRoadLevel = (level) => [tokenReward(level), shardReward(level), cosmeticReward(level), multiplierReward(level)].filter(Boolean);
 
-export const rewardPath = Array.from({ length: 49 }, (_, index) => rewardsForRoadLevel(index + 2)).flat();
+export const rewardPath = Array.from({ length: 199 }, (_, index) => rewardsForRoadLevel(index + 2)).flat();
 
 export const rewardCountForLevel = (level = 1) => rewardPath.filter((reward) => reward.level <= Number(level || 1)).length;
 

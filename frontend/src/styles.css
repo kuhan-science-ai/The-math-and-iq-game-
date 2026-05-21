@@ -1600,12 +1600,278 @@ button:disabled {
   text-align: center;
 }
 
+.progression-screen {
+  max-width: 1280px;
+}
+
+.progression-hero {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.6fr) repeat(3, minmax(150px, 0.6fr));
+  gap: 1rem;
+  align-items: stretch;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 16% 0%, rgba(50, 246, 154, 0.16), transparent 20rem),
+    radial-gradient(circle at 88% 20%, rgba(157, 99, 255, 0.16), transparent 22rem),
+    linear-gradient(145deg, rgba(12, 18, 34, 0.96), rgba(18, 10, 38, 0.94));
+  padding: 1rem;
+}
+
+.progression-hero h2,
+.progression-hero p {
+  margin: 0.45rem 0;
+}
+
+.compact-stat {
+  align-content: center;
+  min-height: 100%;
+}
+
+.hub-tabs {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(6, 10, 24, 0.82);
+  padding: 0.45rem;
+}
+
+.hub-tabs button {
+  min-width: max-content;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  padding: 0.7rem 0.9rem;
+}
+
+.hub-tabs button.active {
+  background: linear-gradient(135deg, rgba(50, 246, 154, 0.18), rgba(67, 215, 255, 0.16), rgba(157, 99, 255, 0.18));
+  color: white;
+}
+
+.progression-grid,
+.avatar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.system-card,
+.catalog-card,
+.mini-card,
+.tree-branch,
+.pass-tier {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(16, 24, 48, 0.96), rgba(8, 12, 28, 0.96));
+  padding: 0.95rem;
+}
+
+.system-card {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.system-card h3,
+.system-card p,
+.catalog-card h3,
+.catalog-card p,
+.mini-card p,
+.pass-tier p {
+  margin: 0;
+}
+
+.system-card p,
+.catalog-card p,
+.pass-tier p,
+.mini-card small {
+  color: var(--muted);
+}
+
+.system-card small,
+.catalog-card small,
+.pass-tier small,
+.mini-card small {
+  color: var(--orange);
+  font-weight: 850;
+}
+
+.system-card strong,
+.catalog-card span,
+.pass-tier strong,
+.mini-card strong {
+  color: var(--green);
+}
+
+.level-bracket-road,
+.battle-pass-road,
+.calendar-strip,
+.mastery-strip {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(220px, 280px);
+  gap: 0.8rem;
+  overflow-x: auto;
+  padding: 0.2rem 0.1rem 0.9rem;
+  scroll-snap-type: x mandatory;
+}
+
+.level-bracket-road > *,
+.battle-pass-road > *,
+.calendar-strip > *,
+.mastery-strip > * {
+  scroll-snap-align: start;
+}
+
+.skill-tree {
+  display: grid;
+  gap: 1rem;
+}
+
+.tree-branch {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.branch-green {
+  border-color: rgba(50, 246, 154, 0.32);
+}
+
+.branch-purple {
+  border-color: rgba(157, 99, 255, 0.36);
+}
+
+.tree-nodes {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(160px, 1fr));
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.6rem;
+}
+
+.tree-node {
+  position: relative;
+  display: grid;
+  min-height: 170px;
+  gap: 0.35rem;
+  border: 1px solid rgba(160, 180, 255, 0.18);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at top, rgba(67, 215, 255, 0.12), transparent 9rem),
+    #0b101b;
+  padding: 0.85rem;
+}
+
+.tree-node::after {
+  position: absolute;
+  right: -0.75rem;
+  top: 50%;
+  width: 0.75rem;
+  height: 2px;
+  content: "";
+  background: linear-gradient(90deg, var(--cyan), transparent);
+}
+
+.tree-node:last-child::after {
+  display: none;
+}
+
+.tree-node strong {
+  color: white;
+}
+
+.tree-node span {
+  color: var(--green);
+  font-weight: 850;
+}
+
+.tree-node small,
+.tree-node p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.catalog-card {
+  display: grid;
+  min-height: 188px;
+  gap: 0.45rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.catalog-card.unlocked {
+  border-color: rgba(50, 246, 154, 0.45);
+  box-shadow: 0 0 28px rgba(50, 246, 154, 0.1);
+}
+
+.rarity-common {
+  border-color: rgba(160, 180, 255, 0.18);
+}
+
+.rarity-rare {
+  border-color: rgba(67, 215, 255, 0.32);
+}
+
+.rarity-epic {
+  border-color: rgba(157, 99, 255, 0.36);
+}
+
+.rarity-legendary {
+  border-color: rgba(255, 184, 77, 0.42);
+}
+
+.rarity-mythic {
+  border-color: rgba(255, 94, 168, 0.46);
+}
+
+.pass-tier {
+  min-height: 180px;
+}
+
+.pass-tier.claimed {
+  border-color: rgba(50, 246, 154, 0.4);
+  background:
+    radial-gradient(circle at top, rgba(50, 246, 154, 0.16), transparent 9rem),
+    linear-gradient(180deg, rgba(16, 42, 31, 0.96), rgba(8, 12, 28, 0.96));
+}
+
+.league-card {
+  min-height: 210px;
+}
+
+.schema-panel {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.schema-panel code {
+  display: block;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #070b14;
+  color: #d9f7e8;
+  padding: 0.55rem 0.65rem;
+}
+
 @media (max-width: 900px) {
   .auth-layout,
   .app-shell,
   .profile-grid,
   .mode-grid,
   .visitor-preview,
+  .progression-hero,
+  .progression-grid,
+  .avatar-grid,
+  .catalog-grid,
   .shard-grid,
   .reward-hero,
   .reward-node,
@@ -1621,7 +1887,7 @@ button:disabled {
   }
 
   .sidebar nav {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .logout {
@@ -1668,5 +1934,12 @@ button:disabled {
 
   .reward-road {
     grid-auto-columns: minmax(230px, 82vw);
+  }
+
+  .level-bracket-road,
+  .battle-pass-road,
+  .calendar-strip,
+  .mastery-strip {
+    grid-auto-columns: minmax(220px, 82vw);
   }
 }

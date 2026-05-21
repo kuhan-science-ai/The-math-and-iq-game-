@@ -6,6 +6,7 @@ import { findReward, rewardsForLevel } from "../services/rewards.js";
 
 const router = express.Router();
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
+const MAX_LEVEL = 200;
 
 router.get("/profile", requireAuth, async (req, res) => {
   res.json({ user: normalizeUser(req.user) });
@@ -90,7 +91,7 @@ const syncFromXp = (user) => {
 };
 
 const setLevel = (user, level) => {
-  user.level = clamp(Number(level), 1, 50);
+  user.level = clamp(Number(level), 1, MAX_LEVEL);
   user.xp = Math.max(user.xp || 0, xpForLevel(user.level));
   user.earnedRewards = rewardsForLevel(user.level);
   user.rewards = user.earnedRewards;

@@ -1,4 +1,4 @@
-import { Brain, ChartNoAxesCombined, Gift, LogOut, Medal, UserRound } from "lucide-react";
+import { Brain, ChartNoAxesCombined, Gift, LogOut, Medal, Sparkles, UserRound } from "lucide-react";
 import React from "react";
 import { useState } from "react";
 import { useAuth } from "./context/AuthContext.jsx";
@@ -8,6 +8,7 @@ import { Dashboard } from "./pages/Dashboard.jsx";
 import { GameArena } from "./pages/GameArena.jsx";
 import { Leaderboard } from "./pages/Leaderboard.jsx";
 import { Profile } from "./pages/Profile.jsx";
+import { ProgressionHub } from "./pages/ProgressionHub.jsx";
 import { Rewards } from "./pages/Rewards.jsx";
 
 export const App = () => {
@@ -44,6 +45,9 @@ export const App = () => {
           <button className={view === "rewards" ? "active" : ""} onClick={() => setView("rewards")}>
             <Gift size={18} /> Rewards
           </button>
+          <button className={view === "progression" ? "active" : ""} onClick={() => setView("progression")}>
+            <Sparkles size={18} /> Progression
+          </button>
           <button className={view === "leaderboard" ? "active" : ""} onClick={() => setView("leaderboard")}>
             <Medal size={18} /> Leaderboard
           </button>
@@ -59,6 +63,7 @@ export const App = () => {
         {view === "profile" && <Profile />}
         {view === "games" && <GameArena />}
         {view === "rewards" && <Rewards goTrain={() => setView("games")} />}
+        {view === "progression" && <ProgressionHub goTrain={() => setView("games")} goRewards={() => setView("rewards")} />}
         {view === "leaderboard" && <Leaderboard />}
       </main>
       <CheatConsole />

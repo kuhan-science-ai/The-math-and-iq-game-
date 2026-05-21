@@ -10,7 +10,8 @@ export const emptyScores = () => ({
 });
 
 const BASE_LEVEL_XP = 250;
-const LEVEL_XP_GROWTH = 1.12;
+const MAX_LEVEL = 200;
+const LEVEL_XP_GROWTH = 1.075;
 const LEVEL_XP_ROUNDING = 25;
 
 export const xpRequiredForLevelUp = (level = 1) => {
@@ -20,7 +21,7 @@ export const xpRequiredForLevelUp = (level = 1) => {
 };
 
 export const xpForLevel = (level = 1) => {
-  const targetLevel = Math.min(50, Math.max(1, Math.floor(Number(level || 1))));
+  const targetLevel = Math.min(MAX_LEVEL, Math.max(1, Math.floor(Number(level || 1))));
   let total = 0;
   for (let currentLevel = 1; currentLevel < targetLevel; currentLevel += 1) {
     total += xpRequiredForLevelUp(currentLevel);
@@ -32,7 +33,7 @@ export const calculateLevel = (xp) => {
   const totalXp = Math.max(0, Number(xp || 0));
   let level = 1;
 
-  while (level < 50 && totalXp >= xpForLevel(level + 1)) {
+  while (level < MAX_LEVEL && totalXp >= xpForLevel(level + 1)) {
     level += 1;
   }
 
@@ -43,9 +44,9 @@ export const levelProgress = (xp) => {
   const totalXp = Math.max(0, Number(xp || 0));
   const level = calculateLevel(totalXp);
   const currentLevelXp = xpForLevel(level);
-  const nextLevelXp = level >= 50 ? currentLevelXp : xpForLevel(level + 1);
+  const nextLevelXp = level >= MAX_LEVEL ? currentLevelXp : xpForLevel(level + 1);
   const required = Math.max(0, nextLevelXp - currentLevelXp);
-  const progress = level >= 50 ? required : totalXp - currentLevelXp;
+  const progress = level >= MAX_LEVEL ? required : totalXp - currentLevelXp;
 
   return {
     level,

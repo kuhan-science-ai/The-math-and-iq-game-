@@ -112,7 +112,7 @@ export const AuthPage = () => {
         </div>
         <div className="hero-stats">
           <span><b>4</b> game modes</span>
-          <span><b>50</b> levels</span>
+          <span><b>200</b> levels</span>
           <span><b>JWT</b> auth</span>
         </div>
       </section>
