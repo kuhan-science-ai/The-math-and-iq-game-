@@ -1214,7 +1214,8 @@ button:disabled {
 
 .shard-showcase {
   display: grid;
-  place-items: center;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 0.8rem;
   overflow: hidden;
   border: 1px solid rgba(80, 255, 177, 0.18);
   border-radius: 8px;
@@ -1222,13 +1223,31 @@ button:disabled {
   padding: clamp(0.65rem, 2vw, 1.1rem);
 }
 
-.shard-showcase img {
-  display: block;
-  width: min(100%, 760px);
-  height: auto;
+.shard-art-card {
+  display: grid;
+  gap: 0.45rem;
+  justify-items: center;
+  align-content: center;
+  min-height: 190px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
+  background: rgba(255, 255, 255, 0.025);
+  padding: 0.6rem;
+}
+
+.shard-art-card img {
+  display: block;
+  width: min(100%, 156px);
+  height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 0 28px rgba(67, 217, 255, 0.16));
+  filter: drop-shadow(0 0 22px rgba(67, 217, 255, 0.22));
+}
+
+.shard-art-card span {
+  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .earned-card {
@@ -1723,6 +1742,7 @@ button:disabled {
   .progression-grid,
   .avatar-grid,
   .catalog-grid,
+  .shard-showcase,
   .reward-hero,
   .reward-node,
   .earned-card,

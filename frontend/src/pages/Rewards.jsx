@@ -1,9 +1,21 @@
 import { Check, Gift, Lock, Sparkles, Timer, Trophy, Zap } from "lucide-react";
 import React from "react";
-import mathShards2d from "../assets/math-shards-2d.png";
+import infinityShard from "../assets/shards/infinity-shard.png";
+import integralShard from "../assets/shards/integral-shard.png";
+import piShard from "../assets/shards/pi-shard.png";
+import rootShard from "../assets/shards/root-shard.png";
+import sigmaShard from "../assets/shards/sigma-shard.png";
 import { useAuth } from "../context/AuthContext.jsx";
 import { api } from "../lib/api.js";
 import { activeBoostLabel, rewardCountForLevel, rewardPath } from "../lib/rewards.js";
+
+const shardArtwork = [
+  { name: "Sigma Shard", image: sigmaShard },
+  { name: "Pi Shard", image: piShard },
+  { name: "Root Shard", image: rootShard },
+  { name: "Infinity Shard", image: infinityShard },
+  { name: "Integral Shard", image: integralShard }
+];
 
 export const Rewards = ({ goTrain }) => {
   const { user, setUser } = useAuth();
@@ -89,7 +101,12 @@ export const Rewards = ({ goTrain }) => {
       </div>
 
       <div className="shard-showcase">
-        <img src={mathShards2d} alt="Five Brain Boost milestone crystal shards" />
+        {shardArtwork.map((shard) => (
+          <article className="shard-art-card" key={shard.name}>
+            <img src={shard.image} alt={shard.name} />
+            <span>{shard.name}</span>
+          </article>
+        ))}
       </div>
 
       <div className="section-title reward-road-title">
