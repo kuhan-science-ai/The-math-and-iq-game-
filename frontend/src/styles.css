@@ -1212,210 +1212,23 @@ button:disabled {
   gap: 0.8rem;
 }
 
-.shard-grid {
+.shard-showcase {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.8rem;
-}
-
-.shard-card {
-  display: grid;
-  gap: 0.45rem;
   place-items: center;
-  border: 1px solid var(--line);
+  overflow: hidden;
+  border: 1px solid rgba(80, 255, 177, 0.18);
   border-radius: 8px;
-  background: #0b101b;
-  padding: 1rem;
-  text-align: center;
+  background: #090d16;
+  padding: clamp(0.65rem, 2vw, 1.1rem);
 }
 
-.shard-card h3,
-.shard-card p {
-  margin: 0;
-}
-
-.shard-card p {
-  color: var(--muted);
-  font-size: 0.85rem;
-  line-height: 1.35;
-}
-
-.shard-card small {
-  color: var(--orange);
-  font-weight: 850;
-  text-transform: uppercase;
-}
-
-.shard-crystal {
-  display: grid;
-  width: 104px;
-  height: 168px;
-  place-items: start center;
-  border: 0;
-  background: transparent;
-  padding: 0;
-  perspective: 900px;
-}
-
-.shard-crystal:hover {
-  transform: translateY(-2px);
-}
-
-.shard-scene {
-  display: grid;
-  justify-items: center;
-  width: 78px;
-  height: 158px;
-  transform-style: preserve-3d;
-}
-
-.shard-body {
-  position: relative;
+.shard-showcase img {
   display: block;
-  width: 78px;
-  height: 108px;
-  transform-style: preserve-3d;
-  transform: rotateX(-11deg) rotateY(-22deg) rotateZ(0.4deg);
-  transition: transform 0.55s ease;
-}
-
-.shard-crystal.rotated .shard-body {
-  transform: rotateX(-10deg) rotateY(158deg) rotateZ(-0.4deg);
-}
-
-.shard-face {
-  position: absolute;
-  inset: 0;
-  clip-path: polygon(50% 0, 86% 17%, 96% 43%, 73% 84%, 50% 100%, 27% 84%, 4% 43%, 14% 17%);
-  border: 1px solid rgba(255, 255, 255, 0.34);
-  background:
-    linear-gradient(112deg, rgba(255, 255, 255, 0.82) 0 10%, transparent 28%),
-    linear-gradient(38deg, transparent 0 36%, rgba(255, 255, 255, 0.22) 37% 39%, transparent 40%),
-    linear-gradient(145deg, transparent 0 49%, rgba(255, 255, 255, 0.18) 50% 52%, transparent 53%),
-    linear-gradient(214deg, transparent 0 43%, rgba(0, 0, 0, 0.22) 44% 46%, transparent 47%),
-    linear-gradient(160deg, var(--shard-light), var(--shard-mid) 52%, var(--shard-dark));
-  box-shadow: 0 0 34px var(--shard-glow);
-  transform-origin: 50% 50%;
-}
-
-.shard-face::before,
-.shard-face::after {
-  position: absolute;
-  inset: 0;
-  content: "";
-  clip-path: inherit;
-  pointer-events: none;
-}
-
-.shard-face::before {
-  background:
-    linear-gradient(90deg, transparent 0 18%, rgba(255, 255, 255, 0.24) 19% 20%, transparent 21% 79%, rgba(255, 255, 255, 0.18) 80% 81%, transparent 82%),
-    linear-gradient(25deg, transparent 0 45%, rgba(255, 255, 255, 0.28) 46% 47%, transparent 48%),
-    linear-gradient(155deg, transparent 0 45%, rgba(255, 255, 255, 0.2) 46% 47%, transparent 48%);
-}
-
-.shard-face::after {
-  background:
-    radial-gradient(circle at 46% 26%, rgba(255, 255, 255, 0.38), transparent 18%),
-    linear-gradient(180deg, transparent 0 42%, rgba(0, 0, 0, 0.18) 43% 100%);
-  mix-blend-mode: screen;
-  opacity: 0.55;
-}
-
-.shard-front {
-  transform: translateZ(18px);
-}
-
-.shard-left {
-  opacity: 0.76;
-  transform: rotateY(-58deg) translateZ(20px) translateX(-13px) scaleX(0.72);
-  filter: brightness(0.78) saturate(1.08);
-}
-
-.shard-right {
-  opacity: 0.82;
-  transform: rotateY(58deg) translateZ(20px) translateX(13px) scaleX(0.72);
-  filter: brightness(1.13) saturate(1.1);
-}
-
-.shard-top {
-  opacity: 0.76;
-  transform: rotateX(62deg) translateZ(16px) translateY(-16px) scaleY(0.58);
-  filter: brightness(1.22) saturate(1.12);
-}
-
-.shard-bottom {
-  opacity: 0.64;
-  transform: rotateX(-64deg) translateZ(16px) translateY(18px) scaleY(0.72);
-  filter: brightness(0.68) saturate(1.08);
-}
-
-.shard-stand {
-  position: relative;
-  display: grid;
-  width: 106px;
-  min-height: 36px;
-  place-items: center;
-  margin-top: 0.25rem;
-  border: 1px solid rgba(255, 184, 77, 0.36);
-  border-radius: 50%;
-  background:
-    linear-gradient(180deg, rgba(255, 184, 77, 0.22), rgba(8, 9, 15, 0.96) 40%),
-    #070911;
-  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.12), 0 0 24px var(--shard-glow);
-}
-
-.shard-stand::after {
-  position: absolute;
-  inset: 18px 8px -8px;
-  z-index: -1;
-  content: "";
-  border-radius: 50%;
-  background: radial-gradient(circle, var(--shard-glow), transparent 62%);
-}
-
-.shard-stand b {
-  color: #ffd879;
-  font-size: 0.72rem;
-  font-weight: 950;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
-}
-
-.shard-ruby {
-  --shard-light: #ffb199;
-  --shard-mid: #ff3b30;
-  --shard-dark: #6d1010;
-  --shard-glow: rgba(255, 94, 94, 0.34);
-}
-
-.shard-amethyst {
-  --shard-light: #e1a2ff;
-  --shard-mid: #9a43ff;
-  --shard-dark: #4d1486;
-  --shard-glow: rgba(180, 99, 255, 0.34);
-}
-
-.shard-sapphire {
-  --shard-light: #8df4ff;
-  --shard-mid: #1769ff;
-  --shard-dark: #073977;
-  --shard-glow: rgba(63, 216, 255, 0.34);
-}
-
-.shard-emerald {
-  --shard-light: #9dff85;
-  --shard-mid: #27d744;
-  --shard-dark: #126721;
-  --shard-glow: rgba(48, 232, 144, 0.34);
-}
-
-.shard-topaz {
-  --shard-light: #fff3a1;
-  --shard-mid: #ffb31a;
-  --shard-dark: #8b5200;
-  --shard-glow: rgba(255, 184, 77, 0.36);
+  width: min(100%, 760px);
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 28px rgba(67, 217, 255, 0.16));
 }
 
 .earned-card {
@@ -1910,7 +1723,6 @@ button:disabled {
   .progression-grid,
   .avatar-grid,
   .catalog-grid,
-  .shard-grid,
   .reward-hero,
   .reward-node,
   .earned-card,

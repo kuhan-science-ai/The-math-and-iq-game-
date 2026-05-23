@@ -1,5 +1,6 @@
 import { Check, Gift, Lock, Sparkles, Timer, Trophy, Zap } from "lucide-react";
-import React, { useState } from "react";
+import React from "react";
+import mathShards2d from "../assets/math-shards-2d.png";
 import { useAuth } from "../context/AuthContext.jsx";
 import { api } from "../lib/api.js";
 import { activeBoostLabel, rewardCountForLevel, rewardPath } from "../lib/rewards.js";
@@ -10,7 +11,7 @@ export const Rewards = ({ goTrain }) => {
   const unlockedCount = rewardCountForLevel(user.level);
   const earnedRewards = user.earnedRewards || user.rewards || [];
   const consumables = earnedRewards.filter((reward) => reward.category === "consumable");
-  const shards = earnedRewards.filter((reward) => reward.type === "shard");
+  const shardCount = earnedRewards.filter((reward) => reward.type === "shard").length;
 
   const useReward = async (rewardId) => {
     const data = await api("/user/rewards/use", {
@@ -84,22 +85,11 @@ export const Rewards = ({ goTrain }) => {
 
       <div className="section-title">
         <h2>Milestone crystals</h2>
-        <span>Click a gem to rotate it</span>
+        <span>{shardCount ? `${shardCount} milestone crystals unlocked` : "Unlock milestone crystals from the level road"}</span>
       </div>
 
-      <div className="shard-grid">
-        {shards.length ? (
-          shards.map((reward) => (
-            <article className={`shard-card shard-${String(reward.color || "").toLowerCase()}`} key={reward.id}>
-              <ShardCrystal reward={reward} />
-              <h3>{reward.name}</h3>
-              <p>{reward.description}</p>
-              <small>{reward.rarity}</small>
-            </article>
-          ))
-        ) : (
-          <div className="empty-state">No milestone crystals yet. Reach Level 5 to earn the first one.</div>
-        )}
+      <div className="shard-showcase">
+        <img src={mathShards2d} alt="Five Brain Boost milestone crystal shards" />
       </div>
 
       <div className="section-title reward-road-title">
@@ -128,32 +118,5 @@ export const Rewards = ({ goTrain }) => {
         })}
       </div>
     </section>
-  );
-};
-
-const ShardCrystal = ({ reward }) => {
-  const [rotated, setRotated] = useState(false);
-  const color = String(reward.color || "").toLowerCase();
-
-  return (
-    <button
-      type="button"
-      className={`shard-crystal shard-${color} ${rotated ? "rotated" : ""}`}
-      aria-label={`Rotate ${reward.name}`}
-      onClick={() => setRotated((value) => !value)}
-    >
-      <span className="shard-scene">
-        <span className="shard-body">
-          <i className="shard-face shard-front" />
-          <i className="shard-face shard-left" />
-          <i className="shard-face shard-right" />
-          <i className="shard-face shard-top" />
-          <i className="shard-face shard-bottom" />
-        </span>
-        <span className="shard-stand">
-          <b>{reward.gem || reward.color}</b>
-        </span>
-      </span>
-    </button>
   );
 };
