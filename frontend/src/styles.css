@@ -1229,7 +1229,7 @@ button:disabled {
   gap: 0.45rem;
   justify-items: center;
   align-content: center;
-  min-height: 240px;
+  min-height: 430px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
   overflow: hidden;
@@ -1258,6 +1258,41 @@ button:disabled {
   font-size: 0.82rem;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+.shard-image-button {
+  position: relative;
+  display: grid;
+  width: min(100%, 190px);
+  height: 360px;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  perspective: 900px;
+}
+
+.shard-image-button img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: center top;
+  filter: saturate(1.08) contrast(1.06) drop-shadow(0 0 22px rgba(67, 217, 255, 0.16));
+  transform: rotateY(-7deg) translateY(0);
+  transform-origin: center center;
+  transition: transform 0.7s cubic-bezier(0.2, 0.75, 0.2, 1), filter 0.45s ease;
+}
+
+.shard-image-button:hover img {
+  filter: saturate(1.16) contrast(1.08) drop-shadow(0 0 28px rgba(255, 255, 255, 0.18));
+  transform: rotateY(-12deg) translateY(-5px) scale(1.025);
+}
+
+.shard-image-button.rotated img {
+  transform: rotateY(180deg) translateY(-2px);
 }
 
 .shard-25d {

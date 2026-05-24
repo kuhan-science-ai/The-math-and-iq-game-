@@ -1,15 +1,20 @@
 import { Check, Gift, Lock, Sparkles, Timer, Trophy, Zap } from "lucide-react";
 import React, { useState } from "react";
+import amethystShard from "../assets/reward-shards/amethyst-derivative-shard.png";
+import citrineShard from "../assets/reward-shards/citrine-integral-shard.png";
+import diamondShard from "../assets/reward-shards/diamond-pythagorean-shard.png";
+import emeraldShard from "../assets/reward-shards/emerald-nabla-shard.png";
+import topazShard from "../assets/reward-shards/topaz-sigma-shard.png";
 import { useAuth } from "../context/AuthContext.jsx";
 import { api } from "../lib/api.js";
 import { activeBoostLabel, rewardCountForLevel, rewardPath } from "../lib/rewards.js";
 
 const shardArtwork = [
-  { name: "Sigma Shard", symbol: "Σ", color: "sapphire" },
-  { name: "Pi Shard", symbol: "π", color: "amethyst" },
-  { name: "Root Shard", symbol: "√x", color: "emerald" },
-  { name: "Infinity Shard", symbol: "∞", color: "ruby" },
-  { name: "Integral Shard", symbol: "∫", color: "topaz" }
+  { name: "Topaz Shard", image: topazShard },
+  { name: "Amethyst Shard", image: amethystShard },
+  { name: "Citrine Shard", image: citrineShard },
+  { name: "Emerald Shard", image: emeraldShard },
+  { name: "Diamond Shard", image: diamondShard }
 ];
 
 export const Rewards = ({ goTrain }) => {
@@ -134,25 +139,14 @@ const ShardCollectible = ({ shard }) => {
   const [rotated, setRotated] = useState(false);
 
   return (
-    <article className={`shard-art-card shard-${shard.color}`}>
+    <article className="shard-art-card">
       <button
         type="button"
-        className={`shard-25d ${rotated ? "rotated" : ""}`}
+        className={`shard-image-button ${rotated ? "rotated" : ""}`}
         onClick={() => setRotated((value) => !value)}
         aria-label={`Rotate ${shard.name}`}
       >
-        <span className="shard-aura" />
-        <span className="shard-orbit" />
-        <span className="shard-gem">
-          <i className="facet facet-left" />
-          <i className="facet facet-right" />
-          <i className="facet facet-top" />
-          <i className="facet facet-core" />
-          <b>{shard.symbol}</b>
-        </span>
-        <span className="shard-chip chip-one" />
-        <span className="shard-chip chip-two" />
-        <span className="shard-chip chip-three" />
+        <img src={shard.image} alt={shard.name} />
       </button>
       <span>{shard.name}</span>
     </article>
