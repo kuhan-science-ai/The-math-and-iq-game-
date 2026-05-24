@@ -1,20 +1,15 @@
 import { Check, Gift, Lock, Sparkles, Timer, Trophy, Zap } from "lucide-react";
-import React from "react";
-import infinityShard from "../assets/shards/infinity-shard.png";
-import integralShard from "../assets/shards/integral-shard.png";
-import piShard from "../assets/shards/pi-shard.png";
-import rootShard from "../assets/shards/root-shard.png";
-import sigmaShard from "../assets/shards/sigma-shard.png";
+import React, { useState } from "react";
 import { useAuth } from "../context/AuthContext.jsx";
 import { api } from "../lib/api.js";
 import { activeBoostLabel, rewardCountForLevel, rewardPath } from "../lib/rewards.js";
 
 const shardArtwork = [
-  { name: "Sigma Shard", image: sigmaShard },
-  { name: "Pi Shard", image: piShard },
-  { name: "Root Shard", image: rootShard },
-  { name: "Infinity Shard", image: infinityShard },
-  { name: "Integral Shard", image: integralShard }
+  { name: "Sigma Shard", symbol: "Σ", color: "sapphire" },
+  { name: "Pi Shard", symbol: "π", color: "amethyst" },
+  { name: "Root Shard", symbol: "√x", color: "emerald" },
+  { name: "Infinity Shard", symbol: "∞", color: "ruby" },
+  { name: "Integral Shard", symbol: "∫", color: "topaz" }
 ];
 
 export const Rewards = ({ goTrain }) => {
@@ -102,10 +97,7 @@ export const Rewards = ({ goTrain }) => {
 
       <div className="shard-showcase">
         {shardArtwork.map((shard) => (
-          <article className="shard-art-card" key={shard.name}>
-            <img src={shard.image} alt={shard.name} />
-            <span>{shard.name}</span>
-          </article>
+          <ShardCollectible shard={shard} key={shard.name} />
         ))}
       </div>
 
@@ -135,5 +127,34 @@ export const Rewards = ({ goTrain }) => {
         })}
       </div>
     </section>
+  );
+};
+
+const ShardCollectible = ({ shard }) => {
+  const [rotated, setRotated] = useState(false);
+
+  return (
+    <article className={`shard-art-card shard-${shard.color}`}>
+      <button
+        type="button"
+        className={`shard-25d ${rotated ? "rotated" : ""}`}
+        onClick={() => setRotated((value) => !value)}
+        aria-label={`Rotate ${shard.name}`}
+      >
+        <span className="shard-aura" />
+        <span className="shard-orbit" />
+        <span className="shard-gem">
+          <i className="facet facet-left" />
+          <i className="facet facet-right" />
+          <i className="facet facet-top" />
+          <i className="facet facet-core" />
+          <b>{shard.symbol}</b>
+        </span>
+        <span className="shard-chip chip-one" />
+        <span className="shard-chip chip-two" />
+        <span className="shard-chip chip-three" />
+      </button>
+      <span>{shard.name}</span>
+    </article>
   );
 };

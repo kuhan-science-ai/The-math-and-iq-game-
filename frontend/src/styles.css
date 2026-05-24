@@ -1235,19 +1235,182 @@ button:disabled {
   padding: 0.85rem;
 }
 
-.shard-art-card img {
-  display: block;
-  width: min(100%, 205px);
-  height: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 0 22px rgba(67, 217, 255, 0.22));
-}
-
 .shard-art-card span {
   color: var(--text);
   font-size: 0.82rem;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+.shard-25d {
+  position: relative;
+  display: grid;
+  width: 156px;
+  height: 190px;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  isolation: isolate;
+  perspective: 900px;
+}
+
+.shard-25d,
+.shard-25d * {
+  transition: transform 0.65s cubic-bezier(0.2, 0.75, 0.2, 1), filter 0.45s ease, opacity 0.45s ease;
+}
+
+.shard-25d:hover {
+  transform: translateY(-5px);
+}
+
+.shard-aura {
+  position: absolute;
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--shard-glow), transparent 68%);
+  filter: blur(3px);
+  opacity: 0.95;
+}
+
+.shard-orbit {
+  position: absolute;
+  width: 150px;
+  height: 62px;
+  border: 3px solid color-mix(in srgb, var(--shard-mid), white 32%);
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px var(--shard-glow));
+  transform: rotate(-18deg) translateY(14px);
+}
+
+.shard-gem {
+  position: relative;
+  display: grid;
+  width: 104px;
+  height: 148px;
+  place-items: center;
+  clip-path: polygon(52% 0, 90% 21%, 98% 48%, 72% 88%, 50% 100%, 24% 87%, 2% 47%, 13% 18%);
+  background:
+    linear-gradient(118deg, rgba(255, 255, 255, 0.96) 0 7%, transparent 18%),
+    linear-gradient(35deg, transparent 0 44%, rgba(255, 255, 255, 0.3) 45% 47%, transparent 48%),
+    linear-gradient(158deg, var(--shard-light), var(--shard-mid) 48%, var(--shard-dark) 100%);
+  box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.3), inset -16px -10px 28px rgba(0, 0, 0, 0.28), 0 0 34px var(--shard-glow);
+  transform: rotateZ(7deg) rotateY(-15deg);
+  transform-style: preserve-3d;
+}
+
+.shard-25d.rotated .shard-gem {
+  transform: rotateZ(-5deg) rotateY(176deg);
+}
+
+.shard-25d.rotated .shard-orbit {
+  transform: rotate(-18deg) translateY(14px) rotateY(180deg);
+}
+
+.facet {
+  position: absolute;
+  inset: 0;
+  clip-path: inherit;
+  pointer-events: none;
+}
+
+.facet-left {
+  background: linear-gradient(102deg, rgba(255, 255, 255, 0.26), transparent 42%);
+  clip-path: polygon(52% 0, 50% 100%, 2% 47%, 13% 18%);
+}
+
+.facet-right {
+  background: linear-gradient(245deg, rgba(255, 255, 255, 0.28), rgba(0, 0, 0, 0.24) 70%);
+  clip-path: polygon(52% 0, 90% 21%, 98% 48%, 72% 88%, 50% 100%);
+}
+
+.facet-top {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.42), transparent);
+  clip-path: polygon(52% 0, 90% 21%, 52% 34%, 13% 18%);
+}
+
+.facet-core {
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  background:
+    linear-gradient(88deg, transparent 0 23%, rgba(255, 255, 255, 0.24) 24% 25%, transparent 26%),
+    linear-gradient(144deg, transparent 0 52%, rgba(255, 255, 255, 0.2) 53% 54%, transparent 55%);
+  opacity: 0.9;
+}
+
+.shard-gem b {
+  position: relative;
+  z-index: 2;
+  color: #f7fff7;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1;
+  text-shadow: 0 0 8px currentColor, 0 0 20px var(--shard-glow), 0 2px 10px rgba(0, 0, 0, 0.55);
+}
+
+.shard-chip {
+  position: absolute;
+  width: 20px;
+  height: 28px;
+  clip-path: polygon(50% 0, 95% 32%, 76% 100%, 22% 92%, 5% 30%);
+  background: linear-gradient(145deg, var(--shard-light), var(--shard-mid), var(--shard-dark));
+  filter: drop-shadow(0 0 8px var(--shard-glow));
+}
+
+.chip-one {
+  right: 13px;
+  top: 38px;
+  transform: rotate(19deg) scale(0.82);
+}
+
+.chip-two {
+  left: 15px;
+  bottom: 58px;
+  transform: rotate(-17deg) scale(0.72);
+}
+
+.chip-three {
+  right: 26px;
+  bottom: 42px;
+  transform: rotate(31deg) scale(0.52);
+}
+
+.shard-sapphire {
+  --shard-light: #8df4ff;
+  --shard-mid: #1769ff;
+  --shard-dark: #073977;
+  --shard-glow: rgba(63, 216, 255, 0.54);
+}
+
+.shard-amethyst {
+  --shard-light: #f0b5ff;
+  --shard-mid: #9a43ff;
+  --shard-dark: #4d1486;
+  --shard-glow: rgba(189, 98, 255, 0.54);
+}
+
+.shard-emerald {
+  --shard-light: #a8ff9a;
+  --shard-mid: #24d769;
+  --shard-dark: #126721;
+  --shard-glow: rgba(54, 255, 151, 0.54);
+}
+
+.shard-ruby {
+  --shard-light: #ffbd99;
+  --shard-mid: #ff3b30;
+  --shard-dark: #6d1010;
+  --shard-glow: rgba(255, 92, 72, 0.54);
+}
+
+.shard-topaz {
+  --shard-light: #fff3a1;
+  --shard-mid: #ffb31a;
+  --shard-dark: #8b5200;
+  --shard-glow: rgba(255, 184, 77, 0.56);
 }
 
 .earned-card {
