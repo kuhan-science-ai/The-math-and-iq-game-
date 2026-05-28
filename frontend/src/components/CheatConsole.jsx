@@ -5,7 +5,7 @@ import { api } from "../lib/api.js";
 
 const examples = ["level-up", "level-down", "xp-up", "xp-down", "set-level-25", "set-xp-5000", "xp+1000", "xp-500"];
 
-export const CheatConsole = () => {
+export const CheatConsole = ({ onRewardClaimRequired }) => {
   const { user, setUser } = useAuth();
   const [open, setOpen] = useState(false);
   const [code, setCode] = useState("");
@@ -35,6 +35,7 @@ export const CheatConsole = () => {
         body: JSON.stringify(payload)
       });
       setUser(data.user);
+      if (data.leveledUp && data.newRewards?.length) onRewardClaimRequired?.(data.newRewards);
       setMessage(data.message);
       setCode("");
     } catch (err) {

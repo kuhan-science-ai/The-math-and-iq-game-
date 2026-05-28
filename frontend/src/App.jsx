@@ -85,7 +85,7 @@ export const App = () => {
         {view === "progression" && <ProgressionHub goTrain={() => navigate("games")} goRewards={() => setView("rewards")} />}
         {view === "leaderboard" && <Leaderboard />}
       </main>
-      <CheatConsole />
+      <CheatConsole onRewardClaimRequired={queueRewardClaim} />
     </div>
   );
 };

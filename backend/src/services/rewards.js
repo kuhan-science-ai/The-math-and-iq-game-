@@ -138,6 +138,11 @@ export const rewardsForLevel = (level = 1) => rewardPath.filter((reward) => rewa
 export const rewardsBetweenLevels = (previousLevel = 1, nextLevel = 1) =>
   rewardPath.filter((reward) => reward.level > Number(previousLevel || 1) && reward.level <= Number(nextLevel || 1));
 
+export const pruneRewardsForLevel = (rewards = [], level = 1) => {
+  const maxLevel = Number(level || 1);
+  return rewards.filter((reward) => rewardIds.has(reward.id) && Number(reward.level || 0) <= maxLevel);
+};
+
 export const mergeRewards = (currentRewards = [], newRewards = []) => {
   const seen = new Set();
   return [...currentRewards, ...newRewards].filter((reward) => {

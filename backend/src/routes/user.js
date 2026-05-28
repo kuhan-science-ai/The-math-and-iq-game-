@@ -2,7 +2,7 @@ import express from "express";
 import { requireAuth } from "../middleware/auth.js";
 import { calculateLevel, normalizeUser, xpForLevel, xpRequiredForLevelUp } from "../services/progress.js";
 import { updateUser } from "../services/firestoreStore.js";
-import { findReward, rewardsForLevel } from "../services/rewards.js";
+import { findReward, rewardsBetweenLevels, rewardsForLevel, sanitizeEquippedRewards } from "../services/rewards.js";
 
 const router = express.Router();
 const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
@@ -15,6 +15,7 @@ router.get("/profile", requireAuth, async (req, res) => {
 router.post("/cheat", requireAuth, async (req, res) => {
   const code = String(req.body.code || "").trim().toLowerCase();
   const user = { ...req.user };
+  const previousLevel = Number(user.level || 1);
   const result = req.body.action
     ? applyCheatAction(user, req.body)
     : applyCheatCode(user, code);
@@ -24,7 +25,14 @@ router.post("/cheat", requireAuth, async (req, res) => {
   }
 
   const updatedUser = await updateUser(user);
-  return res.json({ message: result.message, user: normalizeUser(updatedUser) });
+  const newRewards = user.level > previousLevel ? rewardsBetweenLevels(previousLevel, user.level) : [];
+  return res.json({
+    message: result.message,
+    leveledUp: user.level > previousLevel,
+    rewardsReset: user.level < previousLevel,
+    newRewards,
+    user: normalizeUser(updatedUser)
+  });
 });
 
 router.post("/rewards/use", requireAuth, async (req, res) => {
@@ -88,13 +96,17 @@ const syncFromXp = (user) => {
   user.level = calculateLevel(user.xp);
   user.earnedRewards = rewardsForLevel(user.level);
   user.rewards = user.earnedRewards;
+  user.equippedRewards = sanitizeEquippedRewards(user.equippedRewards || {}, user.earnedRewards);
+  user.activeXpBoost = null;
 };
 
 const setLevel = (user, level) => {
   user.level = clamp(Number(level), 1, MAX_LEVEL);
-  user.xp = Math.max(user.xp || 0, xpForLevel(user.level));
+  user.xp = xpForLevel(user.level);
   user.earnedRewards = rewardsForLevel(user.level);
   user.rewards = user.earnedRewards;
+  user.equippedRewards = sanitizeEquippedRewards(user.equippedRewards || {}, user.earnedRewards);
+  user.activeXpBoost = null;
 };
 
 const applyCheatAction = (user, body) => {
