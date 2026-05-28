@@ -1180,6 +1180,78 @@ button:disabled {
   font-size: 1.25rem;
 }
 
+.claim-panel {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+  border: 1px solid rgba(48, 232, 144, 0.34);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(48, 232, 144, 0.16), transparent 28%),
+    linear-gradient(180deg, rgba(16, 42, 31, 0.96), rgba(8, 12, 28, 0.96));
+  padding: 1rem;
+}
+
+.claim-reward-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.8rem;
+}
+
+.claim-reward-card {
+  display: grid;
+  grid-template-columns: 74px 1fr;
+  gap: 0.8rem;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+  padding: 0.8rem;
+}
+
+.claim-reward-card h3,
+.claim-reward-card p {
+  margin: 0;
+}
+
+.claim-reward-card p {
+  color: var(--muted);
+}
+
+.claim-reward-card small {
+  color: var(--orange);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.claim-shard-image {
+  width: 70px;
+  height: 108px;
+  border-radius: 6px;
+  object-fit: cover;
+  object-position: center top;
+  filter: saturate(1.15) contrast(1.08) drop-shadow(0 0 18px rgba(80, 255, 177, 0.28));
+  animation: shard-claim-rotate 1.6s cubic-bezier(0.2, 0.72, 0.2, 1) both;
+  transform-origin: center center;
+}
+
+@keyframes shard-claim-rotate {
+  0% {
+    opacity: 0;
+    transform: rotateY(-220deg) scale(0.62);
+  }
+
+  62% {
+    opacity: 1;
+    transform: rotateY(22deg) scale(1.08);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0) scale(1);
+  }
+}
+
 .reward-road {
   display: grid;
   grid-auto-flow: column;

@@ -211,7 +211,7 @@ const RewardUnlock = ({ rewards = [] }) => {
   );
 };
 
-export const GameArena = () => {
+export const GameArena = ({ onRewardClaimRequired }) => {
   const [mode, setMode] = useState("speedMath");
 
   return (
@@ -230,15 +230,15 @@ export const GameArena = () => {
         </div>
       </div>
 
-      {mode === "speedMath" && <QuizMode mode="speedMath" duration={30} title="Speed Math Sprint" generator={makeMathQuestion} />}
-      {mode === "aptitude" && <AptitudeMode />}
-      {mode === "reaction" && <ReactionMode />}
-      {mode === "challenge" && <QuizMode mode="challenge" duration={60} title="Challenge Ladder" generator={makeChallengeQuestion} challenge />}
+      {mode === "speedMath" && <QuizMode mode="speedMath" duration={30} title="Speed Math Sprint" generator={makeMathQuestion} onRewardClaimRequired={onRewardClaimRequired} />}
+      {mode === "aptitude" && <AptitudeMode onRewardClaimRequired={onRewardClaimRequired} />}
+      {mode === "reaction" && <ReactionMode onRewardClaimRequired={onRewardClaimRequired} />}
+      {mode === "challenge" && <QuizMode mode="challenge" duration={60} title="Challenge Ladder" generator={makeChallengeQuestion} challenge onRewardClaimRequired={onRewardClaimRequired} />}
     </section>
   );
 };
 
-const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
+const QuizMode = ({ mode, duration, title, generator, challenge = false, onRewardClaimRequired }) => {
   const { setUser } = useAuth();
   const [time, setTime] = useState(duration);
   const [running, setRunning] = useState(false);
@@ -284,6 +284,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
       });
       setUser(data.user);
       setNewRewards(data.newRewards || []);
+      if (data.leveledUp && data.newRewards?.length) onRewardClaimRequired?.(data.newRewards);
       setMessage(`Saved ${correct} points and earned ${data.xpGain} XP${data.xpMultiplier > 1 ? ` (${data.xpMultiplier}x boost)` : ""}.`);
     };
 
@@ -332,7 +333,7 @@ const QuizMode = ({ mode, duration, title, generator, challenge = false }) => {
   );
 };
 
-const AptitudeMode = () => {
+const AptitudeMode = ({ onRewardClaimRequired }) => {
   const { setUser } = useAuth();
   const [level, setLevel] = useState(defaultAptitudeLevel);
   const [questionCount, setQuestionCount] = useState(10);
@@ -376,6 +377,7 @@ const AptitudeMode = () => {
     });
     setUser(data.user);
     setNewRewards(data.newRewards || []);
+    if (data.leveledUp && data.newRewards?.length) onRewardClaimRequired?.(data.newRewards);
     setDone(true);
     setCelebrate(true);
     setMessage(`${levelConfig.label} round saved. Score ${score}, ${accuracy}% accuracy, +${data.xpGain} XP${data.xpMultiplier > 1 ? ` (${data.xpMultiplier}x boost)` : ""}.`);
@@ -475,7 +477,7 @@ const AptitudeMode = () => {
   );
 };
 
-const ReactionMode = () => {
+const ReactionMode = ({ onRewardClaimRequired }) => {
   const { setUser } = useAuth();
   const [state, setState] = useState("idle");
   const [prompt, setPrompt] = useState(reactionPrompts[0]);
@@ -513,6 +515,7 @@ const ReactionMode = () => {
     });
     setUser(data.user);
     setNewRewards(data.newRewards || []);
+    if (data.leveledUp && data.newRewards?.length) onRewardClaimRequired?.(data.newRewards);
     setResult(reactionTime);
     setState("idle");
     setMessage(`Saved ${reactionTime}ms reaction. +${data.xpGain} XP${data.xpMultiplier > 1 ? ` (${data.xpMultiplier}x boost)` : ""}.`);

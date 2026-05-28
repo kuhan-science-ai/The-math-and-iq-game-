@@ -17,7 +17,16 @@ const shardArtwork = [
   { name: "Diamond Shard", image: diamondShard }
 ];
 
-export const Rewards = ({ goTrain }) => {
+const shardImageForReward = (reward = {}) => {
+  const key = String(reward.gem || reward.color || reward.name || "").toLowerCase();
+  if (key.includes("amethyst")) return amethystShard;
+  if (key.includes("emerald")) return emeraldShard;
+  if (key.includes("topaz") || key.includes("sapphire")) return topazShard;
+  if (key.includes("ruby") || key.includes("citrine")) return citrineShard;
+  return diamondShard;
+};
+
+export const Rewards = ({ goTrain, pendingClaimRewards = [], claimRequired = false, onClaimRewards }) => {
   const { user, setUser } = useAuth();
   const nextReward = rewardPath.find((reward) => reward.level > user.level);
   const unlockedCount = rewardCountForLevel(user.level);
@@ -40,7 +49,7 @@ export const Rewards = ({ goTrain }) => {
           <p className="eyebrow">Reward path</p>
           <h1>Level road rewards</h1>
         </div>
-        <button className="primary compact" onClick={goTrain}>
+        <button className="primary compact" onClick={goTrain} disabled={claimRequired}>
           <Sparkles size={18} /> Earn more XP
         </button>
       </div>
@@ -71,6 +80,32 @@ export const Rewards = ({ goTrain }) => {
           )}
         </div>
       </div>
+
+      {claimRequired && (
+        <div className="claim-panel" aria-live="polite">
+          <div className="section-title tight">
+            <h2>Claim level rewards</h2>
+            <span>Claim these rewards before continuing.</span>
+          </div>
+          <div className="claim-reward-grid">
+            {pendingClaimRewards.map((reward) => (
+              <article className="claim-reward-card" key={reward.id || reward.name}>
+                {reward.type === "shard" ? (
+                  <img className="claim-shard-image" src={shardImageForReward(reward)} alt={reward.name} />
+                ) : (
+                  <span className="reward-icon"><Gift size={22} /></span>
+                )}
+                <div>
+                  <h3>{reward.name}</h3>
+                  <p>{reward.description}</p>
+                  <small>Level {reward.level} / {reward.rarity}</small>
+                </div>
+              </article>
+            ))}
+          </div>
+          <button className="primary" onClick={onClaimRewards}>Claim rewards</button>
+        </div>
+      )}
 
       <div className="section-title">
         <h2>Earned rewards</h2>
