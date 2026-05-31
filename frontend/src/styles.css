@@ -2907,3 +2907,486 @@ button:disabled {
   }
 }
 
+/* ==========================================================================
+   BRACKET TABS (Level 1-50 / 51-100 / 101-150 / 151-200)
+   ========================================================================== */
+
+.bracket-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.65rem;
+}
+
+.bracket-tab {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  background: rgba(14, 20, 38, 0.7);
+  border: 1px solid rgba(160, 180, 255, 0.12);
+  color: var(--muted);
+  text-align: left;
+  transition: all 0.22s ease;
+}
+
+.bracket-tab:hover {
+  border-color: rgba(67, 215, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.bracket-tab.active {
+  border-color: rgba(67, 215, 255, 0.5);
+  background: linear-gradient(145deg, rgba(21, 31, 56, 0.9), rgba(14, 20, 38, 0.95));
+  color: white;
+  box-shadow: 0 0 20px rgba(67, 215, 255, 0.12);
+}
+
+.bracket-tab.done .bracket-label { color: #32f69a; }
+.bracket-tab.partial .bracket-label { color: #43d7ff; }
+
+.bracket-label {
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.bracket-mini-bar {
+  height: 3px;
+  border-radius: 99px;
+  background: rgba(160, 180, 255, 0.1);
+  overflow: hidden;
+}
+
+.bracket-mini-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #32f69a, #43d7ff, #9d63ff);
+  transition: width 0.8s ease;
+}
+
+.bracket-done-check {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.6rem;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(50, 246, 154, 0.18);
+  border: 1px solid rgba(50, 246, 154, 0.45);
+  color: #32f69a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .bracket-tabs { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ==========================================================================
+   3-D CSS REWARD MODELS
+   ========================================================================== */
+
+/* Shared wrapper */
+.model3d {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 300px;
+  flex-shrink: 0;
+}
+
+/* ── Coin / Token ─────────────────────────────────────────────────────────── */
+.coin-model {
+  animation: coinSpin 5s linear infinite;
+  transform-style: preserve-3d;
+}
+
+.coin-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, color-mix(in srgb, var(--col) 80%, white), var(--col));
+  color: #030816;
+  border: 2px solid color-mix(in srgb, var(--col) 60%, white);
+  box-shadow:
+    0 0 14px color-mix(in srgb, var(--col) 60%, transparent),
+    inset 0 2px 6px rgba(255,255,255,0.35);
+  backface-visibility: hidden;
+}
+
+.coin-face.back  { transform: rotateY(180deg); }
+.coin-edge {
+  position: absolute;
+  left: 50%;
+  top: 6px;
+  width: 6px;
+  height: calc(100% - 12px);
+  transform: translateX(-50%) rotateY(90deg);
+  background: linear-gradient(180deg, var(--col), color-mix(in srgb, var(--col) 50%, black));
+  border-radius: 0;
+}
+
+@keyframes coinSpin {
+  0%   { transform: rotateY(0deg); }
+  100% { transform: rotateY(360deg); }
+}
+
+/* ── Badge / Shield ───────────────────────────────────────────────────────── */
+.badge-model { animation: badgeFloat 3s ease-in-out infinite; }
+
+.badge-shape {
+  width: 56px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: linear-gradient(135deg,
+    color-mix(in srgb, var(--col) 80%, white),
+    var(--col),
+    color-mix(in srgb, var(--col) 50%, black));
+  color: #030816;
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--col) 50%, transparent);
+  transform-style: preserve-3d;
+}
+
+.badge-shine {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  width: 28%;
+  height: 45%;
+  background: linear-gradient(135deg, rgba(255,255,255,0.5), transparent);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+@keyframes badgeFloat {
+  0%,100% { transform: translateY(0) rotateX(0deg); }
+  50%     { transform: translateY(-6px) rotateX(12deg); }
+}
+
+/* ── Emblem / Crest ───────────────────────────────────────────────────────── */
+.emblem-model { animation: emblemRotate 6s ease-in-out infinite; }
+
+.emblem-hex {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background: conic-gradient(from 0deg,
+    var(--col), color-mix(in srgb, var(--col) 50%, white),
+    var(--col), color-mix(in srgb, var(--col) 50%, black), var(--col));
+  color: #030816;
+  box-shadow:
+    0 0 16px color-mix(in srgb, var(--col) 60%, transparent),
+    inset 0 0 12px rgba(255,255,255,0.2);
+}
+
+.emblem-glow {
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--col) 35%, transparent), transparent 70%);
+  animation: glowPulse 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes emblemRotate {
+  0%,100% { transform: rotateZ(0deg) scale(1); }
+  25%     { transform: rotateZ(8deg) scale(1.04); }
+  75%     { transform: rotateZ(-8deg) scale(1.04); }
+}
+
+/* ── Crown / Trophy ───────────────────────────────────────────────────────── */
+.crown-model { animation: crownBob 2.5s ease-in-out infinite; }
+
+.crown-body {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: radial-gradient(circle at 40% 35%,
+    color-mix(in srgb, var(--col) 80%, white),
+    var(--col) 55%,
+    color-mix(in srgb, var(--col) 40%, black));
+  color: #030816;
+  box-shadow:
+    0 0 20px color-mix(in srgb, var(--col) 55%, transparent),
+    inset 0 2px 6px rgba(255,255,255,0.3);
+}
+
+.crown-gems {
+  position: absolute;
+  bottom: 4px;
+  display: flex;
+  gap: 5px;
+}
+
+.crown-gems span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--col) 60%, white);
+  box-shadow: 0 0 6px var(--col);
+  animation: gemTwinkle 1.2s ease-in-out infinite;
+}
+.crown-gems span:nth-child(2) { animation-delay: 0.4s; }
+.crown-gems span:nth-child(3) { animation-delay: 0.8s; }
+
+@keyframes crownBob {
+  0%,100% { transform: translateY(0) rotateZ(0deg); }
+  50%     { transform: translateY(-6px) rotateZ(4deg); }
+}
+
+@keyframes gemTwinkle {
+  0%,100% { opacity: 0.7; transform: scale(1); }
+  50%     { opacity: 1;   transform: scale(1.3); box-shadow: 0 0 10px var(--col); }
+}
+
+/* ── Frame / Card ─────────────────────────────────────────────────────────── */
+.frame-model { animation: frameWave 4s ease-in-out infinite; }
+
+.frame-outer {
+  width: 58px;
+  height: 58px;
+  border: 3px solid var(--col);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.4);
+  box-shadow:
+    0 0 14px color-mix(in srgb, var(--col) 50%, transparent),
+    inset 0 0 10px color-mix(in srgb, var(--col) 20%, transparent);
+}
+
+.frame-inner {
+  width: 34px;
+  height: 34px;
+  border: 2px solid color-mix(in srgb, var(--col) 60%, white);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--col);
+}
+
+.frame-corner {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-color: var(--col);
+  border-style: solid;
+}
+.frame-corner.tl { top: 0; left: 0; border-width: 3px 0 0 3px; border-radius: 3px 0 0 0; }
+.frame-corner.tr { top: 0; right: 0; border-width: 3px 3px 0 0; border-radius: 0 3px 0 0; }
+.frame-corner.bl { bottom: 0; left: 0; border-width: 0 0 3px 3px; border-radius: 0 0 0 3px; }
+.frame-corner.br { bottom: 0; right: 0; border-width: 0 3px 3px 0; border-radius: 0 0 3px 0; }
+
+@keyframes frameWave {
+  0%,100% { transform: rotateY(0deg); }
+  50%     { transform: rotateY(20deg); }
+}
+
+/* ── Aura / Trail ─────────────────────────────────────────────────────────── */
+.aura-model {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aura-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid color-mix(in srgb, var(--col) 60%, transparent);
+  animation: auraExpand 2.5s ease-out infinite;
+}
+.aura-ring.r1 { width: 34px; height: 34px; }
+.aura-ring.r2 { width: 52px; height: 52px; animation-delay: 0.7s; }
+.aura-ring.r3 { width: 68px; height: 68px; animation-delay: 1.4s; }
+
+@keyframes auraExpand {
+  0%   { opacity: 0.9; transform: scale(0.7); }
+  100% { opacity: 0;   transform: scale(1.4); }
+}
+
+.aura-core {
+  position: relative;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 40% 35%,
+    color-mix(in srgb, var(--col) 80%, white), var(--col));
+  color: #030816;
+  box-shadow: 0 0 16px var(--col);
+}
+
+/* ── Generic ──────────────────────────────────────────────────────────────── */
+.generic-model { animation: genericFloat 3s ease-in-out infinite; }
+
+.generic-gem {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 38% 35%,
+    color-mix(in srgb, var(--col) 70%, white),
+    var(--col) 60%,
+    color-mix(in srgb, var(--col) 40%, black));
+  color: #030816;
+  box-shadow: 0 0 14px color-mix(in srgb, var(--col) 55%, transparent);
+}
+
+@keyframes genericFloat {
+  0%,100% { transform: translateY(0); }
+  50%     { transform: translateY(-5px); }
+}
+
+/* Shared glow keyframe */
+@keyframes glowPulse {
+  0%,100% { opacity: 0.4; }
+  50%     { opacity: 0.8; }
+}
+
+/* XP Boost icon (no 3D) */
+.xp-boost-icon {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #a0ff60, #32f69a, #089e60);
+  color: #030c06;
+  box-shadow: 0 0 22px rgba(50, 246, 154, 0.5);
+  animation: badgeFloat 3s ease-in-out infinite;
+}
+.xp-boost-icon span { font-size: 0.7rem; font-weight: 900; line-height: 1; }
+
+/* 3D showcase area inside sidebar card */
+.reward-3d-showcase {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0 0.5rem;
+}
+
+/* ==========================================================================
+   SPARKLE SHARD — hover spin + particles
+   ========================================================================== */
+
+.sparkling-shard-wrap {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  perspective: 400px;
+}
+
+/* 3D crystal card */
+.shard-3d-inner {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  transform-style: preserve-3d;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+/* Idle: gentle float */
+.sparkling-shard-wrap:not(.spinning) .shard-3d-inner {
+  animation: shardIdle 4s ease-in-out infinite;
+}
+
+/* Hover: constant fast spin + tilt */
+.sparkling-shard-wrap.spinning .shard-3d-inner {
+  animation: shardSpin 1.4s linear infinite;
+}
+
+@keyframes shardIdle {
+  0%,100% { transform: translateY(0) rotateY(0deg); }
+  50%     { transform: translateY(-5px) rotateY(15deg); }
+}
+
+@keyframes shardSpin {
+  0%   { transform: rotateY(0deg)   rotateX(10deg); }
+  100% { transform: rotateY(360deg) rotateX(10deg); }
+}
+
+.shard-3d-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px var(--col, #9d63ff));
+}
+
+.shard-reflection {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg,
+    rgba(255,255,255,0.35) 0%, transparent 50%, rgba(255,255,255,0.08) 100%);
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+/* Glow ring that appears on spin */
+.sparkling-shard-wrap.spinning::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--col) 40%, transparent), transparent 70%);
+  animation: glowPulse 0.8s ease-in-out infinite;
+}
+
+/* ── Sparkle particles ──────────────────────────────────────────────────── */
+.sparkle-particle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--col, #43d7ff);
+  pointer-events: none;
+  /* orbit angle + distance vary by index */
+  --angle:   calc(var(--i) * 36deg);
+  --dist:    calc(38px + (var(--i) * 4px));
+  --delay:   calc(var(--i) * 0.08s);
+  --dur:     calc(0.9s + var(--i) * 0.05s);
+  transform:
+    rotate(var(--angle))
+    translateX(var(--dist));
+  animation: sparklePop var(--dur) ease-out var(--delay) infinite;
+  box-shadow: 0 0 6px 2px var(--col, #43d7ff);
+}
+
+@keyframes sparklePop {
+  0%   { opacity: 0;   transform: rotate(var(--angle)) translateX(calc(var(--dist) * 0.6)) scale(0.3); }
+  30%  { opacity: 1;   transform: rotate(var(--angle)) translateX(var(--dist)) scale(1); }
+  70%  { opacity: 0.7; transform: rotate(calc(var(--angle) + 30deg)) translateX(calc(var(--dist) * 1.2)) scale(0.8); }
+  100% { opacity: 0;   transform: rotate(calc(var(--angle) + 60deg)) translateX(calc(var(--dist) * 1.5)) scale(0.1); }
+}
+
