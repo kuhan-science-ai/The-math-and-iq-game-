@@ -88,10 +88,10 @@ export const Dashboard = ({ goTrain, goRewards }) => {
           </div>
         </div>
 
-        <Stat icon={<Star />} label="Total XP" value={user.xp} />
-        <Stat icon={<Flame />} label="Daily streak" value={`${user.streak} days`} />
-        <Stat icon={<Activity />} label="Games played" value={user.totalGamesPlayed} />
-        <Stat icon={<Gift />} label="Road rewards" value={rewardCountForLevel(user.level)} />
+        <Stat icon={<Star />} label="Total XP" value={user.xp} colorClass="gold" />
+        <Stat icon={<Flame />} label="Daily streak" value={`${user.streak} days`} colorClass="orange" />
+        <Stat icon={<Activity />} label="Games played" value={user.totalGamesPlayed} colorClass="cyan" />
+        <Stat icon={<Gift />} label="Road rewards" value={rewardCountForLevel(user.level)} colorClass="purple" />
       </div>
 
       <div className="activity-panel compact-panel">
@@ -109,7 +109,7 @@ export const Dashboard = ({ goTrain, goRewards }) => {
 
       <div className="mode-grid">
         {Object.entries(modes).map(([key, label]) => (
-          <article className="mode-card" key={key}>
+          <article className={`mode-card mode-card-${key}`} key={key}>
             <div className="mode-icon"><Trophy size={20} /></div>
             <h3>{label}</h3>
             <strong>{user.bestScores?.[key] || 0}</strong>
@@ -133,8 +133,8 @@ export const Dashboard = ({ goTrain, goRewards }) => {
   );
 };
 
-const Stat = ({ icon, label, value }) => (
-  <article className="stat-card">
+const Stat = ({ icon, label, value, colorClass }) => (
+  <article className={`stat-card stat-${colorClass}`}>
     <span>{icon}</span>
     <small>{label}</small>
     <strong>{value}</strong>

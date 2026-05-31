@@ -1,4 +1,4 @@
-import { Brain, ChartNoAxesCombined, Gift, LogOut, Medal, Sparkles, UserRound } from "lucide-react";
+import { Brain, ChartNoAxesCombined, Compass, Gift, LogOut, Medal, Sparkles, UserRound } from "lucide-react";
 import React from "react";
 import { useState } from "react";
 import { useAuth } from "./context/AuthContext.jsx";
@@ -10,6 +10,7 @@ import { Leaderboard } from "./pages/Leaderboard.jsx";
 import { Profile } from "./pages/Profile.jsx";
 import { ProgressionHub } from "./pages/ProgressionHub.jsx";
 import { Rewards } from "./pages/Rewards.jsx";
+import { RewardsPath } from "./pages/RewardsPath.jsx";
 
 export const App = () => {
   const { user, loading, logout } = useAuth();
@@ -57,6 +58,9 @@ export const App = () => {
           <button className={view === "rewards" ? "active" : ""} onClick={() => setView("rewards")}>
             <Gift size={18} /> Rewards
           </button>
+          <button className={view === "rewardsPath" ? "active" : ""} onClick={() => navigate("rewardsPath")}>
+            <Compass size={18} /> Rewards Path
+          </button>
           <button className={view === "progression" ? "active" : ""} onClick={() => navigate("progression")}>
             <Sparkles size={18} /> Progression
           </button>
@@ -71,7 +75,7 @@ export const App = () => {
       </aside>
 
       <main className="main-panel">
-        {view === "dashboard" && <Dashboard goTrain={() => navigate("games")} goRewards={() => setView("rewards")} />}
+        {view === "dashboard" && <Dashboard goTrain={() => navigate("games")} goRewards={() => navigate("rewardsPath")} />}
         {view === "profile" && <Profile />}
         {view === "games" && <GameArena onRewardClaimRequired={queueRewardClaim} />}
         {view === "rewards" && (
@@ -82,7 +86,8 @@ export const App = () => {
             onClaimRewards={() => setPendingClaimRewards([])}
           />
         )}
-        {view === "progression" && <ProgressionHub goTrain={() => navigate("games")} goRewards={() => setView("rewards")} />}
+        {view === "rewardsPath" && <RewardsPath goTrain={() => navigate("games")} />}
+        {view === "progression" && <ProgressionHub goTrain={() => navigate("games")} goRewards={() => navigate("rewardsPath")} />}
         {view === "leaderboard" && <Leaderboard />}
       </main>
       <CheatConsole onRewardClaimRequired={queueRewardClaim} />
